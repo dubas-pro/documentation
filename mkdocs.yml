@@ -1,0 +1,19 @@
+site_name: DUBAS Documentation
+
+repo_url: https://github.com/dubas-pro/documentation/
+
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - codehilite:
+      guess_lang: false
+      use_pygments: true
+  - toc:
+      permalink: true
+      toc_depth: 4
+
+theme:
+    name: material
+    highlightjs: true
+
+nav:
+    - 'Home': 'index.md'
