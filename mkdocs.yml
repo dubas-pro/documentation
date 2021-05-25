@@ -1,4 +1,4 @@
-site_name: DUBAS Documentation
+site_name: Documentation
 
 repo_url: https://github.com/dubas-pro/documentation/
 edit_uri: edit/main/docs/
@@ -11,10 +11,64 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 4
-
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 theme:
     name: material
+    primary: indigo
     highlightjs: true
+    font:
+        text: OpenSans
+    logo: images/logo.png
+    favicon: images/logo.png
+    features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
 
 nav:
     - 'Home': 'index.md'
+    - 'Extensions':
+        - 'How to install extension in EspoCRM': 'extensions/how-to-install.md'
+        - 'Themes':
+            - 'Light Theme': 'extensions/themes/light.md'
+            - 'Dark Theme': 'extensions/themes/dark.md'
+        - 'SMS Integration': 
+            'Basic configuration': 'extensions/sms/index.md'
+        - 'Time Tracker': 
+            - 'General information': 'extensions/time-tracker/index.md'
+            - 'Time Entries': 'extensions/time-tracker/time-entries.md'
+            - 'Time Trackers': 'extensions/time-tracker/time-trackers.md'
+            - 'Time Sessions': 'extensions/time-tracker/time-sessions.md'
+        - 'Paypal Integration':
+            - 'General information': 'extensions/paypal/index.md' 
+            - 'Transactions': 'extensions/paypal/transactions.md'
+            - 'Invoices': 'extensions/paypal/invoices.md'
+            - 'Subscriptions': 'extensions/paypal/subscriptions.md'
+            - 'Products': 'extensions/paypal/products.md'
+            - 'Plans': 'extensions/paypal/plans.md'
+            - 'Webhooks': 'extensions/paypal/webhooks.md'
+        - 'Address Field': 'extensions/address.md'
+        - 'UUID Field': 'extensions/uuid.md'
+        - 'Shared Files': 'extensions/shared.md'
+        - 'Template Helper': 'extensions/template-helper.md'        
+        - 'Custom Formulas': 'extensions/custom-formulas.md' 
+        - 'Pretty PDF': 'extensions/pretty-pdf.md'       
+    - 'Contact and support': 
+        - 'Contact': 'contact.md'
+        - 'How to buy our Extensions': 'extensions/how-to-buy.md'
+        - 'License': 'license.md'
+
+plugins:
+  - search:
+      lang: en
+      prebuild_index: true
+
+copyright: Copyright &copy; 2016 - 2021 dubas s.c.
