@@ -2,6 +2,7 @@ site_name: Documentation
 
 repo_url: https://github.com/dubas-pro/documentation/
 edit_uri: edit/main/docs/
+site_url: https://docs.dubas.pro
 
 markdown_extensions:
   - mdx_truly_sane_lists
