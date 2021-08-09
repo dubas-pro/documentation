@@ -2,6 +2,7 @@ site_name: Documentation
 
 repo_url: https://github.com/dubas-pro/documentation/
 edit_uri: edit/main/docs/
+site_url: https://docs.dubas.pro/
 
 markdown_extensions:
   - mdx_truly_sane_lists
@@ -40,8 +41,6 @@ nav:
         - 'Themes':
             - 'Light Theme': 'extensions/themes/light.md'
             - 'Dark Theme': 'extensions/themes/dark.md'
-        - 'SMS Integration': 
-            'Basic configuration': 'extensions/sms/index.md'
         - 'Time Tracker': 
             - 'General information': 'extensions/time-tracker/index.md'
             - 'Time Entries': 'extensions/time-tracker/time-entries.md'
@@ -57,7 +56,7 @@ nav:
             - 'Webhooks': 'extensions/paypal/webhooks.md'
         - 'Address Field': 'extensions/address.md'
         - 'UUID Field': 'extensions/uuid.md'
-        - 'Shared Files': 'extensions/shared.md'
+        - 'Send': 'extensions/send.md'
         - 'Template Helper': 'extensions/template-helper.md'        
         - 'Custom Formulas': 'extensions/custom-formulas.md' 
         - 'Pretty PDF': 'extensions/pretty-pdf.md'       

@@ -1,3 +1,10 @@
+---
+title: Dubas Paypal Integration for EspoCRM
+summary: A brief description of my document.
+authors:
+    - dubas s.c.
+date: 2021-05-29
+---
 # Dubas Paypal Integration for EspoCRM
 ![Paypal](../../images/paypal.png)
 

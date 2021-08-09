@@ -9,3 +9,7 @@
 
 That’s it. After that you should see Payment URL like on the image above. This image you should send your customer. After your customer pay, status of transaction change to **Paid**. If he decide to cancel transaction, status of Paypal Transaction record change to **Failed**.
 
+## Video Presentation
+<div class="video-wrapper">
+  <iframe width="1280" height="400" src="https://www.youtube.com/embed/2RuvyfzJs-I" frameborder="0" allowfullscreen></iframe>
+</div>

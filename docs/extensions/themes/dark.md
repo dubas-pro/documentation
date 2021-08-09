@@ -16,6 +16,11 @@ EspoCRM devs change many things in 6.0.0 version, that's why theme is not compat
 4. Choose installer from you computer and start installation process;
 5. Choose new theme in your user preferences.
 
+## Video Presentation
+<div class="video-wrapper">
+  <iframe width="1280" height="400" src="https://www.youtube.com/embed/PxD4HpB3GO8" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Updates
 If you're already using our theme and you want to update to the newest version, you just need to download new version from [our website](https://devcrm.it/dark-theme) and install in same way as you installed our extension before. You don't have to remove previous version. Installation of the newer version will update Dark theme.
 

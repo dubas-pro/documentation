@@ -7,6 +7,11 @@ Our extension already have imported list of countries. We've managed to import a
 
 This repo is for comments only, but we do not give any warranty for the theme or installer. You install this theme on your own responsibility. We do not provide additional free support.
 
+## Video Presentation
+<div class="video-wrapper">
+  <iframe width="1280" height="400" src="https://www.youtube.com/embed/_AGAmva5AEc" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### Available translations of countries
 - bg_BG
 - cs_CZ

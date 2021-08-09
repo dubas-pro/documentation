@@ -6,10 +6,14 @@ Time Tracker is a paid extension for EspoCRM that will add time tracking feature
 You can find more information about this extension on [our website](https://devcrm.it/time-tracker).
 
 ## Demo instance
-You can test Time Tracker extension on our demo. Login to https://demo.devcrm.it using credentials:
-
-Username: **time**\
+You can test Time Tracker extension on our demo. Login to [demo.devcrm.it](https://demo.devcrm.it) using credentials:  
+Username: **time**  
 Password: **dubas**
+
+## Video Presentation
+<div class="video-wrapper">
+  <iframe width="1280" height="400" src="https://www.youtube.com/embed/urG_ZcYL1Fk" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Our plans
 You can check our current plans for this extension on [our website](https://devcrm.it/time-tracker#issues).
