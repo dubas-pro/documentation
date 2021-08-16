@@ -80,8 +80,5 @@ plugins:
   - search:
       lang: en
       prebuild_index: true
-
-extra:
-  manifest: manifest.webmanifest
-
+      
 copyright: Copyright &copy; 2016 - 2021 dubas s.c.
