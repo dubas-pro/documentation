@@ -1,7 +1,7 @@
 # Paypal Webhooks
 ![Paypal Webhooks](../../images/paypal-webhooks.png "Paypal Webhooks")
 
-## How to create your first Paypal Subscription?
+## How to create your first Paypal Webhooks?
 1.	Go to **Paypal Webhooks** in Administration section.
 2.	Create new **Paypal Webhook**.
 3.	Fill name, choose events which you want to use, change status to **Activate** and leave Listener Url empty.

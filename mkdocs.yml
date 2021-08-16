@@ -47,9 +47,10 @@ nav:
             - 'Time Trackers': 'extensions/time-tracker/time-trackers.md'
             - 'Time Sessions': 'extensions/time-tracker/time-sessions.md'
         - 'Paypal Integration':
-            - 'General information': 'extensions/paypal/index.md' 
+            - 'General information': 'extensions/paypal/index.md'
             - 'Transactions': 'extensions/paypal/transactions.md'
             - 'Invoices': 'extensions/paypal/invoices.md'
+            - 'Payments': 'extensions/paypal/payments.md'
             - 'Subscriptions': 'extensions/paypal/subscriptions.md'
             - 'Products': 'extensions/paypal/products.md'
             - 'Plans': 'extensions/paypal/plans.md'
@@ -57,9 +58,8 @@ nav:
         - 'Address Field': 'extensions/address.md'
         - 'UUID Field': 'extensions/uuid.md'
         - 'Send': 'extensions/send.md'
-        - 'Template Helper': 'extensions/template-helper.md'        
-        - 'Custom Formulas': 'extensions/custom-formulas.md' 
-        - 'Pretty PDF': 'extensions/pretty-pdf.md'       
+        - 'Template Helper': 'extensions/template-helper.md'
+        - 'Custom Formulas': 'extensions/custom-formulas.md'
     - 'Contact and support': 
         - 'Contact': 'contact.md'
         - 'How to buy our Extensions': 'extensions/how-to-buy.md'

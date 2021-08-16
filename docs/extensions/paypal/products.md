@@ -1,7 +1,7 @@
 # Paypal Products
 ![Paypal Products](../../images/paypal-products.png "Paypal Products")
 
-Plans Paypal Products, Paypal Plans are used in Paypal Subscriptions. You can’t create Paypal Plan without Paypal Product, and you can’t create Paypal Subscription without Paypal Plan. 
+Paypal Products and Paypal Plans are used in Paypal Subscriptions. You can’t create Paypal Plan without Paypal Product, and you can’t create Paypal Subscription without Paypal Plan. 
 
 ## How to create your first Paypal Product?
 1.	Go to **Paypal Products** entity. 
