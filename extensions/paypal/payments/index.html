@@ -738,6 +738,10 @@
                 
                 <h1 id="paypal-payments">Paypal Payments<a class="headerlink" href="#paypal-payments" title="Permanent link">&para;</a></h1>
 <p><img alt="Paypal Products" src="../../../images/paypal-payments.png" title="Paypal Payments" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This functionality is available from 0.3 version.</p>
+</div>
 <p>Paypal Payments are used in conjunction with Paypal Invoices and Paypal Transactions at this time. Paypal Paymant module does not require any action from your side at the moment. All you need to do is use <code>CHECKOUT.ORDER.APPROVED</code> or <code>INVOICING.INVOICE.PAID</code> webhooks. Thanks to that, when your client pay for invoice or transaction, EspoCRM will automatically retrieve the related payment information and place it in the Paypal Payments entity. </p>
 <p>In the future we also plan to add support for the Payments, Payouts and Refunds module.</p>
 <p>If you want to configure webhook, check <a href="../webhooks/#how-to-create-your-first-paypal-webhooks">How to create your first Paypal Webhook</a> tutorial.</p>
@@ -820,7 +824,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "search.share", "content.tabs.link"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
     
     
       <script src="../../../assets/javascripts/bundle.2b46852b.min.js"></script>
