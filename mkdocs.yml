@@ -6,6 +6,15 @@ site_url: https://docs.dubas.pro/
 
 markdown_extensions:
   - mdx_truly_sane_lists
+  - meta
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.superfences
   - codehilite:
       guess_lang: false
       use_pygments: true
@@ -16,6 +25,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
 theme:
     name: material
     primary: indigo
@@ -33,6 +43,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tabs.link
 
 nav:
     - 'Home': 'index.md'
@@ -69,5 +80,8 @@ plugins:
   - search:
       lang: en
       prebuild_index: true
+
+extra:
+  manifest: manifest.webmanifest
 
 copyright: Copyright &copy; 2016 - 2021 dubas s.c.

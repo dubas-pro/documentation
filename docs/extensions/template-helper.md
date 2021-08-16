@@ -1,7 +1,7 @@
 # Dubas Template Helper for EspoCRM
 Template helper for EspoCRM which will let you add translated strings to email or pdf template.
 
-## Getting started
+## :material-book-plus-multiple: Getting started
 1. Download installer from our [website](https://devcrm.it/template-helper):
 2. Install our extension;
 3. Open template manager for PDF's or emails; 
@@ -64,6 +64,6 @@ You just need to add this string to your template:
 + `field` - Name of DubasAddress field in your EspoCRM;
 + `language` - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default `en_US`.
 
-## Support
+## :material-lifebuoy: Support
 This extension is shared without any support. Extension is available as it is.
 If you want to order some service, all information about us you can find on our website [https://devcrm.it/](https://devcrm.it/).

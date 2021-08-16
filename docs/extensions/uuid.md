@@ -7,7 +7,7 @@ Our extension support two versions of UUID. The [first(time-based)](https://uuid
 
 This repo is for comments only, but we do not give any warranty for the extension or installer. You install this extension on your own responsibility. We do not provide additional free support.
 
-## Requirements
+## :material-playlist-check:  Requirements
 1. EspoCRM in version equal or higher than 6.1.0.
 2. PHP 7.3+
 3. PHP extension [ext-json](https://www.php.net/manual/en/book.json.php)
@@ -18,7 +18,7 @@ This repo is for comments only, but we do not give any warranty for the extensio
 - [ext-gmp](https://www.php.net/manual/en/book.gmp.php)
 - [ext-bcmath](https://www.php.net/manual/en/book.bc.php)
 
-## Getting started
+## :material-book-plus-multiple: Getting started
 1. Open our website [https://devcrm.it/uuid](https://devcrm.it/uuid) and download installer;
 2. Login to your EspoCRM as admin;
 3. Go to admin section and open extensions page;
@@ -30,6 +30,6 @@ This repo is for comments only, but we do not give any warranty for the extensio
 1. We're using this field to create random string which will be unique in [SalesPack](https://www.espocrm.com/extensions/sales-pack/) extension. Thanks to that our customers can download invoices and we're sure that only authorized users have access to this data.
 2. We're using UUID's in our attachments extension. EntryPoint require not only token but also unique UUID and based on that information decide is user should have access to specific attachment.
 
-## Support
+## :material-lifebuoy: Support
 This extension is shared without any support. Extension is available as it is.
 If you want to order some service, all information about us you can find on our website [https://devcrm.it/](https://devcrm.it/).

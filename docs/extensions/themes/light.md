@@ -4,18 +4,18 @@ The theme created by devcrm.it to EspoCRM. The theme is available for download a
 
 This repo is for comments only, but we do not give any warranty for the theme or installer. You install this theme on your own responsibility. We do not provide additional free support.
 
-## Requirements
+## :material-playlist-check:  Requirements
 EspoCRM in version higher than 6.1.0.
 
 If you have version 5.9.X of EspoCRM, you can download extension with theme from our website https://devcrm.it/light-theme
 
-## Getting started
+## :material-book-plus-multiple: Getting started
 1. Open our website [https://devcrm.it/light-theme](https://devcrm.it/light-theme) and download installer;
 2. Login to your EspoCRM as admin;
 3. Go to admin section and open extensions page;
 4. Choose installer from you computer and start installation process;
 5. Choose new theme in your user preferences.
 
-## Support
+## :material-lifebuoy: Support
 This extension is shared without any support. Extension is available as it is.
 If you want to order some service, all information about us you can find on our website [https://devcrm.it/](https://devcrm.it/).

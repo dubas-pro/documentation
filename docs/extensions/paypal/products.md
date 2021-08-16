@@ -3,7 +3,7 @@
 
 Paypal Products and Paypal Plans are used in Paypal Subscriptions. You can’t create Paypal Plan without Paypal Product, and you can’t create Paypal Subscription without Paypal Plan. 
 
-## How to create your first Paypal Product?
+## :material-book-plus-multiple: How to create your first Paypal Product?
 1.	Go to **Paypal Products** entity. 
 2.	Create new **Paypal Product**.
 3.	Fill fields Name and Type of product. Other fields are optional. 

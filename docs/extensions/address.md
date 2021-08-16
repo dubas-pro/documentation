@@ -7,7 +7,7 @@ Our extension already have imported list of countries. We've managed to import a
 
 This repo is for comments only, but we do not give any warranty for the theme or installer. You install this theme on your own responsibility. We do not provide additional free support.
 
-## Video Presentation
+## :material-video-box: Video Presentation
 <div class="video-wrapper">
   <iframe width="1280" height="400" src="https://www.youtube.com/embed/_AGAmva5AEc" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -46,12 +46,12 @@ This repo is for comments only, but we do not give any warranty for the theme or
 If you want to add own translation, you can do so by yourself. Just copy a [folder en_US](https://github.com/dubas-pro/ext-address-field/tree/main/files/application/Espo/Modules/DubasAddressField/Resources/i18n/en_US) and just to your needs. You can also create a pull request to this repo. 
 
 
-## Requirements
+## :material-playlist-check:  Requirements
 1. EspoCRM in version higher than 6.0.0.
 2. PHP 7.2+
 
 
-## Getting started
+## :material-book-plus-multiple: Getting started
 1. Open our website [https://devcrm.it/address](https://devcrm.it/address) and download installer;
 2. Login to your EspoCRM as admin;
 3. Go to admin section and open extensions page;
@@ -59,7 +59,7 @@ If you want to add own translation, you can do so by yourself. Just copy a [fold
 5. Go to Entity Manager and choose target entity in which you want to create new address field;
 6. Create new field with type "DUBAS Address" and choose name of field.
 
-## FAQ
+## :material-frequently-asked-questions: FAQ
 1. **Can i change already created address fields to Dubas Address?** <br />
 Yes, you can. Just change field type to `dubasAddress`. <br />Please remember that we're using in Country field enum list with country codes as values. That's mean that if you have already existing records in this entity which have different values than [ISO 3166-1 alpha-2 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements), you should edit them first. For example if you had something like USA or United States, you should change that to `US`.
 **Remember about rebuilding your EspoCRM after that change.**
@@ -76,6 +76,6 @@ You can also change that field to `DubasAddress`. Here you have an example for `
 
 **Remember about rebuilding your EspoCRM after that change.**
 
-## Support
+## :material-lifebuoy: Support
 This extension is shared without any support. Extension is available as it is.
 If you want to order some service, all information about us you can find on our website [https://devcrm.it/](https://devcrm.it/).

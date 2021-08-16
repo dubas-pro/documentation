@@ -8,27 +8,29 @@ date: 2021-05-29
 # Dubas Paypal Integration for EspoCRM
 ![Paypal](../../images/paypal.png)
 
-Paypal Integration was originally developed for internal use within our company. After many months of developing this extension and running internal tests, we decided to release the Paypal integration as an extension. You can find more information on [our website](https://devcrm.it/paypal).
+Paypal Integration was originally developed for internal use within our company. After many months of developing this extension and running internal tests, we decided to release the Paypal integration as an extension. 
 
+!!! note ""
+    You can find more information on [our website](https://devcrm.it/paypal).
 
-## Demo instance
+## :material-cube-scan: Demo instance
 You can check few features of this extension on our public demo. Go to [demo.devcrm.it](https://demo.devcrm.it) and login:
 
-Username: **paypal**\
+Username: **paypal**  
 Password: **dubas**
 
-## Requirements
+## :material-playlist-check:  Requirements
 - EspoCRM in version 6.0.0 or higher.
 - PHP in version 7.2 or higher.
 - Publicly available EspoCRM instance – it’s required because Paypal use webhooks to transfer some information.
 - SalesPack extension if you want to use Paypal Invoices.
 
-## Installation
+## :material-view-grid-plus: Installation
 1.	Log in to your EspoCRM and go to Administration section.
 2.	Go to section Extensions.
 3. Install extension which you received from us.
 
-## Initial configuration
+## :material-tune: Initial configuration
 1.	Go to **Administration > Integrations**.
 2.	Choose Paypal integration.
 3.	Enable Paypal integration.

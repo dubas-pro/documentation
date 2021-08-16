@@ -1,14 +1,14 @@
 # Paypal Subscriptions
 ![Paypal Subscriptions](../../images/paypal-subscriptions.png "Paypal Subscriptions")
 
-## How to create your first Paypal Subscription?
+## :material-book-plus-multiple: How to create your first Paypal Subscription?
 1.	Go to **Paypal Subscription**.
 2.	Create new **Paypal Subscription**.
 3.	Fill all mandatory fields. Below you can find fields explanation.
 4.	Change **Status** to **Confirmed**. Below you can find status explanation.
 5.	Save.
 
-## Explanation of fields
+## :material-folder-information-outline: Explanation of fields
 1.	**Paypal Plan** – link specific Paypal Plan to a subscription.
 2.	**Account** – link account to a subscription.
 3.	**Approve URL** – URL for a customer, where he can approve subscription.
@@ -29,7 +29,7 @@
 13.	**Reason Of Cancellation** – don’t need explanation.
 14.	**Reason Of Suspension** – don’t need explanation.
 
-## Clarification of statuses
+## :material-form-dropdown: Clarification of statuses
 1.	**Draft** – EspoCRM on this stage will not send any information to Paypal. It’s great option if you want to prepare subscription for the future.
 2.	**Confirmed** – on this stage EspoCRM will send all information about Subscription to Paypal.
 3.	**Pending for approval** – subscription will wait until customer confirm through URL.

@@ -1,20 +1,22 @@
 # Paypal Webhooks
 ![Paypal Webhooks](../../images/paypal-webhooks.png "Paypal Webhooks")
 
-## How to create your first Paypal Webhooks?
+## :material-book-plus-multiple: How to create your first Paypal Webhooks?
 1.	Go to **Paypal Webhooks** in Administration section.
 2.	Create new **Paypal Webhook**.
 3.	Fill name, choose events which you want to use, change status to **Activate** and leave Listener Url empty.
 4.	Save.
 Now you’re ready to receive information about events in Paypal.
-## Explanation of fields
+
+## :material-folder-information-outline: Explanation of fields
 1.	**Status** – status of webhook. You can check clarification of statuses below.
 2.	**Event** – events after which Paypal will send information to EspoCRM.
 3.	**Listener Url** – automatically generate URL for webhooks.
 4.	**Direct Url** – Direct URL for webhook actions.
 5.	**Webhook Id** – ID assigned by paypal.
 6.	**Paypal Webhook Records** – linked webhook records(subentity).
-## Clarification of statuses
+
+## :material-form-dropdown: Clarification of statuses
 1.	**Draft** – EspoCRM on this stage will not send any information to Paypal. 
 2.	**Activate** – EspoCRM will send all information about webhook to Paypal.
 3.	**Active** – on this stage webhook is active.
