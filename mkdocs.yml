@@ -8,6 +8,7 @@ markdown_extensions:
   - mdx_truly_sane_lists
   - meta
   - admonition
+  - def_list
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -69,8 +70,11 @@ nav:
         - 'Address Field': 'extensions/address.md'
         - 'UUID Field': 'extensions/uuid.md'
         - 'Send': 'extensions/send.md'
+        - 'Short Url': 'extensions/short-url.md'
         - 'Template Helper': 'extensions/template-helper.md'
         - 'Custom Formulas': 'extensions/custom-formulas.md'
+    - 'Videos':
+        - 'How to create email template': 'videos/how-to-create-email-template.md'
     - 'Contact and support': 
         - 'Contact': 'contact.md'
         - 'How to buy our Extensions': 'extensions/how-to-buy.md'

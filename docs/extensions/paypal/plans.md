@@ -7,19 +7,30 @@
 3.	Switch **Status** to **Register in Paypal**.
 4.	Save.
 
+!!! warning ""
+    Please remember, that you have to activate Paypal Plan, before you'll be able to use this Paypal Plan in Paypal Subscription. To actiavte Paypal Plan, after registration of Paypal Plan, change status to **Activate**
+
+## :material-video-box: Video Presentation
+<div class="video-wrapper">
+  <iframe width="1280" height="400" src="https://www.youtube.com/embed/Ph-zPKTvYng" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## :material-folder-information-outline: Explanation of fields
 1.	**Name** – name of plan, will be available in Paypal Plan list.
 2.	**Paypal Product** – choose which Product should be in this plan.
 3.	**Description** – optional description of plan.
 4.	**Failure Threshold** – The maximum number of payment failures before a subscription is suspended. 
-5.	**Preferences** – custom preferences for plan.
-a.	**Trial** – you can let your customers to test your services.
-b.	**Setup fee** – you can charge your client with setup fee. 
-c.	**Automatically bill the outstanding amount** - Indicates whether to automatically bill the outstanding amount in the next billing cycle.
+5.	**Preferences** – custom preferences for plan.     
+    a.	**Trial** – you can let your customers to test your services.  
+    b.	**Setup fee** – you can charge your client with setup fee.   
+    c.	**Automatically bill the outstanding amount** - Indicates whether to automatically bill the outstanding amount in the next billing cycle.
 6.	**Setup Fee** – initial setup fee.
-7.	**Action in case setup fee failure** – action to take on the subscription if the initial payment for the setup fails.
-    1.	**Continue** - Continues the subscription if the initial payment for the setup fails.
+7.	**Action in case setup fee failure** – action to take on the subscription if the initial payment for the setup fails.  
+
+    1.	**Continue** - Continues the subscription if the initial payment for the setup fails.  
+    
     2.	**Cancel** - Cancels the subscription if the initial payment for the setup fails.
+
 8.	**Regular Price** – how much each rate will cost.
 9.	**Total Cycles** – how many times Paypal should chargé your client with regular price.
 10.	**Regular Frequency** – how ow often your customer should be billed.

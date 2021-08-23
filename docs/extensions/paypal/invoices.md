@@ -13,6 +13,11 @@ It’s possible that you’ll have to enable Paypal Invoice entity in your Paypa
 4.	Change status to **Register in Paypal** and save. 
 5.	After status of your invoice change to **Registered in Paypal**, send your customer URL for recipient.
 
+## :material-video-box: Video Presentation
+<div class="video-wrapper">
+  <iframe width="1280" height="400" src="https://www.youtube.com/embed/PncFeB30ofg" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## :material-folder-information-outline: Explanation of fields
 1.	**Invoice** – link to invoice from SalesPack.
 2.	**Number** – unique numer of invoice. Can’t create two invoices with same number.
