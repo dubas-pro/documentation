@@ -68,6 +68,7 @@ nav:
             - 'Plans': 'extensions/paypal/plans.md'
             - 'Webhooks': 'extensions/paypal/webhooks.md'
         - 'Address Field': 'extensions/address.md'
+        - 'Google Fonts in PDF': 'extensions/google-fonts.md'
         - 'UUID Field': 'extensions/uuid.md'
         - 'Send': 'extensions/send.md'
         - 'Short Url': 'extensions/short-url.md'
