@@ -33,10 +33,10 @@ You can check this extension on our demo instance: [demo.devcrm.it](https://demo
 Username: **short**  
 Password: **dubas**
 
-<!-- ## :material-video-box: Video Presentation
+## :material-video-box: Video Presentation
 <div class="video-wrapper">
   <iframe width="1280" height="400" src="https://www.youtube.com/embed/L167G2n-y5I" frameborder="0" allowfullscreen></iframe>
-</div> -->
+</div>
 
 ## :material-folder-information-outline: Explanation of fields
 1. **Alias** - This field contain generated unique, random string. String will only generate if field is empty. Based on this alias, extension generate Short Url.
@@ -66,3 +66,21 @@ Example: `RewriteRule ^link/(.*)$ https://demo.devcrm.it/api/v1/l/$1 [L]`
 6. Log in to EspoCRM as admin and go to  **Administration -> Clear Cache** to clear cache.
 
 That's it. Now all new url's will have ten characters. Of course you can change it to whatever you want. Just remember, that alias can't be too short, because after some time our extension will not be able to generate unique aliases.
+
+## How to increase limit characters in Full Url field?
+Current limit of characters in Full Url field is 300 characters. If you want to increase on your instance, you just have to add new value to Custom directory. To do so follow these steps:
+
+1. Log in to your FTP/SSH server.
+2. Go to main directory of your EspoCRM instance.
+3. Go to `custom/Espo/Custom/Resources/metadata/entityDefs/`.
+4. Create file `ShortUrl.json`.
+5. Paste this in `ShortUrl.json`
+```
+{
+    "fields": {
+        "name": {
+            "maxLength": 500
+        }
+    }   
+}
+```
