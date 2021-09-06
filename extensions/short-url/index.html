@@ -690,6 +690,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#video-presentation" class="md-nav__link">
+     Video Presentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#explanation-of-fields" class="md-nav__link">
      Explanation of fields
   </a>
@@ -706,6 +713,13 @@
         <li class="md-nav__item">
   <a href="#how-to-change-length-of-aliases" class="md-nav__link">
     How to change length of aliases?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-increase-limit-characters-in-full-url-field" class="md-nav__link">
+    How to increase limit characters in Full Url field?
   </a>
   
 </li>
@@ -910,6 +924,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#video-presentation" class="md-nav__link">
+     Video Presentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#explanation-of-fields" class="md-nav__link">
      Explanation of fields
   </a>
@@ -926,6 +947,13 @@
         <li class="md-nav__item">
   <a href="#how-to-change-length-of-aliases" class="md-nav__link">
     How to change length of aliases?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-increase-limit-characters-in-full-url-field" class="md-nav__link">
+    How to increase limit characters in Full Url field?
   </a>
   
 </li>
@@ -978,10 +1006,10 @@
 <p>You can check this extension on our demo instance: <a href="https://demo.devcrm.it">demo.devcrm.it</a><br />
 Username: <strong>short</strong><br />
 Password: <strong>dubas</strong></p>
-<!-- ## :material-video-box: Video Presentation
+<h2 id="video-presentation"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m18 16-4-3.2V16H6V8h8v3.2L18 8m2-4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"/></svg></span> Video Presentation<a class="headerlink" href="#video-presentation" title="Permanent link">&para;</a></h2>
 <div class="video-wrapper">
   <iframe width="1280" height="400" src="https://www.youtube.com/embed/L167G2n-y5I" frameborder="0" allowfullscreen></iframe>
-</div> -->
+</div>
 
 <h2 id="explanation-of-fields"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11.1V8c0-1.1-.9-2-2-2h-8L9 4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7.2c1.2 1.8 3.4 3 5.8 3 3.9 0 7-3.1 7-7 0-1.9-.8-3.6-2-4.9M9.3 18H3V8h16v1.7c-.9-.5-1.9-.7-3-.7-3.9 0-7 3.1-7 7 0 .7.1 1.4.3 2m6.7 3c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5m1-7h-2v-2h2v2m0 6h-2v-5h2v5z"/></svg></span> Explanation of fields<a class="headerlink" href="#explanation-of-fields" title="Permanent link">&para;</a></h2>
 <ol>
@@ -1013,6 +1041,23 @@ Example: <code>RewriteRule ^link/(.*)$ https://demo.devcrm.it/api/v1/l/$1 [L]</c
 <li>Log in to EspoCRM as admin and go to  <strong>Administration -&gt; Clear Cache</strong> to clear cache.</li>
 </ol>
 <p>That's it. Now all new url's will have ten characters. Of course you can change it to whatever you want. Just remember, that alias can't be too short, because after some time our extension will not be able to generate unique aliases.</p>
+<h2 id="how-to-increase-limit-characters-in-full-url-field">How to increase limit characters in Full Url field?<a class="headerlink" href="#how-to-increase-limit-characters-in-full-url-field" title="Permanent link">&para;</a></h2>
+<p>Current limit of characters in Full Url field is 300 characters. If you want to increase on your instance, you just have to add new value to Custom directory. To do so follow these steps:</p>
+<ol>
+<li>Log in to your FTP/SSH server.</li>
+<li>Go to main directory of your EspoCRM instance.</li>
+<li>Go to <code>custom/Espo/Custom/Resources/metadata/entityDefs/</code>.</li>
+<li>Create file <code>ShortUrl.json</code>.</li>
+<li>Paste this in <code>ShortUrl.json</code>
+<div class="highlight"><pre><span></span><code>{
+    &quot;fields&quot;: {
+        &quot;name&quot;: {
+            &quot;maxLength&quot;: 500
+        }
+    }   
+}
+</code></pre></div></li>
+</ol>
                 
                   
                 
