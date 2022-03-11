@@ -39,7 +39,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.expand
+    # - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
@@ -50,14 +50,9 @@ nav:
     - 'Home': 'index.md'
     - 'Extensions':
         - 'How to install extension in EspoCRM': 'extensions/how-to-install.md'
-        - 'Themes':
-            - 'Light Theme': 'extensions/themes/light.md'
-            - 'Dark Theme': 'extensions/themes/dark.md'
-        - 'Time Tracker': 
-            - 'General information': 'extensions/time-tracker/index.md'
-            - 'Time Entries': 'extensions/time-tracker/time-entries.md'
-            - 'Time Trackers': 'extensions/time-tracker/time-trackers.md'
-            - 'Time Sessions': 'extensions/time-tracker/time-sessions.md'
+        - 'Address Field': 'extensions/address.md'
+        - 'Custom Formulas': 'extensions/custom-formulas.md'
+        - 'Google Fonts in PDF': 'extensions/google-fonts.md'
         - 'Paypal Integration':
             - 'General information': 'extensions/paypal/index.md'
             - 'Transactions': 'extensions/paypal/transactions.md'
@@ -67,13 +62,24 @@ nav:
             - 'Products': 'extensions/paypal/products.md'
             - 'Plans': 'extensions/paypal/plans.md'
             - 'Webhooks': 'extensions/paypal/webhooks.md'
-        - 'Address Field': 'extensions/address.md'
-        - 'Google Fonts in PDF': 'extensions/google-fonts.md'
-        - 'UUID Field': 'extensions/uuid.md'
         - 'Send': 'extensions/send.md'
+        - 'Shipping Manager': 
+            - 'General information': 'extensions/shipping-manager/index.md'
+            - 'Parcels': 'extensions/shipping-manager/parcels.md'
+            - 'Packages': 'extensions/shipping-manager/packages.md'
+            - 'Package Statuses': 'extensions/shipping-manager/package-statuses.md'
+            - 'Parcel Locations': 'extensions/shipping-manager/locations.md'
         - 'Short Url': 'extensions/short-url.md'
         - 'Template Helper': 'extensions/template-helper.md'
-        - 'Custom Formulas': 'extensions/custom-formulas.md'
+        - 'Themes':
+            - 'Light Theme': 'extensions/themes/light.md'
+            - 'Dark Theme': 'extensions/themes/dark.md'
+        - 'Time Tracker': 
+            - 'General information': 'extensions/time-tracker/index.md'
+            - 'Time Entries': 'extensions/time-tracker/time-entries.md'
+            - 'Time Trackers': 'extensions/time-tracker/time-trackers.md'
+            - 'Time Sessions': 'extensions/time-tracker/time-sessions.md'
+        - 'UUID Field': 'extensions/uuid.md'
     - 'Videos':
         - 'How to create email template': 'videos/how-to-create-email-template.md'
     - 'Contact and support': 
