@@ -5,6 +5,7 @@
 - [Google Fonts for PDF's](./extensions/google-fonts.md)
 - [Paypal](./extensions/paypal/index.md)
 - [Send Extension](./extensions/send.md)
+- [Shipping Manager](./extensions/shipping-manager/index.md)
 - [Short Url Extension](./extensions/short-url.md)
 - [Template Helper](./extensions/template-helper.md)
 - [Time Tracker](./extensions/time-tracker/index.md)
