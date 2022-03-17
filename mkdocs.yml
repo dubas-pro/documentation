@@ -3,6 +3,8 @@ site_name: Documentation
 repo_url: https://github.com/dubas-pro/documentation/
 edit_uri: edit/main/docs/
 site_url: https://docs.dubas.pro/
+site_author: dubas s.c.
+site_description: Check out how to use the plugins for EspoCRM. Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.
 
 markdown_extensions:
   - mdx_truly_sane_lists
@@ -92,4 +94,4 @@ plugins:
       lang: en
       prebuild_index: true
       
-copyright: Copyright &copy; 2016 - 2021 dubas s.c.
+copyright: Copyright &copy; 2016 - 2022 dubas s.c.
