@@ -1215,13 +1215,11 @@ You just need to add this string to your template:</p>
 <h3 id="dubastranslateaddressfield-helper">dubasTranslateAddressField helper<a class="headerlink" href="#dubastranslateaddressfield-helper" title="Permanent link">&para;</a></h3>
 <p>This helper will let you translate DubasAddress field in specific language for actual value.
 You just need to add this string to your template:</p>
-<p><code>{{dubasTranslateAddressField id scope='Task' field='firstAddressCountry' language='pl_PL'}}</code></p>
+<p><code>{{dubasTranslateAddressField field language='pl_PL'}}</code></p>
 <p><strong>Parameters:</strong></p>
 <ul>
 <li><code>dubasTranslateAddressField</code> - name of helper;</li>
-<li><code>id</code> - id of specific record which will let us fetch value of field;</li>
-<li><code>scope</code> - Scope from Label Manager;</li>
-<li><code>field</code> - Name of DubasAddress field in your EspoCRM;</li>
+<li><code>field</code> - Name of DubasAddress field in your EspoCRM with suffix Country(if address field is called address, you have to use in formula addressCountry);</li>
 <li><code>language</code> - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default <code>en_US</code>.</li>
 </ul>
 <h3 id="dubasspellamount-helper">dubasSpellAmount helper<a class="headerlink" href="#dubasspellamount-helper" title="Permanent link">&para;</a></h3>
