@@ -54,14 +54,12 @@ You just need to add this string to your template:
 This helper will let you translate DubasAddress field in specific language for actual value.
 You just need to add this string to your template:
 
-`{{dubasTranslateAddressField id scope='Task' field='firstAddressCountry' language='pl_PL'}}`
+`{{dubasTranslateAddressField field language='pl_PL'}}`
 
 **Parameters:**
 
 + `dubasTranslateAddressField` - name of helper;
-+ `id` - id of specific record which will let us fetch value of field;
-+ `scope` - Scope from Label Manager;
-+ `field` - Name of DubasAddress field in your EspoCRM;
++ `field` - Name of DubasAddress field in your EspoCRM with suffix Country(if address field is called address, you have to use in formula addressCountry);
 + `language` - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default `en_US`.
 
 ### dubasSpellAmount helper
