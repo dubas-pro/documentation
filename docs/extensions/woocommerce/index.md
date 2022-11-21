@@ -24,15 +24,6 @@ WooCommerce integration has been prepared for use with our online store. It allo
 2.	Go to section Extensions.
 3. Install extension which you received from us.
 
-
-4. Log in to your WordPress.
-5. Go to **WooCommerce > Settings > Advanced > REST Api**.
-6. Create API credentials for your EspoCRM, copy them.
-7. Log in to your EspoCRM admin account and go to Admin -> Integrations.
-8. Paste there API keys from your WooCommerce.
-9. Go to **EspoCRM > Administration section > WooCommerce Webhooks**.
-10. Create new two webhooks for creating and updating orders.
-
 ## :material-tune: Initial configuration
 1.	Go to **Administration > Integrations**.
 2.	Choose WooCommerce integration.
