@@ -7,9 +7,11 @@
 - [Send Extension](./extensions/send.md)
 - [Shipping Manager](./extensions/shipping-manager/index.md)
 - [Short Url Extension](./extensions/short-url.md)
+- [Tawk.to Integration](./extensions/tawk/index.md)
 - [Template Helper](./extensions/template-helper.md)
 - [Time Tracker](./extensions/time-tracker/index.md)
 - [UUID Extension](./extensions/uuid.md)
+- [WooCommerce Integration](./extensions/woocommerce/index.md)
 
 ## EspoCRM themes:
 - [Light Theme](./extensions/themes/light.md)
