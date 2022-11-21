@@ -1,5 +1,5 @@
 # How to buy our Extensions?
-1. Go to our online store.
+1. Go to our [online store](https://store.devcrm.it).
 2. Choose extensions which you want to purchase.
 3. Add each extension to cart.
 4. Go to checkout and fill all required fields.
