@@ -5,10 +5,10 @@ authors:
     - dubas s.c.
 date: 2022-11-21
 ---
-# Dubas Paypal Integration for EspoCRM
+# Dubas WooCommerce Integration for EspoCRM
 ![WooCommerce Integration](../../images/woocommerce.png)
 
-Paypal Integration was originally developed for internal use within our company. After many months of developing this extension and running internal tests, we decided to release the Paypal integration as an extension. 
+WooCommerce integration has been prepared for use with our online store. It allows you to download order information from WooCommerce to EspoCRM. This allows us to develop various automations in Advanced Pack or invoice orders in Sales Pack.
 
 !!! note ""
     You can find more information on [our website](https://devcrm.it/woocommerce).
@@ -26,18 +26,18 @@ Paypal Integration was originally developed for internal use within our company.
 
 
 4. Log in to your WordPress.
-5. Go to WooCommerce -> Settings -> Advanced -> REST Api.
+5. Go to **WooCommerce > Settings > Advanced > REST Api**.
 6. Create API credentials for your EspoCRM, copy them.
 7. Log in to your EspoCRM admin account and go to Admin -> Integrations.
 8. Paste there API keys from your WooCommerce.
-9. Go to EspoCRM -> Administration section -> WooCommerce Webhooks.
+9. Go to **EspoCRM > Administration section > WooCommerce Webhooks**.
 10. Create new two webhooks for creating and updating orders.
 
 ## :material-tune: Initial configuration
 1.	Go to **Administration > Integrations**.
 2.	Choose WooCommerce integration.
 3.	Enable WooCommerce integration.
-4.	Go to WooCommerce -> Settings -> Advanced -> REST Api.
+4.	Go to **WooCommerce > Settings > Advanced > REST Api**.
 5.	Create API credentials for your EspoCRM, copy them.
 6.	Log in to your EspoCRM admin account and go to Admin -> Integrations.
 7.	Paste in EspoCRM API keys from your WooCommerce.
