@@ -82,6 +82,7 @@ nav:
             - 'Time Trackers': 'extensions/time-tracker/time-trackers.md'
             - 'Time Sessions': 'extensions/time-tracker/time-sessions.md'
         - 'UUID Field': 'extensions/uuid.md'
+        - 'WooCommerce Integration': 'extensions/woocommerce/index.md'
     - 'Videos':
         - 'How to create email template': 'videos/how-to-create-email-template.md'
     - 'Contact and support': 
