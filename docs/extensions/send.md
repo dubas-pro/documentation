@@ -8,13 +8,17 @@ authors:
 ![Dubas Send Extension](../images/send.png)
 ## :material-information-outline: General Information
 Dubas Send is an extension that will allow you to securely share files or text with specific people. With this extension you will be able to decide for how long you want to share specific information. The shared information can be accessed through a secure link that will last as long as you decide.
-!!! info
-    There is a product page for this extension: [devcrm.it/send](https://devcrm.it/send)
+
+!!! tip "Purchase online"
+    You can purchase this extension in our [online store](https://store.devcrm.it/product/send/).
 
 ## :material-playlist-check:  Requirements
 - EspoCRM in version 6.1.0 or higher.
 - PHP in version 7.3 or higher.
 - Publicly available EspoCRM instance – otherwise your customers will not be able to access.
+
+!!! info
+    There is a product page for this extension: [devcrm.it/send](https://devcrm.it/send)
 
 ## :material-book-plus-multiple: How to share something with customer?
 1. Go to **Send**.
