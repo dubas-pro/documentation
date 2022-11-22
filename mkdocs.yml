@@ -53,6 +53,7 @@ nav:
     - 'Extensions':
         - 'How to install extension in EspoCRM': 'extensions/how-to-install.md'
         - 'Address Field': 'extensions/address.md'
+        - 'DAV Integration': 'extensions/dav/index.md'
         - 'Custom Formulas': 'extensions/custom-formulas.md'
         - 'Google Fonts in PDF': 'extensions/google-fonts.md'
         - 'Paypal Integration':
