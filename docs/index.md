@@ -1,6 +1,7 @@
 # Documentation
 ## Extensions to EspoCRM:
 - [Address field](./extensions/address.md)
+- [DAV Integration](./extensions/dav/index.md)
 - [Custom formulas](./extensions/custom-formulas.md)
 - [Google Fonts for PDF's](./extensions/google-fonts.md)
 - [Paypal](./extensions/paypal/index.md)
