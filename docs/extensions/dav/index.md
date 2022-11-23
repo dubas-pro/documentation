@@ -8,7 +8,7 @@ date: 2021-11-22
 # Dubas DAV Integration for EspoCRM
 ![Dubas DAV Integration for EspoCRM](../../images/dav.png)
 
-Paypal Integration was originally developed for internal use within our company. After many months of developing this extension and running internal tests, we decided to release the Paypal integration as an extension. 
+DAV is HTTP protocol which allow to use CalDAV, CardDAV and WebDAV. Our integration add DAV features to EspoCRM. CalDAV allow to sync events from calendar in EspoCRM. CardDAV allow to sync contacts and leads from EspoCRM e.g. with your phone. WebDAV allow to sync files e.g. from your computer with Documents in EspoCRM. 
 
 <!-- !!! tip "Purchase online"
     You can purchase this extension in our [online store](https://store.devcrm.it/product/dav/). -->
