@@ -8,5 +8,3 @@ You can always contact us through:
 1. Send us an email with details of your problem.
 2. Give us few days to prepare an estimate.
 3. Let's start work together.
-
-If you want to read more about cooperation with us, you can check our [brochure](https://devcrm.it/files/brochure.pdf).

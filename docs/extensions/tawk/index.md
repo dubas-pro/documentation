@@ -11,15 +11,12 @@ date: 2022-11-21
 Tawk.to is a platform which allow to communicate with customers online through chat. We've prepared integration which allow to fetch chat history from Tawk.to to EspoCRM. This allows us to develop various automations in Advanced Pack or use it in Reports.
 
 !!! tip "Purchase online"
-    You can purchase this extension in our [online store](https://store.devcrm.it/product/tawk/).
+    You can purchase this extension in our [marketplace](https://devcrm.it/tawk).
 
 ## :material-playlist-check:  Requirements
 - EspoCRM in version 7.0.0 or higher.
 - PHP in version 7.4 or higher.
 - Tawk.to account with access to API
-
-!!! note "Product page"
-    You can find more information on [our website](https://devcrm.it/tawk).
 
 ## :material-view-grid-plus: Installation
 1.	Log in to your EspoCRM and go to Administration section.

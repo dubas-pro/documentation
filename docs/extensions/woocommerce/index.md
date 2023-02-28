@@ -11,16 +11,13 @@ date: 2022-11-21
 WooCommerce integration has been prepared for use with our online store. It allows you to download order information from WooCommerce to EspoCRM. This allows us to develop various automations in Advanced Pack or invoice orders in Sales Pack.
 
 !!! tip "Purchase online"
-    You can purchase this extension in our [online store](https://store.devcrm.it/product/woocommerce/).
+    You can purchase this extension in our [marketplace](https://devcrm.it/woocommerce).
 
 ## :material-playlist-check:  Requirements
 - EspoCRM in version 7.0.0 or higher.
 - PHP in version 7.4 or higher.
 - Publicly available EspoCRM instance – it’s required because WooCommerce use webhooks to transfer some information.
 - SalesPack extension
-
-!!! note ""
-    You can find more information on [our website](https://devcrm.it/woocommerce).
 
 ## :material-view-grid-plus: Installation
 1.	Log in to your EspoCRM and go to Administration section.

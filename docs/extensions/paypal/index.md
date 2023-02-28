@@ -11,16 +11,13 @@ date: 2021-05-29
 Paypal Integration was originally developed for internal use within our company. After many months of developing this extension and running internal tests, we decided to release the Paypal integration as an extension. 
 
 !!! tip "Purchase online"
-    You can purchase this extension in our [online store](https://store.devcrm.it/product/paypal/).
+    You can purchase this extension in our [marketplace](https://devcrm.it/paypal).
 
 ## :material-cube-scan: Demo instance
 You can check few features of this extension on our public demo. Go to [demo.devcrm.it](https://demo.devcrm.it) and login:
 
 Username: **paypal**  
 Password: **dubas**
-
-!!! note ""
-    You can find more information on [our website](https://devcrm.it/paypal).
 
 ## :material-playlist-check:  Requirements
 - EspoCRM in version 6.0.0 or higher.
