@@ -8,6 +8,7 @@
 - [Send Extension](./extensions/send.md)
 - [Shipping Manager](./extensions/shipping-manager/index.md)
 - [Short Url Extension](./extensions/short-url.md)
+- [Stripe Integration](./extensions/stripe/index.md)
 - [Tawk.to Integration](./extensions/tawk/index.md)
 - [Template Helper](./extensions/template-helper.md)
 - [Time Tracker](./extensions/time-tracker/index.md)

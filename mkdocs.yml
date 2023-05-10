@@ -73,6 +73,9 @@ nav:
             - 'Package Statuses': 'extensions/shipping-manager/package-statuses.md'
             - 'Parcel Locations': 'extensions/shipping-manager/locations.md'
         - 'Short Url': 'extensions/short-url.md'
+        - 'Stripe Integration':
+            - 'General information': 'extensions/stripe/index.md'
+            - 'Transactions': 'extensions/stripe/transactions.md'
         - 'Tawk.to Integration': 'extensions/tawk/index.md'
         - 'Template Helper': 'extensions/template-helper.md'
         - 'Themes':
