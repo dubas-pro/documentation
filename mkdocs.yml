@@ -76,6 +76,7 @@ nav:
         - 'Stripe Integration':
             - 'General information': 'extensions/stripe/index.md'
             - 'Transactions': 'extensions/stripe/transactions.md'
+            - 'Sales Pack Invoices': 'extensions/stripe/invoices.md'
         - 'Tawk.to Integration': 'extensions/tawk/index.md'
         - 'Template Helper': 'extensions/template-helper.md'
         - 'Themes':
