@@ -3,27 +3,26 @@ title: Dubas DAV Integration for EspoCRM
 summary: A brief description of my document.
 authors:
     - dubas s.c.
-date: 2021-11-22
+date: 2023-06-05
 ---
 # Dubas DAV Integration for EspoCRM
 ![Dubas DAV Integration for EspoCRM](../../images/dav.png)
 
 DAV is HTTP protocol which allow to use CalDAV, CardDAV and WebDAV. Our integration add DAV features to EspoCRM. CalDAV allow to sync events from calendar in EspoCRM. CardDAV allow to sync contacts and leads from EspoCRM e.g. with your phone. WebDAV allow to sync files e.g. from your computer with Documents in EspoCRM. 
 
-<!-- !!! tip "Purchase online"
-    You can purchase this extension in our [marketplace](https://store.devcrm.it/product/dav/). -->
+!!! tip "Purchase online"
+    You can purchase this extension in our [marketplace](https://devcrm.it/da/).
 
-<!-- ## :material-cube-scan: Demo instance
+## :material-cube-scan: Demo instance
 You can check few features of this extension on our public demo. Go to [demo.devcrm.it](https://demo.devcrm.it) and login:
 
 Username: **dav**  
-Password: **dubas** -->
+Password: **dubas**
 
-!!! note ""
-    You can find more information on [our website](https://devcrm.it/dav).
 
 ## :material-playlist-check:  Requirements
-- EspoCRM in version 7.0.0 or higher.
+- EspoCRM in version 7.4.0 or higher.
+- PHP in version 8.0 or higher
 
 ## :material-view-grid-plus: Installation
 1.	Log in to your EspoCRM and go to Administration section.
@@ -61,12 +60,18 @@ Now you can start using DAV integration in your EspoCRM.
 6. Specify entities with shortcuts.
 7. Save.
 
+!!! example "Client application configuration"
+    You can purchase this extension in our [marketplace](https://devcrm.it/da/).
+
 ### Enable CardDAV integration
 1. Go to External Accounts settings.
 2. Click on **Dav**.
 3. Tap checkbox next to **Address Book Extension (CardDAV)**.
 4. Add entities which should be synchronized.
 5. Save.
+
+!!! example "Client application configuration"
+    You can purchase this extension in our [marketplace](https://devcrm.it/da/).
 
 ### Enable WebDAV integration
 1. Go to External Accounts settings.

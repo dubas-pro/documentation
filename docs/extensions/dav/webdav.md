@@ -3,7 +3,7 @@ title: WebDAV in DAV Integration for EspoCRM
 summary: A brief description of my document.
 authors:
     - dubas s.c.
-date: 2021-11-22
+date: 2023-06-05
 ---
 # WebDAV in DAV Integration for EspoCRM
 
@@ -17,3 +17,5 @@ date: 2021-11-22
 4. Tap checkbox next to **Connect using different credentials**.
 5. Click **Finish**.
 6. Enter credentials to your EspoCRM account.
+
+You can use different applications like [WinSCP](https://winscp.net/eng/download.php) or [CyberDuck](https://cyberduck.io/download/) to connect to WebDAV server.
