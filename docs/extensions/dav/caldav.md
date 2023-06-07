@@ -16,5 +16,5 @@ date: 2023-06-05
 
 1. Download on your device app which support DAV.
 2. Enter address of your server (for CalDAV and CardDAV it's domain of your EspoCRM).
-3. Enter credentials
+3. Enter credentials.
 4. Configure settings inside application.
