@@ -11,7 +11,7 @@ date: 2023-06-05
 DAV is HTTP protocol which allow to use CalDAV, CardDAV and WebDAV. Our integration add DAV features to EspoCRM. CalDAV allow to sync events from calendar in EspoCRM. CardDAV allow to sync contacts and leads from EspoCRM e.g. with your phone. WebDAV allow to sync files e.g. from your computer with Documents in EspoCRM. 
 
 !!! tip "Purchase online"
-    You can purchase this extension in our [marketplace](https://devcrm.it/da/).
+    You can purchase this extension in our [marketplace](https://devcrm.it/dav/).
 
 ## :material-cube-scan: Demo instance
 You can check few features of this extension on our public demo. Go to [demo.devcrm.it](https://demo.devcrm.it) and login:
