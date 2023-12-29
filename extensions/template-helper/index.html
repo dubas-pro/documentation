@@ -664,7 +664,7 @@
         
   
   <span class="md-ellipsis">
-    General information
+    Overview
   </span>
   
 
@@ -898,7 +898,7 @@
         
   
   <span class="md-ellipsis">
-    General information
+    Overview
   </span>
   
 
@@ -1069,7 +1069,7 @@
         
   
   <span class="md-ellipsis">
-    General information
+    Overview
   </span>
   
 
@@ -1424,7 +1424,7 @@
         
   
   <span class="md-ellipsis">
-    General information
+    Overview
   </span>
   
 
@@ -1606,6 +1606,27 @@
   
   <span class="md-ellipsis">
     How to create email template
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../videos/how-to-upgrade-espocrm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to upgrade EspoCRM
   </span>
   
 
@@ -1854,9 +1875,9 @@
   
 
 
-<h1 id="dubas-template-helper-for-espocrm">Dubas Template Helper for EspoCRM<a class="headerlink" href="#dubas-template-helper-for-espocrm" title="Permanent link">&para;</a></h1>
+<div><h1 id="dubas-template-helper-for-espocrm">Dubas Template Helper for EspoCRM<a class="headerlink" href="#dubas-template-helper-for-espocrm" title="Permanent link">¶</a></h1>
 <p>Template helper for EspoCRM which will let you add translated strings to email or pdf template.</p>
-<h2 id="getting-started"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.09 20H5V6H3v14a2 2 0 0 0 2 2h8.81a5.5 5.5 0 0 1-.72-2M19 2h-5v5l-2-1.5L10 7V2H9a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h4.09A6 6 0 0 1 21 13.34V4a2 2 0 0 0-2-2m1 13v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"/></svg></span> Getting started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
+<h2 id="getting-started"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M13.09 20H5V6H3v14a2 2 0 0 0 2 2h8.81a5.5 5.5 0 0 1-.72-2M19 2h-5v5l-2-1.5L10 7V2H9a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h4.09A6 6 0 0 1 21 13.34V4a2 2 0 0 0-2-2m1 13v3h3v2h-3v3h-2v-3h-3v-2h3v-3Z"></path></svg></span> Getting started<a class="headerlink" href="#getting-started" title="Permanent link">¶</a></h2>
 <ol>
 <li>Download installer from our <a href="https://devcrm.it/template-helper">website</a>:</li>
 <li>Install our extension;</li>
@@ -1864,7 +1885,7 @@
 <li>Create new template for testing purposes;</li>
 <li>In template use one of helpers delivered by extension. Below you can find available helpers</li>
 </ol>
-<h3 id="dubastranslate-helper">dubasTranslate helper<a class="headerlink" href="#dubastranslate-helper" title="Permanent link">&para;</a></h3>
+<h3 id="dubastranslate-helper">dubasTranslate helper<a class="headerlink" href="#dubastranslate-helper" title="Permanent link">¶</a></h3>
 <p>This helper will let you get label of field in specific language.
 You just need to add this string to your template:</p>
 <p><code>{{dubasTranslate scope='Task' category='fields' label='createdAt' language='de_DE'}}</code></p>
@@ -1876,7 +1897,7 @@ You just need to add this string to your template:</p>
 <li><code>label</code> - name of field which you want to translate;</li>
 <li><code>language</code> - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default <code>en_US</code>.</li>
 </ul>
-<h3 id="dubastranslateoption-helper">dubasTranslateOption helper<a class="headerlink" href="#dubastranslateoption-helper" title="Permanent link">&para;</a></h3>
+<h3 id="dubastranslateoption-helper">dubasTranslateOption helper<a class="headerlink" href="#dubastranslateoption-helper" title="Permanent link">¶</a></h3>
 <p>This helper will let you get label for fields with options.
 You just need to add this string to your template:</p>
 <p><code>{{dubasTranslateOption scope='Task' field='status' value='Canceled' language='de_DE'}}</code></p>
@@ -1888,7 +1909,7 @@ You just need to add this string to your template:</p>
 <li><code>value</code> - Name of options; </li>
 <li><code>language</code> - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default <code>en_US</code>.</li>
 </ul>
-<h3 id="dubastranslatevalue-helper">dubasTranslateValue helper<a class="headerlink" href="#dubastranslatevalue-helper" title="Permanent link">&para;</a></h3>
+<h3 id="dubastranslatevalue-helper">dubasTranslateValue helper<a class="headerlink" href="#dubastranslatevalue-helper" title="Permanent link">¶</a></h3>
 <p>This helper will let you get label in specific language for actual value of field with options.
 You just need to add this string to your template:</p>
 <p><code>{{dubasTranslateValue id scope='Task' field='status' language='pl_PL'}}</code></p>
@@ -1900,7 +1921,7 @@ You just need to add this string to your template:</p>
 <li><code>field</code> - Name of field with options;</li>
 <li><code>language</code> - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default <code>en_US</code>.</li>
 </ul>
-<h3 id="dubastranslateaddressfield-helper">dubasTranslateAddressField helper<a class="headerlink" href="#dubastranslateaddressfield-helper" title="Permanent link">&para;</a></h3>
+<h3 id="dubastranslateaddressfield-helper">dubasTranslateAddressField helper<a class="headerlink" href="#dubastranslateaddressfield-helper" title="Permanent link">¶</a></h3>
 <p>This helper will let you translate DubasAddress field in specific language for actual value.
 You just need to add this string to your template:</p>
 <p><code>{{dubasTranslateAddressField field language='pl_PL'}}</code></p>
@@ -1910,7 +1931,7 @@ You just need to add this string to your template:</p>
 <li><code>field</code> - Name of DubasAddress field in your EspoCRM with suffix Country(if address field is called address, you have to use in formula addressCountry);</li>
 <li><code>language</code> - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default <code>en_US</code>.</li>
 </ul>
-<h3 id="dubasspellamount-helper">dubasSpellAmount helper<a class="headerlink" href="#dubasspellamount-helper" title="Permanent link">&para;</a></h3>
+<h3 id="dubasspellamount-helper">dubasSpellAmount helper<a class="headerlink" href="#dubasspellamount-helper" title="Permanent link">¶</a></h3>
 <p>This helper will let you transform amount to words.
 You just need to add this string to your template:</p>
 <p><code>{{dubasSpellAmount field leftOperandText="dollars" separator="and" rightOperandText="cents" language='pl_PL'}}</code></p>
@@ -1924,7 +1945,7 @@ You just need to add this string to your template:</p>
 <li><code>language</code> - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default <code>en_US</code>.</li>
 </ul>
 <p>If you use record in which you have amount set to 100, add to email template or pdf <code>{{dubasSpellAmount amount}}</code>. It'll print <code>one hundred dollars and zero cents</code>.</p>
-<h3 id="dubasspellnumber-helper">dubasSpellNumber helper<a class="headerlink" href="#dubasspellnumber-helper" title="Permanent link">&para;</a></h3>
+<h3 id="dubasspellnumber-helper">dubasSpellNumber helper<a class="headerlink" href="#dubasspellnumber-helper" title="Permanent link">¶</a></h3>
 <p>This helper will let you transform number to words.
 You just need to add this string to your template:</p>
 <p><code>{{dubasSpellNumber field language='pl_PL'}}</code></p>
@@ -1934,9 +1955,9 @@ You just need to add this string to your template:</p>
 <li><code>field</code> - Name of field which contain amount in your EspoCRM - you should use currency type field;</li>
 <li><code>language</code> - optional language parameter which determine in which you want to get translation. If you don't use this parameter, helper will use as default <code>en_US</code>.</li>
 </ul>
-<h2 id="support"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.79 15.41c.95-2.17.95-4.66 0-6.82l-2.74 1.24c.6 1.38.6 2.95.01 4.34l2.73 1.24m-4.37-11.2a8.54 8.54 0 0 0-6.83 0l1.24 2.73c1.39-.59 2.96-.59 4.35.01l1.24-2.74M4.21 8.58a8.564 8.564 0 0 0 0 6.84l2.74-1.25c-.6-1.38-.6-2.96 0-4.35L4.21 8.58m4.38 11.21a8.5 8.5 0 0 0 6.83-.01l-1.24-2.73a5.5 5.5 0 0 1-4.34.01l-1.25 2.73M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2m0 6a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4Z"/></svg></span> Support<a class="headerlink" href="#support" title="Permanent link">&para;</a></h2>
+<h2 id="support"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19.79 15.41c.95-2.17.95-4.66 0-6.82l-2.74 1.24c.6 1.38.6 2.95.01 4.34l2.73 1.24m-4.37-11.2a8.54 8.54 0 0 0-6.83 0l1.24 2.73c1.39-.59 2.96-.59 4.35.01l1.24-2.74M4.21 8.58a8.564 8.564 0 0 0 0 6.84l2.74-1.25c-.6-1.38-.6-2.96 0-4.35L4.21 8.58m4.38 11.21a8.5 8.5 0 0 0 6.83-.01l-1.24-2.73a5.5 5.5 0 0 1-4.34.01l-1.25 2.73M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2m0 6a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4Z"></path></svg></span> Support<a class="headerlink" href="#support" title="Permanent link">¶</a></h2>
 <p>This extension is shared without any support. Extension is available as it is.
-If you want to order some service, all information about us you can find on our website <a href="https://devcrm.it/">https://devcrm.it/</a>.</p>
+If you want to order some service, all information about us you can find on our website <a href="https://devcrm.it/">https://devcrm.it/</a>.</p></div>
 
 
 
