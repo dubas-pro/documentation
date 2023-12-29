@@ -1,47 +1,60 @@
+---
 site_name: Documentation
 
 repo_url: https://github.com/dubas-pro/documentation/
 edit_uri: edit/main/docs/
 site_url: https://docs.dubas.pro/
 site_author: dubas s.c.
-site_description: Check out how to use the plugins for EspoCRM. Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.
+site_description: >-
+  Check out how to use the plugins for EspoCRM.
+  Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.
 
 markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
   - mdx_truly_sane_lists
   - meta
-  - admonition
-  - def_list
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.tabbed
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed
   - codehilite:
       guess_lang: false
       use_pygments: true
   - toc:
       permalink: true
       toc_depth: 4
-      slugify: !!python/name:pymdownx.slugs.uslugify
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 theme:
-    name: material
-    primary: indigo
-    highlightjs: true
-    font:
-        text: OpenSans
-    logo: images/logo.png
-    favicon: images/logo.png
-    features:
+  name: material
+  primary: indigo
+  highlightjs: true
+  font:
+    text: OpenSans
+  logo: images/logo.png
+  favicon: images/logo.png
+  palette:
+    - scheme: default
+      media: '(prefers-color-scheme: light)'
+      primary: white
+      accent: white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      media: '(prefers-color-scheme: dark)'
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    # - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
@@ -49,61 +62,59 @@ theme:
     - content.tabs.link
 
 nav:
-    - 'Home': 'index.md'
-    - 'Extensions':
-        - 'How to install extension in EspoCRM': 'extensions/how-to-install.md'
-        - 'Address Field': 'extensions/address.md'
-        - 'DAV Integration':
-            - 'General information': 'extensions/dav/index.md'
-            - 'WebDAV': 'extensions/dav/webdav.md'
-            - 'CalDAV': 'extensions/dav/caldav.md'
-            - 'CardDAV': 'extensions/dav/carddav.md'
-        - 'Custom Formulas': 'extensions/custom-formulas.md'
-        - 'Google Fonts in PDF': 'extensions/google-fonts.md'
-        - 'Paypal Integration':
-            - 'General information': 'extensions/paypal/index.md'
-            - 'Transactions': 'extensions/paypal/transactions.md'
-            - 'Invoices': 'extensions/paypal/invoices.md'
-            - 'Payments': 'extensions/paypal/payments.md'
-            - 'Subscriptions': 'extensions/paypal/subscriptions.md'
-            - 'Products': 'extensions/paypal/products.md'
-            - 'Plans': 'extensions/paypal/plans.md'
-            - 'Webhooks': 'extensions/paypal/webhooks.md'
-        - 'Send': 'extensions/send.md'
-        - 'Shipping Manager': 
-            - 'General information': 'extensions/shipping-manager/index.md'
-            - 'Parcels': 'extensions/shipping-manager/parcels.md'
-            - 'Packages': 'extensions/shipping-manager/packages.md'
-            - 'Package Statuses': 'extensions/shipping-manager/package-statuses.md'
-            - 'Parcel Locations': 'extensions/shipping-manager/locations.md'
-        - 'Short Url': 'extensions/short-url.md'
-        - 'Stripe Integration':
-            - 'General information': 'extensions/stripe/index.md'
-            - 'Transactions': 'extensions/stripe/transactions.md'
-            - 'Sales Pack Invoices': 'extensions/stripe/invoices.md'
-        - 'Tawk.to Integration': 'extensions/tawk/index.md'
-        - 'Template Helper': 'extensions/template-helper.md'
-        - 'Themes':
-            - 'Light Theme': 'extensions/themes/light.md'
-            - 'Dark Theme': 'extensions/themes/dark.md'
-        - 'Time Tracker': 
-            - 'General information': 'extensions/time-tracker/index.md'
-            - 'Time Entries': 'extensions/time-tracker/time-entries.md'
-            - 'Time Trackers': 'extensions/time-tracker/time-trackers.md'
-            - 'Time Sessions': 'extensions/time-tracker/time-sessions.md'
-        - 'UUID Field': 'extensions/uuid.md'
-        - 'WooCommerce Integration': 'extensions/woocommerce/index.md'
-    - 'Videos':
-        - 'How to create email template': 'videos/how-to-create-email-template.md'
-    - 'Contact and support': 
-        - 'Contact': 'contact.md'
-        - 'How to buy our Extensions': 'extensions/how-to-buy.md'
-        - 'License': 'license.md'
+  - Home: index.md
+  - Extensions:
+      - How to install extension in EspoCRM: extensions/how-to-install.md
+      - Address Field: extensions/address.md
+      - DAV Integration:
+          - General information: extensions/dav/index.md
+          - WebDAV: extensions/dav/webdav.md
+          - CalDAV: extensions/dav/caldav.md
+          - CardDAV: extensions/dav/carddav.md
+      - Custom Formulas: extensions/custom-formulas.md
+      - Google Fonts in PDF: extensions/google-fonts.md
+      - Paypal Integration:
+          - General information: extensions/paypal/index.md
+          - Transactions: extensions/paypal/transactions.md
+          - Invoices: extensions/paypal/invoices.md
+          - Payments: extensions/paypal/payments.md
+          - Subscriptions: extensions/paypal/subscriptions.md
+          - Products: extensions/paypal/products.md
+          - Plans: extensions/paypal/plans.md
+          - Webhooks: extensions/paypal/webhooks.md
+      - Send: extensions/send.md
+      - Shipping Manager:
+          - General information: extensions/shipping-manager/index.md
+          - Parcels: extensions/shipping-manager/parcels.md
+          - Packages: extensions/shipping-manager/packages.md
+          - Package Statuses: extensions/shipping-manager/package-statuses.md
+          - Parcel Locations: extensions/shipping-manager/locations.md
+      - Short Url: extensions/short-url.md
+      - Stripe Integration:
+          - General information: extensions/stripe/index.md
+          - Transactions: extensions/stripe/transactions.md
+          - Sales Pack Invoices: extensions/stripe/invoices.md
+      - Tawk.to Integration: extensions/tawk/index.md
+      - Template Helper: extensions/template-helper.md
+      - Themes:
+          - Light Theme: extensions/themes/light.md
+          - Dark Theme: extensions/themes/dark.md
+      - Time Tracker:
+          - General information: extensions/time-tracker/index.md
+          - Time Entries: extensions/time-tracker/time-entries.md
+          - Time Trackers: extensions/time-tracker/time-trackers.md
+          - Time Sessions: extensions/time-tracker/time-sessions.md
+      - UUID Field: extensions/uuid.md
+      - WooCommerce Integration: extensions/woocommerce/index.md
+  - Videos:
+      - How to create email template: videos/how-to-create-email-template.md
+  - Contact and support:
+      - Contact: contact.md
+      - How to buy our Extensions: extensions/how-to-buy.md
+      - License: license.md
 
 plugins:
-  - search:
-      lang: en
-      prebuild_index: true
+  - material/search
 
 extra_javascript:
   - js/matomo.js
@@ -115,10 +126,10 @@ extra:
       - accept
       - reject
       - manage
-    description: >- 
+    description: >-
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-      
-copyright: Copyright &copy; 2016 - 2023 dubas s.c. <br /> <a href="#__consent">Change cookie settings</a>
+
+copyright: Copyright &copy; 2016 - <script>document.write(new Date().getFullYear())</script> dubas s.c. <br /> <a href="#__consent">Change cookie settings</a>
