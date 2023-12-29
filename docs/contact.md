@@ -1,10 +1,12 @@
 # Contact
-You can always contact us through:
 
-1. Email: [contact@dubas.pro](mailto:contact@dubas.pro)
-2. Book [online meeting](https://dubas.pro/book)
+Feel free to reach out to us via:
 
-## How to order our services?
-1. Send us an email with details of your problem.
-2. Give us few days to prepare an estimate.
-3. Let's start work together.
+1. Email us at [contact@dubas.pro](mailto:contact@dubas.pro).
+2. Schedule an [online meeting](https://dubas.pro/book) with us.
+
+## How to Order Our Services
+
+1. Email us the details of your issue.
+2. Allow us a few days to provide a cost estimate.
+3. Let's begin working together.

@@ -1,5 +1,7 @@
 # Documentation
-## Extensions to EspoCRM:
+
+## Extensions to EspoCRM
+
 - [Address field](./extensions/address.md)
 - [DAV Integration](./extensions/dav/index.md)
 - [Custom formulas](./extensions/custom-formulas.md)
@@ -15,6 +17,7 @@
 - [UUID Extension](./extensions/uuid.md)
 - [WooCommerce Integration](./extensions/woocommerce/index.md)
 
-## EspoCRM themes:
+## EspoCRM themes
+
 - [Light Theme](./extensions/themes/light.md)
 - [Dark Theme](./extensions/themes/light.md)

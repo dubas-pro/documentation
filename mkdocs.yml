@@ -9,6 +9,9 @@ site_description: >-
   Check out how to use the plugins for EspoCRM.
   Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.
 
+extra_css:
+  - css/extra.css
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -32,25 +35,33 @@ theme:
   name: material
   primary: indigo
   highlightjs: true
-  font:
-    text: OpenSans
   logo: images/logo.png
   favicon: images/logo.png
+
+  icon:
+    repo: fontawesome/brands/github
+
+  font:
+    text: OpenSans
+
   palette:
+    # Light mode
     - scheme: default
       media: '(prefers-color-scheme: light)'
       primary: white
       accent: white
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
+    # Dark mode
     - scheme: slate
       media: '(prefers-color-scheme: dark)'
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
+
   features:
     - navigation.tracking
     - navigation.tabs
@@ -67,7 +78,7 @@ nav:
       - How to install extension in EspoCRM: extensions/how-to-install.md
       - Address Field: extensions/address.md
       - DAV Integration:
-          - General information: extensions/dav/index.md
+          - Overview: extensions/dav/index.md
           - WebDAV: extensions/dav/webdav.md
           - CalDAV: extensions/dav/caldav.md
           - CardDAV: extensions/dav/carddav.md
@@ -108,7 +119,7 @@ nav:
       - WooCommerce Integration: extensions/woocommerce/index.md
   - Videos:
       - How to create email template: videos/how-to-create-email-template.md
-  - Contact and support:
+  - Contact & Support:
       - Contact: contact.md
       - How to buy our Extensions: extensions/how-to-buy.md
       - License: license.md
@@ -120,6 +131,14 @@ extra_javascript:
   - js/matomo.js
 
 extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dubas-pro
+      name: Open Source on GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@devcrm
+      name: Video Tutorials on YouTube
+
   consent:
     title: Cookie consent
     actions:
