@@ -1,13 +1,15 @@
-# Paypal Products
-![Paypal Products](../../images/paypal-products.png "Paypal Products")
+# PayPal Products
 
-Paypal Products and Paypal Plans are used in Paypal Subscriptions. You can’t create Paypal Plan without Paypal Product, and you can’t create Paypal Subscription without Paypal Plan. 
+PayPal Products and PayPal Plans are used in PayPal Subscriptions. You can’t create PayPal Plan without PayPal Product, and you can’t create PayPal Subscription without PayPal Plan.
 
-## :material-book-plus-multiple: How to create your first Paypal Product?
-1.	Go to **Paypal Products** entity. 
-2.	Create new **Paypal Product**.
-3.	Fill fields Name and Type of product. Other fields are optional. 
-4.	Change Status to **Register in Paypal**.
-5.	Save.
+![PayPal Products](../../images/paypal-products.png "PayPal Products")
 
-That’s all. You should almost immediately see URL to your produkt in Paypal. After few minutes Webhook should receive information from Paypal. After that status will change to **Registered in Paypal**.
+## :material-book-plus-multiple: How to create your first PayPal Product?
+
+1. Go to **PayPal Products** entity.
+2. Create new **PayPal Product**.
+3. Fill fields Name and Type of product. Other fields are optional.
+4. Change Status to **Register in PayPal**.
+5. Save.
+
+That’s all. You should almost immediately see URL to your produkt in PayPal. After few minutes Webhook should receive information from PayPal. After that status will change to **Registered in PayPal**.

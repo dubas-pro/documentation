@@ -1,14 +1,9 @@
 ---
 title: CardDAV in DAV Integration for EspoCRM
-summary: A brief description of my document.
-authors:
-    - dubas s.c.
-date: 2023-06-05
 ---
-# CardDAV in DAV Integration for EspoCRM
-
 
 ## How to connect to CardDAV server on EspoCRM
+
 ![CardDAV](../../images/dav-client.png)
 
 !!! tip "Client application"

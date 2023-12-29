@@ -1,14 +1,9 @@
 ---
 title: WebDAV in DAV Integration for EspoCRM
-summary: A brief description of my document.
-authors:
-    - dubas s.c.
-date: 2023-06-05
 ---
-# WebDAV in DAV Integration for EspoCRM
-
 
 ## How to map drive EspoCRM in Windows
+
 ![WebDAV](../../images/dav-map-windows.png)
 
 1. Go to **This PC** on your computer.

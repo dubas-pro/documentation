@@ -1,6 +1,8 @@
 ---
-title: Dubas DAV Integration for EspoCRM
+title: DAV for EspoCRM
 ---
+
+## Introduction
 
 DAV is an HTTP protocol that allows the use of CalDAV, CardDAV, and WebDAV. Our integration adds DAV features to EspoCRM, enabling functionalities such as CalDAV for synchronizing events from the calendar in EspoCRM, CardDAV for syncing contacts and leads with your phone, and WebDAV for syncing files, like documents from your computer, with EspoCRM's Documents feature.
 
@@ -77,4 +79,4 @@ Now you can start using DAV integration in your EspoCRM.
 4. Save.
 
 !!! example "Note"
-    If you want to check how to map drive your EspoCRM, [check this tutorial](./webdav/#how-to-map-drive-espocrm-in-windows).
+    If you want to check how to map drive your EspoCRM, [check this tutorial](webdav/#how-to-map-drive-espocrm-in-windows).

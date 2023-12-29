@@ -10,13 +10,13 @@ date: 2023-05-10
 
 Stripe is a reputable payment processing platform known for its security and flexibility. With our integration, you can easily incorporate Stripe's payment processing capabilities into your own systems or applications. Our experienced team is dedicated to providing seamless and efficient integration services that meet your unique business needs.
 
-!!! tip "Purchase online"
+!!! tip "Order Now"
     You can purchase this extension in our [marketplace](https://devcrm.it/stripe).
 
 ## :material-cube-scan: Demo instance
 You can check few features of this extension on our public demo. Go to [demo.devcrm.it](https://demo.devcrm.it) and login:
 
-Username: **stripe**  
+Username: **stripe**
 Password: **dubas**
 
 ## :material-playlist-check:  Requirements
@@ -35,13 +35,13 @@ Password: **dubas**
 1.	Go to **Administration > Integrations**.
 2.	Choose Stripe integration.
 3.	Enable Stripe integration.
-4.	Open [Stripe Dashboard](https://dashboard.stripe.com/apikeys). 
+4.	Open [Stripe Dashboard](https://dashboard.stripe.com/apikeys).
 5.	Choose environment(Sandbox/Live).
 6.	Copy **Publishable key** and paste it here
 8.	Copy **Secret key** and paste it here.
 9.	Save settings.
 10.	Go to **Administration > Stripe Webhooks**.
 13.	Create new webhook. Add name, choose events which you want to use (currently supported are `checkout.session.async_payment_failed`, `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `payout.canceled`, `payout.created`, `payout.failed`, `payout.paid`), choose status **Register**, and field URL leave empty.
-14.	Save webhook. 
+14.	Save webhook.
 
 Now you can start using Stripe in your EspoCRM. You can add Stripe entities to your menu.

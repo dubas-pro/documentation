@@ -10,7 +10,7 @@ date: 2022-11-21
 
 WooCommerce integration has been prepared for use with our online store. It allows you to download order information from WooCommerce to EspoCRM. This allows us to develop various automations in Advanced Pack or invoice orders in Sales Pack.
 
-!!! tip "Purchase online"
+!!! tip "Order Now"
     You can purchase this extension in our [marketplace](https://devcrm.it/woocommerce).
 
 ## :material-playlist-check:  Requirements

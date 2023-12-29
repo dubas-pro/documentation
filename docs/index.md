@@ -6,7 +6,7 @@
 - [DAV Integration](./extensions/dav/index.md)
 - [Custom formulas](./extensions/custom-formulas.md)
 - [Google Fonts for PDF's](./extensions/google-fonts.md)
-- [Paypal](./extensions/paypal/index.md)
+- [PayPal](./extensions/paypal/index.md)
 - [Send Extension](./extensions/send.md)
 - [Shipping Manager](./extensions/shipping-manager/index.md)
 - [Short Url Extension](./extensions/short-url.md)
