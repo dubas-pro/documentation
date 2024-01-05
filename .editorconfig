@@ -16,3 +16,6 @@ indent_size = 4
 [Makefile]
 indent_style = tab
 indent_size = 4
+
+[CNAME]
+insert_final_newline = false
