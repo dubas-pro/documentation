@@ -18,7 +18,7 @@
         <link rel="prev" href="../how-to-install/">
       
       
-        <link rel="next" href="webdav/">
+        <link rel="next" href="carddav/">
       
       
       <link rel="icon" href="../../images/logo.png">
@@ -426,7 +426,7 @@
           
   
   <span class="md-ellipsis">
-    Overview
+    Setting-up
   </span>
   
 
@@ -437,7 +437,7 @@
         
   
   <span class="md-ellipsis">
-    Overview
+    Setting-up
   </span>
   
 
@@ -502,44 +502,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#user-configuration" class="md-nav__link">
+  <a href="#access-control" class="md-nav__link">
     <span class="md-ellipsis">
-      User configuration
+      Access control
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="User configuration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#enable-caldav-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enable CalDAV integration
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#enable-carddav-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enable CardDAV integration
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#enable-webdav-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enable WebDAV integration
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -559,11 +526,11 @@
   
   
     <li class="md-nav__item">
-      <a href="webdav/" class="md-nav__link">
+      <a href="carddav/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    WebDAV
+    CardDAV
   </span>
   
 
@@ -601,11 +568,11 @@
   
   
     <li class="md-nav__item">
-      <a href="carddav/" class="md-nav__link">
+      <a href="webdav/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    CardDAV
+    WebDAV
   </span>
   
 
@@ -1822,44 +1789,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#user-configuration" class="md-nav__link">
+  <a href="#access-control" class="md-nav__link">
     <span class="md-ellipsis">
-      User configuration
+      Access control
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="User configuration">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#enable-caldav-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enable CalDAV integration
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#enable-carddav-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enable CardDAV integration
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#enable-webdav-integration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enable WebDAV integration
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1881,7 +1815,7 @@
   
 
 
-  <h1>Overview</h1>
+  <h1>Setting-up</h1>
 
 <div><h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
 <p>DAV is an HTTP protocol that allows the use of CalDAV, CardDAV, and WebDAV. Our integration adds DAV features to EspoCRM, enabling functionalities such as CalDAV for synchronizing events from the calendar in EspoCRM, CardDAV for syncing contacts and leads with your phone, and WebDAV for syncing files, like documents from your computer, with EspoCRM's Documents feature.</p>
@@ -1890,76 +1824,71 @@
 <p>You can buy this extension on our <a href="https://devcrm.it/product/dav/">marketplace</a>.</p>
 </div>
 <h2 id="demo">Demo<a class="headerlink" href="#demo" title="Permanent link">¶</a></h2>
-<p>You can explore a few features of this extension on our public demo.</p>
-<p>Please visit <a href="https://demo.devcrm.it">demo.devcrm.it</a> and log in:</p>
+<p>Try out some features of this extension on our public demo.</p>
+<p>Visit <a href="https://demo.devcrm.it">demo.devcrm.it</a> and log in using the following credentials:</p>
 <ul>
 <li>Username: <strong>dav</strong></li>
 <li>Password: <strong>dubas</strong></li>
 </ul>
+<p>URL for connecting from the DAV client: <code>https://demo.devcrm.it/dav/server.php</code>.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">¶</a></h2>
 <ul>
 <li>EspoCRM version 7.4.0 or higher.</li>
-<li>PHP version 8.0 or higher.</li>
+<li>PHP version 8.0 or higher with SOAP extension enabled.</li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Apache and Nginx configurations might need to be adjusted to allow the DAV protocol.</p>
+</div>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
 <ol>
-<li>Log in to your EspoCRM and go to Administration section.</li>
-<li>Go to section Extensions.</li>
-<li>Install extension which you received from us.</li>
+<li>Login as an administrator.</li>
+<li>Go to Administration &gt; Extensions.</li>
+<li>Upload your extension package (zip file).</li>
+<li>Click Install button.</li>
 </ol>
+<p>For more information, check out the Official EspoCRM documentation on <a href="https://docs.espocrm.com/administration/extensions/">Managing Extensions</a>.</p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">¶</a></h2>
 <ol>
-<li>Go to <strong>Administration &gt; Integrations</strong>.</li>
-<li>Choose DAV integration.</li>
-<li>Enable DAV integration.</li>
+<li>Login as an administrator.</li>
+<li>Navigate to Administration &gt; Integrations.</li>
+<li>Select DAV integration.</li>
+<li>Enable it.</li>
 <li>Save settings.</li>
-<li>Go to <strong>Administration &gt; Roles</strong>.</li>
-<li>Create new role which will allow for access to <strong>External Accounts</strong>, <strong>CalDAV</strong>, <strong>Calendar</strong> <strong>CardDAV</strong>, <strong>Contacts</strong>, <strong>WebDav</strong> and <strong>Documents</strong>.</li>
-<li>Assign created role to users which should have access to CalDAV, CardDAV and WebDav.</li>
 </ol>
-<div class="admonition example">
-<p class="admonition-title">Note</p>
-<p>You can adjust your current roles with proper access to each DAV service. You can for example allow user only to use CalDAV.</p>
-</div>
-<p>Now you can start using DAV integration in your EspoCRM.</p>
-<h2 id="user-configuration">User configuration<a class="headerlink" href="#user-configuration" title="Permanent link">¶</a></h2>
+<h2 id="access-control">Access control<a class="headerlink" href="#access-control" title="Permanent link">¶</a></h2>
+<p><strong>Important:</strong> By default, regular users don't have access to DAV integration. You need to create a role with the appropriate permissions and assign it to users who should have access to DAV services.</p>
 <ol>
-<li>Log in on user account.</li>
-<li>Click on the three vertical dots in the upper right corner and click on your name.</li>
-<li>Click on <strong>External accounts</strong> button which is placed in top right corner.</li>
-<li>Click on <strong>Dav</strong>.</li>
-<li>Enable integration on your account by taping checkbox under <strong>Enabled</strong> text.</li>
-<li>Save.</li>
-</ol>
-<h3 id="enable-caldav-integration">Enable CalDAV integration<a class="headerlink" href="#enable-caldav-integration" title="Permanent link">¶</a></h3>
-<ol>
-<li>Go to External Accounts settings.</li>
-<li>Click on <strong>Dav</strong>.</li>
-<li>Tap checkbox next to <strong>Calendaring Extension (CalDAV)</strong>.</li>
-<li>Choose sync direction.</li>
-<li>Choose date since sync should work.</li>
-<li>Specify entities with shortcuts.</li>
-<li>Save.</li>
-</ol>
-<h3 id="enable-carddav-integration">Enable CardDAV integration<a class="headerlink" href="#enable-carddav-integration" title="Permanent link">¶</a></h3>
-<ol>
-<li>Go to External Accounts settings.</li>
-<li>Click on <strong>Dav</strong>.</li>
-<li>Tap checkbox next to <strong>Address Book Extension (CardDAV)</strong>.</li>
-<li>Add entities which should be synchronized.</li>
-<li>Save.</li>
-</ol>
-<h3 id="enable-webdav-integration">Enable WebDAV integration<a class="headerlink" href="#enable-webdav-integration" title="Permanent link">¶</a></h3>
-<ol>
-<li>Go to External Accounts settings.</li>
-<li>Click on <strong>Dav</strong>.</li>
-<li>Tap checkbox next to <strong>File Access Extension (WebDAV)</strong>.</li>
-<li>Save.</li>
-</ol>
-<div class="admonition example">
-<p class="admonition-title">Note</p>
-<p>If you want to check how to map drive your EspoCRM, <a href="webdav/#how-to-map-drive-espocrm-in-windows">check this tutorial</a>.</p>
-</div></div>
+<li>Go to Administration &gt; Roles.</li>
+<li>
+<p>Select or create a role with the following required permission:</p>
+<ul>
+<li>External Accounts</li>
+</ul>
+</li>
+<li>
+<p>For granting calendar access:</p>
+<ul>
+<li>CalDAV</li>
+<li>Calendar</li>
+<li>Calls and/or Meetings and/or Tasks</li>
+</ul>
+</li>
+<li>
+<p>For granting contacts access:</p>
+<ul>
+<li>CardDAV</li>
+<li>Contacts and/or Leads</li>
+</ul>
+</li>
+<li>
+<p>For granting documents access:</p>
+<ul>
+<li>WebDAV</li>
+<li>Documents and/or Knowledge Base</li>
+</ul>
+</li>
+</ol></div>
 
 
 
