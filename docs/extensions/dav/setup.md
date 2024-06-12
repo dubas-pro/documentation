@@ -44,5 +44,5 @@ For more information, check out the Official EspoCRM documentation on [Managing 
 
 ## Configuring the web server
 
-- [Apache](../web-server/apache/)
-- [Nginx](../web-server/nginx/)
+- [Apache](web-server/apache.md)
+- [Nginx](web-server/nginx.md)
