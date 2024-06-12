@@ -12,28 +12,28 @@
         <meta name="author" content="dubas s.c.">
       
       
-        <link rel="canonical" href="https://docs.dubas.pro/extensions/dav/caldav/">
+        <link rel="canonical" href="https://docs.dubas.pro/extensions/dav/web-server/nginx/">
       
       
-        <link rel="prev" href="../carddav/">
+        <link rel="prev" href="../apache/">
       
       
-        <link rel="next" href="../webdav/">
+        <link rel="next" href="../../../paypal/">
       
       
-      <link rel="icon" href="../../../images/logo.png">
+      <link rel="icon" href="../../../../images/logo.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
-        <title>CalDAV - Documentation</title>
+        <title>Nginx - Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../css/extra.css">
+      <link rel="stylesheet" href="../../../../css/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#caldav-calendaring-extension" class="md-skip">
+        <a href="#nginx-web-server-configuration-for-dav" class="md-skip">
           Skip to content
         </a>
       
@@ -96,9 +96,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
       
-  <img src="../../../images/logo.png" alt="logo">
+  <img src="../../../../images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CalDAV
+              Nginx
             
           </span>
         </div>
@@ -228,9 +228,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
       
-  <img src="../../../images/logo.png" alt="logo">
+  <img src="../../../../images/logo.png" alt="logo">
 
     </a>
     Documentation
@@ -257,7 +257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -316,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-install/" class="md-nav__link">
+      <a href="../../../how-to-install/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -415,7 +415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -424,6 +424,135 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_1_2" id="__nav_2_2_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Setting-up
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Setting-up
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../carddav/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CardDAV
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../caldav/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CalDAV
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../webdav/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WebDAV
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -447,24 +576,24 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_2_2_1_2" id="__nav_2_2_1_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_2_1_3" id="__nav_2_2_1_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Setting-up
+    Web Server
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_1_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2_2_1_2">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_1_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_1_3">
             <span class="md-nav__icon md-icon"></span>
-            Setting-up
+            Web Server
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -475,32 +604,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../setup/" class="md-nav__link">
+      <a href="../apache/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Setup
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../carddav/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    CardDAV
+    Apache
   </span>
   
 
@@ -530,7 +638,7 @@
           
   
   <span class="md-ellipsis">
-    CalDAV
+    Nginx
   </span>
   
 
@@ -541,7 +649,7 @@
         
   
   <span class="md-ellipsis">
-    CalDAV
+    Nginx
   </span>
   
 
@@ -563,18 +671,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setting-up-for-users" class="md-nav__link">
+  <a href="#php-configuration" class="md-nav__link">
     <span class="md-ellipsis">
-      Setting-up for users
+      PHP Configuration
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#parameters" class="md-nav__link">
+  <a href="#nginx-configuration" class="md-nav__link">
     <span class="md-ellipsis">
-      Parameters
+      Nginx Configuration
     </span>
   </a>
   
@@ -584,114 +692,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../webdav/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    WebDAV
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_2_2_1_3" id="__nav_2_2_1_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Web Server
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_1_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_2_1_3">
-            <span class="md-nav__icon md-icon"></span>
-            Web Server
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../web-server/apache/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Apache
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../web-server/nginx/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Nginx
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -757,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../paypal/" class="md-nav__link">
+      <a href="../../../paypal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -778,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../paypal/transactions/" class="md-nav__link">
+      <a href="../../../paypal/transactions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -799,7 +799,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../paypal/invoices/" class="md-nav__link">
+      <a href="../../../paypal/invoices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -820,7 +820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../paypal/payments/" class="md-nav__link">
+      <a href="../../../paypal/payments/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -841,7 +841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../paypal/subscriptions/" class="md-nav__link">
+      <a href="../../../paypal/subscriptions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -862,7 +862,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../paypal/products/" class="md-nav__link">
+      <a href="../../../paypal/products/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -883,7 +883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../paypal/plans/" class="md-nav__link">
+      <a href="../../../paypal/plans/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -904,7 +904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../paypal/webhooks/" class="md-nav__link">
+      <a href="../../../paypal/webhooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -933,7 +933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../send/" class="md-nav__link">
+      <a href="../../../send/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -991,7 +991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../stripe/" class="md-nav__link">
+      <a href="../../../stripe/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1012,7 +1012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../stripe/transactions/" class="md-nav__link">
+      <a href="../../../stripe/transactions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1033,7 +1033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../stripe/invoices/" class="md-nav__link">
+      <a href="../../../stripe/invoices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1062,7 +1062,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tawk/" class="md-nav__link">
+      <a href="../../../tawk/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1120,7 +1120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../time-tracker/" class="md-nav__link">
+      <a href="../../../time-tracker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1141,7 +1141,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../time-tracker/time-entries/" class="md-nav__link">
+      <a href="../../../time-tracker/time-entries/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1162,7 +1162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../time-tracker/time-trackers/" class="md-nav__link">
+      <a href="../../../time-tracker/time-trackers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1183,7 +1183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../time-tracker/time-sessions/" class="md-nav__link">
+      <a href="../../../time-tracker/time-sessions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1212,7 +1212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../woocommerce/" class="md-nav__link">
+      <a href="../../../woocommerce/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1278,7 +1278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../address/" class="md-nav__link">
+      <a href="../../../address/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1299,7 +1299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-formulas/" class="md-nav__link">
+      <a href="../../../custom-formulas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1320,7 +1320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../google-fonts/" class="md-nav__link">
+      <a href="../../../google-fonts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1378,7 +1378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shipping-manager/" class="md-nav__link">
+      <a href="../../../shipping-manager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1399,7 +1399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shipping-manager/parcels/" class="md-nav__link">
+      <a href="../../../shipping-manager/parcels/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1420,7 +1420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shipping-manager/packages/" class="md-nav__link">
+      <a href="../../../shipping-manager/packages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1441,7 +1441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shipping-manager/package-statuses/" class="md-nav__link">
+      <a href="../../../shipping-manager/package-statuses/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1462,7 +1462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shipping-manager/locations/" class="md-nav__link">
+      <a href="../../../shipping-manager/locations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1491,7 +1491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../short-url/" class="md-nav__link">
+      <a href="../../../short-url/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1512,7 +1512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../template-helper/" class="md-nav__link">
+      <a href="../../../template-helper/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1533,7 +1533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../uuid/" class="md-nav__link">
+      <a href="../../../uuid/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1599,7 +1599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../themes/light/" class="md-nav__link">
+      <a href="../../../themes/light/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1620,7 +1620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../themes/dark/" class="md-nav__link">
+      <a href="../../../themes/dark/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1693,7 +1693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../videos/how-to-create-email-template/" class="md-nav__link">
+      <a href="../../../../videos/how-to-create-email-template/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1714,7 +1714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../videos/how-to-upgrade-espocrm/" class="md-nav__link">
+      <a href="../../../../videos/how-to-upgrade-espocrm/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1779,7 +1779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../contact/" class="md-nav__link">
+      <a href="../../../../contact/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1800,7 +1800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-buy/" class="md-nav__link">
+      <a href="../../../how-to-buy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1821,7 +1821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../license/" class="md-nav__link">
+      <a href="../../../../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1869,18 +1869,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setting-up-for-users" class="md-nav__link">
+  <a href="#php-configuration" class="md-nav__link">
     <span class="md-ellipsis">
-      Setting-up for users
+      PHP Configuration
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#parameters" class="md-nav__link">
+  <a href="#nginx-configuration" class="md-nav__link">
     <span class="md-ellipsis">
-      Parameters
+      Nginx Configuration
     </span>
   </a>
   
@@ -1904,28 +1904,43 @@
   
 
 
-<div><h1 id="caldav-calendaring-extension">CalDAV - Calendaring Extension<a class="headerlink" href="#caldav-calendaring-extension" title="Permanent link">¶</a></h1>
-<p><strong>Note:</strong> Before you start, make sure you have set up the integration. If you haven't done that yet, please refer to the <a href="../">DAV Integration for EspoCRM</a> documentation.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p><strong>Always use the full path</strong> in your CalDAV client: <code>https://example.com/dav/server.php</code></p>
+<div><h1 id="nginx-web-server-configuration-for-dav">Nginx Web Server Configuration for DAV<a class="headerlink" href="#nginx-web-server-configuration-for-dav" title="Permanent link">¶</a></h1>
+<p>The following instructions are made for Nginx web server configuration on <strong>Ubuntu</strong>. If you are using a different operating system or web server, you may need to adjust the instructions accordingly.</p>
+<h2 id="php-configuration">PHP Configuration<a class="headerlink" href="#php-configuration" title="Permanent link">¶</a></h2>
+<p>Make sure that the PHP configuration is set up correctly with SOAP extension enabled. You can check this by running the following command:</p>
+<div class="highlight"><pre><span></span><code>php<span class="w"> </span>-m<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>soap
+</code></pre></div>
+<p>If the command returns <code>soap</code>, then the SOAP extension is enabled. If not, you need to install the SOAP extension, run the following commands:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>php-soap
+sudo<span class="w"> </span>service<span class="w"> </span>nginx<span class="w"> </span>restart
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Depending on your PHP version you may need to install a specific version of the SOAP extension. For example, for PHP 8.1, you need to run the following command:
+</p><div class="highlight"><pre><span></span><code>sudo apt-get install php8.1-soap
+</code></pre></div>
 </div>
-<h2 id="setting-up-for-users">Setting-up for users<a class="headerlink" href="#setting-up-for-users" title="Permanent link">¶</a></h2>
-<p>After administrator has set up DAV integration, users can enable it for their accounts.</p>
-<p>Go to your user profile detail view and click the <em>External Accounts</em> button.</p>
-<p><img alt="External Accounts Button" src="../../../images/external-accounts-button.png"></p>
-<p>Click <em>Dav</em> on the left panel. Then, check the <em>Enable</em> button and select <em>Calendaring Extension (CalDAV)</em>. Finally, click <em>Save</em>.</p>
-<p><img alt="External Accounts CalDAV" src="../../../images/dav/external-accounts-caldav.png"></p>
-<h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">¶</a></h2>
-<ul>
-<li><strong>Sync Direction</strong>: Choose between <em>One-Way to EspoCRM</em>, <em>One-Way to CalDAV Client</em>, or <em>Two-Way (Bidirectional)</em> synchronization.</li>
-<li><strong>Fetch Since</strong>: The start date for fetching events.</li>
-<li><strong>Entity Type List with Shortcuts</strong>: List of CalDAV entity types, defaulting to <em>Calls</em>, <em>Meetings</em>, and <em>Tasks</em>. The first entity or one with a blank shortcut is the default for new events. Use drag-and-drop to reorder.</li>
-</ul>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>You can use any <em>Event</em> type entity in CalDAV, including custom ones. For details on creating custom entities, see the official <a href="https://docs.espocrm.com/administration/entity-manager/#creating-new-entity-type">documentation</a>.</p>
-</div></div>
+<h2 id="nginx-configuration">Nginx Configuration<a class="headerlink" href="#nginx-configuration" title="Permanent link">¶</a></h2>
+<p>Your Nginx configuration file should have the following settings:</p>
+<div class="highlight"><pre><span></span><code>location = / {
+    if ($http_user_agent ~ ^DavClnt) {
+        return 302 https://$host/dav/server.php/files/$is_args$args;
+    }
+}
+
+location = /.well-known/carddav { return 301 https://$host/dav/server.php; }
+location = /.well-known/caldav  { return 301 https://$host/dav/server.php; }
+
+location /dav/ {
+    if (!-e $request_filename){
+        rewrite ^/dav/(.*)$ /dav/server.php last; break;
+    }
+}
+</code></pre></div>
+<p>Then restart the Nginx server:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>service<span class="w"> </span>nginx<span class="w"> </span>restart
+</code></pre></div></div>
 
 
 
@@ -2059,12 +2074,12 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tracking", "content.tabs.link"], "search": "../../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
-        <script src="../../../js/matomo.js"></script>
+        <script src="../../../../js/matomo.js"></script>
       
     
   </body>

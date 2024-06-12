@@ -81,7 +81,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.dubas.pro/extensions/dav/setup/</loc>
+         <lastmod>2024-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.dubas.pro/extensions/dav/webdav/</loc>
+         <lastmod>2024-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.dubas.pro/extensions/dav/web-server/apache/</loc>
+         <lastmod>2024-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.dubas.pro/extensions/dav/web-server/nginx/</loc>
          <lastmod>2024-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
