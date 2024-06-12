@@ -72,10 +72,15 @@ nav:
       - Installing Extensions: extensions/how-to-install.md
       - Premium:
         - DAV Integration:
-            - Setting-up: extensions/dav/index.md
-            - CardDAV: extensions/dav/carddav.md
-            - CalDAV: extensions/dav/caldav.md
-            - WebDAV: extensions/dav/webdav.md
+            - Overview: extensions/dav/index.md
+            - Setting-up:
+                - Setup: extensions/dav/setup.md
+                - CardDAV: extensions/dav/carddav.md
+                - CalDAV: extensions/dav/caldav.md
+                - WebDAV: extensions/dav/webdav.md
+            - Web Server:
+                - Apache: extensions/dav/web-server/apache.md
+                - Nginx: extensions/dav/web-server/nginx.md
         - PayPal Integration:
             - Overview: extensions/paypal/index.md
             - Transactions: extensions/paypal/transactions.md

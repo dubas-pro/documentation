@@ -1,6 +1,4 @@
----
-title: CardDAV in DAV Integration for EspoCRM
----
+# CardDAV - Address Book Extension
 
 **Note:** Before you start, make sure you have set up the integration. If you haven't done that yet, please refer to the [DAV Integration for EspoCRM](index.md) documentation.
 
