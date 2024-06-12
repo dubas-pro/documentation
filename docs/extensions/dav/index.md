@@ -11,72 +11,61 @@ DAV is an HTTP protocol that allows the use of CalDAV, CardDAV, and WebDAV. Our 
 
 ## Demo
 
-You can explore a few features of this extension on our public demo.
+Try out some features of this extension on our public demo.
 
-Please visit [demo.devcrm.it](https://demo.devcrm.it) and log in:
+Visit [demo.devcrm.it](https://demo.devcrm.it) and log in using the following credentials:
 
 - Username: **dav**
 - Password: **dubas**
 
+URL for connecting from the DAV client: `https://demo.devcrm.it/dav/server.php`.
+
 ## Requirements
 
 - EspoCRM version 7.4.0 or higher.
-- PHP version 8.0 or higher.
+- PHP version 8.0 or higher with SOAP extension enabled.
+
+!!! note "Note"
+    Apache and Nginx configurations might need to be adjusted to allow the DAV protocol.
 
 ## Installation
 
-1. Log in to your EspoCRM and go to Administration section.
-2. Go to section Extensions.
-3. Install extension which you received from us.
+1. Login as an administrator.
+2. Go to Administration > Extensions.
+3. Upload your extension package (zip file).
+4. Click Install button.
+
+For more information, check out the Official EspoCRM documentation on [Managing Extensions](https://docs.espocrm.com/administration/extensions/).
 
 ## Setup
 
-1. Go to **Administration > Integrations**.
-2. Choose DAV integration.
-3. Enable DAV integration.
-4. Save settings.
-5. Go to **Administration > Roles**.
-6. Create new role which will allow for access to **External Accounts**, **CalDAV**, **Calendar** **CardDAV**, **Contacts**, **WebDav** and **Documents**.
-7. Assign created role to users which should have access to CalDAV, CardDAV and WebDav.
+1. Login as an administrator.
+2. Navigate to Administration > Integrations.
+3. Select DAV integration.
+4. Enable it.
+5. Save settings.
 
-!!! example "Note"
-    You can adjust your current roles with proper access to each DAV service. You can for example allow user only to use CalDAV.
+## Access control
 
-Now you can start using DAV integration in your EspoCRM.
+**Important:** By default, regular users don't have access to DAV integration. You need to create a role with the appropriate permissions and assign it to users who should have access to DAV services.
 
-## User configuration
+1. Go to Administration > Roles.
+2. Select or create a role with the following required permission:
 
-1. Log in on user account.
-2. Click on the three vertical dots in the upper right corner and click on your name.
-3. Click on **External accounts** button which is placed in top right corner.
-4. Click on **Dav**.
-5. Enable integration on your account by taping checkbox under **Enabled** text.
-6. Save.
+   - External Accounts
 
-### Enable CalDAV integration
+3. For granting calendar access:
 
-1. Go to External Accounts settings.
-2. Click on **Dav**.
-3. Tap checkbox next to **Calendaring Extension (CalDAV)**.
-4. Choose sync direction.
-5. Choose date since sync should work.
-6. Specify entities with shortcuts.
-7. Save.
+   - CalDAV
+   - Calendar
+   - Calls and/or Meetings and/or Tasks
 
-### Enable CardDAV integration
+4. For granting contacts access:
 
-1. Go to External Accounts settings.
-2. Click on **Dav**.
-3. Tap checkbox next to **Address Book Extension (CardDAV)**.
-4. Add entities which should be synchronized.
-5. Save.
+   - CardDAV
+   - Contacts and/or Leads
 
-### Enable WebDAV integration
+5. For granting documents access:
 
-1. Go to External Accounts settings.
-2. Click on **Dav**.
-3. Tap checkbox next to **File Access Extension (WebDAV)**.
-4. Save.
-
-!!! example "Note"
-    If you want to check how to map drive your EspoCRM, [check this tutorial](webdav/#how-to-map-drive-espocrm-in-windows).
+   - WebDAV
+   - Documents and/or Knowledge Base

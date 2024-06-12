@@ -2,14 +2,26 @@
 title: CardDAV in DAV Integration for EspoCRM
 ---
 
-## How to connect to CardDAV server on EspoCRM
+**Note:** Before you start, make sure you have set up the integration. If you haven't done that yet, please refer to the [DAV Integration for EspoCRM](index.md) documentation.
 
-![CardDAV](../../images/dav-client.png)
+!!! important "Important"
+    **Always use the full path** in your CardDAV client: `https://example.com/dav/server.php`
 
-!!! tip "Client application"
-    We're using on our phones application called [DAVx](https://play.google.com/store/apps/details?id=at.bitfire.davdroid)
+## Setting-up for users
 
-1. Download on your device app which support DAV.
-2. Enter address of your server (for CalDAV and CardDAV it's domain of your EspoCRM).
-3. Enter credentials
-4. Configure settings inside application.
+After administrator has set up DAV integration, users can enable it for their accounts.
+
+Go to your user profile detail view and click the *External Accounts* button.
+
+![External Accounts Button](../../images/external-accounts-button.png)
+
+Click *Dav* on the left panel. Then, check the *Enable* button and select *Address Book Extension (CardDAV)*. Finally, click *Save*.
+
+![External Accounts CardDAV](../../images/dav/external-accounts-carddav.png)
+
+## Parameters
+
+- **Entity Type List**: A list of entity types available for CardDAV, defaulting to *Contacts* and *Leads*. The first type will be the default for new contacts. Use drag-and-drop to reorder.
+
+!!! tip "Tip"
+    You can use any *Person* type entity in CardDAV, including custom ones. For details on creating custom entities, see the official [documentation](https://docs.espocrm.com/administration/entity-manager/#creating-new-entity-type).

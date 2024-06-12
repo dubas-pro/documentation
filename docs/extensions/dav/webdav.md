@@ -2,15 +2,26 @@
 title: WebDAV in DAV Integration for EspoCRM
 ---
 
-## How to map drive EspoCRM in Windows
+**Note:** Before you start, make sure you have set up the integration. If you haven't done that yet, please refer to the [DAV Integration for EspoCRM](index.md) documentation.
 
-![WebDAV](../../images/dav-map-windows.png)
+!!! important "Important"
+    **Always use the full path** in your WebDAV client. Depending on the client, it may be:
 
-1. Go to **This PC** on your computer.
-2. Click on **Map network Drive**.
-3. Enter full to your EspoCRM with https and at the and of url enter /dav/files endpoint.
-4. Tap checkbox next to **Connect using different credentials**.
-5. Click **Finish**.
-6. Enter credentials to your EspoCRM account.
+    - `https://example.com/dav/server.php/files`
+    - `https://example.com/dav/files`.
 
-You can use different applications like [WinSCP](https://winscp.net/eng/download.php) or [CyberDuck](https://cyberduck.io/download/) to connect to WebDAV server.
+## Setting-up for users
+
+After administrator has set up DAV integration, users can enable it for their accounts.
+
+Go to your user profile detail view and click the *External Accounts* button.
+
+![External Accounts Button](../../images/external-accounts-button.png)
+
+Click *Dav* on the left panel. Then, check the *Enable* button and select *File Access Extension (WebDAV)*. Finally, click *Save*.
+
+![External Accounts WebDAV](../../images/dav/external-accounts-webdav.png)
+
+## Parameters
+
+- **Entity Type List**: A list of entity types available for WebDAV, defaulting to *Documents* and *Knowledge Base*. Use drag-and-drop to reorder.
