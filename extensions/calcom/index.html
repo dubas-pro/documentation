@@ -6,19 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Check out how to use the plugins for EspoCRM. Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.">
+        <meta name="description" content="Sync all meetings scheduled by your Customers thanks to Cal.com integration with your EspoCRM!">
       
       
         <meta name="author" content="dubas s.c.">
       
       
-        <link rel="canonical" href="https://docs.dubas.pro/extensions/paypal/">
+        <link rel="canonical" href="https://docs.dubas.pro/extensions/calcom/">
       
       
-        <link rel="prev" href="../dav/web-server/nginx/">
+        <link rel="prev" href="../how-to-install/">
       
       
-        <link rel="next" href="transactions/">
+        <link rel="next" href="../dav/">
       
       
       <link rel="icon" href="../../images/logo.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Dubas PayPal Integration for EspoCRM - Documentation</title>
+        <title>Dubas Cal.com Integration for EspoCRM - Documentation</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#demo" class="md-skip">
+        <a href="#dubas-calcom-integration" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dubas PayPal Integration for EspoCRM
+              Dubas Cal.com Integration for EspoCRM
             
           </span>
         </div>
@@ -373,10 +373,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../calcom/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Cal.com Integration
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -385,6 +405,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-information" class="md-nav__link">
+    <span class="md-ellipsis">
+       General Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+        Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-presentation" class="md-nav__link">
+    <span class="md-ellipsis">
+       Video Presentation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -676,21 +761,19 @@
                 
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" >
         
           
           <label class="md-nav__link" for="__nav_2_2_3" id="__nav_2_2_3_label" tabindex="0">
@@ -704,7 +787,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2_3">
             <span class="md-nav__icon md-icon"></span>
             PayPal Integration
@@ -715,28 +798,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Overview
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../paypal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -745,60 +810,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#demo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Demo
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Requirements
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setup
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -811,7 +822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="transactions/" class="md-nav__link">
+      <a href="../paypal/transactions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -832,7 +843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="invoices/" class="md-nav__link">
+      <a href="../paypal/invoices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -853,7 +864,7 @@
   
   
     <li class="md-nav__item">
-      <a href="payments/" class="md-nav__link">
+      <a href="../paypal/payments/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -874,7 +885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="subscriptions/" class="md-nav__link">
+      <a href="../paypal/subscriptions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -895,7 +906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="products/" class="md-nav__link">
+      <a href="../paypal/products/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -916,7 +927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="plans/" class="md-nav__link">
+      <a href="../paypal/plans/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -937,7 +948,7 @@
   
   
     <li class="md-nav__item">
-      <a href="webhooks/" class="md-nav__link">
+      <a href="../paypal/webhooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1892,6 +1903,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1900,9 +1913,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#demo" class="md-nav__link">
+  <a href="#general-information" class="md-nav__link">
     <span class="md-ellipsis">
-      Demo
+       General Information
     </span>
   </a>
   
@@ -1911,7 +1924,16 @@
         <li class="md-nav__item">
   <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
-      Requirements
+        Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-presentation" class="md-nav__link">
+    <span class="md-ellipsis">
+       Video Presentation
     </span>
   </a>
   
@@ -1953,51 +1975,56 @@
   
 
 
-  <h1>Overview</h1>
-
-<div><p>PayPal Integration was originally developed for internal use within our company. After many months of developing this extension and running internal tests, we decided to release the PayPal integration as an extension.</p>
-<div class="admonition tip">
-<p class="admonition-title">Order Now</p>
-<p>You can purchase this extension in our <a href="https://devcrm.it/product/paypal/">marketplace</a>.</p>
+<div><h1 id="dubas-calcom-integration">Dubas Cal.com Integration<a class="headerlink" href="#dubas-calcom-integration" title="Permanent link">¶</a></h1>
+<!-- ![Dubas Send Extension](../images/send.png) -->
+<h2 id="general-information"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2v6Z"></path></svg></span> General Information<a class="headerlink" href="#general-information" title="Permanent link">¶</a></h2>
+<p>The Cal.com Integration for EspoCRM offers a robust solution to streamline your scheduling and customer relationship management tasks. This extension integrates seamlessly with EspoCRM, providing both cloud and self-hosting options to suit your needs. It enhances your ability to manage calls, meetings, and customer interactions efficiently, making it an ideal tool for businesses of all sizes. By automating key processes and improving collaboration, the Cal.com Integration ensures that you have a comprehensive view of your customer engagements, enabling more effective communication and better overall CRM management.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>There is a product page for this extension: <a href="https://devcrm.it/product/cal-com/">https://devcrm.it/product/cal-com/</a></p>
 </div>
-<p><img alt="PayPal" src="../../images/paypal.png"></p>
-<h2 id="demo">Demo<a class="headerlink" href="#demo" title="Permanent link">¶</a></h2>
-<p>You can check few features of this extension on our public demo. Go to <a href="https://demo.devcrm.it">demo.devcrm.it</a> and login:</p>
+<h2 id="requirements"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 10H3v2h11v-2m0-4H3v2h11V6M3 16h7v-2H3v2m18.5-4.5L23 13l-7 7-4.5-4.5L13 14l3 3 5.5-5.5Z"></path></svg></span>  Requirements<a class="headerlink" href="#requirements" title="Permanent link">¶</a></h2>
 <ul>
-<li>Username: <strong>paypal</strong></li>
-<li>Password: <strong>dubas</strong></li>
+<li>EspoCRM in version 7 or higher.</li>
+<li>PHP in version 7.3 or higher.</li>
+<li>Admin access to Cal.com’s cloud version or a self-hosted Cal.com application.</li>
 </ul>
-<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">¶</a></h2>
-<ul>
-<li>EspoCRM in version 6.0.0 or higher.</li>
-<li>PHP in version 7.2 or higher.</li>
-<li>Publicly available EspoCRM instance – it’s required because PayPal use webhooks to transfer some information.</li>
-<li>SalesPack extension if you want to use PayPal Invoices.</li>
-</ul>
+<!--
+## :material-cube-scan: Demo
+You can check this extension on our demo instance: [demo.devcrm.it](https://demo.devcrm.it)
+Username: **send**
+Password: **dubas** -->
+
+<h2 id="video-presentation"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="m18 16-4-3.2V16H6V8h8v3.2L18 8m2-4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"></path></svg></span> Video Presentation<a class="headerlink" href="#video-presentation" title="Permanent link">¶</a></h2>
+<div class="video-wrapper">
+  <iframe width="1280" height="400" src="https://www.youtube.com/embed/dt7-OB9e7Fk" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
 <ol>
-<li>Log in to your EspoCRM and go to Administration section.</li>
-<li>Go to section Extensions.</li>
-<li>Install extension which you received from us.</li>
+<li>Login as an administrator.</li>
+<li>Go to Administration &gt; Extensions.</li>
+<li>Upload your extension package (zip file).</li>
+<li>Click Install button.</li>
 </ol>
+<p>For more information, check out the Official EspoCRM documentation on <a href="https://docs.espocrm.com/administration/extensions/">Managing Extensions</a>.</p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">¶</a></h2>
 <ol>
-<li>Go to <strong>Administration &gt; Integrations</strong>.</li>
-<li>Choose PayPal integration.</li>
-<li>Enable PayPal integration.</li>
-<li>Open <a href="https://developer.paypal.com/developer/applications">My apps&amp;credentials</a> PayPal website.</li>
-<li>Choose environment(Sandbox/Live).</li>
-<li>Click on buton <strong>Create app</strong>.</li>
-<li>Enter name of the app.</li>
-<li>Copy <strong>Client ID</strong> and paste it in your PayPal integration settings.</li>
-<li>Copy <strong>Secret</strong> and paste it in your PayPal integration settings.</li>
-<li>Choose environment – it must be the same as you selected before in the second step.</li>
-<li>Save settings.</li>
-<li>Go to <strong>Administration &gt; PayPal Webhooks</strong>.</li>
-<li>Create new webhook. Add name, choose events which you want to use, choose status <strong>Activate</strong>, and field URL leave empty.</li>
+<li>Login as an administrator.</li>
+<li>Navigate to Administration &gt; User Interface.</li>
+<li>Select Navbar tab</li>
+<li>Add Calcom Webhooks entity to list of your tabs.</li>
+<li>Save changes.</li>
+<li>Go to Calcom Webhooks entity.</li>
+<li>Create new webhook - fill only name, choose Active status and hit save.</li>
+<li>Log in to Cal.com administration panel.</li>
+<li>Go to section Webhooks.</li>
+<li>Create new webhook for your account.</li>
+<li>Go back to Webhook created in EspoCRM and copy <code>Endpoint</code> url. Paste it in Cal.com webhook settings as a <code>Subscriber URL</code>.</li>
+<li>Go back to Webhook created in EspoCRM and copy <code>Secret</code>. Paste it in Cal.com webhook settings as a <code>secret</code>.</li>
+<li>Choose from list events which should trigger webhook submission.</li>
 <li>Save webhook.</li>
-</ol>
-<p>Now you can start using PayPal in your EspoCRM. You can add PayPal entities to your menu.</p></div>
+</ol></div>
 
 
 
