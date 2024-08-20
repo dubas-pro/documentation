@@ -71,6 +71,7 @@ nav:
   - Extensions:
       - Installing Extensions: extensions/how-to-install.md
       - Premium:
+        - Cal.com Integration: extensions/calcom.md
         - DAV Integration:
             - Overview: extensions/dav/index.md
             - Setting-up:

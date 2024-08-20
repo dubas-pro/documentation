@@ -10,6 +10,7 @@ To get started with EspoCRM, please refer to the [official EspoCRM website](http
 
 The following extensions are available for purchase at [DevCRM Marketplace](https://devcrm.it/marketplace/).
 
+- [Cal.com Integration](./extensions/calcom.md)
 - [DAV Integration](./extensions/dav/index.md)
 - [PayPal Integration](./extensions/paypal/index.md)
 - [Send](./extensions/send.md)
