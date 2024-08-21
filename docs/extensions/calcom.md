@@ -40,16 +40,13 @@ For more information, check out the Official EspoCRM documentation on [Managing 
 ## Setup
 
 1. Login as an administrator.
-2. Navigate to Administration > User Interface.
-3. Select Navbar tab
-4. Add Calcom Webhooks entity to list of your tabs.
-5. Save changes.
-6. Go to Calcom Webhooks entity.
-7. Create new webhook - fill only name, choose Active status and hit save.
-8. Log in to Cal.com administration panel.
-9. Go to section Webhooks.
-10. Create new webhook for your account.
-11. Go back to Webhook created in EspoCRM and copy `Endpoint` url. Paste it in Cal.com webhook settings as a `Subscriber URL`.
-12. Go back to Webhook created in EspoCRM and copy `Secret`. Paste it in Cal.com webhook settings as a `secret`.
-13. Choose from list events which should trigger webhook submission.
-14. Save webhook.
+2. Navigate to Administration.
+3. Search for `Cal.com Webhooks`.
+4. Create new webhook - fill only name, choose Active status and hit save.
+5. Log in to Cal.com administration panel.
+6. Go to section Webhooks.
+7. Create new webhook for your account.
+8. Go back to Webhook created in EspoCRM and copy `Endpoint` url. Paste it in Cal.com webhook settings as a `Subscriber URL`.
+9. Go back to Webhook created in EspoCRM and copy `Secret`. Paste it in Cal.com webhook settings as a `secret`.
+10. Choose from list events which should trigger webhook submission.
+11. Save webhook.
