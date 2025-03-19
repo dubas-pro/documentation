@@ -82,6 +82,7 @@ nav:
             - Web Server:
                 - Apache: extensions/dav/web-server/apache.md
                 - Nginx: extensions/dav/web-server/nginx.md
+        - GUS Integration: extensions/gus/index.md
         - PayPal Integration:
             - Overview: extensions/paypal/index.md
             - Transactions: extensions/paypal/transactions.md
@@ -97,6 +98,7 @@ nav:
             - Transactions: extensions/stripe/transactions.md
             - Sales Pack Invoices: extensions/stripe/invoices.md
         - Tawk.to Integration: extensions/tawk/index.md
+        - VAT/VIES Integration: extensions/vies/index.md
         - Time Tracker:
             - Overview: extensions/time-tracker/index.md
             - Time Entries: extensions/time-tracker/time-entries.md

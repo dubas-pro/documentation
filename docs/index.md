@@ -12,11 +12,13 @@ The following extensions are available for purchase at [DevCRM Marketplace](http
 
 - [Cal.com Integration](./extensions/calcom.md)
 - [DAV Integration](./extensions/dav/index.md)
+- [GUS Integration - Database of companies](./extensions/gus/index.md)
 - [PayPal Integration](./extensions/paypal/index.md)
 - [Send](./extensions/send.md)
 - [Stripe Integration](./extensions/stripe/index.md)
 - [Tawk.to Integration](./extensions/tawk/index.md)
 - [Time Tracker](./extensions/time-tracker/index.md)
+- [VAT/VIES Integration](./extensions/vies/index.md)
 - [WooCommerce Integration](./extensions/woocommerce/index.md)
 
 ---
