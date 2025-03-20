@@ -6,7 +6,7 @@ authors:
 date: 2025-03-19
 ---
 # Dubas QuickBooks Integration for EspoCRM
-![QuickBooks Integration](../../images/quickbooks.png)
+<!-- ![QuickBooks Integration](../../images/quickbooks.png) -->
 
 The QuickBooks Integration for EspoCRM enables seamless synchronization between your EspoCRM and QuickBooks Online. This integration allows businesses to manage invoices, payments, and customer records efficiently while ensuring data consistency across both platforms.
 

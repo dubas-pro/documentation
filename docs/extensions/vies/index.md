@@ -55,7 +55,7 @@ There is a formula `util\viesValidation` which allows to validate account in rea
 - The integration only **validates** VAT numbers and does not retrieve additional company information.
 - It does not update or overwrite existing records in EspoCRM.
 
-## :material-invoice-list-outline: What information we store
+## :material-format-list-text: What information we store
 Each validation request to VIES leaves a trace in EspoCRM to make sure that in the future you'll be able to check history of validations.
 
 Each Account have fields:
