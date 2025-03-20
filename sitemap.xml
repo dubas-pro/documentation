@@ -2,247 +2,257 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.dubas.pro/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/contact/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/license/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/versioning/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/address/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/calcom/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/custom-formulas/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/google-fonts/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/how-to-buy/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/how-to-install/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/send/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/short-url/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/template-helper/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/uuid/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/dav/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/dav/caldav/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/dav/carddav/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/dav/setup/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/dav/webdav/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/dav/web-server/apache/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/dav/web-server/nginx/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/gus/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/paypal/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/paypal/invoices/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/paypal/payments/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/paypal/plans/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/paypal/products/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/paypal/subscriptions/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/paypal/transactions/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/paypal/webhooks/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.dubas.pro/extensions/quickbooks/</loc>
+         <lastmod>2025-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.dubas.pro/extensions/quickbooks/projects/</loc>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/shipping-manager/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/shipping-manager/locations/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/shipping-manager/package-statuses/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/shipping-manager/packages/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/shipping-manager/parcels/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/stripe/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/stripe/invoices/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/stripe/transactions/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/tawk/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/themes/dark/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/themes/light/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/time-tracker/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/time-tracker/time-entries/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/time-tracker/time-sessions/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/time-tracker/time-trackers/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/vies/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/woocommerce/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/videos/how-to-create-email-template/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.dubas.pro/videos/how-to-upgrade-espocrm/</loc>
-         <lastmod>2025-03-19</lastmod>
+         <lastmod>2025-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
