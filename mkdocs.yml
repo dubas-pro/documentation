@@ -92,6 +92,14 @@ nav:
             - Products: extensions/paypal/products.md
             - Plans: extensions/paypal/plans.md
             - Webhooks: extensions/paypal/webhooks.md
+        - QuickBooks Integration:
+            - Overview: extensions/quickbooks/index.md
+            # - Invoices: extensions/quickbooks/invoices.md
+            # - Payments: extensions/quickbooks/payments.md
+            - Projects: extensions/quickbooks/projects.md
+            # - Employees: extensions/quickbooks/employees.md
+            # - Purchase Orders: extensions/quickbooks/purchase-orders.md
+            # - Webhooks: extensions/quickbooks/webhooks.md
         - Send: extensions/send.md
         - Stripe Integration:
             - Overview: extensions/stripe/index.md
