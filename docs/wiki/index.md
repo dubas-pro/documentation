@@ -22,6 +22,13 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 - Charges
 - Internal Evidences
 - Monthly and Annual Statements
+- Ecommerce
+
+4. Payments
+
+- Paypal
+* Stripe
+* Przelewy24
 
 4. Sms Management
 5. Contracts
@@ -35,7 +42,7 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 
 8. Portals
 9. Licenses
-10. 
-
+10. Static external pages
+11. External forms
 
 We’re excited to share our journey with you and hope it gives you some ideas for your own business. Let’s dive in!
