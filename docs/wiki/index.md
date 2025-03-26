@@ -14,7 +14,7 @@ Since our team works mostly remotely, we needed a centralized system to keep eve
 In this section, we’ll walk you through how we’ve set things up—our infrastructure, the modules we use, the custom features we’ve built, and how we’ve integrated it all into our workflow.
 
 1. [Our Infrastructure](./infrastructure.md)
-2. Meetings management
+2. [Meetings management](./meetings.md)
 3. Accounting
 
 - Subscriptions
