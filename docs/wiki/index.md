@@ -17,11 +17,11 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 2. [Meetings management](./meetings.md)
 3. Accounting
 
-- Subscriptions
-- Expenses
+- [Subscriptions](./subscriptions.md)
+- [Expenses](./expenses.md)
 - Charges
 - Internal Evidences
-- Monthly and Annual Statements
+- [Monthly and Annual Statements](./financial-statements.md)
 - Ecommerce
 
 4. Payments
@@ -36,11 +36,11 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 7. Customers management
 
 - Leads
-- Accounts
+- [Accounts management](./accounts-maganement.md)
 - Contacts
 - Clearances
 
-8. Portals
+8. [Portals](./portal.md)
 9. Licenses
 10. Static external pages
 11. External forms
