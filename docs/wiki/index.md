@@ -45,5 +45,8 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 10. Static external pages
 11. External forms
 12. [Ticketing System](./tickets.md)
+13. Public status pages
+14. Static pages
+15. Online forms
 
 We’re excited to share our journey with you and hope it gives you some ideas for your own business. Let’s dive in!
