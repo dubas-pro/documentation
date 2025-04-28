@@ -19,7 +19,7 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 
 - [Subscriptions](./subscriptions.md)
 - [Expenses](./expenses.md)
-- Charges
+- [Charges](./charges.md)
 - [Internal Evidences](./internal-evidences.md)
 - [Monthly and Annual Statements](./financial-statements.md)
 - Ecommerce
