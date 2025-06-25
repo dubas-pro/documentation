@@ -31,8 +31,8 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 * Przelewy24
 
 4. Sms Management
-5. Contracts
-6. Correspondance
+5. [Contracts](./contracts.md)
+6. [Correspondance](./correspondence.md)
 7. Customers management
 
 - Leads
@@ -41,12 +41,13 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 - Clearances
 
 8. [Portals](./portal.md)
-9. Licenses
+9. [Licenses](./licenses.md)
 10. Static external pages
 11. External forms
 12. [Ticketing System](./tickets.md)
 13. Public status pages
 14. Static pages
 15. Online forms
+16. [Availibility management](./availibility-management.md)
 
 We’re excited to share our journey with you and hope it gives you some ideas for your own business. Let’s dive in!
