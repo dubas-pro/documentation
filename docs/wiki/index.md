@@ -26,28 +26,28 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 
 4. Payments
 
-- Paypal
+* Paypal
 * Stripe
 * Przelewy24
 
-4. Sms Management
-5. [Contracts](./contracts.md)
-6. [Correspondance](./correspondence.md)
-7. Customers management
+5. Sms Management
+6. [Contracts](./contracts.md)
+7. [Correspondance](./correspondence.md)
+8. Customers management
 
 - Leads
 - [Accounts management](./accounts-maganement.md)
 - Contacts
 - Clearances
 
-8. [Portals](./portal.md)
-9. [Licenses](./licenses.md)
-10. Static external pages
-11. External forms
-12. [Ticketing System](./tickets.md)
-13. Public status pages
-14. Static pages
-15. Online forms
-16. [Availibility management](./availibility-management.md)
+9. [Portals](./portal.md)
+10. [Licenses](./licenses.md)
+11. Static external pages
+12. External forms
+13. [Ticketing System](./tickets.md)
+14. Public status pages
+15. Static pages
+16. Online forms
+17. [Availibility management](./availibility-management.md)
 
 We’re excited to share our journey with you and hope it gives you some ideas for your own business. Let’s dive in!
