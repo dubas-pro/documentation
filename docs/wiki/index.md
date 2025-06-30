@@ -35,7 +35,7 @@ In this section, we’ll walk you through how we’ve set things up—our infras
 7. [Correspondance](./correspondence.md)
 8. Customers management
 
-- Leads
+- [Leads](./leads.md)
 - [Accounts management](./accounts-maganement.md)
 - Contacts
 - Clearances
