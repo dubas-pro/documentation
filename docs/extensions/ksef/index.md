@@ -24,12 +24,12 @@ Dubas Ksef Integration is an extension developed by our company that enables sea
 - The Expenses module can be used for all invoices, not just those from KSeF. You can manually enter expenses from other sources as needed.
 - The integration enables you to send invoices issued in Sales Pack directly to KSeF.
 
-
 ### Roadmap
 
-- Authorization via certificates (required before 2027)
-- Support for offline modes (requires certificates)
-- Support for Credit Notes - only if Sales Pack entity will be compatible with KSeF
+- Authorization via certificates (required before 2027).
+- Support for offline modes (requires certificates).
+- Support for Credit Notes - only if Sales Pack entity will be compatible with KSeF.
+- Adding batches support for invoices issuing.
 
 ## :material-playlist-check:  Requirements
 - EspoCRM in version 9.2.0 or higher.
@@ -106,3 +106,12 @@ By default it'll download automatically expenses from KSeF every 5 minutes for a
 4. After everything is fine, invoice will be scheduled for sending to KSeF.
 
 Unfortunatelly we can't pass invoice to KSeF in few seconds, that's why it's working in background. After invoice will be issued, field KSeF Status will be set to **Completed**.
+
+### KSeF fields in invoices
+
+- `ksefNumber` - KSeF number assigned to an invoice. Required on issued invoices.
+- `ksefStatus` - status of invoice delivery to KSeF.
+- `ksefPublicUrl` - public url to status page of invoice in KSeF.
+- `ksefProfile` - profile which is used to issue an invoice and pass to KSeF.
+- `upoFile` - XML file which confirm delivery to KSeF.
+- `xmlFile` - XML file which contains invoice details.
