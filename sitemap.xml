@@ -51,11 +51,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/</loc>
-         <lastmod>2026-03-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.dubas.pro/extensions/send/</loc>
          <lastmod>2026-03-16</lastmod>
          <changefreq>daily</changefreq>
@@ -112,6 +107,11 @@
     </url>
     <url>
          <loc>https://docs.dubas.pro/extensions/gus/</loc>
+         <lastmod>2026-03-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.dubas.pro/extensions/ksef/</loc>
          <lastmod>2026-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
