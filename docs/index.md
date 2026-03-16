@@ -13,6 +13,7 @@ The following extensions are available for purchase at [DevCRM Marketplace](http
 - [Cal.com Integration](./extensions/calcom.md)
 - [DAV Integration](./extensions/dav/index.md)
 - [GUS Integration - Database of companies](./extensions/gus/index.md)
+- [KSeF Integration - Invoices management for Polish companies](./extensions/ksef/index.md)
 - [PayPal Integration](./extensions/paypal/index.md)
 - [Send](./extensions/send.md)
 - [Stripe Integration](./extensions/stripe/index.md)

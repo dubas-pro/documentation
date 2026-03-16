@@ -83,6 +83,7 @@ nav:
                 - Apache: extensions/dav/web-server/apache.md
                 - Nginx: extensions/dav/web-server/nginx.md
         - GUS Integration: extensions/gus/index.md
+        - KSeF Integration: extensions/ksef/index.md
         - PayPal Integration:
             - Overview: extensions/paypal/index.md
             - Transactions: extensions/paypal/transactions.md

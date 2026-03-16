@@ -5,7 +5,7 @@ authors:
     - dubas s.c.
 ---
 # Dubas KSeF Integration
-![Dubas KSeF Integration](../images/ksef.png)
+![Dubas KSeF Integration](../../images/ksef.png)
 ## :material-information-outline: General Information
 Dubas Ksef Integration is an extension developed by our company that enables seamless integration between EspoCRM and the KSeF system. With this extension, you can automatically download invoices from KSeF directly into EspoCRM, as well as issue invoices through KSeF using the Sales Pack functionality. This solution streamlines invoice management and ensures secure, efficient handling of financial documents within your CRM.
 
@@ -28,7 +28,7 @@ Dubas Ksef Integration is an extension developed by our company that enables sea
 ### Roadmap
 
 - Authorization via certificates (required before 2027)
-- Support for offline modes
+- Support for offline modes (requires certificates)
 - Support for Credit Notes - only if Sales Pack entity will be compatible with KSeF
 
 ## :material-playlist-check:  Requirements
