@@ -845,6 +845,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="How to issue Invoice with KSeF">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ksef-fields-in-invoices" class="md-nav__link">
+    <span class="md-ellipsis">
+      KSeF fields in invoices
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -2240,6 +2255,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="How to issue Invoice with KSeF">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ksef-fields-in-invoices" class="md-nav__link">
+    <span class="md-ellipsis">
+      KSeF fields in invoices
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -2283,9 +2313,10 @@
 </ul>
 <h3 id="roadmap">Roadmap<a class="headerlink" href="#roadmap" title="Permanent link">¶</a></h3>
 <ul>
-<li>Authorization via certificates (required before 2027)</li>
-<li>Support for offline modes (requires certificates)</li>
-<li>Support for Credit Notes - only if Sales Pack entity will be compatible with KSeF</li>
+<li>Authorization via certificates (required before 2027).</li>
+<li>Support for offline modes (requires certificates).</li>
+<li>Support for Credit Notes - only if Sales Pack entity will be compatible with KSeF.</li>
+<li>Adding batches support for invoices issuing.</li>
 </ul>
 <h2 id="requirements"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 10H3v2h11v-2m0-4H3v2h11V6M3 16h7v-2H3v2m18.5-4.5L23 13l-7 7-4.5-4.5L13 14l3 3 5.5-5.5Z"></path></svg></span>  Requirements<a class="headerlink" href="#requirements" title="Permanent link">¶</a></h2>
 <ul>
@@ -2362,7 +2393,16 @@
 <li>Please make sure that before you change to <strong>Issued</strong> or <strong>Confirmed</strong>, you choose KSef Profile.</li>
 <li>After everything is fine, invoice will be scheduled for sending to KSeF.</li>
 </ol>
-<p>Unfortunatelly we can't pass invoice to KSeF in few seconds, that's why it's working in background. After invoice will be issued, field KSeF Status will be set to <strong>Completed</strong>.</p></div>
+<p>Unfortunatelly we can't pass invoice to KSeF in few seconds, that's why it's working in background. After invoice will be issued, field KSeF Status will be set to <strong>Completed</strong>.</p>
+<h3 id="ksef-fields-in-invoices">KSeF fields in invoices<a class="headerlink" href="#ksef-fields-in-invoices" title="Permanent link">¶</a></h3>
+<ul>
+<li><code>ksefNumber</code> - KSeF number assigned to an invoice. Required on issued invoices.</li>
+<li><code>ksefStatus</code> - status of invoice delivery to KSeF.</li>
+<li><code>ksefPublicUrl</code> - public url to status page of invoice in KSeF.</li>
+<li><code>ksefProfile</code> - profile which is used to issue an invoice and pass to KSeF.</li>
+<li><code>upoFile</code> - XML file which confirm delivery to KSeF.</li>
+<li><code>xmlFile</code> - XML file which contains invoice details.</li>
+</ul></div>
 
 
 
