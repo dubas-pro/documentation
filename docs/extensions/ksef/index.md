@@ -98,3 +98,4 @@ By default it'll download automatically expenses from KSeF every 5 minutes for a
 
 - [How to issue an invoice via KSeF?](./issue-invoice.md)
 - [How to download package with financial documents?](./download-documents.md)
+- [How to configure profile for KSeF in test environment?](./test-profile.md)
