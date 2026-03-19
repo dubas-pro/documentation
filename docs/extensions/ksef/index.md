@@ -24,7 +24,7 @@ Dubas Ksef Integration is an extension developed by our company that enables sea
 - The Expenses module can be used for all invoices, not just those from KSeF. You can manually enter expenses from other sources as needed.
 - The integration enables you to send invoices issued in Sales Pack directly to KSeF.
 
-### Roadmap
+### :material-map-marker-distance: Roadmap
 
 - Authorization via certificates (required before 2027).
 - Support for offline modes (requires certificates).
@@ -43,7 +43,7 @@ You can configure multiple KSeF Profiles. Thanks to that you can handle multiple
 2. Search for "KSeF Settings" and click on it.
 3. Create new KSeF Profile based on below specification.
 
-#### Explanation of fields
+#### :material-book-information-variant: Explanation of fields
 
 **Overview**
 
@@ -66,7 +66,7 @@ You can configure multiple KSeF Profiles. Thanks to that you can handle multiple
 - Fetch since - decides from when invoices will be fetched.
 - Create accounts for expenses - decides whether account will be automatically created if integration couldn't find account based on tax id.
 
-## :material-book-plus-multiple: How to configure KSeF cron job?
+## :material-cog-sync-outline: How to configure KSeF cron job?
 
 1. Go to **Administration** section.
 2. Click on Scheduled Jobs.
@@ -76,7 +76,7 @@ You can configure multiple KSeF Profiles. Thanks to that you can handle multiple
 
 By default it'll download automatically expenses from KSeF every 5 minutes for active profiles.
 
-## :material-book-plus-multiple: How to get KSeF Token?
+## :material-lock-check: How to get KSeF Token?
 
 1. Login to KSeF web application (Below you have links to all environments).
 2. Go to Token's section.
@@ -86,32 +86,15 @@ By default it'll download automatically expenses from KSeF every 5 minutes for a
 !!! example "Example of a token"
     `20270115-EC-7FA3B1D200-AB12345F6A-01|nip-987654321|a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0`
 
-## :material-book-plus-multiple: KSeF Environments
+## :material-server-network: KSeF Environments
 
 - Production - https://ap.ksef.mf.gov.pl/web/
 - Demo - https://ap-demo.ksef.mf.gov.pl/web/
 - Test - https://ap-test.ksef.mf.gov.pl/web/
 
-## :material-book-plus-multiple: How to issue Invoice with KSeF
+---
 
-!!! danger "Sales Pack required"
-    Please keep in mind that feature will not work if you don't have Sales Pack extension.
+## Related articles
 
-!!! info "Enable invoices first"
-    This feature will only work if you enable invoices in KSeF profile (details above).
-
-1. Go to **Invoices**.
-2. Create new Invoice.
-3. Please make sure that before you change to **Issued** or **Confirmed**, you choose KSef Profile.
-4. After everything is fine, invoice will be scheduled for sending to KSeF.
-
-Unfortunatelly we can't pass invoice to KSeF in few seconds, that's why it's working in background. After invoice will be issued, field KSeF Status will be set to **Completed**.
-
-### KSeF fields in invoices
-
-- `ksefNumber` - KSeF number assigned to an invoice. Required on issued invoices.
-- `ksefStatus` - status of invoice delivery to KSeF.
-- `ksefPublicUrl` - public url to status page of invoice in KSeF.
-- `ksefProfile` - profile which is used to issue an invoice and pass to KSeF.
-- `upoFile` - XML file which confirm delivery to KSeF.
-- `xmlFile` - XML file which contains invoice details.
+- [How to issue an invoice via KSeF?](./issue-invoice.md)
+- [How to download package with financial documents?](./download-documents.md)
