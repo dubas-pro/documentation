@@ -78,6 +78,8 @@ By default it'll download automatically expenses from KSeF every 5 minutes for a
 
 ## :material-lock-check: How to get KSeF Token?
 
+[You can also use Certificate (tokens will stop working after 2026)](./certificates.md)
+
 1. Login to KSeF web application (Below you have links to all environments).
 2. Go to Token's section.
 3. Generate new token with permissions to issue and read invoices.

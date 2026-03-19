@@ -85,6 +85,7 @@ nav:
         - GUS Integration: extensions/gus/index.md
         - KSeF Integration:
             - Overview: extensions/ksef/index.md
+            - How to use Certificates: extensions/ksef/certificates.md
             - How to issue an invoice: extensions/ksef/issue-invoice.md
             - How to download documents: extensions/ksef/download-documents.md
             - How to create test profile for KSeF: extensions/ksef/test-profile.md
