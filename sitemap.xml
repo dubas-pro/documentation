@@ -126,6 +126,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.dubas.pro/extensions/ksef/test-profile/</loc>
+         <lastmod>2026-03-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.dubas.pro/extensions/paypal/</loc>
          <lastmod>2026-03-19</lastmod>
          <changefreq>daily</changefreq>
