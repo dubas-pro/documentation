@@ -66,6 +66,9 @@ You can configure multiple KSeF Profiles. Thanks to that you can handle multiple
 - Fetch since - decides from when invoices will be fetched.
 - Create accounts for expenses - decides whether account will be automatically created if integration couldn't find account based on tax id.
 
+!!! warning "How we recognize Accounts and manage tax id's?"
+    [Please read this article](./accounts.md)
+
 ## :material-cog-sync-outline: How to configure KSeF cron job?
 
 1. Go to **Administration** section.
@@ -101,3 +104,4 @@ By default it'll download automatically expenses from KSeF every 5 minutes for a
 - [How to issue an invoice via KSeF?](./issue-invoice.md)
 - [How to download package with financial documents?](./download-documents.md)
 - [How to configure profile for KSeF in test environment?](./test-profile.md)
+- [How to manage accounts and tax id's?](./accounts.md)
