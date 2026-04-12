@@ -12,24 +12,28 @@
         <meta name="author" content="dubas s.c.">
       
       
-        <link rel="canonical" href="https://docs.dubas.pro/wiki/expenses/">
+        <link rel="canonical" href="https://docs.dubas.pro/extensions/ksef/console-commands/">
       
       
+        <link rel="prev" href="../formulas/">
       
       
-      <link rel="icon" href="../../images/logo.png">
+        <link rel="next" href="../tax-rates/">
+      
+      
+      <link rel="icon" href="../../../images/logo.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
-        <title>💼 Expense Management in EspoCRM - Documentation</title>
+        <title>Console commands - Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../css/extra.css">
+      <link rel="stylesheet" href="../../../css/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#expense-management-in-espocrm" class="md-skip">
+        <a href="#available-console-commands" class="md-skip">
           Skip to content
         </a>
       
@@ -92,9 +96,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../../.." title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
       
-  <img src="../../images/logo.png" alt="logo">
+  <img src="../../../images/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -111,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              💼 Expense Management in EspoCRM
+              Console commands
             
           </span>
         </div>
@@ -224,9 +228,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+    <a href="../../.." title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
       
-  <img src="../../images/logo.png" alt="logo">
+  <img src="../../../images/logo.png" alt="logo">
 
     </a>
     Documentation
@@ -253,7 +257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -270,19 +274,21 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -296,7 +302,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Extensions
@@ -310,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/how-to-install/" class="md-nav__link">
+      <a href="../../how-to-install/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -328,19 +334,21 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -354,7 +362,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Premium
@@ -368,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/calcom/" class="md-nav__link">
+      <a href="../../calcom/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -426,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/dav/" class="md-nav__link">
+      <a href="../../dav/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -484,7 +492,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/dav/setup/" class="md-nav__link">
+      <a href="../../dav/setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -505,7 +513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/dav/carddav/" class="md-nav__link">
+      <a href="../../dav/carddav/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -526,7 +534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/dav/caldav/" class="md-nav__link">
+      <a href="../../dav/caldav/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -547,7 +555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/dav/webdav/" class="md-nav__link">
+      <a href="../../dav/webdav/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -613,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/dav/web-server/apache/" class="md-nav__link">
+      <a href="../../dav/web-server/apache/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -634,7 +642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/dav/web-server/nginx/" class="md-nav__link">
+      <a href="../../dav/web-server/nginx/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -671,7 +679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/gus/" class="md-nav__link">
+      <a href="../../gus/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -689,19 +697,21 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2_4" id="__nav_2_2_4_label" tabindex="0">
@@ -715,7 +725,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2_4">
             <span class="md-nav__icon md-icon"></span>
             KSeF Integration
@@ -729,7 +739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/ksef/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -750,7 +760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/ksef/certificates/" class="md-nav__link">
+      <a href="../certificates/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -771,7 +781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/ksef/issue-invoice/" class="md-nav__link">
+      <a href="../issue-invoice/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -792,7 +802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/ksef/download-documents/" class="md-nav__link">
+      <a href="../download-documents/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -813,7 +823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/ksef/accounts/" class="md-nav__link">
+      <a href="../accounts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -834,7 +844,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/ksef/test-profile/" class="md-nav__link">
+      <a href="../test-profile/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -855,7 +865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/ksef/formulas/" class="md-nav__link">
+      <a href="../formulas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -873,10 +883,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../extensions/ksef/console-commands/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Console commands
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -885,6 +913,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#available-console-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+       Available Console Commands
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Available Console Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#migrate-tax-id-to-ksef" class="md-nav__link">
+    <span class="md-ellipsis">
+      migrate-tax-id-to-ksef
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="migrate-tax-id-to-ksef">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -897,7 +1000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/ksef/tax-rates/" class="md-nav__link">
+      <a href="../tax-rates/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -963,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/paypal/" class="md-nav__link">
+      <a href="../../paypal/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -984,7 +1087,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/paypal/transactions/" class="md-nav__link">
+      <a href="../../paypal/transactions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1005,7 +1108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/paypal/invoices/" class="md-nav__link">
+      <a href="../../paypal/invoices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1026,7 +1129,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/paypal/payments/" class="md-nav__link">
+      <a href="../../paypal/payments/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1047,7 +1150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/paypal/subscriptions/" class="md-nav__link">
+      <a href="../../paypal/subscriptions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1068,7 +1171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/paypal/products/" class="md-nav__link">
+      <a href="../../paypal/products/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1089,7 +1192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/paypal/plans/" class="md-nav__link">
+      <a href="../../paypal/plans/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1110,7 +1213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/paypal/webhooks/" class="md-nav__link">
+      <a href="../../paypal/webhooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1176,7 +1279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/quickbooks/" class="md-nav__link">
+      <a href="../../quickbooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1197,7 +1300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/quickbooks/projects/" class="md-nav__link">
+      <a href="../../quickbooks/projects/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1226,7 +1329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/send/" class="md-nav__link">
+      <a href="../../send/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1284,7 +1387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/stripe/" class="md-nav__link">
+      <a href="../../stripe/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1305,7 +1408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/stripe/transactions/" class="md-nav__link">
+      <a href="../../stripe/transactions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1326,7 +1429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/stripe/invoices/" class="md-nav__link">
+      <a href="../../stripe/invoices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1355,7 +1458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/tawk/" class="md-nav__link">
+      <a href="../../tawk/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1376,7 +1479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/vies/" class="md-nav__link">
+      <a href="../../vies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1434,7 +1537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/time-tracker/" class="md-nav__link">
+      <a href="../../time-tracker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1455,7 +1558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/time-tracker/time-entries/" class="md-nav__link">
+      <a href="../../time-tracker/time-entries/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1476,7 +1579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/time-tracker/time-trackers/" class="md-nav__link">
+      <a href="../../time-tracker/time-trackers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1497,7 +1600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/time-tracker/time-sessions/" class="md-nav__link">
+      <a href="../../time-tracker/time-sessions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1526,7 +1629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/woocommerce/" class="md-nav__link">
+      <a href="../../woocommerce/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1592,7 +1695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/address/" class="md-nav__link">
+      <a href="../../address/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1613,7 +1716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/custom-formulas/" class="md-nav__link">
+      <a href="../../custom-formulas/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1634,7 +1737,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/google-fonts/" class="md-nav__link">
+      <a href="../../google-fonts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1692,7 +1795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/shipping-manager/" class="md-nav__link">
+      <a href="../../shipping-manager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1713,7 +1816,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/shipping-manager/parcels/" class="md-nav__link">
+      <a href="../../shipping-manager/parcels/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1734,7 +1837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/shipping-manager/packages/" class="md-nav__link">
+      <a href="../../shipping-manager/packages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1755,7 +1858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/shipping-manager/package-statuses/" class="md-nav__link">
+      <a href="../../shipping-manager/package-statuses/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1776,7 +1879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/shipping-manager/locations/" class="md-nav__link">
+      <a href="../../shipping-manager/locations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1805,7 +1908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/short-url/" class="md-nav__link">
+      <a href="../../short-url/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1826,7 +1929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/template-helper/" class="md-nav__link">
+      <a href="../../template-helper/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1847,7 +1950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/uuid/" class="md-nav__link">
+      <a href="../../uuid/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1913,7 +2016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/themes/light/" class="md-nav__link">
+      <a href="../../themes/light/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1934,7 +2037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/themes/dark/" class="md-nav__link">
+      <a href="../../themes/dark/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2007,7 +2110,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../videos/how-to-create-email-template/" class="md-nav__link">
+      <a href="../../../videos/how-to-create-email-template/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2028,7 +2131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../videos/how-to-upgrade-espocrm/" class="md-nav__link">
+      <a href="../../../videos/how-to-upgrade-espocrm/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2093,7 +2196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contact/" class="md-nav__link">
+      <a href="../../../contact/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2114,7 +2217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../extensions/how-to-buy/" class="md-nav__link">
+      <a href="../../how-to-buy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2135,7 +2238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../license/" class="md-nav__link">
+      <a href="../../../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2156,7 +2259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../versioning/" class="md-nav__link">
+      <a href="../../../versioning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2194,8 +2297,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2204,37 +2305,47 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
+  <a href="#available-console-commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Introduction
+       Available Console Commands
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#implementation-details" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔧 Implementation Details
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#expense-record-structure" class="md-nav__link">
-    <span class="md-ellipsis">
-      📋 Expense Record Structure
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📋 Expense Record Structure">
+    <nav class="md-nav" aria-label="Available Console Commands">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#core-fields" class="md-nav__link">
+  <a href="#migrate-tax-id-to-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-      Core Fields
+      migrate-tax-id-to-ksef
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="migrate-tax-id-to-ksef">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
     </span>
   </a>
   
@@ -2244,100 +2355,9 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#statuses" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔄 Statuses
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#practical-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      💡 Practical Usage
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="💡 Practical Usage">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#timely-payments" class="md-nav__link">
-    <span class="md-ellipsis">
-      Timely Payments
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#payment-tracking" class="md-nav__link">
-    <span class="md-ellipsis">
-      Payment Tracking
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reminders-and-notifications" class="md-nav__link">
-    <span class="md-ellipsis">
-      Reminders and Notifications
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reporting-and-analysis" class="md-nav__link">
-    <span class="md-ellipsis">
-      Reporting and Analysis
-    </span>
-  </a>
-  
-</li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#automation-of-recurring-expenses" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔁 Automation of Recurring Expenses
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#expense-types" class="md-nav__link">
-    <span class="md-ellipsis">
-      🗂 Expense Types
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#benefits-weve-experienced" class="md-nav__link">
-    <span class="md-ellipsis">
-      ✅ Benefits We've Experienced
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      📎 Conclusion
-    </span>
-  </a>
   
 </li>
       
@@ -2359,108 +2379,54 @@
   
 
 
-<div><h1 id="expense-management-in-espocrm">💼 Expense Management in EspoCRM<a class="headerlink" href="#expense-management-in-espocrm" title="Permanent link">¶</a></h1>
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h2>
-<p>At dubas.pro we have built a fully automated accounting process within <strong>EspoCRM</strong>, streamlining our financial operations and improving efficiency. A crucial part of this system is our <strong>custom-developed Expenses module</strong>, which allows us to monitor, categorize, and manage all company expenses with precision and transparency.</p>
-<p>This document provides an in-depth explanation of how the Expenses module is implemented, how we use it in day-to-day operations, and the tangible benefits it delivers to our business.</p>
+  <h1>Console commands</h1>
+
+<div><h2 id="available-console-commands"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16"><path d="m6.354 8.04-4.773 4.773a.75.75 0 1 0 1.061 1.06L7.945 8.57a.75.75 0 0 0 0-1.06L2.642 2.206a.75.75 0 0 0-1.06 1.061L6.353 8.04ZM8.75 11.5a.75.75 0 0 0 0 1.5h5.5a.75.75 0 0 0 0-1.5h-5.5Z"></path></svg></span> Available Console Commands<a class="headerlink" href="#available-console-commands" title="Permanent link">¶</a></h2>
+<p>This section details the console commands provided by the KSeF Integration to help you manage and maintain your system data.</p>
 <hr>
-<h2 id="implementation-details">🔧 Implementation Details<a class="headerlink" href="#implementation-details" title="Permanent link">¶</a></h2>
-<p>We developed a <strong>dedicated Expenses module</strong> tailored to meet the accounting needs of our company. This module is fully integrated with our CRM and accounting workflows, and is designed to be:</p>
-<ul>
-<li><strong>User-friendly</strong> for internal users</li>
-<li><strong>Comprehensive</strong> in capturing expense data</li>
-<li><strong>Flexible</strong> for automation and reporting</li>
-<li><strong>Secure</strong> with validation and duplication checks</li>
-</ul>
-<hr>
-<h2 id="expense-record-structure">📋 Expense Record Structure<a class="headerlink" href="#expense-record-structure" title="Permanent link">¶</a></h2>
-<p>Each expense entry in our CRM stores a complete set of data to ensure accuracy and traceability. Below is a breakdown of the fields captured for each record:</p>
-<h3 id="core-fields">Core Fields<a class="headerlink" href="#core-fields" title="Permanent link">¶</a></h3>
-<ul>
-<li><strong>Name</strong>: A brief title describing the expense.</li>
-<li><strong>Assigned User</strong>: The team member responsible for managing or paying the expense.</li>
-<li><strong>Status</strong>: Indicates the current state of the expense (see <a href="#statuses">Statuses</a> below).</li>
-<li><strong>Document ID</strong>: The invoice or document number provided by the vendor.
-  <em>Includes a built-in duplicate-checking mechanism to prevent redundant entries.</em></li>
-<li><strong>Account</strong>: The CRM Account (partner/vendor) to which the expense relates.
-  <em>Allows visibility of all expenses associated with a specific account.</em></li>
-<li><strong>Date of Expense</strong>: The date the expense was issued.</li>
-<li><strong>Due Date</strong>: The date by which payment must be made.</li>
-<li><strong>Payment Date</strong>: The actual date the expense was paid.</li>
-<li><strong>Type</strong>: Categorizes the nature of the expense (see <a href="#expense-types">Expense Types</a>).</li>
-<li><strong>Description</strong>: Optional notes to clarify or explain the purpose of the expense.</li>
-<li><strong>File</strong>: Attachment field for uploading supporting documents such as PDF invoices.</li>
-<li><strong>Monthly Statement</strong>: A link to the associated monthly statement in our accounting records.</li>
-</ul>
-<hr>
-<h2 id="statuses">🔄 Statuses<a class="headerlink" href="#statuses" title="Permanent link">¶</a></h2>
-<p>Each expense goes through a well-defined lifecycle represented by the following statuses:</p>
-<ul>
-<li><code>Draft</code> – Created but not yet ready for approval or processing.</li>
-<li><code>Pending</code> – Waiting for review or approval.</li>
-<li><code>In Review</code> – Under validation or accounting control.</li>
-<li><code>Confirmed</code> – Approved and ready to be processed.</li>
-<li><code>Paid</code> – Expense has been paid.</li>
-<li><code>Booked</code> – Logged into our accounting system.</li>
-<li><code>Rejected</code> – Expense was not approved.</li>
-<li><code>Canceled</code> – Expense was voided or withdrawn.</li>
-</ul>
-<hr>
-<h2 id="practical-usage">💡 Practical Usage<a class="headerlink" href="#practical-usage" title="Permanent link">¶</a></h2>
-<h3 id="timely-payments">Timely Payments<a class="headerlink" href="#timely-payments" title="Permanent link">¶</a></h3>
-<p>Our expenses module ensures that all payments are made on time. With <strong>due dates</strong> clearly specified and reminders in place, we significantly reduce the risk of late payments, missed fees, or interest charges.</p>
-<p><strong>Example:</strong>
-If a hosting provider invoice is due in 7 days, the system alerts the assigned user 3 days in advance to initiate the payment.</p>
-<h3 id="payment-tracking">Payment Tracking<a class="headerlink" href="#payment-tracking" title="Permanent link">¶</a></h3>
-<p>We are able to track <strong>when an expense was paid</strong>, who processed it, and match it with the related vendor and account.</p>
-<p><strong>Example:</strong>
-Tracking a payment for annual domain renewal and associating it with the "Infrastructure" vendor account.</p>
-<h3 id="reminders-and-notifications">Reminders and Notifications<a class="headerlink" href="#reminders-and-notifications" title="Permanent link">¶</a></h3>
-<p>The CRM sends automated notifications to the responsible users based on the <strong>Due Date</strong> field, ensuring proactive expense management without manual follow-ups.</p>
-<h3 id="reporting-and-analysis">Reporting and Analysis<a class="headerlink" href="#reporting-and-analysis" title="Permanent link">¶</a></h3>
-<p>With structured data, we can generate <strong>monthly, quarterly, and annual reports</strong> to:</p>
-<ul>
-<li>Monitor expense trends</li>
-<li>Analyze spending per vendor</li>
-<li>Audit financial performance</li>
-<li>Improve budgeting accuracy</li>
-</ul>
-<hr>
-<h2 id="automation-of-recurring-expenses">🔁 Automation of Recurring Expenses<a class="headerlink" href="#automation-of-recurring-expenses" title="Permanent link">¶</a></h2>
-<p>We have implemented a smart automation feature to handle <strong>repeating expenses</strong>. Based on our recurring payments (such as subscriptions, hosting, etc.), the system automatically creates expenses each month without requiring manual input.</p>
-<p><strong>Benefits:</strong></p>
-<ul>
-<li>Saves administrative time</li>
-<li>Eliminates human error</li>
-<li>Ensures consistent tracking</li>
-</ul>
-<p><strong>Example:</strong>
-A monthly invoice from a cloud hosting provider is auto-generated every first of the month with the correct due date and category.</p>
-<hr>
-<h2 id="expense-types">🗂 Expense Types<a class="headerlink" href="#expense-types" title="Permanent link">¶</a></h2>
-<p>We categorize each expense based on its nature for better organization and reporting. Below are the available types:</p>
-<ul>
-<li><code>Invoice</code></li>
-<li><code>Receipt</code></li>
-<li><code>Order</code></li>
-<li><code>Correction</code></li>
-<li><code>Taxes</code></li>
-<li><code>Mandatory Insurance</code></li>
-<li><code>Other</code></li>
-</ul>
-<hr>
-<h2 id="benefits-weve-experienced">✅ Benefits We've Experienced<a class="headerlink" href="#benefits-weve-experienced" title="Permanent link">¶</a></h2>
-<p>Implementing the custom Expenses module has led to several improvements in our internal operations:</p>
-<ul>
-<li><strong>Streamlined accounting process</strong> with fewer manual steps.</li>
-<li><strong>Improved accuracy</strong> through validation and duplicate checks.</li>
-<li><strong>Increased accountability</strong> by assigning ownership of each expense.</li>
-<li><strong>Better financial forecasting</strong> through structured reporting.</li>
-<li><strong>Reduced operational delays</strong> thanks to automated reminders and recurring entries.</li>
-</ul>
-<hr>
-<h2 id="conclusion">📎 Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">¶</a></h2>
-<p>By building and leveraging a powerful Expenses module within EspoCRM, we have achieved a higher level of control, transparency, and automation in our accounting processes. This tool continues to save time, reduce errors, and provide essential insights into our company’s financial health.</p></div>
+<h3 id="migrate-tax-id-to-ksef"><code>migrate-tax-id-to-ksef</code><a class="headerlink" href="#migrate-tax-id-to-ksef" title="Permanent link">¶</a></h3>
+<p><em>Availability: Since version 1.2.0</em></p>
+<p>This command facilitates the bulk migration of existing Tax IDs from a legacy database field into the standardized Tax ID structure required by the KSeF integration.</p>
+<h4 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h4>
+<p>If your application previously stored Tax ID or VAT numbers in a custom or legacy field (for example, a field named <code>tid</code>), this command allows you to seamlessly map and transfer those records. During the migration process, you must specify the legacy field name and classify the type of Tax ID being transferred.</p>
+<h4 id="command-options">Command Options<a class="headerlink" href="#command-options" title="Permanent link">¶</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Option</th>
+<th style="text-align: center;">Required</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Accepted Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>--field</code></td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: left;">The exact name of the legacy field currently storing the Tax IDs.</td>
+<td style="text-align: left;">String (e.g., <code>tid</code>)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>--type</code></td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: left;">The specific classification of the Tax IDs being migrated.</td>
+<td style="text-align: left;"><code>NIP</code>, <code>VAT UE</code>, <code>Other</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="usage-examples">Usage Examples<a class="headerlink" href="#usage-examples" title="Permanent link">¶</a></h4>
+<div class="admonition example">
+<p class="admonition-title">Basic Migration</p>
+<p>If you were previously using a field named <code>tid</code> to store European VAT numbers, you will map <code>tid</code> as the <code>--field</code> and set the <code>--type</code> to <code>VAT UE</code>.</p>
+<div class="highlight"><pre><span></span><code>bin/command<span class="w"> </span>migrate-tax-id-to-ksef<span class="w"> </span>--field<span class="o">=</span><span class="s1">'tid'</span><span class="w"> </span>--type<span class="o">=</span><span class="s1">'VAT UE'</span>
+</code></pre></div>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Generic Syntax</p>
+<p>When running the command in your environment, replace the placeholder variables with your specific database parameters:</p>
+<div class="highlight"><pre><span></span><code>bin/command<span class="w"> </span>migrate-tax-id-to-ksef<span class="w"> </span>--field<span class="o">=</span><span class="s1">'&lt;OLD_TAX_ID_FIELD&gt;'</span><span class="w"> </span>--type<span class="o">=</span><span class="s1">'&lt;TYPE_OF_TAX_ID&gt;'</span>
+</code></pre></div>
+</div></div>
 
 
 
@@ -2594,12 +2560,12 @@ A monthly invoice from a cloud hosting provider is auto-generated every first of
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tracking", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
-        <script src="../../js/matomo.js"></script>
+        <script src="../../../js/matomo.js"></script>
       
     
   </body>
