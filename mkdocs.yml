@@ -38,6 +38,7 @@ theme:
   logo: images/logo.png
   favicon: images/logo.png
 
+# https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   icon:
     repo: fontawesome/brands/github
 
@@ -90,6 +91,9 @@ nav:
             - How to download documents: extensions/ksef/download-documents.md
             - How to manage Accounts: extensions/ksef/accounts.md
             - How to create test profile for KSeF: extensions/ksef/test-profile.md
+            - Formulas: extensions/ksef/formulas.md
+            - Console commands: extensions/ksef/console-commands.md
+            - Tax rates: extensions/ksef/tax-rates.md
         - PayPal Integration:
             - Overview: extensions/paypal/index.md
             - Transactions: extensions/paypal/transactions.md
