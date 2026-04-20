@@ -14,7 +14,7 @@ authors:
 The Dubas KSeF Integration is a custom extension that enables seamless communication between EspoCRM and the Polish National e-Invoicing System (KSeF). With this extension, you can automatically download contractor invoices from KSeF directly into EspoCRM, as well as issue your own invoices to KSeF using the Sales Pack functionality. This solution streamlines your financial document management and ensures secure, efficient handling within your CRM.
 
 !!! tip "Purchase"
-    Please contact us [via our form](https://dashboard.dubas.pro/static/form/contact) if you would like to order this extension.
+    Please contact us [via our form](https://dubas.pro/form/contact) if you would like to order this extension.
 
 ### Key Features
 
@@ -40,45 +40,19 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 ## :material-playlist-check: Requirements
 
 * EspoCRM version **9.2.0** or higher.
-* Sales Pack version **3.x** or higher.
+* Sales Pack version **4.x** or higher.
 
 ---
 
-## :material-book-plus-multiple: How to Configure a KSeF Profile
+## How to start?
 
-You can configure multiple KSeF Profiles, allowing you to manage several companies within a single EspoCRM instance.
+1. Purchase and install **[Sales Pack extension](https://dubas.pro/link/sp)**
+2. Install KSeF extension
+3. [Configure KSeF Profile](./profiles.md#how-to-configure-a-ksef-profile)
+4. [Configure automatic expenses fetching](#how-to-configure-the-ksef-cron-job)
+5. [Add optional fields to Invoices](./invoices.md#how-to-set-additional-params-for-invoice)
 
-1. Navigate to the **Administration** section.
-2. Search for **KSeF Settings** and click on it.
-3. Create a new KSeF Profile based on the specifications below.
-
-### :material-book-information-variant: Field Explanations
-
-#### Overview
-
-* **Name:** The display name for the profile (using the company name is recommended).
-* **Status:** Set to **Active** to enable the profile.
-* **Tax ID:** Enter your NIP (Tax Identification Number). *Note: This cannot be changed after saving.*
-* **Type:** Select the KSeF environment corresponding to your generated token (see environments below).
-* **Profile Type:** Select **Own** if this represents your primary company.
-* **Token:** Enter the authentication token generated in the KSeF portal.
-
-#### Company Details
-
-* **Company Name:** The full legal name of the company, which will be used on issued invoices.
-* **Address:** The complete company address to be printed on invoices.
-* **Email Address & Phone Number:** Additional contact details to include on issued invoices.
-
-#### Expenses
-
-* **Enable Expenses:** Toggle to allow invoices to be fetched into EspoCRM for this profile.
-* **Fetch Since:** Specifies the starting date for retrieving historical invoices.
-* **Create Accounts for Expenses:** Enable this to automatically create a new Account record if the integration cannot find an existing one matching the fetched Tax ID.
-
-!!! warning "How we recognize Accounts and manage Tax IDs"
-    [Please read this detailed article](./accounts.md) to understand how the integration matches and creates accounts.
-
----
+**[Now you can issue your first invoice!](./invoices.md#how-to-issue-invoice-via-ksef)**
 
 ## :material-cog-sync-outline: How to Configure the KSeF Cron Job
 
@@ -90,19 +64,6 @@ You can configure multiple KSeF Profiles, allowing you to manage several compani
 
 By default, this job will automatically download expenses from KSeF every **5 minutes** for all active profiles.
 
----
-
-## :material-lock-check: How to Generate a KSeF Token
-
-[You can also use a Certificate (Note: Tokens will stop working after 2026)](./certificates.md)
-
-1. Log in to the KSeF web application (links to environments are provided below).
-2. Navigate to the **Tokens** section.
-3. Generate a new token with permissions to **issue** and **read** invoices.
-4. Securely save the generated token and paste it into your KSeF Profile in EspoCRM.
-
-!!! example "Example of a KSeF Token"
-    `20270115-EC-7FA3B1D200-AB12345F6A-01|nip-987654321|a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0`
 
 ---
 
@@ -116,7 +77,8 @@ By default, this job will automatically download expenses from KSeF every **5 mi
 
 ## Related Articles
 
-* [How to issue an invoice via KSeF](./issue-invoice.md)
+* [Invoices management](./invoices.md)
+* [Expenses management](./expenses.md)
 * [How to download a package with financial documents](./download-documents.md)
 * [How to configure a profile for the KSeF test environment](./test-profile.md)
 * [How to manage accounts and tax IDs](./accounts.md)

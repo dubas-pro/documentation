@@ -21,3 +21,5 @@ This will enable the tax identifier functionality described above for your accou
 
 !!! example "How we migrate tax id's from different field?"
     We're working on some script which will copy from other field tax number to `taxId`.
+
+You can use [console command to migrate values from old tax id field](./console-commands.md).
