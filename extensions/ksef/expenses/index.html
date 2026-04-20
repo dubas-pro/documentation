@@ -12,13 +12,13 @@
         <meta name="author" content="dubas s.c.">
       
       
-        <link rel="canonical" href="https://docs.dubas.pro/extensions/ksef/issue-invoice/">
+        <link rel="canonical" href="https://docs.dubas.pro/extensions/ksef/expenses/">
       
       
-        <link rel="prev" href="../certificates/">
+        <link rel="prev" href="../invoices/">
       
       
-        <link rel="next" href="../download-documents/">
+        <link rel="next" href="../profiles/">
       
       
       <link rel="icon" href="../../../images/logo.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>How to issue an invoice - Documentation</title>
+        <title>Expenses - Documentation</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#issue-an-invoice-with-ksef" class="md-skip">
+        <a href="#expenses-management" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to issue an invoice
+              Expenses
             
           </span>
         </div>
@@ -760,11 +760,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../certificates/" class="md-nav__link">
+      <a href="../invoices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    How to use Certificates
+    Invoices
   </span>
   
 
@@ -794,7 +794,7 @@
           
   
   <span class="md-ellipsis">
-    How to issue an invoice
+    Expenses
   </span>
   
 
@@ -805,7 +805,7 @@
         
   
   <span class="md-ellipsis">
-    How to issue an invoice
+    Expenses
   </span>
   
 
@@ -845,6 +845,33 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#how-to-set-additional-params-for-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to set additional params for invoice?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-issue-invoices-in-different-currencies" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to issue invoices in different currencies?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-automatically-update-currency-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to automatically update currency rates?
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -854,6 +881,48 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../profiles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Profiles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../authorization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Authorization
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -2296,6 +2365,33 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#how-to-set-additional-params-for-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to set additional params for invoice?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-issue-invoices-in-different-currencies" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to issue invoices in different currencies?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-automatically-update-currency-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to automatically update currency rates?
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2319,16 +2415,20 @@
   
 
 
-<div><h1 id="issue-an-invoice-with-ksef">Issue an invoice with KSeF<a class="headerlink" href="#issue-an-invoice-with-ksef" title="Permanent link">¶</a></h1>
-<p><img alt="KSeF Integration" src="../../../images/ksef-issue-invoice.png" title="KSeF Integration"></p>
+<div><h1 id="expenses-management">Expenses Management<a class="headerlink" href="#expenses-management" title="Permanent link">¶</a></h1>
+<p>For KSeF integration purposes, there is a new entity created called <code>Expenses</code>. All incoming invoices will be fetched and added automaticaly to the Expenses entity. You can also use it manually to manage all incoming documents which are not handled by KSeF. </p>
 <h2 id="how-to-issue-invoice-via-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m-1.46 17.37v-2h-4v-1.99h4v-2l3 3-3 2.99M13 9V3.5L18.5 9H13Z"></path></svg></span> How to issue Invoice via KSeF?<a class="headerlink" href="#how-to-issue-invoice-via-ksef" title="Permanent link">¶</a></h2>
-<div class="admonition danger">
+<div class="admonition warning">
 <p class="admonition-title">Sales Pack required</p>
 <p>Please keep in mind that feature will not work if you don't have Sales Pack extension.</p>
 </div>
 <div class="admonition info">
 <p class="admonition-title">Enable invoices first</p>
 <p>This feature will only work if you enable invoices in KSeF profile (details above).</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Review issued invoice!</p>
+<p>Please keep in mind that software may contain bugs and mistakes. Check your specific usecase with <a href="../test-profile/">test profile</a> before you start using with production KSeF Profile.</p>
 </div>
 <ol>
 <li>Go to <strong>Invoices</strong>.</li>
@@ -2345,7 +2445,25 @@
 <li><code>ksefProfile</code> - profile which is used to issue an invoice and pass to KSeF.</li>
 <li><code>upoFile</code> - XML file which confirm delivery to KSeF.</li>
 <li><code>xmlFile</code> - XML file which contains invoice details.</li>
-</ul></div>
+</ul>
+<h3 id="how-to-set-additional-params-for-invoice"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M17 14h2v3h3v2h-3v3h-2v-3h-3v-2h3v-3M11.5 1 21 6v2H2V6l9.5-5m4.5 9h3v2.08L18 12c-.7 0-1.37.12-2 .34V10M2 22v-3h10.08c.19 1.14.71 2.17 1.45 3H2m8-12h3v4.68c-.46.69-.78 1.47-.92 2.32H10v-7m-6 0h3v7H4v-7Z"></path></svg></span> How to set additional params for invoice?<a class="headerlink" href="#how-to-set-additional-params-for-invoice" title="Permanent link">¶</a></h3>
+<p>Go to Layout manager and add proper fields into the detail view:</p>
+<ul>
+<li>Cash Method</li>
+<li>Reverse Charge</li>
+<li>Split Payment Mechanism</li>
+<li>Excemption Type - you can set also <code>Excemption Description</code></li>
+<li>Relevant Period - if you want to specify different date than issuance, choose <code>Relevant Date</code> or <code>Period</code>. In such scenario, add also additional fields: <code>Date of Delivery or Service Completion</code> or/and <code>Period Start Date</code> and <code>Period End Date</code></li>
+</ul>
+<h3 id="how-to-issue-invoices-in-different-currencies"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M7 15h2c0 1.08 1.37 2 3 2s3-.92 3-2c0-1.1-1.04-1.5-3.24-2.03C9.64 12.44 7 11.78 7 9c0-1.79 1.47-3.31 3.5-3.82V3h3v2.18C15.53 5.69 17 7.21 17 9h-2c0-1.08-1.37-2-3-2s-3 .92-3 2c0 1.1 1.04 1.5 3.24 2.03C14.36 11.56 17 12.22 17 15c0 1.79-1.47 3.31-3.5 3.82V21h-3v-2.18C8.47 18.31 7 16.79 7 15Z"></path></svg></span> How to issue invoices in different currencies?<a class="headerlink" href="#how-to-issue-invoices-in-different-currencies" title="Permanent link">¶</a></h3>
+<ol>
+<li>Enable additional <a href="https://dubas.pro/redirect/#Admin/currency">currencies in settings</a></li>
+<li>Enter proper <a href="https://dubas.pro/redirect/#CurrencyRecord/list/fromSettings=true">currency rates</a> for each currency - you can also do it automatically (check out below)</li>
+<li>While creating new invoice, before adding anything to item list, change currency from PLN to something else</li>
+</ol>
+<h3 id="how-to-automatically-update-currency-rates"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"></path></svg></span> How to automatically update currency rates?<a class="headerlink" href="#how-to-automatically-update-currency-rates" title="Permanent link">¶</a></h3>
+<p>You can download our free extension to keep updated currency rates:
+https://github.com/dubas-pro/ext-nbp-exchange-rates/releases</p></div>
 
 
 
