@@ -126,6 +126,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.dubas.pro/extensions/ksef/config-params/</loc>
+         <lastmod>2026-04-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.dubas.pro/extensions/ksef/console-commands/</loc>
          <lastmod>2026-04-21</lastmod>
          <changefreq>daily</changefreq>
