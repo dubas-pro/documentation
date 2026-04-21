@@ -1021,6 +1021,57 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#fetch-expenses-from-ksef" class="md-nav__link">
+    <span class="md-ellipsis">
+      fetch-expenses-from-ksef
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="fetch-expenses-from-ksef">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-options_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2398,6 +2449,57 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#fetch-expenses-from-ksef" class="md-nav__link">
+    <span class="md-ellipsis">
+      fetch-expenses-from-ksef
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="fetch-expenses-from-ksef">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-options_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2468,7 +2570,71 @@
 <p>When running the command in your environment, replace the placeholder variables with your specific database parameters:</p>
 <div class="highlight"><pre><span></span><code>bin/command<span class="w"> </span>migrate-tax-id-to-ksef<span class="w"> </span>--field<span class="o">=</span><span class="s1">'&lt;OLD_TAX_ID_FIELD&gt;'</span><span class="w"> </span>--type<span class="o">=</span><span class="s1">'&lt;TYPE_OF_TAX_ID&gt;'</span>
 </code></pre></div>
-</div></div>
+<hr>
+</div>
+<h3 id="fetch-expenses-from-ksef"><code>fetch-expenses-from-ksef</code><a class="headerlink" href="#fetch-expenses-from-ksef" title="Permanent link">¶</a></h3>
+<p><em>Availability: Since version 1.5.0</em></p>
+<p>This command schedules background jobs to fetch expense invoices from KSeF for a selected date range. You can run it for one specific KSeF profile or for all active profiles.</p>
+<h4 id="overview_1">Overview<a class="headerlink" href="#overview_1" title="Permanent link">¶</a></h4>
+<p>The command validates input dates and then creates queue jobs (<code>q1</code>) using <code>FetchExpensesAfterProfileCreation</code>.
+If <code>--ksefProfileId</code> is provided, only that profile is used. If not provided, jobs are scheduled for all active KSeF profiles.</p>
+<h4 id="command-options_1">Command Options<a class="headerlink" href="#command-options_1" title="Permanent link">¶</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Option</th>
+<th style="text-align: center;">Required</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Accepted Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>--from</code></td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: left;">Start date for fetching expenses. Must be a real date.</td>
+<td style="text-align: left;"><code>YYYY-MM-DD</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>--to</code></td>
+<td style="text-align: center;">No</td>
+<td style="text-align: left;">End date for fetching expenses. If omitted, current date is used. Must be a real date when provided.</td>
+<td style="text-align: left;"><code>YYYY-MM-DD</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>--ksefProfileId</code></td>
+<td style="text-align: center;">No</td>
+<td style="text-align: left;">KSeF Profile ID. If omitted, all active profiles are processed.</td>
+<td style="text-align: left;">Valid profile ID</td>
+</tr>
+</tbody>
+</table>
+<h4 id="usage-examples_1">Usage Examples<a class="headerlink" href="#usage-examples_1" title="Permanent link">¶</a></h4>
+<div class="admonition example">
+<p class="admonition-title">Single Profile</p>
+<p>Schedule fetching expenses for one profile in a fixed range.</p>
+<div class="highlight"><pre><span></span><code>php<span class="w"> </span>bin/command<span class="w"> </span>fetch-expenses-from-ksef<span class="w"> </span>--from<span class="o">=</span><span class="s2">"2024-01-01"</span><span class="w"> </span>--to<span class="o">=</span><span class="s2">"2026-04-31"</span><span class="w"> </span>--ksefProfileId<span class="o">=</span><span class="s2">"profile-id"</span>
+</code></pre></div>
+</div>
+<div class="admonition example">
+<p class="admonition-title">All Active Profiles</p>
+<p>Schedule fetching expenses for all active profiles from a start date until today.</p>
+<div class="highlight"><pre><span></span><code>php<span class="w"> </span>bin/command<span class="w"> </span>fetch-expenses-from-ksef<span class="w"> </span>--from<span class="o">=</span><span class="s2">"2024-01-01"</span>
+</code></pre></div>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Generic Syntax</p>
+<p>Replace values with your own parameters.</p>
+<div class="highlight"><pre><span></span><code>php<span class="w"> </span>bin/command<span class="w"> </span>fetch-expenses-from-ksef<span class="w"> </span>--from<span class="o">=</span><span class="s1">'&lt;FROM_DATE&gt;'</span><span class="w"> </span>--to<span class="o">=</span><span class="s1">'&lt;TO_DATE&gt;'</span><span class="w"> </span>--ksefProfileId<span class="o">=</span><span class="s1">'&lt;PROFILE_ID&gt;'</span>
+</code></pre></div>
+</div>
+<h4 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">¶</a></h4>
+<ul>
+<li><code>--from</code> is mandatory.</li>
+<li>Dates must match <code>YYYY-MM-DD</code> and be valid calendar dates.</li>
+<li>If no active profiles are found (and no profile ID is passed), no jobs are created.</li>
+<li>A success summary is printed with the number of profiles scheduled.</li>
+</ul></div>
 
 
 
