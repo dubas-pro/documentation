@@ -23,3 +23,9 @@ This will enable the tax identifier functionality described above for your accou
     We're working on some script which will copy from other field tax number to `taxId`.
 
 You can use [console command to migrate values from old tax id field](./console-commands.md).
+
+## Additional fields
+
+If you want to use any of below fields, please add them to detail view via [Layout Manager](https://dubas.pro/redirect/#Admin/layouts/scope=Account&type=detail).
+
+- `Entity is a member of VAT group` - Indicates whether the entity belongs to a VAT group. Set this value to `true` when the entity is registered as part of a VAT group for tax reporting purposes. Default `false`.

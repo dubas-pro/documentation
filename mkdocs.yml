@@ -90,12 +90,13 @@ nav:
             - Expenses: extensions/ksef/expenses.md
             - Profiles: extensions/ksef/profiles.md
             - Authorization: extensions/ksef/authorization.md
+            - Formulas: extensions/ksef/formulas.md
+            - Console commands: extensions/ksef/console-commands.md
+            - Config params: extensions/ksef/config-params.md
+            - Tax rates: extensions/ksef/tax-rates.md
             - How to download documents: extensions/ksef/download-documents.md
             - How to manage Accounts: extensions/ksef/accounts.md
             - How to create test profile for KSeF: extensions/ksef/test-profile.md
-            - Formulas: extensions/ksef/formulas.md
-            - Console commands: extensions/ksef/console-commands.md
-            - Tax rates: extensions/ksef/tax-rates.md
         - PayPal Integration:
             - Overview: extensions/paypal/index.md
             - Transactions: extensions/paypal/transactions.md
