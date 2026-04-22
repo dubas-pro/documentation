@@ -37,13 +37,15 @@ theme:
   highlightjs: true
   logo: images/logo.png
   favicon: images/logo.png
+#   language: en
 
 # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   icon:
     repo: fontawesome/brands/github
 
   font:
-    text: OpenSans
+    text: Roboto
+    # text: Open Sans Light
 
   palette:
     # Light mode
@@ -66,6 +68,9 @@ theme:
   features:
     - navigation.tracking
     - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
 
 nav:
   - Home: index.md
@@ -155,6 +160,7 @@ nav:
 plugins:
   - material/search
   - mkdocs-video
+  - git-revision-date-localized
 
 extra_javascript:
   - js/matomo.js
@@ -167,6 +173,14 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@devcrm
       name: Video Tutorials on YouTube
+  generator: false
+#   alternate:
+#     - name: English
+#       link: /
+#       lang: en
+#     - name: Polish
+#       link: /pl/
+#       lang: pl
 
   consent:
     title: Cookie consent
