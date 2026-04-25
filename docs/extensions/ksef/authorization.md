@@ -6,6 +6,25 @@ This guide explains how to configure authorization for the KSeF integration. You
 
 ---
 
+## :material-file-document-edit: Initial Access to KSeF (for non-JDG users)
+
+If you have never logged in to KSeF and you do **not** operate as a sole proprietor (JDG), first submit the **ZAW-FA(3)** form in **e-Urząd Skarbowy (e-US)**.
+
+### Where to find the form
+
+In e-US, go to:
+
+`Dokumenty > Złóż dokument > Zawiadomienie o nadaniu lub odebraniu uprawnień do korzystania z Krajowego Systemu e-Faktur (ZAW-FA)`
+
+### Who can submit ZAW-FA(3)
+
+* A natural person (to report unique data linked to a qualified electronic signature certificate).
+* A general proxy for another natural person (same scope as above).
+* A general proxy for a non-natural-person entity (grant/revoke permissions, including all permissions, and report unique data linked to the taxpayer’s qualified electronic seal certificate).
+* An Organization Account User (UKO) for an organization (grant/revoke permissions, including all permissions, and report unique data linked to the taxpayer’s qualified electronic seal certificate).
+
+---
+
 ## :material-lock-check: How to Generate a KSeF Token
 
 1. Log in to the KSeF web application (environment links are provided below).
