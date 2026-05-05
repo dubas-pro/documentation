@@ -1016,6 +1016,57 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#regenerate-ksef-urls" class="md-nav__link">
+    <span class="md-ellipsis">
+      regenerate-ksef-urls
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="regenerate-ksef-urls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-options_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage-examples_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2528,6 +2579,57 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#regenerate-ksef-urls" class="md-nav__link">
+    <span class="md-ellipsis">
+      regenerate-ksef-urls
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="regenerate-ksef-urls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#command-options_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usage-examples_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage Examples
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2662,6 +2764,63 @@ If <code>--ksefProfileId</code> is provided, only that profile is used. If not p
 <li>Dates must match <code>YYYY-MM-DD</code> and be valid calendar dates.</li>
 <li>If no active profiles are found (and no profile ID is passed), no jobs are created.</li>
 <li>A success summary is printed with the number of profiles scheduled.</li>
+</ul>
+<hr>
+<h3 id="regenerate-ksef-urls"><code>regenerate-ksef-urls</code><a class="headerlink" href="#regenerate-ksef-urls" title="Permanent link">¶</a></h3>
+<p><em>Availability: Since version 1.5.0</em></p>
+<p>This command regenerates KSeF public URLs by fixing double-encoded links for a specific entity or for a batch of entities of the selected type.</p>
+<h4 id="overview_2">Overview<a class="headerlink" href="#overview_2" title="Permanent link">¶</a></h4>
+<p>The command supports <code>Invoice</code> and <code>Expense</code> entities. If <code>--entityId</code> is provided, only that record is processed. If it is omitted, the command scans up to 1000 records of the selected entity type and updates any record whose KSeF URL can be corrected.</p>
+<h4 id="command-options_2">Command Options<a class="headerlink" href="#command-options_2" title="Permanent link">¶</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Option</th>
+<th style="text-align: center;">Required</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Accepted Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>--entityType</code></td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: left;">Entity type to process.</td>
+<td style="text-align: left;"><code>Invoice</code>, <code>Expense</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>--entityId</code></td>
+<td style="text-align: center;">No</td>
+<td style="text-align: left;">Specific entity ID to process. If omitted, all matching records are scanned.</td>
+<td style="text-align: left;">Valid entity ID</td>
+</tr>
+</tbody>
+</table>
+<h4 id="usage-examples_2">Usage Examples<a class="headerlink" href="#usage-examples_2" title="Permanent link">¶</a></h4>
+<div class="admonition example">
+<p class="admonition-title">Single Entity</p>
+<p>Regenerate the KSeF URL for one invoice.</p>
+<div class="highlight"><pre><span></span><code>php<span class="w"> </span>bin/command<span class="w"> </span>regenerate-ksef-urls<span class="w"> </span>--entityType<span class="o">=</span><span class="s1">'Invoice'</span><span class="w"> </span>--entityId<span class="o">=</span><span class="s1">'record-id'</span>
+</code></pre></div>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Batch Regeneration</p>
+<p>Regenerate KSeF URLs for up to 1000 expense records.</p>
+<div class="highlight"><pre><span></span><code>php<span class="w"> </span>bin/command<span class="w"> </span>regenerate-ksef-urls<span class="w"> </span>--entityType<span class="o">=</span><span class="s1">'Expense'</span>
+</code></pre></div>
+</div>
+<div class="admonition abstract">
+<p class="admonition-title">Generic Syntax</p>
+<p>Replace the placeholders with your own values.</p>
+<div class="highlight"><pre><span></span><code>php<span class="w"> </span>bin/command<span class="w"> </span>regenerate-ksef-urls<span class="w"> </span>--entityType<span class="o">=</span><span class="s1">'&lt;ENTITY_TYPE&gt;'</span><span class="w"> </span>--entityId<span class="o">=</span><span class="s1">'&lt;ENTITY_ID&gt;'</span>
+</code></pre></div>
+</div>
+<h4 id="notes_1">Notes<a class="headerlink" href="#notes_1" title="Permanent link">¶</a></h4>
+<ul>
+<li><code>--entityType</code> is mandatory and must be either <code>Invoice</code> or <code>Expense</code>.</li>
+<li>If <code>--entityId</code> is not provided, the command processes up to 1000 records for the selected entity type.</li>
+<li>Records without a KSeF hash or public URL are skipped.</li>
+<li>Updated entities are saved silently without hooks.</li>
 </ul></div>
 
 
@@ -2683,7 +2842,7 @@ If <code>--ksefProfileId</code> is provided, only that profile is used. If not p
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 21, 2026 16:01:07 UTC">April 21, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 5, 2026 13:03:54 UTC">May 5, 2026</span>
   </span>
 
     
