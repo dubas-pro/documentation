@@ -87,3 +87,53 @@ If `--ksefProfileId` is provided, only that profile is used. If not provided, jo
 - Dates must match `YYYY-MM-DD` and be valid calendar dates.
 - If no active profiles are found (and no profile ID is passed), no jobs are created.
 - A success summary is printed with the number of profiles scheduled.
+
+---
+
+### `regenerate-ksef-urls`
+
+*Availability: Since version 1.5.0*
+
+This command regenerates KSeF public URLs by fixing double-encoded links for a specific entity or for a batch of entities of the selected type.
+
+#### Overview
+
+The command supports `Invoice` and `Expense` entities. If `--entityId` is provided, only that record is processed. If it is omitted, the command scans up to 1000 records of the selected entity type and updates any record whose KSeF URL can be corrected.
+
+#### Command Options
+
+| Option | Required | Description | Accepted Values |
+| :--- | :---: | :--- | :--- |
+| `--entityType` | Yes | Entity type to process. | `Invoice`, `Expense` |
+| `--entityId` | No | Specific entity ID to process. If omitted, all matching records are scanned. | Valid entity ID |
+
+#### Usage Examples
+
+!!! example "Single Entity"
+    Regenerate the KSeF URL for one invoice.
+
+    ```bash
+    php bin/command regenerate-ksef-urls --entityType='Invoice' --entityId='record-id'
+    ```
+
+!!! example "Batch Regeneration"
+    Regenerate KSeF URLs for up to 1000 expense records.
+
+    ```bash
+    php bin/command regenerate-ksef-urls --entityType='Expense'
+    ```
+
+!!! abstract "Generic Syntax"
+    Replace the placeholders with your own values.
+
+    ```bash
+    php bin/command regenerate-ksef-urls --entityType='<ENTITY_TYPE>' --entityId='<ENTITY_ID>'
+    ```
+
+#### Notes
+
+- `--entityType` is mandatory and must be either `Invoice` or `Expense`.
+- If `--entityId` is not provided, the command processes up to 1000 records for the selected entity type.
+- Records without a KSeF hash or public URL are skipped.
+- Updated entities are saved silently without hooks.
+
