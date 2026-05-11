@@ -47,6 +47,7 @@ If any of these checks fail, the button is hidden.
 
 Go to Layout manager and add proper fields into the detail view:
 
+- Additional Accounts - you can add third party accounts to invoice and set their role
 - Cash Method
 - Reverse Charge
 - Split Payment Mechanism
