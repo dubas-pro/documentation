@@ -2,6 +2,9 @@
 
 This section covers the bank account entity introduced for managing financial operations in the CRM. The entity is fully integrated into EspoCRM and supports bank account data used in KSeF workflows.
 
+!!! example "Redirect"
+    [Open Bank Account in your EspoCRM](https://dubas.pro/redirect/#KsefBankAccount)
+
 ## Bank account entity
 
 Each bank account can store the following details:
