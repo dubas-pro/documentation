@@ -31,6 +31,8 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 ### :material-map-marker-distance: Roadmap
 
 * :material-checkbox-marked-outline: Authorization via certificates (required before 2027).
+* :material-checkbox-marked-outline: Support for Bank Accounts.
+* :material-checkbox-marked-outline: Support for multiple KSeF schemes.
 * :material-checkbox-blank-outline: Support for offline modes (requires certificate authorization).
 * :material-checkbox-blank-outline: Support for Credit Notes (contingent upon Sales Pack entity compatibility with KSeF).
 * :material-checkbox-blank-outline: Batch processing support for invoice issuance.
