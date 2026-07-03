@@ -56,5 +56,6 @@ The integration supports multiple KSeF Profiles, enabling the management of seve
 
 * **Enable Invoices:** Toggle this on to allow sending and issuing invoices via EspoCRM using this profile.
 * **Default Payment Method:** Set the default method (e.g., Bank Transfer) for invoices issued under this profile.
-* **Default Payment Channel:** Set the default bank account or channel. If configured, this will be mapped directly to the official KSeF XML schema.
+* **Default Payment Channel:** Set the default bank account or channel. If configured, this will be mapped directly to the official KSeF XML schema. `Available till version 2.0.0`
+* **Default Bank Accounts:** Set default accounts which will be copied to Invoice is rule is properly set. `Available from version 2.0.0`
 * **Additional Information:** Choose which metadata (Client email, phone, reference numbers, etc.) should be appended to the KSeF invoice.
