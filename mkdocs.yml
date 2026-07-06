@@ -98,6 +98,7 @@ nav:
             - Authorization: extensions/ksef/authorization.md
             - Formulas: extensions/ksef/formulas.md
             - Console commands: extensions/ksef/console-commands.md
+            - Scheduled jobs: extensions/ksef/scheduled-jobs.md
             - Config params: extensions/ksef/config-params.md
             - Tax rates: extensions/ksef/tax-rates.md
             - How to download documents: extensions/ksef/download-documents.md

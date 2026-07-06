@@ -1,51 +1,41 @@
 # Expenses Management
 
-For KSeF integration purposes, there is a new entity created called `Expenses`. All incoming invoices will be fetched and added automaticaly to the Expenses entity. You can also use it manually to manage all incoming documents which are not handled by KSeF. 
+For KSeF integration, a new entity called `Expenses` has been created. All incoming invoices are fetched and automatically added to the Expenses entity. You can also use it manually to manage incoming documents that are not handled by KSeF.
 
-## :material-file-send: How to issue Invoice via KSeF?
+## :material-file-send: How Expenses are created?
 
-!!! warning "Sales Pack required"
-    Please keep in mind that feature will not work if you don't have Sales Pack extension.
+### From KSeF
 
-!!! info "Enable invoices first"
-    This feature will only work if you enable invoices in KSeF profile (details above).
+If your cron jobs are configured correctly, expenses should be fetched automatically.
 
-!!! danger "Review issued invoice!"
-    Please keep in mind that software may contain bugs and mistakes. Check your specific usecase with [test profile](./test-profile.md) before you start using with production KSeF Profile.
+You can also configure [daily re-fetching](#how-to-make-sure-that-you-have-all-expenses).
 
-1. Go to **Invoices**.
-2. Create new Invoice.
-3. Please make sure that before you change to **Issued** or **Confirmed**, you choose KSef Profile.
-4. After everything is fine, invoice will be scheduled for sending to KSeF.
+### Manually
 
-Unfortunatelly we can't pass invoice to KSeF in few seconds, that's why it's working in background. After invoice will be issued, field KSeF Status will be set to **Completed**.
+You can also enter expenses manually in EspoCRM.
 
-### :material-book-information-variant: KSeF fields in invoices
+1. Go to Expenses.
+2. Click on Create.
+3. Fill the form.
+4. Save.
+
+### :material-book-information-variant: KSeF fields in expenses
 
 - `ksefNumber` - KSeF number assigned to an invoice. Required on issued invoices.
 - `ksefStatus` - status of invoice delivery to KSeF.
-- `ksefPublicUrl` - public url to status page of invoice in KSeF.
-- `ksefProfile` - profile which is used to issue an invoice and pass to KSeF.
-- `upoFile` - XML file which confirm delivery to KSeF.
-- `xmlFile` - XML file which contains invoice details.
+- `ksefPublicUrl` - public URL of the invoice status page in KSeF.
+- `ksefProfile` - profile used to issue an invoice and send it to KSeF.
+- `xmlFile` - XML file containing invoice details.
 
-### :material-bank-plus: How to set additional params for invoice?
+### :material-file-search: How to fetch expenses manually from KSeF?
 
-Go to Layout manager and add proper fields into the detail view:
+1. Go to **Expenses** entity.
+2. In the list view, click the `Fetch expenses from KSeF` button.
+3. Choose period from which you want to fetch expenses.
 
-- Cash Method
-- Reverse Charge
-- Split Payment Mechanism
-- Excemption Type - you can set also `Excemption Description`
-- Relevant Period - if you want to specify different date than issuance, choose `Relevant Date` or `Period`. In such scenario, add also additional fields: `Date of Delivery or Service Completion` or/and `Period Start Date` and `Period End Date`
+!!!warning "Be careful!"
+    Do not use this too often, as you may hit KSeF limits and get temporarily blocked.
 
-### :material-currency-usd: How to issue invoices in different currencies?
+### :material-calendar-today: How to make sure that you have all expenses?
 
-1. Enable additional [currencies in settings](https://dubas.pro/redirect/#Admin/currency)
-2. Enter proper [currency rates](https://dubas.pro/redirect/#CurrencyRecord/list/fromSettings=true) for each currency - you can also do it automatically (check out below)
-3. While creating new invoice, before adding anything to item list, change currency from PLN to something else
-
-### :material-github: How to automatically update currency rates?
-
-You can download our free extension to keep updated currency rates:
-https://github.com/dubas-pro/ext-nbp-exchange-rates/releases
+Sometimes there may be an issue with EspoCRM or your internet connection. Because of this, fetching expenses from KSeF may fail, and the standard cron job only fetches invoices from the last 10 minutes. For this purpose, we created another job called **Daily Fetch Of Expenses From KSeF**. You can configure it in [Scheduled Jobs](https://dubas.pro/redirect/#ScheduledJob/create).

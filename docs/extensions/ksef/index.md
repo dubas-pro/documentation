@@ -41,8 +41,9 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 
 ## :material-playlist-check: Requirements
 
-* EspoCRM version **9.2.0** or higher.
+* EspoCRM version **9.3.0** or higher.
 * Sales Pack version **4.x** or higher.
+* PHP (for web and cli) in version **8.4** or higher.
 
 ---
 
@@ -66,6 +67,8 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 
 By default, this job will automatically download expenses from KSeF every **5 minutes** for all active profiles.
 
+!!! note "Daily checking"
+    We recommend to configure another Scheduled Job which is called **Daily Fetch Of Expenses From KSeF**. Proper schedule is `0 0 * * *`, so at 00:00.
 
 ---
 
