@@ -1,403 +1,1947 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-         <loc>https://docs.dubas.pro/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://docs.dubas.pro/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/contact/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/contact/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/contact/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/contact/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/contact/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/license/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/license/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/license/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/license/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/license/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/versioning/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/versioning/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/versioning/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/versioning/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/versioning/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/address/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/address/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/address/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/address/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/address/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/calcom/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/calcom/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/calcom/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/calcom/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/calcom/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/custom-formulas/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/custom-formulas/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/custom-formulas/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/custom-formulas/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/custom-formulas/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/google-fonts/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/google-fonts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/google-fonts/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/google-fonts/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/google-fonts/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/how-to-buy/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/how-to-buy/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/how-to-buy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/how-to-buy/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/how-to-buy/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/how-to-install/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/how-to-install/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/how-to-install/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/how-to-install/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/how-to-install/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/send/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/send/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/short-url/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/short-url/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/short-url/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/short-url/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/short-url/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/template-helper/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/template-helper/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/template-helper/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/uuid/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/uuid/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/uuid/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/uuid/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/uuid/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/dav/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/dav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/dav/caldav/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/dav/caldav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/caldav/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/caldav/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/caldav/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/dav/carddav/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/dav/carddav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/carddav/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/carddav/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/carddav/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/dav/setup/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/dav/setup/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/setup/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/setup/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/setup/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/dav/webdav/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/dav/webdav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/webdav/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/webdav/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/webdav/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/dav/web-server/apache/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/dav/web-server/apache/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/web-server/apache/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/web-server/apache/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/web-server/apache/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/dav/web-server/nginx/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/dav/web-server/nginx/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/web-server/nginx/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/web-server/nginx/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/web-server/nginx/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/gus/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/gus/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/gus/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/gus/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/gus/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/accounts/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/accounts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/accounts/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/accounts/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/accounts/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/authorization/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/authorization/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/authorization/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/authorization/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/authorization/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/bank-accounts/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/bank-accounts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/bank-accounts/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/bank-accounts/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/bank-accounts/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/config-params/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/config-params/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/config-params/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/config-params/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/config-params/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/console-commands/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/console-commands/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/console-commands/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/console-commands/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/console-commands/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/download-documents/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/download-documents/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/download-documents/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/download-documents/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/download-documents/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/expenses/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/expenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/expenses/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/formulas/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/formulas/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/formulas/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/formulas/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/formulas/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/invoices/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/invoices/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/profiles/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/profiles/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/profiles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/profiles/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/profiles/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/tax-rates/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/scheduled-jobs/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/scheduled-jobs/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/scheduled-jobs/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/scheduled-jobs/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/ksef/test-profile/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/tax-rates/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/tax-rates/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/tax-rates/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/tax-rates/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/paypal/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/ksef/test-profile/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/test-profile/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/test-profile/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/test-profile/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/paypal/invoices/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/paypal/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/paypal/payments/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/paypal/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/invoices/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/paypal/plans/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/paypal/payments/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/payments/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/payments/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/payments/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/paypal/products/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/paypal/plans/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/plans/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/plans/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/plans/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/paypal/subscriptions/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/paypal/products/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/products/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/products/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/products/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/paypal/transactions/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/paypal/subscriptions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/subscriptions/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/paypal/webhooks/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/paypal/transactions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/transactions/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/quickbooks/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/paypal/webhooks/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/webhooks/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/webhooks/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/webhooks/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/quickbooks/projects/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/quickbooks/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/shipping-manager/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/quickbooks/projects/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/projects/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/projects/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/projects/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/shipping-manager/locations/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/shipping-manager/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/shipping-manager/package-statuses/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/shipping-manager/locations/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/locations/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/locations/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/locations/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/shipping-manager/packages/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/shipping-manager/package-statuses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/package-statuses/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/package-statuses/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/package-statuses/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/shipping-manager/parcels/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/shipping-manager/packages/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/packages/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/packages/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/packages/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/stripe/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/shipping-manager/parcels/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/parcels/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/parcels/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/parcels/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/stripe/invoices/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/stripe/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/stripe/transactions/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/stripe/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/invoices/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/tawk/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/stripe/transactions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/transactions/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/themes/dark/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/tawk/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/tawk/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/tawk/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/tawk/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/themes/light/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/themes/dark/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/themes/dark/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/themes/dark/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/themes/dark/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/time-tracker/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/themes/light/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/themes/light/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/themes/light/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/themes/light/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/time-tracker/time-entries/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/time-tracker/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/time-tracker/time-sessions/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/time-tracker/time-entries/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-entries/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-entries/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-entries/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/time-tracker/time-trackers/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/time-tracker/time-sessions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-sessions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-sessions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-sessions/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/vies/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/time-tracker/time-trackers/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-trackers/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-trackers/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-trackers/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/extensions/woocommerce/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/vies/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/vies/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/vies/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/vies/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/videos/how-to-create-email-template/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/woocommerce/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/woocommerce/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/woocommerce/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/woocommerce/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/videos/how-to-upgrade-espocrm/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/videos/how-to-create-email-template/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/videos/how-to-create-email-template/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/videos/how-to-create-email-template/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/videos/how-to-create-email-template/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/videos/how-to-upgrade-espocrm/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/videos/how-to-upgrade-espocrm/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/videos/how-to-upgrade-espocrm/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/videos/how-to-upgrade-espocrm/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/accounts-maganement/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/availibility-management/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/accounts-maganement/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/accounts-maganement/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/accounts-maganement/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/accounts-maganement/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/charges/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/availibility-management/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/availibility-management/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/availibility-management/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/availibility-management/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/contracts/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/charges/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/charges/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/charges/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/charges/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/correspondence/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/contracts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/contracts/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/contracts/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/contracts/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/expenses/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/correspondence/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/correspondence/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/correspondence/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/correspondence/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/financial-statements/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/expenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/expenses/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/infrastructure/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/financial-statements/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/financial-statements/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/financial-statements/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/financial-statements/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/internal-evidences/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/infrastructure/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/infrastructure/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/leads/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/internal-evidences/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/internal-evidences/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/internal-evidences/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/internal-evidences/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/licenses/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/leads/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/leads/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/leads/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/leads/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/meetings/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/licenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/licenses/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/licenses/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/licenses/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/portal/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/meetings/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/meetings/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/meetings/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/meetings/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/subscriptions/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/portal/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/portal/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/portal/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/portal/"/>
     </url>
-    <url>
-         <loc>https://docs.dubas.pro/wiki/tickets/</loc>
-         <lastmod>2026-07-03</lastmod>
-         <changefreq>daily</changefreq>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/subscriptions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/subscriptions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/wiki/tickets/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/tickets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/tickets/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/tickets/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/contact/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/contact/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/contact/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/contact/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/license/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/license/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/license/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/license/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/versioning/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/versioning/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/versioning/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/versioning/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/address/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/address/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/address/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/address/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/calcom/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/calcom/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/calcom/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/calcom/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/custom-formulas/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/custom-formulas/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/custom-formulas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/custom-formulas/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/google-fonts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/google-fonts/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/google-fonts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/google-fonts/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/how-to-buy/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/how-to-buy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/how-to-buy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/how-to-buy/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/how-to-install/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/how-to-install/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/how-to-install/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/how-to-install/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/send/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/short-url/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/short-url/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/short-url/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/short-url/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/template-helper/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/template-helper/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/uuid/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/uuid/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/uuid/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/uuid/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/dav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/dav/caldav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/caldav/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/caldav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/caldav/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/dav/carddav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/carddav/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/carddav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/carddav/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/dav/setup/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/setup/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/setup/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/dav/webdav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/webdav/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/webdav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/webdav/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/dav/web-server/apache/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/web-server/apache/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/web-server/apache/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/web-server/apache/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/dav/web-server/nginx/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/web-server/nginx/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/web-server/nginx/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/web-server/nginx/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/gus/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/gus/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/gus/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/gus/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/accounts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/accounts/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/accounts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/accounts/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/authorization/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/authorization/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/authorization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/authorization/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/bank-accounts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/bank-accounts/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/bank-accounts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/bank-accounts/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/config-params/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/config-params/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/config-params/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/config-params/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/console-commands/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/console-commands/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/console-commands/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/console-commands/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/download-documents/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/download-documents/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/download-documents/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/download-documents/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/expenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/expenses/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/formulas/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/formulas/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/formulas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/formulas/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/invoices/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/profiles/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/profiles/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/profiles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/profiles/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/scheduled-jobs/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/scheduled-jobs/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/scheduled-jobs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/scheduled-jobs/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/tax-rates/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/tax-rates/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/tax-rates/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/tax-rates/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/ksef/test-profile/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/test-profile/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/test-profile/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/test-profile/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/paypal/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/paypal/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/invoices/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/paypal/payments/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/payments/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/payments/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/payments/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/paypal/plans/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/plans/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/plans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/plans/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/paypal/products/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/products/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/products/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/products/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/paypal/subscriptions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/subscriptions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/paypal/transactions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/transactions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/paypal/webhooks/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/webhooks/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/webhooks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/webhooks/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/quickbooks/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/quickbooks/projects/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/projects/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/projects/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/projects/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/shipping-manager/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/shipping-manager/locations/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/locations/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/locations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/locations/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/shipping-manager/package-statuses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/package-statuses/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/package-statuses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/package-statuses/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/shipping-manager/packages/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/packages/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/packages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/packages/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/shipping-manager/parcels/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/parcels/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/parcels/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/parcels/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/stripe/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/stripe/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/invoices/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/stripe/transactions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/transactions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/tawk/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/tawk/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/tawk/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/tawk/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/themes/dark/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/themes/dark/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/themes/dark/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/themes/dark/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/themes/light/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/themes/light/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/themes/light/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/themes/light/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/time-tracker/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/time-tracker/time-entries/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-entries/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-entries/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-entries/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/time-tracker/time-sessions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-sessions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-sessions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-sessions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/time-tracker/time-trackers/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-trackers/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-trackers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-trackers/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/vies/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/vies/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/vies/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/vies/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/woocommerce/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/woocommerce/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/woocommerce/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/woocommerce/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/videos/how-to-create-email-template/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/videos/how-to-create-email-template/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/videos/how-to-create-email-template/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/videos/how-to-create-email-template/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/videos/how-to-upgrade-espocrm/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/videos/how-to-upgrade-espocrm/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/videos/how-to-upgrade-espocrm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/videos/how-to-upgrade-espocrm/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/accounts-maganement/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/accounts-maganement/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/accounts-maganement/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/accounts-maganement/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/availibility-management/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/availibility-management/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/availibility-management/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/availibility-management/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/charges/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/charges/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/charges/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/charges/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/contracts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/contracts/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/contracts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/contracts/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/correspondence/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/correspondence/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/correspondence/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/correspondence/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/expenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/expenses/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/financial-statements/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/financial-statements/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/financial-statements/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/financial-statements/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/infrastructure/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/infrastructure/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/internal-evidences/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/internal-evidences/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/internal-evidences/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/internal-evidences/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/leads/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/leads/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/leads/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/leads/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/licenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/licenses/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/licenses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/licenses/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/meetings/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/meetings/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/meetings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/meetings/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/portal/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/portal/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/portal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/portal/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/subscriptions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/subscriptions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/wiki/tickets/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/tickets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/tickets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/tickets/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/contact/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/contact/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/contact/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/contact/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/license/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/license/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/license/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/license/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/versioning/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/versioning/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/versioning/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/versioning/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/address/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/address/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/address/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/address/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/calcom/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/calcom/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/calcom/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/calcom/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/custom-formulas/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/custom-formulas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/custom-formulas/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/custom-formulas/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/google-fonts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/google-fonts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/google-fonts/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/google-fonts/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/how-to-buy/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/how-to-buy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/how-to-buy/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/how-to-buy/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/how-to-install/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/how-to-install/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/how-to-install/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/how-to-install/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/send/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/short-url/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/short-url/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/short-url/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/short-url/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/template-helper/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/template-helper/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/uuid/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/uuid/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/uuid/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/uuid/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/dav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/dav/caldav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/caldav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/caldav/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/caldav/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/dav/carddav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/carddav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/carddav/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/carddav/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/dav/setup/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/setup/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/setup/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/dav/webdav/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/webdav/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/webdav/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/webdav/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/dav/web-server/apache/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/web-server/apache/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/web-server/apache/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/web-server/apache/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/dav/web-server/nginx/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/dav/web-server/nginx/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/dav/web-server/nginx/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/dav/web-server/nginx/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/gus/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/gus/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/gus/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/gus/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/accounts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/accounts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/accounts/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/accounts/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/authorization/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/authorization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/authorization/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/authorization/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/bank-accounts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/bank-accounts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/bank-accounts/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/bank-accounts/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/config-params/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/config-params/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/config-params/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/config-params/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/console-commands/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/console-commands/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/console-commands/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/console-commands/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/download-documents/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/download-documents/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/download-documents/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/download-documents/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/expenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/expenses/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/formulas/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/formulas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/formulas/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/formulas/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/invoices/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/profiles/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/profiles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/profiles/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/profiles/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/scheduled-jobs/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/scheduled-jobs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/scheduled-jobs/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/scheduled-jobs/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/tax-rates/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/tax-rates/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/tax-rates/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/tax-rates/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/ksef/test-profile/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/ksef/test-profile/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/ksef/test-profile/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/ksef/test-profile/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/paypal/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/paypal/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/invoices/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/paypal/payments/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/payments/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/payments/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/payments/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/paypal/plans/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/plans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/plans/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/plans/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/paypal/products/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/products/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/products/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/products/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/paypal/subscriptions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/subscriptions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/paypal/transactions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/transactions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/paypal/webhooks/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/paypal/webhooks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/paypal/webhooks/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/paypal/webhooks/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/quickbooks/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/quickbooks/projects/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/projects/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/projects/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/projects/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/shipping-manager/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/shipping-manager/locations/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/locations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/locations/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/locations/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/shipping-manager/package-statuses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/package-statuses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/package-statuses/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/package-statuses/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/shipping-manager/packages/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/packages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/packages/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/packages/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/shipping-manager/parcels/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/shipping-manager/parcels/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/shipping-manager/parcels/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/shipping-manager/parcels/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/stripe/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/stripe/invoices/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/invoices/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/invoices/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/stripe/transactions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/stripe/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/stripe/transactions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/stripe/transactions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/tawk/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/tawk/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/tawk/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/tawk/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/themes/dark/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/themes/dark/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/themes/dark/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/themes/dark/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/themes/light/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/themes/light/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/themes/light/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/themes/light/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/time-tracker/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/time-tracker/time-entries/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-entries/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-entries/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-entries/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/time-tracker/time-sessions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-sessions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-sessions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-sessions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/time-tracker/time-trackers/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/time-trackers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/time-trackers/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/time-trackers/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/vies/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/vies/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/vies/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/vies/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/woocommerce/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/woocommerce/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/woocommerce/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/woocommerce/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/videos/how-to-create-email-template/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/videos/how-to-create-email-template/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/videos/how-to-create-email-template/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/videos/how-to-create-email-template/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/videos/how-to-upgrade-espocrm/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/videos/how-to-upgrade-espocrm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/videos/how-to-upgrade-espocrm/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/videos/how-to-upgrade-espocrm/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/accounts-maganement/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/accounts-maganement/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/accounts-maganement/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/accounts-maganement/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/availibility-management/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/availibility-management/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/availibility-management/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/availibility-management/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/charges/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/charges/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/charges/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/charges/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/contracts/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/contracts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/contracts/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/contracts/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/correspondence/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/correspondence/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/correspondence/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/correspondence/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/expenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/expenses/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/expenses/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/financial-statements/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/financial-statements/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/financial-statements/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/financial-statements/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/infrastructure/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/infrastructure/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/infrastructure/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/internal-evidences/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/internal-evidences/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/internal-evidences/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/internal-evidences/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/leads/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/leads/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/leads/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/leads/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/licenses/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/licenses/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/licenses/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/licenses/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/meetings/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/meetings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/meetings/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/meetings/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/portal/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/portal/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/portal/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/portal/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/subscriptions/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/subscriptions/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/subscriptions/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/wiki/tickets/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/wiki/tickets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/wiki/tickets/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/wiki/tickets/"/>
     </url>
 </urlset>
