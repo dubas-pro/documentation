@@ -1,0 +1,14 @@
+# Documentation
+
+> Check out how to use the plugins for EspoCRM. Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.
+
+dubas s.c. develops specialized plugins, integrations, and custom themes for EspoCRM. This documentation provides user guides, installation steps, configuration instructions, and technical specifications for both open-source tools and commercial extensions.
+
+## Extensions
+
+- [Index](https://docs.dubas.pro/de/llms/index.md): Main documentation page in Polish language
+
+## Contact & Support
+
+- [Contact](https://docs.dubas.pro/de/llms/contact/index.md): Contact information
+

@@ -1,0 +1,58 @@
+# Documentation
+
+> Check out how to use the plugins for EspoCRM. Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.
+
+dubas s.c. develops specialized plugins, integrations, and custom themes for EspoCRM. This documentation provides user guides, installation steps, configuration instructions, and technical specifications for both open-source tools and commercial extensions.
+
+# Extensions
+
+## Documentation for our Extensions
+
+### Premium Extensions
+
+The following extensions are available for purchase at [DevCRM Marketplace](https://devcrm.it/marketplace/).
+
+- [Cal.com Integration](https://docs.dubas.pro/extensions/calcom/)
+- [DAV Integration](https://docs.dubas.pro/extensions/dav/)
+- [GUS Integration - Database of companies](https://docs.dubas.pro/extensions/gus/)
+- [KSeF Integration - Invoices management for Polish companies](https://docs.dubas.pro/extensions/ksef/)
+- [PayPal Integration](https://docs.dubas.pro/extensions/paypal/)
+- [Send](https://docs.dubas.pro/extensions/send/)
+- [Stripe Integration](https://docs.dubas.pro/extensions/stripe/)
+- [Tawk.to Integration](https://docs.dubas.pro/extensions/tawk/)
+- [Time Tracker](https://docs.dubas.pro/extensions/time-tracker/)
+- [VAT/VIES Integration](https://docs.dubas.pro/extensions/vies/)
+- [WooCommerce Integration](https://docs.dubas.pro/extensions/woocommerce/)
+
+______________________________________________________________________
+
+### Open Source
+
+The source code for the following extensions is available at [GitHub](https://github.com/dubas-pro).
+
+#### Extensions
+
+- [Address Field](https://docs.dubas.pro/extensions/address/)
+- [Custom Formulas](https://docs.dubas.pro/extensions/custom-formulas/)
+- [Google Fonts for PDF's](https://docs.dubas.pro/extensions/google-fonts/)
+- [Shipping Manager](https://docs.dubas.pro/extensions/shipping-manager/)
+- [Short Url](https://docs.dubas.pro/extensions/short-url/)
+- [Template Helper](https://docs.dubas.pro/extensions/template-helper/)
+- [UUID Field](https://docs.dubas.pro/extensions/uuid/)
+
+#### Themes
+
+- [Light Theme](https://docs.dubas.pro/extensions/themes/light/)
+- [Dark Theme](https://docs.dubas.pro/extensions/themes/light/)
+# Contact & Support
+
+Feel free to reach out to us via:
+
+1. Email us at [contact@dubas.pro](mailto:contact@dubas.pro).
+1. Schedule an [online meeting](https://dubas.pro/book) with us.
+
+## How to Order Our Services
+
+1. Email us the details of your issue.
+1. Allow us a few days to provide a cost estimate.
+1. Let's begin working together.

@@ -505,6 +505,22 @@
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/woocommerce/"/>
     </url>
     <url>
+        <loc>https://docs.dubas.pro/llms/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/llms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/llms/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/llms/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/llms/contact/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/llms/contact/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/llms/contact/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/llms/contact/"/>
+    </url>
+    <url>
         <loc>https://docs.dubas.pro/videos/how-to-create-email-template/</loc>
         <lastmod>2026-07-31</lastmod>
         <changefreq>daily</changefreq>
@@ -1153,6 +1169,22 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/woocommerce/"/>
     </url>
     <url>
+        <loc>https://docs.dubas.pro/pl/llms/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/llms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/llms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/llms/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/llms/contact/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/llms/contact/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/llms/contact/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/llms/contact/"/>
+    </url>
+    <url>
         <loc>https://docs.dubas.pro/pl/videos/how-to-create-email-template/</loc>
         <lastmod>2026-07-31</lastmod>
         <changefreq>daily</changefreq>
@@ -1799,6 +1831,22 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/woocommerce/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/woocommerce/"/>
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/woocommerce/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/llms/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/llms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/llms/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/llms/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/llms/contact/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/llms/contact/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/llms/contact/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/llms/contact/"/>
     </url>
     <url>
         <loc>https://docs.dubas.pro/de/videos/how-to-create-email-template/</loc>
