@@ -159,9 +159,23 @@ nav:
       - License: license.md
       - Versioning: versioning.md
 
+# For future:
+# https://pypi.org/project/mkdocs-exporter/
+
 plugins:
   - material/search
   - mkdocs-video
+#   https://pypi.org/project/mkdocs-llmstxt/
+  - llmstxt:
+      full_output: llms-full.txt
+      markdown_description: dubas s.c. develops specialized plugins, integrations, and custom themes for EspoCRM. This documentation provides user guides, installation steps, configuration instructions, and technical specifications for both open-source tools and commercial extensions.
+      sections:
+        Extensions:
+        - index.md: Main documentation page
+        - llms/index.md: Main documentation page in Polish language
+        Contact & Support:
+        - llms/contact.md: Contact information
+        # - extensions/*.md
 #   - git-revision-date-localized
   - i18n:
       docs_structure: suffix
