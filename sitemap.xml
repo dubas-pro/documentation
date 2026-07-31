@@ -521,6 +521,14 @@
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/llms/contact/"/>
     </url>
     <url>
+        <loc>https://docs.dubas.pro/misc/zugferd/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/misc/zugferd/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/misc/zugferd/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/misc/zugferd/"/>
+    </url>
+    <url>
         <loc>https://docs.dubas.pro/videos/how-to-create-email-template/</loc>
         <lastmod>2026-07-31</lastmod>
         <changefreq>daily</changefreq>
@@ -1185,6 +1193,14 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/llms/contact/"/>
     </url>
     <url>
+        <loc>https://docs.dubas.pro/pl/misc/zugferd/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/misc/zugferd/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/misc/zugferd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/misc/zugferd/"/>
+    </url>
+    <url>
         <loc>https://docs.dubas.pro/pl/videos/how-to-create-email-template/</loc>
         <lastmod>2026-07-31</lastmod>
         <changefreq>daily</changefreq>
@@ -1847,6 +1863,14 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/llms/contact/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/llms/contact/"/>
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/llms/contact/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/misc/zugferd/</loc>
+        <lastmod>2026-07-31</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/misc/zugferd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/misc/zugferd/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/misc/zugferd/"/>
     </url>
     <url>
         <loc>https://docs.dubas.pro/de/videos/how-to-create-email-template/</loc>
