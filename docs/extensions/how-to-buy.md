@@ -3,4 +3,6 @@
 2. Choose extensions which you want to purchase.
 3. Add each extension to cart.
 4. Go to checkout and fill all required fields.
-5. Choose payment method and pay for your order. 
+5. Choose payment method and pay for your order.
+
+You can also contact us via e-mail: [contact@dubas.pro](mailto:contact@dubas.pro).

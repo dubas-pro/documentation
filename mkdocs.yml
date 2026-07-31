@@ -37,7 +37,7 @@ theme:
   highlightjs: true
   logo: images/logo.png
   favicon: images/logo.png
-#   language: en
+  language: en
 
 # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   icon:
@@ -162,7 +162,66 @@ nav:
 plugins:
   - material/search
   - mkdocs-video
-  - git-revision-date-localized
+#   - git-revision-date-localized
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: pl
+          name: Polski
+          build: true
+          # Nadpisanie domyślnych słów z interfejsu i nawigacji
+          nav_translations:
+            Home: Strona główna
+            Extensions: Rozszerzenia
+            Installation: Instalacja
+            Installing Extensions: Instalacja Rozszerzeń
+            Premium: Płatne
+            Open Source: Open Source
+            Themes: Motywy
+            Cal.com Integration: Integracja z Cal.com
+            DAV Integration: Integracja z DAV
+            Overview: Ogólne
+            Videos: Wideo
+            Contact & Support: Kontakt i Wsparcie
+            Creating Email Templates: Tworzenie Szablonów Email
+            Upgrading EspoCRM: Aktualizacja EspoCRM
+            Contact: Kontakt
+            How to buy our Extensions: Jak kupić nasze Rozszerzenia
+            License: Licencja
+            Versioning: Wersjonowanie
+        - locale: de
+          name: Deutsch
+          build: true
+          # Nadpisanie domyślnych słów z interfejsu i nawigacji
+          nav_translations:
+            Home: Startseite
+            Extensions: Erweiterungen
+            Installation: Installation
+            Installing Extensions: Erweiterungen installieren
+            Premium: Premium
+            Open Source: Open Source
+            Themes: Themen
+            Cal.com Integration: Cal.com-Integration
+            DAV Integration: DAV-Integration
+            Overview: Überblick
+            Videos: Videos
+            Contact & Support: Kontakt & Support
+            Creating Email Templates: E-Mail-Vorlagen erstellen
+            Upgrading EspoCRM: EspoCRM aktualisieren
+            Contact: Kontakt
+            How to buy our Extensions: So kaufen Sie unsere Erweiterungen
+            License: Lizenz
+            Versioning: Versionierung
+
+
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
 
 extra_javascript:
   - js/matomo.js
@@ -176,13 +235,16 @@ extra:
       link: https://www.youtube.com/@devcrm
       name: Video Tutorials on YouTube
   generator: false
-#   alternate:
-#     - name: English
-#       link: /
-#       lang: en
-#     - name: Polish
-#       link: /pl/
-#       lang: pl
+  alternate:
+    - name: English
+      link: ./
+      lang: en
+    - name: Polski
+      link: ./pl/
+      lang: pl
+    - name: Deutsch
+      link: ./de/
+      lang: de
 
   consent:
     title: Cookie consent
