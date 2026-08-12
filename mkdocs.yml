@@ -208,6 +208,21 @@ plugins:
             How to buy our Extensions: Jak kupić nasze Rozszerzenia
             License: Licencja
             Versioning: Wersjonowanie
+            KSeF Integration: Integracja z KSeF
+            Invoices: Faktury
+            Expenses: Wydatki
+            Profiles: Profile
+            Bank accounts: Konta bankowe
+            Authorization: Autoryzacja
+            Formulas: Formuły
+            Console commands: Polecenia konsoli
+            Scheduled jobs: Zadania zaplanowane
+            Config params: Parametry konfiguracyjne
+            Tax rates: Stawki podatkowe
+            How to download documents: Jak pobrać dokumenty
+            How to manage Accounts: Jak zarządzać kontami
+            How to create test profile for KSeF: Jak utworzyć testowy profil dla KSeF
+
         - locale: de
           name: Deutsch
           build: true
