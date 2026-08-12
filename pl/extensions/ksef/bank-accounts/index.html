@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bank-accounts-management-in-ksef" class="md-skip">
+        <a href="#zarzadzanie-rachunkami-bankowymi-w-ksef" class="md-skip">
           Przejdź do treści
         </a>
       
@@ -908,36 +908,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#bank-account-entity" class="md-nav__link">
+  <a href="#encja-rachunku-bankowego" class="md-nav__link">
     <span class="md-ellipsis">
-      Bank account entity
+      Encja rachunku bankowego
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#linking-bank-accounts" class="md-nav__link">
+  <a href="#powiazania-rachunkow-bankowych" class="md-nav__link">
     <span class="md-ellipsis">
-      Linking bank accounts
+      Powiązania rachunków bankowych
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#automatic-processing" class="md-nav__link">
+  <a href="#automatyczne-przetwarzanie" class="md-nav__link">
     <span class="md-ellipsis">
-      Automatic processing
+      Automatyczne przetwarzanie
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#using-bank-accounts-in-invoices" class="md-nav__link">
+  <a href="#uzycie-rachunkow-bankowych-na-fakturach" class="md-nav__link">
     <span class="md-ellipsis">
-      Using bank accounts in invoices
+      Użycie rachunków bankowych na fakturach
     </span>
   </a>
   
@@ -2434,36 +2434,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#bank-account-entity" class="md-nav__link">
+  <a href="#encja-rachunku-bankowego" class="md-nav__link">
     <span class="md-ellipsis">
-      Bank account entity
+      Encja rachunku bankowego
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#linking-bank-accounts" class="md-nav__link">
+  <a href="#powiazania-rachunkow-bankowych" class="md-nav__link">
     <span class="md-ellipsis">
-      Linking bank accounts
+      Powiązania rachunków bankowych
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#automatic-processing" class="md-nav__link">
+  <a href="#automatyczne-przetwarzanie" class="md-nav__link">
     <span class="md-ellipsis">
-      Automatic processing
+      Automatyczne przetwarzanie
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#using-bank-accounts-in-invoices" class="md-nav__link">
+  <a href="#uzycie-rachunkow-bankowych-na-fakturach" class="md-nav__link">
     <span class="md-ellipsis">
-      Using bank accounts in invoices
+      Użycie rachunków bankowych na fakturach
     </span>
   </a>
   
@@ -2487,37 +2487,37 @@
   
 
 
-<div><h1 id="bank-accounts-management-in-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2m3 14h8v-2H8v2m8-7h-2.5V7h-3v3H8l4 4 4-4Z"></path></svg></span> Bank accounts management in KSeF<a class="headerlink" href="#bank-accounts-management-in-ksef" title="Permanent link">¶</a></h1>
-<p>This section covers the bank account entity introduced for managing financial operations in the CRM. The entity is fully integrated into EspoCRM and supports bank account data used in KSeF workflows.</p>
+<div><h1 id="zarzadzanie-rachunkami-bankowymi-w-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2m3 14h8v-2H8v2m8-7h-2.5V7h-3v3H8l4 4 4-4Z"></path></svg></span> Zarządzanie rachunkami bankowymi w KSeF<a class="headerlink" href="#zarzadzanie-rachunkami-bankowymi-w-ksef" title="Permanent link">¶</a></h1>
+<p>Ta sekcja opisuje encję rachunku bankowego wprowadzoną do zarządzania operacjami finansowymi w CRM. Encja jest w pełni zintegrowana z EspoCRM i obsługuje dane rachunków bankowych wykorzystywane w przepływach KSeF.</p>
 <div class="admonition example">
-<p class="admonition-title">Redirect</p>
-<p><a href="https://dubas.pro/redirect/#KsefBankAccount">Open Bank Account in your EspoCRM</a></p>
+<p class="admonition-title">Przekierowanie</p>
+<p><a href="https://dubas.pro/redirect/#KsefBankAccount">Otwórz Rachunek Bankowy w swoim EspoCRM</a></p>
 </div>
-<h2 id="bank-account-entity">Bank account entity<a class="headerlink" href="#bank-account-entity" title="Permanent link">¶</a></h2>
-<p>Each bank account can store the following details:</p>
+<h2 id="encja-rachunku-bankowego">Encja rachunku bankowego<a class="headerlink" href="#encja-rachunku-bankowego" title="Permanent link">¶</a></h2>
+<p>Każdy rachunek bankowy może przechowywać następujące dane:</p>
 <ul>
-<li>IBAN number</li>
-<li>SWIFT code</li>
-<li>bank name</li>
-<li>bank account name</li>
-<li>operation type</li>
+<li>numer IBAN</li>
+<li>kod SWIFT</li>
+<li>nazwa banku</li>
+<li>nazwa rachunku bankowego</li>
+<li>typ operacji</li>
 </ul>
-<p>The operation type defines whether the bank account is used for inbound operations, such as expenses, or outbound operations, such as invoices.</p>
-<h2 id="linking-bank-accounts">Linking bank accounts<a class="headerlink" href="#linking-bank-accounts" title="Permanent link">¶</a></h2>
-<p>Bank accounts can be linked to:</p>
+<p>Typ operacji określa, czy rachunek bankowy jest używany do operacji przychodowych (np. wydatki), czy rozchodowych (np. faktury).</p>
+<h2 id="powiazania-rachunkow-bankowych">Powiązania rachunków bankowych<a class="headerlink" href="#powiazania-rachunkow-bankowych" title="Permanent link">¶</a></h2>
+<p>Rachunki bankowe można powiązać z:</p>
 <ul>
-<li>Accounts</li>
-<li>Expenses</li>
-<li>Invoices</li>
-<li>KSeF Profiles</li>
+<li>Kontaktami (Accounts)</li>
+<li>Wydatkami (Expenses)</li>
+<li>Fakturami (Invoices)</li>
+<li>Profilami KSeF</li>
 </ul>
-<p>Multiple bank accounts can be linked to an account, allowing flexible use based on user needs.</p>
-<p>If a profile is selected on an invoice, the system fetches the linked bank accounts according to the rules defined in that profile. The system can also use bank accounts linked directly to the account.</p>
-<h2 id="automatic-processing">Automatic processing<a class="headerlink" href="#automatic-processing" title="Permanent link">¶</a></h2>
-<p>When new expenses are fetched from the government system, they are processed automatically and the corresponding bank accounts are linked or created if couldn't find already existing.</p>
-<p>This keeps the financial data synchronized in the CRM and makes the bank accounts available without manual creation.</p>
-<h2 id="using-bank-accounts-in-invoices">Using bank accounts in invoices<a class="headerlink" href="#using-bank-accounts-in-invoices" title="Permanent link">¶</a></h2>
-<p>When creating invoices, the system can automatically resolve the correct bank account from the selected profile or from the linked account. This streamlines financial operations and ensures consistent use of bank account data.</p></div>
+<p>Do jednego konta (Account) można podpiąć wiele rachunków bankowych, co zapewnia elastyczność w użyciu w zależności od potrzeb użytkownika.</p>
+<p>Jeśli na fakturze wybrano profil, system pobiera powiązane rachunki bankowe zgodnie z regułami zdefiniowanymi w tym profilu. System może również użyć rachunków powiązanych bezpośrednio z kontem.</p>
+<h2 id="automatyczne-przetwarzanie">Automatyczne przetwarzanie<a class="headerlink" href="#automatyczne-przetwarzanie" title="Permanent link">¶</a></h2>
+<p>Gdy z systemu rządowego pobierane są nowe wydatki, są one automatycznie przetwarzane, a odpowiadające im rachunki bankowe są powiązywane lub tworzone, jeśli nie znaleziono istniejących.</p>
+<p>Dzięki temu dane finansowe w CRM są zsynchronizowane, a rachunki bankowe dostępne bez ręcznego tworzenia.</p>
+<h2 id="uzycie-rachunkow-bankowych-na-fakturach">Użycie rachunków bankowych na fakturach<a class="headerlink" href="#uzycie-rachunkow-bankowych-na-fakturach" title="Permanent link">¶</a></h2>
+<p>Podczas tworzenia faktur system może automatycznie wybrać odpowiedni rachunek bankowy z wybranego profilu lub z rachunków powiązanych z kontem. Ułatwia to operacje finansowe i zapewnia spójne wykorzystanie danych rachunków bankowych.</p></div>
 
 
 
@@ -2540,7 +2540,7 @@
     <span class="md-icon" title="Ostatnia aktualizacja">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 3, 2026 08:59:43 UTC">July 3, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="12 sierpnia 2026 11:13:54 UTC">12 sierpnia 2026</span>
   </span>
 
     
@@ -2550,7 +2550,7 @@
     <span class="md-icon" title="Utworzony">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 3, 2026 08:41:44 UTC">July 3, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="12 sierpnia 2026 11:13:54 UTC">12 sierpnia 2026</span>
   </span>
 
     

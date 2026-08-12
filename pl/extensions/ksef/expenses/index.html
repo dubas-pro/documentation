@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#expenses-management" class="md-skip">
+        <a href="#zarzadzanie-wydatkami" class="md-skip">
           Przejdź do treści
         </a>
       
@@ -866,55 +866,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-expenses-are-created" class="md-nav__link">
+  <a href="#jak-tworzone-sa-expenses" class="md-nav__link">
     <span class="md-ellipsis">
-       How Expenses are created?
+       Jak tworzone są Expenses?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="How Expenses are created?">
+    <nav class="md-nav" aria-label="Jak tworzone są Expenses?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#from-ksef" class="md-nav__link">
+  <a href="#z-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-      From KSeF
+      Z KSeF
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#manually" class="md-nav__link">
+  <a href="#recznie" class="md-nav__link">
     <span class="md-ellipsis">
-      Manually
+      Ręcznie
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#ksef-fields-in-expenses" class="md-nav__link">
+  <a href="#pola-ksef-w-expenses" class="md-nav__link">
     <span class="md-ellipsis">
-       KSeF fields in expenses
+       Pola KSeF w expenses
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#how-to-fetch-expenses-manually-from-ksef" class="md-nav__link">
+  <a href="#jak-recznie-pobrac-expenses-z-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       How to fetch expenses manually from KSeF?
+       Jak ręcznie pobrać expenses z KSeF?
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#how-to-make-sure-that-you-have-all-expenses" class="md-nav__link">
+  <a href="#jak-upewnic-sie-ze-masz-wszystkie-expenses" class="md-nav__link">
     <span class="md-ellipsis">
-       How to make sure that you have all expenses?
+       Jak upewnić się, że masz wszystkie expenses?
     </span>
   </a>
   
@@ -2458,55 +2458,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-expenses-are-created" class="md-nav__link">
+  <a href="#jak-tworzone-sa-expenses" class="md-nav__link">
     <span class="md-ellipsis">
-       How Expenses are created?
+       Jak tworzone są Expenses?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="How Expenses are created?">
+    <nav class="md-nav" aria-label="Jak tworzone są Expenses?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#from-ksef" class="md-nav__link">
+  <a href="#z-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-      From KSeF
+      Z KSeF
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#manually" class="md-nav__link">
+  <a href="#recznie" class="md-nav__link">
     <span class="md-ellipsis">
-      Manually
+      Ręcznie
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#ksef-fields-in-expenses" class="md-nav__link">
+  <a href="#pola-ksef-w-expenses" class="md-nav__link">
     <span class="md-ellipsis">
-       KSeF fields in expenses
+       Pola KSeF w expenses
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#how-to-fetch-expenses-manually-from-ksef" class="md-nav__link">
+  <a href="#jak-recznie-pobrac-expenses-z-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       How to fetch expenses manually from KSeF?
+       Jak ręcznie pobrać expenses z KSeF?
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#how-to-make-sure-that-you-have-all-expenses" class="md-nav__link">
+  <a href="#jak-upewnic-sie-ze-masz-wszystkie-expenses" class="md-nav__link">
     <span class="md-ellipsis">
-       How to make sure that you have all expenses?
+       Jak upewnić się, że masz wszystkie expenses?
     </span>
   </a>
   
@@ -2535,40 +2535,40 @@
   
 
 
-<div><h1 id="expenses-management">Expenses Management<a class="headerlink" href="#expenses-management" title="Permanent link">¶</a></h1>
-<p>For KSeF integration, a new entity called <code>Expenses</code> has been created. All incoming invoices are fetched and automatically added to the Expenses entity. You can also use it manually to manage incoming documents that are not handled by KSeF.</p>
-<h2 id="how-expenses-are-created"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m-1.46 17.37v-2h-4v-1.99h4v-2l3 3-3 2.99M13 9V3.5L18.5 9H13Z"></path></svg></span> How Expenses are created?<a class="headerlink" href="#how-expenses-are-created" title="Permanent link">¶</a></h2>
-<h3 id="from-ksef">From KSeF<a class="headerlink" href="#from-ksef" title="Permanent link">¶</a></h3>
-<p>If your cron jobs are configured correctly, expenses should be fetched automatically.</p>
-<p>You can also configure <a href="#how-to-make-sure-that-you-have-all-expenses">daily re-fetching</a>.</p>
-<h3 id="manually">Manually<a class="headerlink" href="#manually" title="Permanent link">¶</a></h3>
-<p>You can also enter expenses manually in EspoCRM.</p>
+<div><h1 id="zarzadzanie-wydatkami">Zarządzanie wydatkami<a class="headerlink" href="#zarzadzanie-wydatkami" title="Permanent link">¶</a></h1>
+<p>W ramach integracji z KSeF utworzono nową encję o nazwie <code>Expenses</code>. Wszystkie przychodzące faktury są pobierane i automatycznie dodawane do encji Expenses. Możesz też używać jej ręcznie do zarządzania dokumentami przychodzącymi, które nie są obsługiwane przez KSeF.</p>
+<h2 id="jak-tworzone-sa-expenses"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m-1.46 17.37v-2h-4v-1.99h4v-2l3 3-3 2.99M13 9V3.5L18.5 9H13Z"></path></svg></span> Jak tworzone są Expenses?<a class="headerlink" href="#jak-tworzone-sa-expenses" title="Permanent link">¶</a></h2>
+<h3 id="z-ksef">Z KSeF<a class="headerlink" href="#z-ksef" title="Permanent link">¶</a></h3>
+<p>Jeśli zadania cron są skonfigurowane poprawnie, wydatki powinny być pobierane automatycznie.</p>
+<p>Możesz też skonfigurować <a href="#how-to-make-sure-that-you-have-all-expenses">codzienne ponowne pobieranie</a>.</p>
+<h3 id="recznie">Ręcznie<a class="headerlink" href="#recznie" title="Permanent link">¶</a></h3>
+<p>Możesz również wprowadzać wydatki ręcznie w EspoCRM.</p>
 <ol>
-<li>Go to Expenses.</li>
-<li>Click on Create.</li>
-<li>Fill the form.</li>
-<li>Save.</li>
+<li>Przejdź do Expenses.</li>
+<li>Kliknij Create.</li>
+<li>Wypełnij formularz.</li>
+<li>Zapisz.</li>
 </ol>
-<h3 id="ksef-fields-in-expenses"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M18 2h-6v7L9.5 7.5 7 9V2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4a2 2 0 0 0-2-2m-.32 16.41c-.11.09-1.21.84-1.63 1.09-.42.29-2.05 1.22-1.79-.58.63-3.64 1.85-5.8.39-4.86-.38.23-.6.37-.74.44-.13.11-.12.1-.23-.09s-.15-.18-.01-.28c0 0 2.23-1.79 3.05-1.85.78-.07.59.89.52 1.33-.46 1.85-1.3 4.54-1.17 4.93.11.39.93-.23 1.37-.54 0 0 .06-.07.17.05.11.17.22.25.07.36m-.71-7.35c-.57 0-1.03-.46-1.03-1.03 0-.57.46-1.03 1.03-1.03.57 0 1.03.46 1.03 1.03 0 .57-.46 1.03-1.03 1.03Z"></path></svg></span> KSeF fields in expenses<a class="headerlink" href="#ksef-fields-in-expenses" title="Permanent link">¶</a></h3>
+<h3 id="pola-ksef-w-expenses"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M18 2h-6v7L9.5 7.5 7 9V2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4a2 2 0 0 0-2-2m-.32 16.41c-.11.09-1.21.84-1.63 1.09-.42.29-2.05 1.22-1.79-.58.63-3.64 1.85-5.8.39-4.86-.38.23-.6.37-.74.44-.13.11-.12.1-.23-.09s-.15-.18-.01-.28c0 0 2.23-1.79 3.05-1.85.78-.07.59.89.52 1.33-.46 1.85-1.3 4.54-1.17 4.93.11.39.93-.23 1.37-.54 0 0 .06-.07.17.05.11.17.22.25.07.36m-.71-7.35c-.57 0-1.03-.46-1.03-1.03 0-.57.46-1.03 1.03-1.03.57 0 1.03.46 1.03 1.03 0 .57-.46 1.03-1.03 1.03Z"></path></svg></span> Pola KSeF w expenses<a class="headerlink" href="#pola-ksef-w-expenses" title="Permanent link">¶</a></h3>
 <ul>
-<li><code>ksefNumber</code> - KSeF number assigned to an invoice. Required on issued invoices.</li>
-<li><code>ksefStatus</code> - status of invoice delivery to KSeF.</li>
-<li><code>ksefPublicUrl</code> - public URL of the invoice status page in KSeF.</li>
-<li><code>ksefProfile</code> - profile used to issue an invoice and send it to KSeF.</li>
-<li><code>xmlFile</code> - XML file containing invoice details.</li>
+<li><code>ksefNumber</code> - numer KSeF przypisany do faktury. Wymagany dla wystawionych faktur.</li>
+<li><code>ksefStatus</code> - status dostarczenia faktury do KSeF.</li>
+<li><code>ksefPublicUrl</code> - publiczny adres URL strony statusu faktury w KSeF.</li>
+<li><code>ksefProfile</code> - profil używany do wystawienia faktury i wysłania jej do KSeF.</li>
+<li><code>xmlFile</code> - plik XML zawierający szczegóły faktury.</li>
 </ul>
-<h3 id="how-to-fetch-expenses-manually-from-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h7c-.41-.25-.8-.56-1.14-.9a6.478 6.478 0 0 1-.36-9.18C13.69 9.5 17.33 9.13 20 11V8l-6-6m-1 7V3.5L18.5 9H13m7.31 9.9c1.33-2.11.69-4.9-1.4-6.22-2.11-1.33-4.91-.68-6.22 1.4-1.34 2.11-.69 4.89 1.4 6.22 1.46.93 3.32.93 4.79.02L22 23.39 23.39 22l-3.08-3.1m-3.81.1a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5Z"></path></svg></span> How to fetch expenses manually from KSeF?<a class="headerlink" href="#how-to-fetch-expenses-manually-from-ksef" title="Permanent link">¶</a></h3>
+<h3 id="jak-recznie-pobrac-expenses-z-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h7c-.41-.25-.8-.56-1.14-.9a6.478 6.478 0 0 1-.36-9.18C13.69 9.5 17.33 9.13 20 11V8l-6-6m-1 7V3.5L18.5 9H13m7.31 9.9c1.33-2.11.69-4.9-1.4-6.22-2.11-1.33-4.91-.68-6.22 1.4-1.34 2.11-.69 4.89 1.4 6.22 1.46.93 3.32.93 4.79.02L22 23.39 23.39 22l-3.08-3.1m-3.81.1a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5Z"></path></svg></span> Jak ręcznie pobrać expenses z KSeF?<a class="headerlink" href="#jak-recznie-pobrac-expenses-z-ksef" title="Permanent link">¶</a></h3>
 <ol>
-<li>Go to <strong>Expenses</strong> entity.</li>
-<li>In the list view, click the <code>Fetch expenses from KSeF</code> button.</li>
-<li>Choose period from which you want to fetch expenses.</li>
+<li>Przejdź do encji <strong>Expenses</strong>.</li>
+<li>W widoku listy kliknij przycisk <code>Fetch expenses from KSeF</code>.</li>
+<li>Wybierz okres, z którego chcesz pobrać wydatki.</li>
 </ol>
 <div class="admonition warning">
-<p class="admonition-title">Be careful!</p>
-<p>Do not use this too often, as you may hit KSeF limits and get temporarily blocked.</p>
+<p class="admonition-title">Uwaga!</p>
+<p>Nie używaj tego zbyt często, ponieważ możesz osiągnąć limity KSeF i zostać tymczasowo zablokowany.</p>
 </div>
-<h3 id="how-to-make-sure-that-you-have-all-expenses"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M7 10h5v5H7m12 4H5V8h14m0-5h-1V1h-2v2H8V1H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Z"></path></svg></span> How to make sure that you have all expenses?<a class="headerlink" href="#how-to-make-sure-that-you-have-all-expenses" title="Permanent link">¶</a></h3>
-<p>Sometimes there may be an issue with EspoCRM or your internet connection. Because of this, fetching expenses from KSeF may fail, and the standard cron job only fetches invoices from the last 10 minutes. For this purpose, we created another job called <strong>Daily Fetch Of Expenses From KSeF</strong>. You can configure it in <a href="https://dubas.pro/redirect/#ScheduledJob/create">Scheduled Jobs</a>.</p></div>
+<h3 id="jak-upewnic-sie-ze-masz-wszystkie-expenses"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M7 10h5v5H7m12 4H5V8h14m0-5h-1V1h-2v2H8V1H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Z"></path></svg></span> Jak upewnić się, że masz wszystkie expenses?<a class="headerlink" href="#jak-upewnic-sie-ze-masz-wszystkie-expenses" title="Permanent link">¶</a></h3>
+<p>Czasami może wystąpić problem z EspoCRM lub połączeniem internetowym. W takiej sytuacji pobieranie wydatków z KSeF może się nie powieść, a standardowe zadanie cron pobiera tylko faktury z ostatnich 10 minut. W tym celu utworzyliśmy dodatkowe zadanie o nazwie <strong>Daily Fetch Of Expenses From KSeF</strong>. Możesz je skonfigurować w <a href="https://dubas.pro/redirect/#ScheduledJob/create">Scheduled Jobs</a>.</p></div>
 
 
 
@@ -2591,7 +2591,7 @@
     <span class="md-icon" title="Ostatnia aktualizacja">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 6, 2026 12:53:11 UTC">July 6, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="12 sierpnia 2026 11:13:54 UTC">12 sierpnia 2026</span>
   </span>
 
     
@@ -2601,7 +2601,7 @@
     <span class="md-icon" title="Utworzony">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 20, 2026 15:14:26 UTC">April 20, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="12 sierpnia 2026 11:13:54 UTC">12 sierpnia 2026</span>
   </span>
 
     

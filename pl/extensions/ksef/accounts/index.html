@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#accounts-management-in-ksef" class="md-skip">
+        <a href="#zarzadzanie-kontami-w-ksef" class="md-skip">
           Przejdź do treści
         </a>
       
@@ -1076,27 +1076,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#automatic-account-matching-and-creation" class="md-nav__link">
+  <a href="#automatyczne-dopasowywanie-i-tworzenie-kont" class="md-nav__link">
     <span class="md-ellipsis">
-      Automatic account matching and creation
+      Automatyczne dopasowywanie i tworzenie kont
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-the-taxid-field-to-the-accounts-view" class="md-nav__link">
+  <a href="#dodawanie-pola-taxid-do-widoku-konta" class="md-nav__link">
     <span class="md-ellipsis">
-      Adding the taxId field to the Accounts view
+      Dodawanie pola taxId do widoku Konta
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-fields" class="md-nav__link">
+  <a href="#dodatkowe-pola" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional fields
+      Dodatkowe pola
     </span>
   </a>
   
@@ -2425,27 +2425,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#automatic-account-matching-and-creation" class="md-nav__link">
+  <a href="#automatyczne-dopasowywanie-i-tworzenie-kont" class="md-nav__link">
     <span class="md-ellipsis">
-      Automatic account matching and creation
+      Automatyczne dopasowywanie i tworzenie kont
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-the-taxid-field-to-the-accounts-view" class="md-nav__link">
+  <a href="#dodawanie-pola-taxid-do-widoku-konta" class="md-nav__link">
     <span class="md-ellipsis">
-      Adding the taxId field to the Accounts view
+      Dodawanie pola taxId do widoku Konta
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-fields" class="md-nav__link">
+  <a href="#dodatkowe-pola" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional fields
+      Dodatkowe pola
     </span>
   </a>
   
@@ -2469,29 +2469,29 @@
   
 
 
-<div><h1 id="accounts-management-in-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2m3 14h8v-2H8v2m8-7h-2.5V7h-3v3H8l4 4 4-4Z"></path></svg></span> Accounts management in KSeF<a class="headerlink" href="#accounts-management-in-ksef" title="Permanent link">¶</a></h1>
-<p>KSeF supports various tax identifiers, including NIP, VIES, local, or none. To accommodate KSeF requirements, a dedicated field called <code>taxId</code> was introduced. When added to the Accounts view, this field allows you to specify the type of tax identifier and enter the identifier value itself.</p>
-<h2 id="automatic-account-matching-and-creation">Automatic account matching and creation<a class="headerlink" href="#automatic-account-matching-and-creation" title="Permanent link">¶</a></h2>
-<p>When KSeF sends a new invoice to EspoCRM, the system automatically checks the Accounts view to find a matching customer based on the tax identifier from the <code>taxId</code> field. If no matching account is found, the system checks the KSeF Profile settings to see if automatic account creation is enabled. If enabled, a new account is created automatically; otherwise, the invoice is processed without creating a new account.</p>
-<p>When creating invoices in EspoCRM, the system uses the <code>taxId</code> field to identify the correct tax identifier during transmission to KSeF. Make sure your CRM is properly configured to populate this field with the appropriate tax identifier for accurate document submission.</p>
-<h2 id="adding-the-taxid-field-to-the-accounts-view">Adding the taxId field to the Accounts view<a class="headerlink" href="#adding-the-taxid-field-to-the-accounts-view" title="Permanent link">¶</a></h2>
-<p>To add the <code>taxId</code> field to your Accounts view, follow these steps:</p>
+<div><h1 id="zarzadzanie-kontami-w-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2m3 14h8v-2H8v2m8-7h-2.5V7h-3v3H8l4 4 4-4Z"></path></svg></span> Zarządzanie kontami w KSeF<a class="headerlink" href="#zarzadzanie-kontami-w-ksef" title="Permanent link">¶</a></h1>
+<p>KSeF obsługuje różne identyfikatory podatkowe, w tym NIP, VIES, lokalny lub brak identyfikatora. Aby dostosować się do wymagań KSeF, wprowadzono dedykowane pole <code>taxId</code>. Po dodaniu go do widoku Konta pole to umożliwia określenie typu identyfikatora podatkowego oraz wpisanie jego wartości.</p>
+<h2 id="automatyczne-dopasowywanie-i-tworzenie-kont">Automatyczne dopasowywanie i tworzenie kont<a class="headerlink" href="#automatyczne-dopasowywanie-i-tworzenie-kont" title="Permanent link">¶</a></h2>
+<p>Gdy KSeF przesyła nową fakturę do EspoCRM, system automatycznie sprawdza widok Konta, aby znaleźć pasującego klienta na podstawie identyfikatora podatkowego z pola <code>taxId</code>. Jeśli nie zostanie znalezione pasujące konto, system sprawdza ustawienia profilu KSeF, aby ustalić, czy włączono automatyczne tworzenie kont. Jeśli tak, nowe konto zostaje utworzone automatycznie; w przeciwnym razie faktura jest przetwarzana bez tworzenia nowego konta.</p>
+<p>Podczas wystawiania faktur w EspoCRM system wykorzystuje pole <code>taxId</code> do prawidłowego wskazania identyfikatora podatkowego podczas transmisji do KSeF. Upewnij się, że CRM jest poprawnie skonfigurowany i uzupełnia to pole właściwym identyfikatorem podatkowym, aby zapewnić poprawne przesyłanie dokumentów.</p>
+<h2 id="dodawanie-pola-taxid-do-widoku-konta">Dodawanie pola taxId do widoku Konta<a class="headerlink" href="#dodawanie-pola-taxid-do-widoku-konta" title="Permanent link">¶</a></h2>
+<p>Aby dodać pole <code>taxId</code> do widoku Konta, wykonaj następujące kroki:</p>
 <ol>
-<li>Navigate to the <strong>Administration</strong> section in EspoCRM</li>
-<li>Scroll down to <strong>Layout Manager</strong> and open it</li>
-<li>Select the <strong>Account</strong> module</li>
-<li>Add the <code>taxId</code> field to the detail view</li>
+<li>Przejdź do sekcji <strong>Administracja</strong> w EspoCRM</li>
+<li>Przewiń do <strong>Menedżera układu</strong> i otwórz go</li>
+<li>Wybierz moduł <strong>Konto</strong></li>
+<li>Dodaj pole <code>taxId</code> do widoku szczegółów</li>
 </ol>
-<p>This will enable the tax identifier functionality described above for your accounts.</p>
+<p>Spowoduje to włączenie opisanej powyżej funkcjonalności identyfikatora podatkowego dla Twoich kont.</p>
 <div class="admonition example">
-<p class="admonition-title">How we migrate tax id's from different field?</p>
-<p>We're working on some script which will copy from other field tax number to <code>taxId</code>.</p>
+<p class="admonition-title">Jak migrować identyfikator podatkowy z innego pola?</p>
+<p>Pracujemy nad skryptem, który skopiuje numer podatkowy z innego pola do <code>taxId</code>.</p>
 </div>
-<p>You can use <a href="../console-commands/">console command to migrate values from old tax id field</a>.</p>
-<h2 id="additional-fields">Additional fields<a class="headerlink" href="#additional-fields" title="Permanent link">¶</a></h2>
-<p>If you want to use any of below fields, please add them to detail view via <a href="https://dubas.pro/redirect/#Admin/layouts/scope=Account&amp;type=detail">Layout Manager</a>.</p>
+<p>Możesz skorzystać z <a href="../console-commands/">polecenia konsoli do migracji wartości ze starego pola identyfikatora podatkowego</a>.</p>
+<h2 id="dodatkowe-pola">Dodatkowe pola<a class="headerlink" href="#dodatkowe-pola" title="Permanent link">¶</a></h2>
+<p>Jeśli chcesz używać któregokolwiek z poniższych pól, dodaj je do widoku szczegółów za pomocą <a href="https://dubas.pro/redirect/#Admin/layouts/scope=Account&amp;type=detail">Menedżera układu</a>.</p>
 <ul>
-<li><code>Entity is a member of VAT group</code> - Indicates whether the entity belongs to a VAT group. Set this value to <code>true</code> when the entity is registered as part of a VAT group for tax reporting purposes. Default <code>false</code>.</li>
+<li><code>Entity is a member of VAT group</code> - Określa, czy podmiot należy do grupy VAT. Ustaw tę wartość na <code>true</code>, gdy podmiot jest zarejestrowany jako część grupy VAT na potrzeby raportowania podatkowego. Domyślnie <code>false</code>.</li>
 </ul></div>
 
 
@@ -2515,7 +2515,7 @@
     <span class="md-icon" title="Ostatnia aktualizacja">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 21, 2026 17:17:36 UTC">April 21, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="12 sierpnia 2026 11:13:54 UTC">12 sierpnia 2026</span>
   </span>
 
     
@@ -2525,7 +2525,7 @@
     <span class="md-icon" title="Utworzony">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 25, 2026 19:39:55 UTC">March 25, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="12 sierpnia 2026 11:13:54 UTC">12 sierpnia 2026</span>
   </span>
 
     
