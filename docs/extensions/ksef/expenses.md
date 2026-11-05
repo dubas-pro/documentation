@@ -1,5 +1,10 @@
 # Expenses Management
 
+!!! warning "Being phased out since 3.0.0"
+    Starting with version 3.0.0, incoming invoices from KSeF are stored as Sales Pack [Supplier Bills and Bill Credits](./purchases.md). The Expenses entity is being phased out and will be removed in a future version.
+
+    The content below describes how Expenses worked before 3.0.0. Existing Expenses remain available – to move them to Supplier Bills, follow the [migration guide](./migration-3.md).
+
 For KSeF integration, a new entity called `Expenses` has been created. All incoming invoices are fetched and automatically added to the Expenses entity. You can also use it manually to manage incoming documents that are not handled by KSeF.
 
 ## :material-file-send: How Expenses are created?

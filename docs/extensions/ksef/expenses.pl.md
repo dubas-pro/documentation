@@ -1,5 +1,10 @@
 # Zarządzanie wydatkami
 
+!!! warning "Wygaszane od wersji 3.0.0"
+    Od wersji 3.0.0 faktury przychodzące z KSeF są zapisywane jako [faktury i korekty zakupowe](./purchases.md) z Sales Pack. Encja Wydatki jest wygaszana i zostanie usunięta w jednej z przyszłych wersji.
+
+    Poniższa treść opisuje działanie Wydatków przed wersją 3.0.0. Istniejące Wydatki pozostają dostępne – aby przenieść je do faktur zakupowych, skorzystaj z [instrukcji migracji](./migration-3.md).
+
 W ramach integracji z KSeF utworzono nową encję o nazwie `Expenses`. Wszystkie przychodzące faktury są pobierane i automatycznie dodawane do encji Expenses. Możesz też używać jej ręcznie do zarządzania dokumentami przychodzącymi, które nie są obsługiwane przez KSeF.
 
 ## :material-file-send: Jak tworzone są Expenses?
