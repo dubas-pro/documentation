@@ -50,5 +50,5 @@ Testen Sie die Erweiterung auf unserer Demo-Umgebung:
 ## :material-video-box: Videopräsentation
 
 <div class="video-wrapper">
-  <iframe width="1280" height="400" src="[https://www.youtube.com/embed/Jrw-05MuTQg](https://www.youtube.com/embed/Jrw-05MuTQg)" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1280" height="400" src="https://www.youtube.com/embed/Jrw-05MuTQg" frameborder="0" allowfullscreen></iframe>
 </div>
