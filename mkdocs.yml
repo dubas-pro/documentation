@@ -135,6 +135,8 @@ nav:
             - Time Entries: extensions/time-tracker/time-entries.md
             - Time Trackers: extensions/time-tracker/time-trackers.md
             - Time Sessions: extensions/time-tracker/time-sessions.md
+            - Dashlets: extensions/time-tracker/dashlets.md
+            - Settings: extensions/time-tracker/settings.md
         - WooCommerce Integration: extensions/woocommerce/index.md
       - Open Source:
         - Address Field: extensions/address.md
@@ -217,6 +219,8 @@ plugins:
             Expenses: Wydatki
             Profiles: Profile
             Bank accounts: Konta bankowe
+            Dashlets: Widżety
+            Settings: Ustawienia
             Authorization: Autoryzacja
             Formulas: Formuły
             Console commands: Polecenia konsoli
@@ -247,6 +251,8 @@ plugins:
             Creating Email Templates: E-Mail-Vorlagen erstellen
             Upgrading EspoCRM: EspoCRM aktualisieren
             Contact: Kontakt
+            Dashlets: Dashlets
+            Settings: Einstellungen
             How to buy our Extensions: So kaufen Sie unsere Erweiterungen
             License: Lizenz
             Versioning: Versionierung
