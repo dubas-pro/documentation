@@ -92,6 +92,8 @@ nav:
         - KSeF Integration:
             - Overview: extensions/ksef/index.md
             - Invoices: extensions/ksef/invoices.md
+            - Purchases: extensions/ksef/purchases.md
+            - Credit Notes: extensions/ksef/credit-notes.md
             - Expenses: extensions/ksef/expenses.md
             - Profiles: extensions/ksef/profiles.md
             - Bank accounts: extensions/ksef/bank-accounts.md
@@ -210,6 +212,8 @@ plugins:
             Versioning: Wersjonowanie
             KSeF Integration: Integracja z KSeF
             Invoices: Faktury
+            Purchases: Dokumenty zakupowe
+            Credit Notes: Faktury korygujące
             Expenses: Wydatki
             Profiles: Profile
             Bank accounts: Konta bankowe
