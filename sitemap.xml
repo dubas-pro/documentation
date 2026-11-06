@@ -81,14 +81,6 @@
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/how-to-install/"/>
     </url>
     <url>
-        <loc>https://docs.dubas.pro/extensions/send/</loc>
-        <lastmod>2026-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
-    </url>
-    <url>
         <loc>https://docs.dubas.pro/extensions/short-url/</loc>
         <lastmod>2026-11-06</lastmod>
         <changefreq>daily</changefreq>
@@ -391,6 +383,46 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/projects/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/projects/"/>
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/projects/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/send/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/send/send/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/send/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/send/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/send/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/send/settings/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/settings/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/settings/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/settings/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/send/sharing/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/sharing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/sharing/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/sharing/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/send/template-helper/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/template-helper/"/>
     </url>
     <url>
         <loc>https://docs.dubas.pro/extensions/shipping-manager/</loc>
@@ -793,14 +825,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/how-to-install/"/>
     </url>
     <url>
-        <loc>https://docs.dubas.pro/pl/extensions/send/</loc>
-        <lastmod>2026-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
-    </url>
-    <url>
         <loc>https://docs.dubas.pro/pl/extensions/short-url/</loc>
         <lastmod>2026-11-06</lastmod>
         <changefreq>daily</changefreq>
@@ -1103,6 +1127,46 @@
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/projects/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/projects/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/projects/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/send/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/send/send/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/send/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/send/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/send/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/send/settings/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/settings/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/settings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/settings/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/send/sharing/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/sharing/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/sharing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/sharing/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/send/template-helper/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/template-helper/"/>
     </url>
     <url>
         <loc>https://docs.dubas.pro/pl/extensions/shipping-manager/</loc>
@@ -1505,14 +1569,6 @@
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/how-to-install/"/>
     </url>
     <url>
-        <loc>https://docs.dubas.pro/de/extensions/send/</loc>
-        <lastmod>2026-11-06</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
-    </url>
-    <url>
         <loc>https://docs.dubas.pro/de/extensions/short-url/</loc>
         <lastmod>2026-11-06</lastmod>
         <changefreq>daily</changefreq>
@@ -1815,6 +1871,46 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/quickbooks/projects/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/quickbooks/projects/"/>
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/quickbooks/projects/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/send/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/send/send/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/send/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/send/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/send/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/send/settings/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/settings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/settings/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/settings/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/send/sharing/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/sharing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/sharing/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/sharing/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/send/template-helper/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/send/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/send/template-helper/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/send/template-helper/"/>
     </url>
     <url>
         <loc>https://docs.dubas.pro/de/extensions/shipping-manager/</loc>
