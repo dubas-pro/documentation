@@ -5,6 +5,7 @@ Das **Time Tracker**-Dashlet ermöglicht es Benutzern, die Arbeitszeit direkt ü
 
 ## Funktionen
 ![Time Tracker Dashlet](../../images/time-tracker/time-tracker-dashlet-tracking.png)
+
 * **Schnellsteuerung:** Starten, Überwachen und Stoppen des Timers direkt auf dem Dashboard.
 * **Statusanzeige:** Zeigt klar an, ob der Timer aktuell aktiv (`TRACKING`) oder inaktiv (`IDLE`) ist.
 * **Kürzliche Einträge:** Schneller Zugriff auf zuletzt erfasste Elemente (z. B. Aufgaben, Fälle oder Verkaufschancen).
@@ -12,6 +13,7 @@ Das **Time Tracker**-Dashlet ermöglicht es Benutzern, die Arbeitszeit direkt ü
 
 ## Dashlet-Optionen
 ![Time Tracker Dashlet](../../images/time-tracker/time-tracker-dashlet-options.png)
+
 Klicken Sie auf das Optionsmenü (`...`) oben rechts auf der Dashlet-Karte, um die Einstellungen anzupassen:
 
 * **Title (Titel):** Benutzerdefinierter Name des Dashlets auf dem Dashboard.

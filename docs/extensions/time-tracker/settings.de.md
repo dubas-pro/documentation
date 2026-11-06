@@ -7,6 +7,7 @@ Systemadministratoren können das globale Verhalten des Moduls unter **Administr
 
 ### Require details when stopping the timer (Details beim Stoppen des Timers erzwingen)
 ![Time Tracker Description](../../images/time-tracker/time-tracker-tracking-description.png)
+
 Wenn aktiviert, müssen Benutzer Name und Beschreibung der durchgeführten Arbeit eingeben, bevor der Timer gestoppt werden kann.
 
 ### Report work progress when stopping the timer (Arbeitsfortschritt beim Stoppen des Timers melden)

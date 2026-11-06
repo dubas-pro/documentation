@@ -7,6 +7,7 @@ System administrators can configure global behavior under **Administration > Tim
 
 ### Require details when stopping the timer
 ![Time Tracker Description](../../images/time-tracker/time-tracker-tracking-description.png)
+
 When enabled, users must enter a name and description of the work performed before the timer can be stopped.
 
 ### Report work progress when stopping the timer

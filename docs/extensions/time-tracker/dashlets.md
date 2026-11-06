@@ -5,6 +5,7 @@ The **Time Tracker** dashlet allows users to log and monitor work time directly 
 
 ## Features
 ![Time Tracker Dashlet](../../images/time-tracker/time-tracker-dashlet-tracking.png)
+
 * **Quick Control:** Start, monitor, and stop the timer directly from the dashboard card.
 * **Status Indicators:** Clearly displays whether the timer is currently active (`TRACKING`) or idle (`IDLE`).
 * **Recent Records:** Provides fast access to recently tracked records (such as Tasks, Cases, or Opportunities).
@@ -12,6 +13,7 @@ The **Time Tracker** dashlet allows users to log and monitor work time directly 
 
 ## Dashlet Options
 ![Time Tracker Dashlet](../../images/time-tracker/time-tracker-dashlet-options.png)
+
 Click the options menu (`...`) in the upper-right corner of the dashlet card to configure:
 
 * **Title:** Custom display name for the dashlet on the dashboard.

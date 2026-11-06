@@ -7,6 +7,7 @@ Administratorzy systemu mogą skonfigurować globalne zachowanie wtyczki w sekcj
 
 ### Require details when stopping the timer (Wymagaj szczegółów przy zatrzymywaniu timera)
 ![Time Tracker Description](../../images/time-tracker/time-tracker-tracking-description.png)
+
 Po włączeniu tej opcji użytkownicy muszą podać nazwę oraz opis wykonanej pracy przed zatrzymaniem timera.
 
 ### Report work progress when stopping the timer (Zgłaszaj postęp prac przy zatrzymywaniu timera)
