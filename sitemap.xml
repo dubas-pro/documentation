@@ -489,6 +489,22 @@
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/"/>
     </url>
     <url>
+        <loc>https://docs.dubas.pro/extensions/time-tracker/dashlets/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/dashlets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/dashlets/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/dashlets/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/extensions/time-tracker/settings/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/settings/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/settings/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/settings/"/>
+    </url>
+    <url>
         <loc>https://docs.dubas.pro/extensions/time-tracker/time-entries/</loc>
         <lastmod>2026-11-06</lastmod>
         <changefreq>daily</changefreq>
@@ -1185,6 +1201,22 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/"/>
     </url>
     <url>
+        <loc>https://docs.dubas.pro/pl/extensions/time-tracker/dashlets/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/dashlets/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/dashlets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/dashlets/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/pl/extensions/time-tracker/settings/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/settings/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/settings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/settings/"/>
+    </url>
+    <url>
         <loc>https://docs.dubas.pro/pl/extensions/time-tracker/time-entries/</loc>
         <lastmod>2026-11-06</lastmod>
         <changefreq>daily</changefreq>
@@ -1879,6 +1911,22 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/"/>
         <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/time-tracker/dashlets/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/dashlets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/dashlets/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/dashlets/"/>
+    </url>
+    <url>
+        <loc>https://docs.dubas.pro/de/extensions/time-tracker/settings/</loc>
+        <lastmod>2026-11-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://docs.dubas.pro/de/extensions/time-tracker/settings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.dubas.pro/extensions/time-tracker/settings/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://docs.dubas.pro/pl/extensions/time-tracker/settings/"/>
     </url>
     <url>
         <loc>https://docs.dubas.pro/de/extensions/time-tracker/time-entries/</loc>
