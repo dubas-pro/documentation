@@ -123,7 +123,11 @@ nav:
             # - Employees: extensions/quickbooks/employees.md
             # - Purchase Orders: extensions/quickbooks/purchase-orders.md
             # - Webhooks: extensions/quickbooks/webhooks.md
-        - Send: extensions/send.md
+        - Send:
+            - Overview: extensions/send/index.md
+            - Send Entity: extensions/send/send.md
+            - Template Helpers: extensions/send/template-helper.md
+            - Settings: extensions/send/settings.md
         - Stripe Integration:
             - Overview: extensions/stripe/index.md
             - Transactions: extensions/stripe/transactions.md
@@ -252,6 +256,26 @@ plugins:
             Upgrading EspoCRM: EspoCRM aktualisieren
             Contact: Kontakt
             Dashlets: Dashlets
+            Template Helpers: Vorlagen-Helfer
+            Send: Senden
+            Address Field: Adressfeld
+            Custom Formulas: Benutzerdefinierte Formeln
+            Google Fonts in PDF: Google Fonts in PDF
+            Shipping Manager: Versandmanager
+            Parcels: Pakete
+            Packages: Pakete
+            Package Statuses: Paketstatus
+            Parcel Locations: Paketstandorte
+            Short Url: Kurze URL
+            UUID Field: UUID-Feld
+            KSeF Integration: KSeF-Integration
+            Invoices: Rechnungen
+            Purchases: Einkäufe
+            Credit Notes: Gutschriften
+            Expenses: Ausgaben
+            Profiles: Profile
+            Bank accounts: Bankkonten
+            Authorization: Autorisierung
             Settings: Einstellungen
             How to buy our Extensions: So kaufen Sie unsere Erweiterungen
             License: Lizenz

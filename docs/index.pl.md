@@ -15,7 +15,7 @@ Poniższe rozszerzenia są dostępne do zakupu w [DevCRM Marketplace](https://de
 - [Integracja z GUS - Baza danych firm](./extensions/gus/index.md)
 - [Integracja z KSeF - Zarządzanie fakturami dla polskich firm](./extensions/ksef/index.md)
 - [Integracja z PayPal](./extensions/paypal/index.md)
-- [Send](./extensions/send.md)
+- [Send](./extensions/send/index.md)
 - [Integracja z Stripe](./extensions/stripe/index.md)
 - [Integracja z Tawk.to](./extensions/tawk/index.md)
 - [Rejestrator czasu](./extensions/time-tracker/index.md)

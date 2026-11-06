@@ -15,7 +15,7 @@ The following extensions are available for purchase at [DevCRM Marketplace](http
 - [GUS Integration - Database of companies](./extensions/gus/index.md)
 - [KSeF Integration - Invoices management for Polish companies](./extensions/ksef/index.md)
 - [PayPal Integration](./extensions/paypal/index.md)
-- [Send](./extensions/send.md)
+- [Send](./extensions/send/index.md)
 - [Stripe Integration](./extensions/stripe/index.md)
 - [Tawk.to Integration](./extensions/tawk/index.md)
 - [Time Tracker](./extensions/time-tracker/index.md)

@@ -15,7 +15,7 @@ Die folgenden Erweiterungen sind im [DevCRM Marketplace](https://devcrm.it/marke
 - [GUS Integration - Database of companies](./extensions/gus/index.md)
 - [KSeF-Integration - Rechnungsverwaltung für polnische Unternehmen](./extensions/ksef/index.md)
 - [PayPal Integration](./extensions/paypal/index.md)
-- [Send](./extensions/send.md)
+- [Send](./extensions/send/index.md)
 - [Stripe Integration](./extensions/stripe/index.md)
 - [Tawk.to Integration](./extensions/tawk/index.md)
 - [Time Tracker](./extensions/time-tracker/index.md)
