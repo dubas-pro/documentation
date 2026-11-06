@@ -3,6 +3,9 @@
 
 Administratorzy systemu mogą skonfigurować globalne zachowanie wtyczki w sekcji **Administration > Time Tracker Settings**.
 
+!!! example "Przekierowanie do ustawień"
+    [#Admin/dubasTimeTracker](https://dubas.pro/redirect/#Admin/dubasTimeTracker)
+
 ## Pola konfiguracji
 
 ### Require details when stopping the timer (Wymagaj szczegółów przy zatrzymywaniu timera)

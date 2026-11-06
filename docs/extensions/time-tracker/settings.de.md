@@ -3,6 +3,9 @@
 
 Systemadministratoren können das globale Verhalten des Moduls unter **Administration > Time Tracker Settings** anpassen.
 
+!!! example "Weiterleitung zu den Einstellungen"
+    [#Admin/dubasTimeTracker](https://dubas.pro/redirect/#Admin/dubasTimeTracker)
+
 ## Konfigurationsfelder
 
 ### Require details when stopping the timer (Details beim Stoppen des Timers erzwingen)

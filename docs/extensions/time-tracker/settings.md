@@ -3,6 +3,9 @@
 
 System administrators can configure global behavior under **Administration > Time Tracker Settings**.
 
+!!! example "Redirect to settings"
+    [#Admin/dubasTimeTracker](https://dubas.pro/redirect/#Admin/dubasTimeTracker)
+
 ## Configuration Fields
 
 ### Require details when stopping the timer
