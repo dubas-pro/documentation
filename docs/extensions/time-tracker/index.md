@@ -17,7 +17,7 @@ Password: **dubas**
 </div>
 
 ## Time Tracker in custom entities
-If you'd like to enable Time Tracker in custom entity, please go into **Administration > Entity Manager > Time Entry > Fields > Parent** and add your custom entity to list of allowed entities. Then do the same thing for **Time Sheets** entity, so please go to **Administration > Entity Manager > Time Sheet > Fields > Parent** andd add custom entity to allowed entities list.
+If you'd like to enable Time Tracker in custom entity, please go into **Administration > Entity Manager > Time Sheet > Fields > Parent** andd add custom entity to allowed entities list.
 
 After that please refresh page with entity and enjoy using Time Tracker.
 

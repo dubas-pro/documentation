@@ -17,7 +17,7 @@ Passwort: **dubas**
 </div>
 
 ## Time Tracker in benutzerdefinierten Entitäten
-Wenn Sie Time Tracker in einer benutzerdefinierten Entität aktivieren möchten, gehen Sie bitte zu **Administration > Entity Manager > Time Entry > Fields > Parent** und fügen Sie Ihre benutzerdefinierte Entität zur Liste der erlaubten Entitäten hinzu. Machen Sie dann dasselbe für die Entität **Time Sheets**: Gehen Sie zu **Administration > Entity Manager > Time Sheet > Fields > Parent** und fügen Sie auch dort die benutzerdefinierte Entität zur Liste der erlaubten Entitäten hinzu.
+Wenn Sie Time Tracker in einer benutzerdefinierten Entität aktivieren möchten, gehen Sie bitte zu **Administration > Entity Manager > Time Sheet > Fields > Parent** und fügen Sie auch dort die benutzerdefinierte Entität zur Liste der erlaubten Entitäten hinzu.
 
 Aktualisieren Sie danach die Seite der Entität und nutzen Sie Time Tracker.
 

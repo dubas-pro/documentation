@@ -17,7 +17,7 @@ Password: **dubas**
 </div>
 
 ## Time Tracker in custom entities
-Jeśli chcesz włączyć Time Tracker dla niestandardowej encji, przejdź do **Administration > Entity Manager > Time Entry > Fields > Parent** i dodaj swoją niestandardową encję do listy dozwolonych encji. Następnie wykonaj to samo dla encji **Time Sheets** — przejdź do **Administration > Entity Manager > Time Sheet > Fields > Parent** i dodaj niestandardową encję do listy dozwolonych encji.
+Jeśli chcesz włączyć Time Tracker dla niestandardowej encji, przejdź do **Administration > Entity Manager > Time Sheet > Fields > Parent** i dodaj niestandardową encję do listy dozwolonych encji.
 
 Następnie odśwież stronę z encją i korzystaj z Time Tracker.
 
