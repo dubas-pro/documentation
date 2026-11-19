@@ -24,7 +24,7 @@ W korekcie wpisujesz wartości dodatnie. Integracja sama dodaje znak minus. Pods
 2. Profil KSeF jest kopiowany z faktury automatycznie.
 3. Zostaw tylko pozycje, które się zmieniają, i wpisz korygowaną ilość lub kwotę.
 4. Uzupełnij **Przyczynę** korekty.
-5. Kliknij `Wyślij przez KSeF`.
+5. Kliknij `Wystaw przez KSeF`.
 
 Korygowana faktura musi mieć już numer KSeF.
 
@@ -38,6 +38,11 @@ Przed zapisem i przed wysyłką integracja sprawdza, czy korekty nie przekraczaj
 - uwzględniane są wszystkie wcześniejsze korekty faktury, poza anulowanymi.
 
 Przykład: po obniżce ceny o 81,30 na fakturze 10 × 100,00 pełny zwrot 10 × 100,00 zostanie odrzucony, bo pozostała wartość to 918,70.
+
+Przed wysyłką integracja sprawdza również, czy:
+
+- identyfikator podatkowy nabywcy nie zmienił się od wystawienia faktury – korekta musi wskazywać tego samego nabywcę co faktura korygowana,
+- kwota VAT każdej pozycji zgadza się z jej stawką KSeF, tak samo jak przy [fakturach](./invoices.md). Pozycja zmieniająca wyłącznie kwotę VAT (netto 0,00) jest dozwolona – użyj jej, aby poprawić VAT wykazany przez pomyłkę.
 
 ## :material-file-multiple: Kilka korekt do jednej faktury
 

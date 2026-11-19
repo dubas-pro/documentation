@@ -45,7 +45,8 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 * :material-checkbox-marked-outline: Incoming invoices as Sales Pack Supplier Bills.
 * :material-checkbox-blank-outline: Support for Debit Notes (corrections increasing the amount).
 * :material-checkbox-blank-outline: Summary corrections for a period.
-* :material-checkbox-blank-outline: Support for offline modes (requires certificate authorization).
+* :material-checkbox-marked-outline: Offline24 mode with automatic sending to KSeF (requires an Offline certificate).
+* :material-checkbox-blank-outline: Emergency modes (KSeF failure announced by the Ministry of Finance).
 * :material-checkbox-blank-outline: Batch processing support for invoice issuance.
 
 ---
@@ -65,6 +66,7 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 3. [Configure KSeF Profile](./profiles.md#how-to-configure-a-ksef-profile)
 4. [Configure automatic fetching of incoming invoices](#how-to-configure-the-ksef-cron-job)
 5. [Add optional fields to Invoices](./invoices.md#how-to-set-additional-params-for-invoice)
+6. [Set the tax ID type for your customers](./accounts.md#tax-id-types) – choose **Private person** for consumers
 
 **[Now you can issue your first invoice!](./invoices.md#how-to-issue-invoice-via-ksef)**
 
@@ -98,6 +100,7 @@ By default, this job will automatically download incoming invoices from KSeF eve
 
 * [Invoices management](./invoices.md)
 * [Credit notes in KSeF](./credit-notes.md)
+* [Offline mode](./offline.md)
 * [Purchase documents](./purchases.md)
 * [Migrating from Expenses](./migration-3.md)
 * [How to download a package with financial documents](./download-documents.md)

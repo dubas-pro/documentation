@@ -11,3 +11,20 @@
 5. Kliknij na **Eksportuj**
 
 Będziesz powiadomiony w powiadomieniach EspoCRM, gdy pakiet będzie gotowy. Będzie tam również link do pakietu.
+
+## :material-folder-zip: Co zawiera pakiet
+
+Pakiet to plik ZIP z maksymalnie trzema folderami:
+
+| Folder | Zawartość |
+|---|---|
+| `Przychodzace` | Dokumenty przychodzące pobrane z KSeF – faktury i korekty od Twoich dostawców. |
+| `Wychodzace` | Dokumenty wystawione przez Ciebie w KSeF – faktury i faktury korygujące, w formacie XML. |
+| `UPO` | Urzędowe Poświadczenia Odbioru (UPO) z KSeF dla dokumentów z folderu `Wychodzace`. |
+
+To, które foldery znajdą się w pakiecie, zależy od opcji wybranej w kroku 4.
+
+!!! info "Jakie dokumenty trafiają do pakietu"
+    * Tylko dokumenty, które mają już numer KSeF. Faktury wystawione w [trybie offline](./offline.md) pojawią się w pakiecie po dosłaniu ich do KSeF.
+    * Dokumenty wychodzące są wybierane według daty wystawienia, a nie daty przyjęcia w KSeF.
+    * Dokumenty przychodzące ze statusem Wersja robocza, Odrzucona lub Anulowana są pomijane.

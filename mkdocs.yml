@@ -78,6 +78,11 @@ nav:
       - Installing Extensions: extensions/how-to-install.md
       - Premium:
         - Cal.com Integration: extensions/calcom.md
+        - Chat:
+            - Overview: extensions/chat/index.md
+            - Agents: extensions/chat/agents.md
+            - Portal Users: extensions/chat/portal-users.md
+            - Website Visitors: extensions/chat/website-visitors.md
         - DAV Integration:
             - Overview: extensions/dav/index.md
             - Setting-up:

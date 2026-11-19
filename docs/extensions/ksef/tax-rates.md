@@ -35,6 +35,24 @@ When creating or editing Tax Codes for use with the KSeF integration, you must l
 2. Locate the **KSeF Rate** field in the right-side panel.
 3. Select the appropriate rate from the dropdown to ensure correct mapping.
 
+!!! warning "The rate and the KSeF Rate must match"
+    The VAT calculated by EspoCRM must agree with the KSeF Rate of the tax code. For example, a tax code with rate 23% must have KSeF Rate `23`, and tax codes with KSeF Rate `zw`, `np`, `oo` or `0%` must have rate 0%. If they do not match, the invoice will not be sent to KSeF.
+
+### Which KSeF Rate to choose
+
+| KSeF Rate | Use for |
+|---|---|
+| `23`, `22`, `8`, `7`, `5`, `4`, `3` | Standard and reduced rates |
+| `0 KR` | 0% domestic supply |
+| `0 WDT` | 0% intra-community supply – the buyer must have an EU VAT number |
+| `0 EX` | 0% export |
+| `zw` | Exempt – the invoice must include the legal basis of the exemption |
+| `oo` | Domestic reverse charge |
+| `np I` | Outside the scope of Polish VAT |
+| `np II` | Services to EU businesses (art. 100 ust. 1 pkt 4) |
+
+For `oo` and `np II` the "reverse charge" annotation is added to the invoice automatically.
+
 ---
 
 ## :octicons-download-24: Import Default Polish Tax Codes

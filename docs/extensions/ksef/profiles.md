@@ -27,7 +27,7 @@ The integration supports multiple KSeF Profiles, enabling the management of seve
 * **Authorization Type:** Choose between **Token** or **Certificate** based on your preferred security method.
 * **Token:** Paste the authentication token generated in the KSeF portal.
 * **Authorization Certificate:** The certificate used to establish a secure connection with the KSeF platform.
-* **Offline Certificate:** The certificate used specifically for signing invoices in offline mode.
+* **Offline Certificate:** The certificate used specifically for signing invoices in offline mode. Without it, invoices cannot be issued when KSeF is unavailable – see [Offline mode](./offline.md).
 
 ---
 

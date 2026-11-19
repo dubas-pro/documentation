@@ -34,6 +34,31 @@ Button is visible only when all of the following conditions are met:
 
 If any of these checks fail, the button is hidden.
 
+## :material-shield-check: What is checked before sending
+
+Before an invoice goes to KSeF, the integration checks that it is complete and consistent. If something is wrong, the invoice is not sent, the KSeF Status changes to **Error obtaining fields for submission** and you see the reason. Fix the data and click `Issue via KSeF` again.
+
+| Check | What to do if it fails |
+|---|---|
+| The invoice date is today. | Set the invoice date to today's date. |
+| The buyer has a tax ID type selected. | Choose the type on the Account – for consumers choose **Private person**. See [Accounts](./accounts.md). |
+| The VAT amount of every item matches its KSeF rate. | Check the item's tax code – its rate in EspoCRM must agree with the selected **KSeF Rate**. See [Tax rates](./tax-rates.md). |
+| Items marked as exempt (`zw`) have the legal basis of the exemption. | Fill in **Exemption Type** and **Exemption Description** on the invoice. |
+| Items with `0% WDT` (intra-community supply) have a buyer with an EU VAT number. | Set the buyer's tax ID type to **VAT UE**. |
+| **Reverse Charge** is ticked only when the invoice has reverse-charge items (`oo` or `np II`). | Untick the option or correct the tax codes. |
+| A buyer in a VAT group has the group member added. | Add the member in **Additional Accounts** with the role **VAT group member - recipient**. |
+
+!!! tip "Reverse charge is marked automatically"
+    You do not have to tick **Reverse Charge** yourself. When the invoice contains items with the `oo` or `np II` rate, the "odwrotne obciążenie" annotation is added automatically.
+
+## :material-lock: After the invoice is in KSeF
+
+An invoice registered in KSeF cannot be changed – this is required by law. Amounts, items, buyer data and other information sent to KSeF are locked in EspoCRM. If anything needs to change, issue a [credit note](./credit-notes.md).
+
+## :material-wifi-off: When KSeF is unavailable
+
+If KSeF does not respond while an invoice is being sent, the integration can issue it in **offline mode**. See [Offline mode](./offline.md) for details.
+
 ## :material-book-information-variant: KSeF fields in invoices
 
 - `ksefNumber` - KSeF number assigned to an invoice. Required on issued invoices.
@@ -51,7 +76,7 @@ Go to Layout manager and add proper fields into the detail view:
 - Cash Method
 - Reverse Charge
 - Split Payment Mechanism
-- Excemption Type - you can set also `Excemption Description`
+- Excemption Type - you can set also `Excemption Description`. Required when the invoice has exempt (`zw`) items
 - Relevant Period - if you want to specify different date than issuance, choose `Relevant Date` or `Period`. In such scenario, add also additional fields: `Date of Delivery or Service Completion` or/and `Period Start Date` and `Period End Date`
 
 ## :material-currency-usd: How to issue invoices in different currencies?
@@ -79,7 +104,7 @@ Include at least:
 - **Public link to the KSeF invoice page** - `{{ksefPublicUrl}}`
 - **QR code for the KSeF public invoice page** `{{qrCodeId}}`
 
-For invoices issued in **offline mode**, include an additional (second) QR code required for offline identification/verification.
+For invoices issued in **offline mode**, include an additional (second) QR code required for offline identification/verification. It is stored in the `qrCodeCertificate` field. See [Offline mode](./offline.md).
 
 ### How to print QR Code on PDF?
 

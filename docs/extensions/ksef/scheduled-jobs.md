@@ -16,6 +16,10 @@ This job gathers all active KSeF profiles and schedules fetching expenses for ea
 
 This job performs daily fetching of expenses from KSeF, ensuring your expense records are regularly updated from the KSeF service.
 
+### `SendPendingOfflineDocuments`
+
+Shown as **Send offline24 documents to KSeF**. Every 15 minutes it sends invoices and credit notes issued in [offline mode](./offline.md) to KSeF and reminds you when a deadline is close. The job is created automatically when the extension is installed – make sure it stays **Active**.
+
 ---
 
 ## Background Jobs
@@ -36,7 +40,7 @@ This job allows users to fetch invoices while a KSeF Profile is being created, b
 
 ### `GeneratePackageWithDocuments`
 
-After a user clicks "Export Invoices" in a KSeF Profile, this job handles gathering and packaging documents. It notifies the user upon completion of the export process.
+After a user clicks "Export Invoices" in a KSeF Profile, this job handles gathering and packaging documents, including UPO confirmations. It notifies the user upon completion of the export process. See [what is inside the package](./download-documents.md#what-is-inside-the-package).
 
 ### `GetInvoicesFromKsef`
 

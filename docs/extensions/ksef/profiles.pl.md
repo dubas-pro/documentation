@@ -27,7 +27,7 @@ Integracja obsługuje wiele profili KSeF, co umożliwia zarządzanie kilkoma fir
 * **Typ autoryzacji:** Wybierz **Token** lub **Certyfikat** w zależności od preferowanej metody zabezpieczenia.
 * **Token:** Wklej token uwierzytelniający wygenerowany w portalu KSeF.
 * **Certyfikat autoryzacyjny:** Certyfikat używany do nawiązania bezpiecznego połączenia z platformą KSeF.
-* **Certyfikat offline:** Certyfikat używany wyłącznie do podpisywania faktur w trybie offline.
+* **Certyfikat offline:** Certyfikat używany wyłącznie do podpisywania faktur w trybie offline. Bez niego nie da się wystawiać faktur, gdy KSeF jest niedostępny – zobacz [Tryb offline](./offline.md).
 
 ---
 

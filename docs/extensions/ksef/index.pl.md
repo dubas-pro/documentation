@@ -45,7 +45,8 @@ Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną kom
 * :material-checkbox-marked-outline: Faktury przychodzące jako faktury zakupowe Sales Pack.
 * :material-checkbox-blank-outline: Obsługa korekt zwiększających (Debit Notes).
 * :material-checkbox-blank-outline: Korekty zbiorcze za okres.
-* :material-checkbox-blank-outline: Obsługa trybów offline (wymaga autoryzacji certyfikatem).
+* :material-checkbox-marked-outline: Tryb offline24 z automatycznym dosyłaniem do KSeF (wymaga certyfikatu Offline).
+* :material-checkbox-blank-outline: Tryby awaryjne (awaria KSeF ogłoszona przez Ministerstwo Finansów).
 * :material-checkbox-blank-outline: Obsługa wsadowego przetwarzania wystawiania faktur.
 
 ---
@@ -65,6 +66,7 @@ Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną kom
 3. [Skonfiguruj profil KSeF](./profiles.md#how-to-configure-a-ksef-profile)
 4. [Skonfiguruj automatyczne pobieranie faktur przychodzących](#jak-skonfigurować-zadanie-cron-ksef)
 5. [Dodaj opcjonalne pola do faktur](./invoices.md#how-to-set-additional-params-for-invoice)
+6. [Ustaw typ identyfikatora podatkowego swoich klientów](./accounts.md) – dla konsumentów wybierz **Osoba prywatna**
 
 **[Teraz możesz wystawić swoją pierwszą fakturę!](./invoices.md#how-to-issue-invoice-via-ksef)**
 
@@ -98,6 +100,7 @@ Domyślnie to zadanie automatycznie pobiera faktury przychodzące z KSeF co **5 
 
 * [Zarządzanie fakturami](./invoices.md)
 * [Faktury korygujące w KSeF](./credit-notes.md)
+* [Tryb offline](./offline.md)
 * [Dokumenty zakupowe](./purchases.md)
 * [Migracja z Wydatków](./migration-3.md)
 * [Jak pobrać paczkę z dokumentami finansowymi](./download-documents.md)

@@ -39,6 +39,11 @@ Before saving and before sending, the integration checks that corrections do not
 
 Example: after a price reduction of 81.30 on an invoice for 10 × 100.00, a full return of 10 × 100.00 is rejected, because the remaining value is 918.70.
 
+Before sending, the integration also checks that:
+
+- the buyer's tax ID has not changed since the invoice was issued – a correction must name the same buyer as the corrected invoice,
+- the VAT amount of every item matches its KSeF rate, the same way as for [invoices](./invoices.md#what-is-checked-before-sending). An item that changes only the VAT amount (net amount 0.00) is allowed – use it to fix VAT that was shown by mistake.
+
 ## :material-file-multiple: Several corrections to one invoice
 
 Each correction is independent and always refers to the original invoice. You can issue as many credit notes as needed within the limits described above.

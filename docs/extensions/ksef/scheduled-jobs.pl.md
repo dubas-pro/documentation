@@ -16,6 +16,10 @@ To zadanie zbiera wszystkie aktywne profile KSeF i planuje pobieranie wydatków 
 
 To zadanie codziennie pobiera wydatki z KSeF, zapewniając regularną aktualizację rekordów wydatków z usługi KSeF.
 
+### `SendPendingOfflineDocuments`
+
+Widoczne jako **Dosyłanie dokumentów offline24 do KSeF**. Co 15 minut wysyła do KSeF faktury i faktury korygujące wystawione w [trybie offline](./offline.md) oraz przypomina o zbliżającym się terminie. Zadanie jest tworzone automatycznie podczas instalacji rozszerzenia – upewnij się, że pozostaje **Aktywne**.
+
 ---
 
 ## Zadania w tle
@@ -36,7 +40,7 @@ To zadanie umożliwia pobieranie faktur podczas tworzenia profilu KSeF, na podst
 
 ### `GeneratePackageWithDocuments`
 
-Po kliknięciu przez użytkownika opcji „Eksportuj faktury” w profilu KSeF to zadanie odpowiada za zebranie i spakowanie dokumentów. Powiadamia użytkownika po zakończeniu procesu eksportu.
+Po kliknięciu przez użytkownika opcji „Eksportuj faktury” w profilu KSeF to zadanie odpowiada za zebranie i spakowanie dokumentów, łącznie z potwierdzeniami UPO. Powiadamia użytkownika po zakończeniu procesu eksportu. Zobacz, [co zawiera pakiet](./download-documents.md).
 
 ### `GetInvoicesFromKsef`
 

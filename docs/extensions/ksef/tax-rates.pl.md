@@ -35,6 +35,24 @@ Podczas tworzenia lub edycji kodów podatkowych używanych w integracji KSeF nal
 2. Znajdź pole **KSeF Rate** w panelu po prawej stronie.
 3. Wybierz odpowiednią stawkę z listy rozwijanej, aby zapewnić prawidłowe mapowanie.
 
+!!! warning "Stawka i Stawka KSeF muszą do siebie pasować"
+    VAT wyliczony przez EspoCRM musi zgadzać się ze Stawką KSeF kodu podatkowego. Na przykład kod ze stawką 23% musi mieć Stawkę KSeF `23`, a kody ze Stawką KSeF `zw`, `np`, `oo` lub `0%` muszą mieć stawkę 0%. Jeśli wartości się nie zgadzają, faktura nie zostanie wysłana do KSeF.
+
+### Którą Stawkę KSeF wybrać
+
+| Stawka KSeF | Zastosowanie |
+|---|---|
+| `23`, `22`, `8`, `7`, `5`, `4`, `3` | Stawka podstawowa i stawki obniżone |
+| `0 KR` | 0% – dostawa krajowa |
+| `0 WDT` | 0% – wewnątrzwspólnotowa dostawa towarów; nabywca musi mieć numer VAT UE |
+| `0 EX` | 0% – eksport |
+| `zw` | Zwolnienie – faktura musi zawierać podstawę prawną zwolnienia |
+| `oo` | Krajowe odwrotne obciążenie |
+| `np I` | Sprzedaż poza terytorium kraju |
+| `np II` | Usługi dla podatników z UE (art. 100 ust. 1 pkt 4) |
+
+Przy stawkach `oo` i `np II` adnotacja „odwrotne obciążenie” jest dodawana do faktury automatycznie.
+
 ---
 
 ## :octicons-download-24: Import domyślnych polskich kodów podatkowych
