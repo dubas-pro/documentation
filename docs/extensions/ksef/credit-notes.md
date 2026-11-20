@@ -28,6 +28,86 @@ Enter positive values in the credit note. The integration adds the minus sign au
 
 The corrected invoice must already have a KSeF number.
 
+## :material-lightbulb-on-outline: Typical corrections
+
+Below you will find what to fill in for the most common changes. In every case you start the same way: open the invoice, create a credit note from it, fill in the **Reason** and click `Issue via KSeF` at the end.
+
+!!! tip "Several changes at once"
+    You can tick more than one option in the **Changes** field, for example a new number and a new due date in one credit note.
+
+### Wrong invoice number
+
+The invoice was sent with a wrong number, e.g. `FV/12/2026` instead of `FV/21/2026`.
+
+| Field | Value |
+|---|---|
+| Changes | **Number** only (untick **Items**) |
+| Correct number of the corrected invoice | `FV/21/2026` |
+| Items | none |
+| Reason | Wrong invoice number |
+
+The correction is sent with a total of **0.00**. Amounts and VAT do not change.
+
+### Wrong dates
+
+**Wrong issue date**
+
+| Field | Value |
+|---|---|
+| Changes | **Date Invoiced** only (untick **Items**) |
+| Correct issue date | the right date |
+| Items | none |
+
+The correct date is added to the reason of the correction, because KSeF has no separate field for it. Total **0.00**.
+
+**New due date**
+
+| Field | Value |
+|---|---|
+| Changes | **Due Date** only (untick **Items**) |
+| Due Date | the new due date |
+| Items | none |
+
+Total **0.00**, the new due date is sent to KSeF.
+
+!!! info "Date of sale"
+    A correction that changes only the date of sale (delivery) is not available yet. [Contact us](https://dubas.pro/form/contact) if you need one.
+
+### Fewer items (return)
+
+Invoice: 10 items at 100.00 net, VAT 23%. The customer returns 3 items.
+
+| Field in the credit note item | Value |
+|---|---|
+| Quantity | 3 |
+| Unit price | 100.00 – **the same as on the invoice** |
+| Net | 300.00 |
+| VAT 23% | 69.00 |
+| Total | 369.00 |
+
+Keep **Items** ticked in **Changes** and leave only the returned item on the list. You cannot return more items than were invoiced – earlier credit notes are counted too. After this return, 7 items are left.
+
+### Lower price (discount)
+
+Invoice: 10 items at 100.00 net, VAT 23%. The price is reduced to 91.87.
+
+Enter the **difference**, not the new price: 100.00 − 91.87 = **8.13** per item.
+
+| Field in the credit note item | Value |
+|---|---|
+| Quantity | 10 |
+| Unit price | 8.13 |
+| Net | 81.30 |
+| VAT 23% | 18.70 |
+| Total | 100.00 |
+
+If the discount is a single amount for the whole item, enter quantity **1** and the discount as the unit price (1 × 81.30). The VAT result is the same.
+
+For a price change the integration checks the value of the item, not the number of items. After this discount 918.70 is left on the item, so a later return must use the price after the discount (91.87).
+
+!!! warning "More items or a higher price"
+    Corrections increasing the amount are not available yet – see [Limitations](#limitations).
+
 ## :material-shield-check: Validation
 
 Before saving and before sending, the integration checks that corrections do not exceed the invoice:
