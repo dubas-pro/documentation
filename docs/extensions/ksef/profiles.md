@@ -46,6 +46,7 @@ The integration supports multiple KSeF Profiles, enabling the management of seve
 * **Fetch Since:** The start date for retrieving historical invoice data.
 * **Create Accounts for Expenses:** If enabled, the system will automatically create a new **Account** record if no existing record matches the Tax ID on a fetched invoice.
 * **Assign Expenses To:** Specify the default user to whom newly imported expenses will be assigned.
+* **Default Team:** Specify the default team to which newly imported expenses will be assigned.
 
 !!! warning "Account Matching & Tax ID Management"
     To understand how the integration identifies existing accounts and prevents duplicates, [please read this detailed article](./accounts.md).

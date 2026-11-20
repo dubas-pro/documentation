@@ -46,6 +46,7 @@ Integracja obsługuje wiele profili KSeF, co umożliwia zarządzanie kilkoma fir
 * **Pobieraj od:** Data początkowa pobierania historycznych danych o fakturach.
 * **Twórz konta dla kosztów:** Jeśli opcja jest włączona, system automatycznie utworzy nowy rekord **Konto**, jeśli nie istnieje żaden rekord pasujący do NIP z pobranej faktury.
 * **Przypisz koszty do:** Określ domyślnego użytkownika, do którego będą przypisywane nowo zaimportowane koszty.
+* **Domyślny zespół:** Określ domyślny zespół, do którego będą przypisywane nowo zaimportowane koszty.
 
 !!! warning "Dopasowanie kont i zarządzanie NIP"
     Aby dowiedzieć się, jak integracja identyfikuje istniejące konta i zapobiega duplikatom, [przeczytaj ten szczegółowy artykuł](./accounts.md).

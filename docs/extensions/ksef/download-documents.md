@@ -18,7 +18,7 @@ The package is a ZIP file with up to three folders:
 
 | Folder | Contents |
 |---|---|
-| `Przychodzace` | Incoming documents fetched from KSeF – invoices and corrections from your suppliers. |
+| `Przychodzace` | [Expenses](./expenses.md) fetched from KSeF – invoices and corrections from your suppliers. |
 | `Wychodzace` | Documents you issued in KSeF – invoices and credit notes, as XML files. |
 | `UPO` | KSeF delivery confirmations (UPO) for the documents in `Wychodzace`. |
 
@@ -27,4 +27,4 @@ Which folders are included depends on the option you choose in step 4.
 !!! info "Which documents are included"
     * Only documents that already have a KSeF number. Invoices issued in [offline mode](./offline.md) appear in the package after they are delivered to KSeF.
     * Outgoing documents are selected by their issue date, not by the date they were received by KSeF.
-    * Incoming documents with the status Draft, Rejected or Canceled are skipped.
+    * Expenses with the status Draft, Rejected or Canceled are skipped.

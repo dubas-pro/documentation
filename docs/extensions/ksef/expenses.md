@@ -1,9 +1,7 @@
 # Expenses Management
 
-!!! warning "Being phased out since 3.0.0"
-    Starting with version 3.0.0, incoming invoices from KSeF are stored as Sales Pack [Supplier Bills and Bill Credits](./purchases.md). The Expenses entity is being phased out and will be removed in a future version.
-
-    The content below describes how Expenses worked before 3.0.0. Existing Expenses remain available – to move them to Supplier Bills, follow the [migration guide](./migration-3.md).
+!!! info "Coming in the next version"
+    In the next version incoming invoices will be stored as Sales Pack Supplier Bills and Bill Credits. Until then, all incoming invoices are stored as Expenses, as described below.
 
 For KSeF integration, a new entity called `Expenses` has been created. All incoming invoices are fetched and automatically added to the Expenses entity. You can also use it manually to manage incoming documents that are not handled by KSeF.
 
@@ -40,6 +38,20 @@ You can also enter expenses manually in EspoCRM.
 
 !!!warning "Be careful!"
     Do not use this too often, as you may hit KSeF limits and get temporarily blocked.
+
+### :material-file-download: How to download a single invoice?
+
+1. Go to **Expenses** entity.
+2. Click on `Download Invoice From KSeF`.
+3. Enter the KSeF number of the invoice.
+
+### :material-content-duplicate: Duplicate protection
+
+An expense cannot be saved when another expense from the same account has the same document number. This protects you from entering the same invoice twice – for example manually and from KSeF.
+
+### :material-account-group: Default owner and team
+
+In the KSeF Profile you can choose the user and the team to which new expenses are assigned automatically. See [KSeF Profiles](./profiles.md).
 
 ### :material-calendar-today: How to make sure that you have all expenses?
 

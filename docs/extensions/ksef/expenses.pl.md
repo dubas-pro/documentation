@@ -1,9 +1,7 @@
 # Zarządzanie wydatkami
 
-!!! warning "Wygaszane od wersji 3.0.0"
-    Od wersji 3.0.0 faktury przychodzące z KSeF są zapisywane jako [faktury i korekty zakupowe](./purchases.md) z Sales Pack. Encja Wydatki jest wygaszana i zostanie usunięta w jednej z przyszłych wersji.
-
-    Poniższa treść opisuje działanie Wydatków przed wersją 3.0.0. Istniejące Wydatki pozostają dostępne – aby przenieść je do faktur zakupowych, skorzystaj z [instrukcji migracji](./migration-3.md).
+!!! info "W następnej wersji"
+    W następnej wersji faktury przychodzące będą zapisywane jako faktury i korekty zakupowe z Sales Pack. Do tego czasu wszystkie faktury przychodzące trafiają do Wydatków, tak jak opisano poniżej.
 
 W ramach integracji z KSeF utworzono nową encję o nazwie `Expenses`. Wszystkie przychodzące faktury są pobierane i automatycznie dodawane do encji Expenses. Możesz też używać jej ręcznie do zarządzania dokumentami przychodzącymi, które nie są obsługiwane przez KSeF.
 
@@ -40,6 +38,20 @@ Możesz również wprowadzać wydatki ręcznie w EspoCRM.
 
 !!!warning "Uwaga!"
     Nie używaj tego zbyt często, ponieważ możesz osiągnąć limity KSeF i zostać tymczasowo zablokowany.
+
+### :material-file-download: Jak pobrać pojedynczą fakturę?
+
+1. Przejdź do encji **Wydatki**.
+2. Kliknij `Pobierz fakturę z KSeF`.
+3. Wpisz numer KSeF faktury.
+
+### :material-content-duplicate: Ochrona przed duplikatami
+
+Nie można zapisać wydatku, jeśli inny wydatek od tego samego kontrahenta ma ten sam numer dokumentu. Chroni to przed dwukrotnym wprowadzeniem tej samej faktury – na przykład ręcznie i z KSeF.
+
+### :material-account-group: Domyślny opiekun i zespół
+
+W profilu KSeF możesz wybrać użytkownika i zespół, do których nowe wydatki będą przypisywane automatycznie. Zobacz [Profile KSeF](./profiles.md).
 
 ### :material-calendar-today: Jak upewnić się, że masz wszystkie expenses?
 

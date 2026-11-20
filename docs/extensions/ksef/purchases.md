@@ -1,7 +1,9 @@
 # Purchase Documents
 
-!!! info "New in 3.0.0"
-    Starting with version 3.0.0, incoming invoices from KSeF are stored as Sales Pack **Supplier Bills** and **Bill Credits** instead of Expenses. This gives you payments, allocations and supplier balances out of the box. If you used Expenses before, see the [migration guide](./migration-3.md).
+!!! warning "Coming in the next version"
+    This page describes a feature planned for the next version. In the current version incoming invoices are stored as [Expenses](./expenses.md).
+
+    In the next version incoming invoices from KSeF will be stored as Sales Pack **Supplier Bills** and **Bill Credits** instead of Expenses. This gives you payments, allocations and supplier balances out of the box.
 
 ## :material-file-download: How incoming documents are stored
 
@@ -37,7 +39,7 @@ Open the KSeF profile and go to the **Incoming** tab:
 
 ## :material-sync: How fetching works
 
-Since 3.0.0 fetching is incremental. Each run continues from the moment the previous run finished, based on the date the invoice was **received by KSeF** (not the issue date). This means:
+Fetching is incremental. Each run continues from the moment the previous run finished, based on the date the invoice was **received by KSeF** (not the issue date). This means:
 
 - invoices issued earlier but sent to KSeF later (e.g. in offline mode) are not missed,
 - a missed or failed cron run does not create gaps,

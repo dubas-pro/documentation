@@ -1,7 +1,9 @@
 # Dokumenty zakupowe
 
-!!! info "Nowość w 3.0.0"
-    Od wersji 3.0.0 faktury przychodzące z KSeF są zapisywane jako **Faktury zakupowe** (Supplier Bills) i **Korekty zakupowe** (Bill Credits) z Sales Pack, a nie jako Wydatki. Dzięki temu masz od razu płatności, rozliczenia i salda dostawców. Jeśli wcześniej korzystałeś z Wydatków, zobacz [instrukcję migracji](./migration-3.md).
+!!! warning "W następnej wersji"
+    Ta strona opisuje funkcję planowaną w następnej wersji. W obecnej wersji faktury przychodzące są zapisywane jako [Wydatki](./expenses.md).
+
+    W następnej wersji faktury przychodzące z KSeF będą zapisywane jako **Faktury zakupowe** (Supplier Bills) i **Korekty zakupowe** (Bill Credits) z Sales Pack zamiast Wydatków. Dzięki temu będziesz mieć od razu płatności, rozliczenia i salda dostawców.
 
 ## :material-file-download: Jak zapisywane są dokumenty przychodzące
 
@@ -37,7 +39,7 @@ Otwórz profil KSeF i przejdź do zakładki **Przychodzące**:
 
 ## :material-sync: Jak działa pobieranie
 
-Od wersji 3.0.0 pobieranie jest przyrostowe. Każde uruchomienie zaczyna od momentu, w którym skończyło poprzednie, według daty **przyjęcia faktury w KSeF** (a nie daty wystawienia). Dzięki temu:
+Pobieranie jest przyrostowe. Każde uruchomienie zaczyna od momentu, w którym skończyło poprzednie, według daty **przyjęcia faktury w KSeF** (a nie daty wystawienia). Dzięki temu:
 
 - faktury wystawione wcześniej, a wysłane do KSeF później (np. w trybie offline), nie są pomijane,
 - pominięte lub nieudane uruchomienie crona nie tworzy luk,

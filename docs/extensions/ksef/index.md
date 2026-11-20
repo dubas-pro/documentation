@@ -17,13 +17,13 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
     Please contact us [via our form](https://dubas.pro/form/contact) if you would like to order this extension.
 
 !!! info "What's new in 3.0.0"
-    * Incoming invoices are stored as Sales Pack [Supplier Bills and Bill Credits](./purchases.md) instead of Expenses.
     * [Credit notes](./credit-notes.md) can be issued to KSeF.
-    * Incremental fetching that does not miss late or offline invoices.
-    * Duplicate protection for purchase documents.
-    * Automatic Paid / Resolved status after full settlement.
-    * Expense categories for taxes, social security and other non-invoice documents.
-    * [Migration command](./migration-3.md) for existing Expenses.
+    * [Offline mode](./offline.md): invoices are issued even when KSeF is unavailable and sent to KSeF automatically later.
+    * More checks before sending, so incorrect invoices are stopped in EspoCRM. See [Invoices](./invoices.md).
+    * New tax ID type **Private person** for invoices to consumers. See [Accounts](./accounts.md).
+    * Duplicate protection for [Expenses](./expenses.md).
+    * Automatic Paid / Resolved status after full settlement of invoices and credit notes.
+    * The [document package](./download-documents.md) includes credit notes and KSeF delivery confirmations (UPO).
 
 ### Key Features
 
@@ -32,7 +32,7 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 
 * **Total Data Security:** All your data remains secure within your EspoCRM instance. Communication occurs directly between your CRM and the KSeF system. Our integration does not transmit any financial or client information to third parties.
 * **Automated Invoice Retrieval:** The integration automatically fetches invoices issued by your contractors from KSeF based on your schedule and preferences.
-* **Full Sales Pack Integration:** Received invoices are stored as Supplier Bills and Bill Credits, with payments, allocations and supplier balances.
+* **Expenses Management:** Received invoices are stored in the Expenses entity, compatible with Sales Pack and its item list. You can also enter expenses from other sources manually.
 * **Manual Synchronization:** You can manually initiate the retrieval of invoices from KSeF at any time.
 * **Direct Invoice Issuance:** Send invoices and credit notes issued in the EspoCRM Sales Pack directly to the KSeF system.
 
@@ -42,7 +42,7 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 * :material-checkbox-marked-outline: Support for Bank Accounts.
 * :material-checkbox-marked-outline: Support for multiple KSeF schemes.
 * :material-checkbox-marked-outline: Support for Credit Notes.
-* :material-checkbox-marked-outline: Incoming invoices as Sales Pack Supplier Bills.
+* :material-checkbox-blank-outline: Incoming invoices as Sales Pack Supplier Bills (next version).
 * :material-checkbox-blank-outline: Support for Debit Notes (corrections increasing the amount).
 * :material-checkbox-blank-outline: Summary corrections for a period.
 * :material-checkbox-marked-outline: Offline24 mode with automatic sending to KSeF (requires an Offline certificate).
@@ -70,9 +70,6 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 
 **[Now you can issue your first invoice!](./invoices.md#how-to-issue-invoice-via-ksef)**
 
-!!! note "Upgrading from 2.x"
-    If you used Expenses before, follow the [migration guide](./migration-3.md) after upgrading.
-
 ## :material-cog-sync-outline: How to Configure the KSeF Cron Job
 
 1. Navigate to the **Administration** section.
@@ -81,7 +78,7 @@ The Dubas KSeF Integration is a custom extension that enables seamless communica
 4. Choose the task `Get Invoices From Ksef`.
 5. Click **Save**.
 
-By default, this job will automatically download incoming invoices from KSeF every **5 minutes** for all active profiles. Since 3.0.0 each run continues from where the previous one finished, so a missed run does not create gaps.
+By default, this job will automatically download incoming invoices from KSeF every **5 minutes** for all active profiles.
 
 !!! note "Daily checking"
     We recommend to configure another Scheduled Job which is called **Daily Fetch Of Expenses From KSeF**. Proper schedule is `0 0 * * *`, so at 00:00.
@@ -101,9 +98,7 @@ By default, this job will automatically download incoming invoices from KSeF eve
 * [Invoices management](./invoices.md)
 * [Credit notes in KSeF](./credit-notes.md)
 * [Offline mode](./offline.md)
-* [Purchase documents](./purchases.md)
-* [Migrating from Expenses](./migration-3.md)
 * [How to download a package with financial documents](./download-documents.md)
 * [How to configure a profile for the KSeF test environment](./test-profile.md)
 * [How to manage accounts and tax IDs](./accounts.md)
-* [Expenses management (legacy)](./expenses.md)
+* [Expenses management](./expenses.md)

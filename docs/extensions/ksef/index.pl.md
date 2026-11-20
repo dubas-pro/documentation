@@ -17,13 +17,13 @@ Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną kom
     Skontaktuj się z nami [przez formularz](https://dubas.pro/form/contact), jeśli chcesz zamówić to rozszerzenie.
 
 !!! info "Co nowego w 3.0.0"
-    * Faktury przychodzące są zapisywane jako [faktury i korekty zakupowe](./purchases.md) z Sales Pack zamiast Wydatków.
     * [Faktury korygujące](./credit-notes.md) można wysyłać do KSeF.
-    * Pobieranie przyrostowe, które nie pomija faktur spóźnionych ani wystawionych offline.
-    * Ochrona przed duplikatami dokumentów zakupowych.
-    * Automatyczny status Opłacona / Rozliczona po pełnym rozliczeniu.
-    * Kategorie kosztów dla podatków, ZUS i innych dokumentów niebędących fakturami.
-    * [Polecenie migracji](./migration-3.md) istniejących Wydatków.
+    * [Tryb offline](./offline.md): faktury są wystawiane także wtedy, gdy KSeF jest niedostępny, i automatycznie dosyłane później.
+    * Więcej sprawdzeń przed wysyłką – błędne faktury zatrzymują się w EspoCRM. Zobacz [Zarządzanie fakturami](./invoices.md).
+    * Nowy typ identyfikatora podatkowego **Osoba prywatna** dla faktur dla konsumentów. Zobacz [Konta](./accounts.md).
+    * Ochrona przed duplikatami w [Wydatkach](./expenses.md).
+    * Automatyczny status Opłacona / Rozliczona po pełnym rozliczeniu faktur i faktur korygujących.
+    * [Pakiet dokumentów](./download-documents.md) zawiera faktury korygujące i Urzędowe Poświadczenia Odbioru (UPO).
 
 ### Najważniejsze funkcje
 
@@ -32,7 +32,7 @@ Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną kom
 
 * **Pełne bezpieczeństwo danych:** Wszystkie Twoje dane pozostają bezpieczne w instancji EspoCRM. Komunikacja odbywa się bezpośrednio między Twoim CRM a systemem KSeF. Nasza integracja nie przekazuje danych finansowych ani danych klientów do podmiotów trzecich.
 * **Automatyczne pobieranie faktur:** Integracja automatycznie pobiera z KSeF faktury wystawione przez Twoich kontrahentów zgodnie z ustawionym harmonogramem i preferencjami.
-* **Pełna integracja z Sales Pack:** Pobrane faktury są zapisywane jako faktury i korekty zakupowe, z płatnościami, rozliczeniami i saldami dostawców.
+* **Zarządzanie wydatkami:** Pobrane faktury są zapisywane w encji Wydatki, zgodnej z Sales Pack i jego listą pozycji. Wydatki z innych źródeł możesz też wprowadzać ręcznie.
 * **Ręczna synchronizacja:** W każdej chwili możesz ręcznie uruchomić pobieranie faktur z KSeF.
 * **Bezpośrednie wystawianie faktur:** Wysyłaj faktury i faktury korygujące wystawione w Sales Pack EspoCRM bezpośrednio do systemu KSeF.
 
@@ -42,7 +42,7 @@ Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną kom
 * :material-checkbox-marked-outline: Obsługa rachunków bankowych.
 * :material-checkbox-marked-outline: Obsługa wielu schematów KSeF.
 * :material-checkbox-marked-outline: Obsługa faktur korygujących.
-* :material-checkbox-marked-outline: Faktury przychodzące jako faktury zakupowe Sales Pack.
+* :material-checkbox-blank-outline: Faktury przychodzące jako faktury zakupowe Sales Pack (następna wersja).
 * :material-checkbox-blank-outline: Obsługa korekt zwiększających (Debit Notes).
 * :material-checkbox-blank-outline: Korekty zbiorcze za okres.
 * :material-checkbox-marked-outline: Tryb offline24 z automatycznym dosyłaniem do KSeF (wymaga certyfikatu Offline).
@@ -70,9 +70,6 @@ Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną kom
 
 **[Teraz możesz wystawić swoją pierwszą fakturę!](./invoices.md#how-to-issue-invoice-via-ksef)**
 
-!!! note "Aktualizacja z wersji 2.x"
-    Jeśli wcześniej korzystałeś z Wydatków, po aktualizacji skorzystaj z [instrukcji migracji](./migration-3.md).
-
 ## :material-cog-sync-outline: Jak skonfigurować zadanie cron KSeF
 
 1. Przejdź do sekcji **Administracja**.
@@ -81,7 +78,7 @@ Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną kom
 4. Wybierz zadanie `Get Invoices From Ksef`.
 5. Kliknij **Zapisz**.
 
-Domyślnie to zadanie automatycznie pobiera faktury przychodzące z KSeF co **5 minut** dla wszystkich aktywnych profili. Od wersji 3.0.0 każde uruchomienie kontynuuje od miejsca, w którym skończyło poprzednie, więc pominięte uruchomienie nie tworzy luk.
+Domyślnie to zadanie automatycznie pobiera faktury przychodzące z KSeF co **5 minut** dla wszystkich aktywnych profili.
 
 !!! note "Codzienne sprawdzanie"
     Zalecamy skonfigurowanie dodatkowego zaplanowanego zadania o nazwie **Daily Fetch Of Expenses From KSeF**. Prawidłowy harmonogram to `0 0 * * *`, czyli o 00:00.
@@ -101,9 +98,7 @@ Domyślnie to zadanie automatycznie pobiera faktury przychodzące z KSeF co **5 
 * [Zarządzanie fakturami](./invoices.md)
 * [Faktury korygujące w KSeF](./credit-notes.md)
 * [Tryb offline](./offline.md)
-* [Dokumenty zakupowe](./purchases.md)
-* [Migracja z Wydatków](./migration-3.md)
 * [Jak pobrać paczkę z dokumentami finansowymi](./download-documents.md)
 * [Jak skonfigurować profil dla środowiska testowego KSeF](./test-profile.md)
 * [Jak zarządzać rachunkami i numerami NIP](./accounts.md)
-* [Zarządzanie wydatkami (archiwalne)](./expenses.md)
+* [Zarządzanie wydatkami](./expenses.md)
