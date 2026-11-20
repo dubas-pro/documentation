@@ -2903,13 +2903,13 @@
 <div class="admonition info">
 <p class="admonition-title">What's new in 3.0.0</p>
 <ul>
-<li>Incoming invoices are stored as Sales Pack <a href="purchases/">Supplier Bills and Bill Credits</a> instead of Expenses.</li>
 <li><a href="credit-notes/">Credit notes</a> can be issued to KSeF.</li>
-<li>Incremental fetching that does not miss late or offline invoices.</li>
-<li>Duplicate protection for purchase documents.</li>
-<li>Automatic Paid / Resolved status after full settlement.</li>
-<li>Expense categories for taxes, social security and other non-invoice documents.</li>
-<li><a href="migration-3/">Migration command</a> for existing Expenses.</li>
+<li><a href="offline/">Offline mode</a>: invoices are issued even when KSeF is unavailable and sent to KSeF automatically later.</li>
+<li>More checks before sending, so incorrect invoices are stopped in EspoCRM. See <a href="invoices/">Invoices</a>.</li>
+<li>New tax ID type <strong>Private person</strong> for invoices to consumers. See <a href="accounts/">Accounts</a>.</li>
+<li>Duplicate protection for <a href="expenses/">Expenses</a>.</li>
+<li>Automatic Paid / Resolved status after full settlement of invoices and credit notes.</li>
+<li>The <a href="download-documents/">document package</a> includes credit notes and KSeF delivery confirmations (UPO).</li>
 </ul>
 </div>
 <h3 id="key-features">Key Features<a class="headerlink" href="#key-features" title="Permanent link">¶</a></h3>
@@ -2920,7 +2920,7 @@
 <ul>
 <li><strong>Total Data Security:</strong> All your data remains secure within your EspoCRM instance. Communication occurs directly between your CRM and the KSeF system. Our integration does not transmit any financial or client information to third parties.</li>
 <li><strong>Automated Invoice Retrieval:</strong> The integration automatically fetches invoices issued by your contractors from KSeF based on your schedule and preferences.</li>
-<li><strong>Full Sales Pack Integration:</strong> Received invoices are stored as Supplier Bills and Bill Credits, with payments, allocations and supplier balances.</li>
+<li><strong>Expenses Management:</strong> Received invoices are stored in the Expenses entity, compatible with Sales Pack and its item list. You can also enter expenses from other sources manually.</li>
 <li><strong>Manual Synchronization:</strong> You can manually initiate the retrieval of invoices from KSeF at any time.</li>
 <li><strong>Direct Invoice Issuance:</strong> Send invoices and credit notes issued in the EspoCRM Sales Pack directly to the KSeF system.</li>
 </ul>
@@ -2930,7 +2930,7 @@
 <li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Support for Bank Accounts.</li>
 <li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Support for multiple KSeF schemes.</li>
 <li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Support for Credit Notes.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Incoming invoices as Sales Pack Supplier Bills.</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Incoming invoices as Sales Pack Supplier Bills (next version).</li>
 <li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Support for Debit Notes (corrections increasing the amount).</li>
 <li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Summary corrections for a period.</li>
 <li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Offline24 mode with automatic sending to KSeF (requires an Offline certificate).</li>
@@ -2955,10 +2955,6 @@
 <li><a href="accounts/#tax-id-types">Set the tax ID type for your customers</a> – choose <strong>Private person</strong> for consumers</li>
 </ol>
 <p><strong><a href="invoices/#how-to-issue-invoice-via-ksef">Now you can issue your first invoice!</a></strong></p>
-<div class="admonition note">
-<p class="admonition-title">Upgrading from 2.x</p>
-<p>If you used Expenses before, follow the <a href="migration-3/">migration guide</a> after upgrading.</p>
-</div>
 <h2 id="how-to-configure-the-ksef-cron-job"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M11.7 20h-.4l-.4-2.6c-1.2-.2-2.2-.9-3-1.8l-2.4 1-.8-1.3 2.1-1.6c-.4-1.2-.4-2.4 0-3.6L4.7 8.7l.8-1.3 2.4 1c.8-.9 1.8-1.5 3-1.8l.3-2.6h1.5l.4 2.6c1.2.2 2.3.9 3 1.8l2.4-1 .8 1.3-2.1 1.5c.2.6.3 1.2.3 1.8h.5c.5 0 1 .1 1.5.2V12l-.1-1 2.1-1.6c.2-.2.2-.4.1-.6l-2-3.5c-.1-.3-.3-.3-.6-.3l-2.5 1c-.5-.4-1.1-.7-1.7-1l-.4-2.7c.1-.1-.2-.3-.4-.3h-4c-.2 0-.5.2-.5.4l-.4 2.7c-.6.2-1.1.6-1.7.9L5 5c-.3 0-.5 0-.7.3l-2 3.5c-.1.2 0 .4.2.6L4.6 11l-.1 1 .1 1-2.1 1.7c-.2.2-.2.4-.1.6l2 3.5c.1.2.3.2.6.2l2.5-1c.5.4 1.1.7 1.7 1l.4 2.7c0 .2.2.4.5.4h2.5c-.5-.7-.7-1.4-.9-2.1m4.3-7.7V12c0-2.2-1.8-4-4-4s-4 1.8-4 4 1.8 4 4 4c.7-1.7 2.2-3.1 4-3.7m-6-.3c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2m8 2.5V13l-2.2 2.2 2.2 2.2V16c1.4 0 2.5 1.1 2.5 2.5 0 .4-.1.8-.3 1.1l1.1 1.1c1.2-1.8.7-4.3-1.1-5.5-.6-.5-1.4-.7-2.2-.7m0 6.5c-1.4 0-2.5-1.1-2.5-2.5 0-.4.1-.8.3-1.1l-1.1-1.1c-1.2 1.8-.7 4.3 1.1 5.5.7.4 1.4.7 2.2.7V24l2.2-2.2-2.2-2.3V21Z"></path></svg></span> How to Configure the KSeF Cron Job<a class="headerlink" href="#how-to-configure-the-ksef-cron-job" title="Permanent link">¶</a></h2>
 <ol>
 <li>Navigate to the <strong>Administration</strong> section.</li>
@@ -2967,7 +2963,7 @@
 <li>Choose the task <code>Get Invoices From Ksef</code>.</li>
 <li>Click <strong>Save</strong>.</li>
 </ol>
-<p>By default, this job will automatically download incoming invoices from KSeF every <strong>5 minutes</strong> for all active profiles. Since 3.0.0 each run continues from where the previous one finished, so a missed run does not create gaps.</p>
+<p>By default, this job will automatically download incoming invoices from KSeF every <strong>5 minutes</strong> for all active profiles.</p>
 <div class="admonition note">
 <p class="admonition-title">Daily checking</p>
 <p>We recommend to configure another Scheduled Job which is called <strong>Daily Fetch Of Expenses From KSeF</strong>. Proper schedule is <code>0 0 * * *</code>, so at 00:00.</p>
@@ -2985,12 +2981,10 @@
 <li><a href="invoices/">Invoices management</a></li>
 <li><a href="credit-notes/">Credit notes in KSeF</a></li>
 <li><a href="offline/">Offline mode</a></li>
-<li><a href="purchases/">Purchase documents</a></li>
-<li><a href="migration-3/">Migrating from Expenses</a></li>
 <li><a href="download-documents/">How to download a package with financial documents</a></li>
 <li><a href="test-profile/">How to configure a profile for the KSeF test environment</a></li>
 <li><a href="accounts/">How to manage accounts and tax IDs</a></li>
-<li><a href="expenses/">Expenses management (legacy)</a></li>
+<li><a href="expenses/">Expenses management</a></li>
 </ul></div>
 
 

@@ -2899,9 +2899,10 @@
 
 
 <div><h1 id="dokumenty-zakupowe">Dokumenty zakupowe<a class="headerlink" href="#dokumenty-zakupowe" title="Permanent link">¶</a></h1>
-<div class="admonition info">
-<p class="admonition-title">Nowość w 3.0.0</p>
-<p>Od wersji 3.0.0 faktury przychodzące z KSeF są zapisywane jako <strong>Faktury zakupowe</strong> (Supplier Bills) i <strong>Korekty zakupowe</strong> (Bill Credits) z Sales Pack, a nie jako Wydatki. Dzięki temu masz od razu płatności, rozliczenia i salda dostawców. Jeśli wcześniej korzystałeś z Wydatków, zobacz <a href="../migration-3/">instrukcję migracji</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">W następnej wersji</p>
+<p>Ta strona opisuje funkcję planowaną w następnej wersji. W obecnej wersji faktury przychodzące są zapisywane jako <a href="../expenses/">Wydatki</a>.</p>
+<p>W następnej wersji faktury przychodzące z KSeF będą zapisywane jako <strong>Faktury zakupowe</strong> (Supplier Bills) i <strong>Korekty zakupowe</strong> (Bill Credits) z Sales Pack zamiast Wydatków. Dzięki temu będziesz mieć od razu płatności, rozliczenia i salda dostawców.</p>
 </div>
 <h2 id="jak-zapisywane-sa-dokumenty-przychodzace"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16c0 1.11.89 2 2 2h12c1.11 0 2-.89 2-2V8l-6-6m-2 17-4-4h2.5v-3h3v3H16l-4 4m1-10V3.5L18.5 9H13Z"></path></svg></span> Jak zapisywane są dokumenty przychodzące<a class="headerlink" href="#jak-zapisywane-sa-dokumenty-przychodzace" title="Permanent link">¶</a></h2>
 <p>Każdy dokument pobrany z KSeF jest automatycznie przydzielany:</p>
@@ -2951,7 +2952,7 @@
 <li><strong>Pobrano do</strong> – tylko do odczytu. Pokazuje, do kiedy faktury zostały pobrane.</li>
 </ul>
 <h2 id="jak-dziaa-pobieranie"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 18a6 6 0 0 1-6-6c0-1 .25-1.97.7-2.8L5.24 7.74A7.93 7.93 0 0 0 4 12a8 8 0 0 0 8 8v3l4-4-4-4m0-11V1L8 5l4 4V6a6 6 0 0 1 6 6c0 1-.25 1.97-.7 2.8l1.46 1.46A7.93 7.93 0 0 0 20 12a8 8 0 0 0-8-8Z"></path></svg></span> Jak działa pobieranie<a class="headerlink" href="#jak-dziaa-pobieranie" title="Permanent link">¶</a></h2>
-<p>Od wersji 3.0.0 pobieranie jest przyrostowe. Każde uruchomienie zaczyna od momentu, w którym skończyło poprzednie, według daty <strong>przyjęcia faktury w KSeF</strong> (a nie daty wystawienia). Dzięki temu:</p>
+<p>Pobieranie jest przyrostowe. Każde uruchomienie zaczyna od momentu, w którym skończyło poprzednie, według daty <strong>przyjęcia faktury w KSeF</strong> (a nie daty wystawienia). Dzięki temu:</p>
 <ul>
 <li>faktury wystawione wcześniej, a wysłane do KSeF później (np. w trybie offline), nie są pomijane,</li>
 <li>pominięte lub nieudane uruchomienie crona nie tworzy luk,</li>

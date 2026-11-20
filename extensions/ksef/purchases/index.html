@@ -2899,9 +2899,10 @@
 
 
 <div><h1 id="purchase-documents">Purchase Documents<a class="headerlink" href="#purchase-documents" title="Permanent link">¶</a></h1>
-<div class="admonition info">
-<p class="admonition-title">New in 3.0.0</p>
-<p>Starting with version 3.0.0, incoming invoices from KSeF are stored as Sales Pack <strong>Supplier Bills</strong> and <strong>Bill Credits</strong> instead of Expenses. This gives you payments, allocations and supplier balances out of the box. If you used Expenses before, see the <a href="../migration-3/">migration guide</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Coming in the next version</p>
+<p>This page describes a feature planned for the next version. In the current version incoming invoices are stored as <a href="../expenses/">Expenses</a>.</p>
+<p>In the next version incoming invoices from KSeF will be stored as Sales Pack <strong>Supplier Bills</strong> and <strong>Bill Credits</strong> instead of Expenses. This gives you payments, allocations and supplier balances out of the box.</p>
 </div>
 <h2 id="how-incoming-documents-are-stored"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16c0 1.11.89 2 2 2h12c1.11 0 2-.89 2-2V8l-6-6m-2 17-4-4h2.5v-3h3v3H16l-4 4m1-10V3.5L18.5 9H13Z"></path></svg></span> How incoming documents are stored<a class="headerlink" href="#how-incoming-documents-are-stored" title="Permanent link">¶</a></h2>
 <p>Every document fetched from KSeF is sorted automatically:</p>
@@ -2951,7 +2952,7 @@
 <li><strong>Fetched until</strong> – read only. Shows how far invoices have been fetched.</li>
 </ul>
 <h2 id="how-fetching-works"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 18a6 6 0 0 1-6-6c0-1 .25-1.97.7-2.8L5.24 7.74A7.93 7.93 0 0 0 4 12a8 8 0 0 0 8 8v3l4-4-4-4m0-11V1L8 5l4 4V6a6 6 0 0 1 6 6c0 1-.25 1.97-.7 2.8l1.46 1.46A7.93 7.93 0 0 0 20 12a8 8 0 0 0-8-8Z"></path></svg></span> How fetching works<a class="headerlink" href="#how-fetching-works" title="Permanent link">¶</a></h2>
-<p>Since 3.0.0 fetching is incremental. Each run continues from the moment the previous run finished, based on the date the invoice was <strong>received by KSeF</strong> (not the issue date). This means:</p>
+<p>Fetching is incremental. Each run continues from the moment the previous run finished, based on the date the invoice was <strong>received by KSeF</strong> (not the issue date). This means:</p>
 <ul>
 <li>invoices issued earlier but sent to KSeF later (e.g. in offline mode) are not missed,</li>
 <li>a missed or failed cron run does not create gaps,</li>
