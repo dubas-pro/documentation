@@ -998,6 +998,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#podglad-przed-wysyka" class="md-nav__link">
+    <span class="md-ellipsis">
+       Podgląd przed wysyłką
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#co-jest-sprawdzane-przed-wysyka" class="md-nav__link">
     <span class="md-ellipsis">
        Co jest sprawdzane przed wysyłką
@@ -2854,6 +2863,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#podglad-przed-wysyka" class="md-nav__link">
+    <span class="md-ellipsis">
+       Podgląd przed wysyłką
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#co-jest-sprawdzane-przed-wysyka" class="md-nav__link">
     <span class="md-ellipsis">
        Co jest sprawdzane przed wysyłką
@@ -2977,6 +2995,7 @@
 <li>Przejdź do <strong>Faktur</strong>.</li>
 <li>Utwórz nową Fakturę.</li>
 <li>Wybierz Profil KSeF.</li>
+<li>Opcjonalnie kliknij <code>Podgląd KSeF</code>, aby sprawdzić, jak faktura będzie wyglądać w KSeF.</li>
 <li>Kliknij na <code>Wystaw przez KSeF</code></li>
 <li>Jeśli wszystko jest w porządku, faktura zostanie zaplanowana do wysłania do KSeF.</li>
 </ol>
@@ -2992,6 +3011,20 @@
 <li><code>ksefProfileId</code> <strong>nie jest</strong> <code>null</code>.</li>
 </ul>
 <p>Jeśli którekolwiek z tych warunków nie zostaną spełnione, przycisk będzie ukryty.</p>
+<h2 id="podglad-przed-wysyka"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"></path></svg></span> Podgląd przed wysyłką<a class="headerlink" href="#podglad-przed-wysyka" title="Permanent link">¶</a></h2>
+<p>Fakturę możesz przygotować wstępnie i sprawdzić przed wystawieniem. Kliknij <code>Podgląd KSeF</code>, aby zobaczyć fakturę dokładnie w takiej postaci, w jakiej trafiłaby teraz do KSeF: sprzedawcę, nabywcę, pozycje, podsumowanie VAT, adnotacje i dane płatności. Podgląd otwiera się w nowej karcie przeglądarki i nic nie jest wysyłane do KSeF. Jeśli coś się nie zgadza, popraw fakturę i otwórz podgląd ponownie.</p>
+<ul>
+<li>Jeśli czegoś brakuje lub coś się nie zgadza, podgląd pokaże ten sam komunikat, który pojawiłby się przy wysyłce – możesz to poprawić wcześniej.</li>
+<li>Aby zapisać podgląd jako PDF, użyj <strong>Drukuj</strong> w przeglądarce (<code>Ctrl+P</code>) i wybierz <strong>Zapisz jako PDF</strong>. Wydruk jest oznaczony jako podgląd.</li>
+<li>Podgląd działa dla wersji roboczej z dowolną datą. Przypomina tylko, że w chwili wystawienia data wystawienia musi być dzisiejsza.</li>
+<li>Po wystawieniu podgląd pokazuje dokument dokładnie w takiej postaci, w jakiej został wystawiony – z numerem KSeF albo z terminem przesłania dla <a href="../offline/">trybu offline</a>.</li>
+<li>Podgląd ma jasny lub ciemny wygląd, tak jak Twój motyw EspoCRM. Wydruk jest zawsze jasny.</li>
+</ul>
+<p>Przycisk jest dostępny na fakturach, notach obciążeniowych (Debit Note) i korektach, przed wystawieniem i po nim.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Podgląd jest przeznaczony tylko dla użytkowników EspoCRM do sprawdzenia danych. Nie jest fakturą ani oficjalną wizualizacją KSeF – nie przekazuj go nabywcy.</p>
+</div>
 <h2 id="co-jest-sprawdzane-przed-wysyka"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"></path></svg></span> Co jest sprawdzane przed wysyłką<a class="headerlink" href="#co-jest-sprawdzane-przed-wysyka" title="Permanent link">¶</a></h2>
 <p>Zanim faktura trafi do KSeF, integracja sprawdza, czy jest kompletna i spójna. Jeśli coś się nie zgadza, faktura nie zostanie wysłana, Status KSeF zmieni się na <strong>Błąd podczas pobierania pól do wysyłki</strong>, a Ty zobaczysz przyczynę. Popraw dane i ponownie kliknij <code>Wystaw przez KSeF</code>.</p>
 <table>

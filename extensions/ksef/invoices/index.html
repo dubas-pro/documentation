@@ -998,6 +998,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#preview-before-sending" class="md-nav__link">
+    <span class="md-ellipsis">
+       Preview before sending
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-is-checked-before-sending" class="md-nav__link">
     <span class="md-ellipsis">
        What is checked before sending
@@ -2854,6 +2863,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#preview-before-sending" class="md-nav__link">
+    <span class="md-ellipsis">
+       Preview before sending
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-is-checked-before-sending" class="md-nav__link">
     <span class="md-ellipsis">
        What is checked before sending
@@ -2977,6 +2995,7 @@
 <li>Go to <strong>Invoices</strong>.</li>
 <li>Create new Invoice.</li>
 <li>Choose KSef Profile.</li>
+<li>Optionally click <code>KSeF Preview</code> to check how the invoice will look in KSeF.</li>
 <li>Click on <code>Issue via KSeF</code></li>
 <li>After everything is fine, invoice will be scheduled for sending to KSeF.</li>
 </ol>
@@ -2992,6 +3011,20 @@
 <li><code>ksefProfileId</code> is <strong>not</strong> <code>null</code>.</li>
 </ul>
 <p>If any of these checks fail, the button is hidden.</p>
+<h2 id="preview-before-sending"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"></path></svg></span> Preview before sending<a class="headerlink" href="#preview-before-sending" title="Permanent link">¶</a></h2>
+<p>You can prepare an invoice as a draft and check it before you issue it. Click <code>KSeF Preview</code> to see the invoice exactly as it would be sent to KSeF right now: seller, buyer, items, VAT summary, annotations and payment details. The preview opens in a new browser tab and nothing is sent to KSeF. If something is wrong, correct the invoice and open the preview again.</p>
+<ul>
+<li>If something is missing or wrong, the preview shows the same message you would get when sending, so you can fix it first.</li>
+<li>To save the preview as PDF, use <strong>Print</strong> in your browser (<code>Ctrl+P</code>) and choose <strong>Save as PDF</strong>. The printout is marked as a preview.</li>
+<li>You can preview a draft with any date. The preview reminds you that the issue date must be today when you issue the invoice.</li>
+<li>After the invoice is issued, the preview shows it exactly as it was issued – with its KSeF number, or with the delivery deadline for <a href="../offline/">offline mode</a>.</li>
+<li>The preview uses the same light or dark look as your EspoCRM theme. Printouts are always light.</li>
+</ul>
+<p>The button is available on invoices, debit notes and credit notes, before and after issuing.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The preview is for EspoCRM users only, to check the data. It is not an invoice or an official KSeF visualisation, so do not send it to the buyer.</p>
+</div>
 <h2 id="what-is-checked-before-sending"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"></path></svg></span> What is checked before sending<a class="headerlink" href="#what-is-checked-before-sending" title="Permanent link">¶</a></h2>
 <p>Before an invoice goes to KSeF, the integration checks that it is complete and consistent. If something is wrong, the invoice is not sent, the KSeF Status changes to <strong>Error obtaining fields for submission</strong> and you see the reason. Fix the data and click <code>Issue via KSeF</code> again.</p>
 <table>
