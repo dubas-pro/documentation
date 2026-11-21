@@ -71,8 +71,15 @@ The correct date is added to the reason of the correction, because KSeF has no s
 
 Total **0.00**, the new due date is sent to KSeF.
 
-!!! info "Date of sale"
-    A correction that changes only the date of sale (delivery) is not available yet. [Contact us](https://dubas.pro/form/contact) if you need one.
+**Wrong date of sale (delivery)**
+
+| Field | Value |
+|---|---|
+| Changes | **Delivery Date** only (untick **Items**) |
+| KSeF relevant period | **Relevant date** with the correct date of delivery or service, or **Period** with the correct start and end |
+| Items | none |
+
+The correct date (or period) is sent to KSeF as the date of sale of the correction and is also written in the reason. Total **0.00**.
 
 ### Fewer items (return)
 

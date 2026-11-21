@@ -71,8 +71,15 @@ Poprawna data trafia do opisu przyczyny korekty, bo KSeF nie ma na nią osobnego
 
 Kwota **0,00**, nowy termin płatności trafia do KSeF.
 
-!!! info "Data sprzedaży"
-    Korekta zmieniająca wyłącznie datę sprzedaży (dostawy) nie jest jeszcze dostępna. [Skontaktuj się z nami](https://dubas.pro/form/contact), jeśli jej potrzebujesz.
+**Błędna data sprzedaży (dostawy)**
+
+| Pole | Wartość |
+|---|---|
+| Zmiany | tylko **Data dostawy / sprzedaży** (odznacz **Pozycje**) |
+| Okres istotności KSeF | **Określona data** z poprawną datą dostawy lub wykonania usługi albo **Okres** z poprawnym początkiem i końcem |
+| Pozycje | brak |
+
+Poprawna data (lub okres) trafia do KSeF jako data sprzedaży na korekcie i jest też wpisana w przyczynie korekty. Kwota **0,00**.
 
 ### Mniej sztuk (zwrot)
 
