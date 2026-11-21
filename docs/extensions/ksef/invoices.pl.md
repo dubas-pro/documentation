@@ -16,8 +16,9 @@
 1. Przejdź do **Faktur**.
 2. Utwórz nową Fakturę.
 3. Wybierz Profil KSeF.
-4. Kliknij na `Wystaw przez KSeF`
-5. Jeśli wszystko jest w porządku, faktura zostanie zaplanowana do wysłania do KSeF.
+4. Opcjonalnie kliknij `Podgląd KSeF`, aby sprawdzić, jak faktura będzie wyglądać w KSeF.
+5. Kliknij na `Wystaw przez KSeF`
+6. Jeśli wszystko jest w porządku, faktura zostanie zaplanowana do wysłania do KSeF.
 
 Niestety nie możemy przesłać faktury do KSeF w ciągu kilku sekund, dlatego proces działa w tle. Po wystawieniu faktury pole Status KSeF zostanie ustawione na **Zakończona**.
 
@@ -33,6 +34,21 @@ Przycisk jest widoczny tylko wtedy, gdy spełnione są wszystkie następujące w
 - `ksefProfileId` **nie jest** `null`.
 
 Jeśli którekolwiek z tych warunków nie zostaną spełnione, przycisk będzie ukryty.
+
+## :material-eye: Podgląd przed wysyłką
+
+Fakturę możesz przygotować wstępnie i sprawdzić przed wystawieniem. Kliknij `Podgląd KSeF`, aby zobaczyć fakturę dokładnie w takiej postaci, w jakiej trafiłaby teraz do KSeF: sprzedawcę, nabywcę, pozycje, podsumowanie VAT, adnotacje i dane płatności. Podgląd otwiera się w nowej karcie przeglądarki i nic nie jest wysyłane do KSeF. Jeśli coś się nie zgadza, popraw fakturę i otwórz podgląd ponownie.
+
+* Jeśli czegoś brakuje lub coś się nie zgadza, podgląd pokaże ten sam komunikat, który pojawiłby się przy wysyłce – możesz to poprawić wcześniej.
+* Aby zapisać podgląd jako PDF, użyj **Drukuj** w przeglądarce (`Ctrl+P`) i wybierz **Zapisz jako PDF**. Wydruk jest oznaczony jako podgląd.
+* Podgląd działa dla wersji roboczej z dowolną datą. Przypomina tylko, że w chwili wystawienia data wystawienia musi być dzisiejsza.
+* Po wystawieniu podgląd pokazuje dokument dokładnie w takiej postaci, w jakiej został wystawiony – z numerem KSeF albo z terminem przesłania dla [trybu offline](./offline.md).
+* Podgląd ma jasny lub ciemny wygląd, tak jak Twój motyw EspoCRM. Wydruk jest zawsze jasny.
+
+Przycisk jest dostępny na fakturach, notach obciążeniowych (Debit Note) i korektach, przed wystawieniem i po nim.
+
+!!! note
+    Podgląd jest przeznaczony tylko dla użytkowników EspoCRM do sprawdzenia danych. Nie jest fakturą ani oficjalną wizualizacją KSeF – nie przekazuj go nabywcy.
 
 ## :material-shield-check: Co jest sprawdzane przed wysyłką
 

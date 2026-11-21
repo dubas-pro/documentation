@@ -24,7 +24,8 @@ W korekcie wpisujesz wartości dodatnie. Integracja sama dodaje znak minus. Pods
 2. Profil KSeF jest kopiowany z faktury automatycznie.
 3. Zostaw tylko pozycje, które się zmieniają, i wpisz korygowaną ilość lub kwotę.
 4. Uzupełnij **Przyczynę** korekty.
-5. Kliknij `Wystaw przez KSeF`.
+5. Opcjonalnie kliknij `Podgląd KSeF`, aby sprawdzić korektę przed wysyłką. Zobacz [Podgląd przed wysyłką](./invoices.md#podglad-przed-wysyka).
+6. Kliknij `Wystaw przez KSeF`.
 
 Korygowana faktura musi mieć już numer KSeF.
 

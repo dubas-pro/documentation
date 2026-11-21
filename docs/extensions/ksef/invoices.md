@@ -16,8 +16,9 @@
 1. Go to **Invoices**.
 2. Create new Invoice.
 3. Choose KSef Profile.
-4. Click on `Issue via KSeF`
-5. After everything is fine, invoice will be scheduled for sending to KSeF.
+4. Optionally click `KSeF Preview` to check how the invoice will look in KSeF.
+5. Click on `Issue via KSeF`
+6. After everything is fine, invoice will be scheduled for sending to KSeF.
 
 Unfortunatelly we can't pass invoice to KSeF in few seconds, that's why it's working in background. After invoice will be issued, field KSeF Status will be set to **Completed**.
 
@@ -33,6 +34,21 @@ Button is visible only when all of the following conditions are met:
 - `ksefProfileId` is **not** `null`.
 
 If any of these checks fail, the button is hidden.
+
+## :material-eye: Preview before sending
+
+You can prepare an invoice as a draft and check it before you issue it. Click `KSeF Preview` to see the invoice exactly as it would be sent to KSeF right now: seller, buyer, items, VAT summary, annotations and payment details. The preview opens in a new browser tab and nothing is sent to KSeF. If something is wrong, correct the invoice and open the preview again.
+
+* If something is missing or wrong, the preview shows the same message you would get when sending, so you can fix it first.
+* To save the preview as PDF, use **Print** in your browser (`Ctrl+P`) and choose **Save as PDF**. The printout is marked as a preview.
+* You can preview a draft with any date. The preview reminds you that the issue date must be today when you issue the invoice.
+* After the invoice is issued, the preview shows it exactly as it was issued – with its KSeF number, or with the delivery deadline for [offline mode](./offline.md).
+* The preview uses the same light or dark look as your EspoCRM theme. Printouts are always light.
+
+The button is available on invoices, debit notes and credit notes, before and after issuing.
+
+!!! note
+    The preview is for EspoCRM users only, to check the data. It is not an invoice or an official KSeF visualisation, so do not send it to the buyer.
 
 ## :material-shield-check: What is checked before sending
 

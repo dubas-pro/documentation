@@ -24,7 +24,8 @@ Enter positive values in the credit note. The integration adds the minus sign au
 2. The KSeF profile is copied from the invoice automatically.
 3. Keep only the items that change and enter the credited quantity or amount.
 4. Fill in the **Reason** for the correction.
-5. Click `Issue via KSeF`.
+5. Optionally click `KSeF Preview` to check the correction before sending. See [Preview before sending](./invoices.md#preview-before-sending).
+6. Click `Issue via KSeF`.
 
 The corrected invoice must already have a KSeF number.
 
