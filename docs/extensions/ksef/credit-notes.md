@@ -104,6 +104,8 @@ Enter the **difference**, not the new price: 100.00 − 91.87 = **8.13** per ite
 
 If the discount is a single amount for the whole item, enter quantity **1** and the discount as the unit price (1 × 81.30). The VAT result is the same.
 
+In KSeF the item is shown as a price change: the quantity stays positive and the price difference is negative (10 × −8.13). The buyer sees a discount, not returned goods.
+
 For a price change the integration checks the value of the item, not the number of items. After this discount 918.70 is left on the item, so a later return must use the price after the discount (91.87).
 
 !!! warning "More items or a higher price"

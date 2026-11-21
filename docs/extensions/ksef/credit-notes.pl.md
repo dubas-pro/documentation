@@ -104,6 +104,8 @@ Wpisz **różnicę**, a nie nową cenę: 100,00 − 91,87 = **8,13** na sztuce.
 
 Jeśli rabat jest jedną kwotą na całą pozycję, wpisz ilość **1** i kwotę rabatu jako cenę (1 × 81,30). Efekt w VAT jest taki sam.
 
+W KSeF pozycja jest zapisana jako zmiana ceny: ilość zostaje dodatnia, a różnica ceny jest ujemna (10 × −8,13). Nabywca widzi rabat, a nie zwrot towaru.
+
 Przy zmianie ceny integracja sprawdza wartość pozycji, a nie liczbę sztuk. Po tym rabacie na pozycji zostaje 918,70, więc późniejszy zwrot wystaw po cenie po rabacie (91,87).
 
 !!! warning "Więcej sztuk lub wyższa cena"
