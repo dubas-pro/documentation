@@ -45,6 +45,12 @@ Możesz również wprowadzać wydatki ręcznie w EspoCRM.
 2. Kliknij `Pobierz fakturę z KSeF`.
 3. Wpisz numer KSeF faktury.
 
+### :material-eye: Podgląd faktury
+
+Wydatki pobrane z KSeF mają przycisk `Podgląd KSeF`. Otwiera on fakturę dostawcy w nowej karcie, w czytelnej postaci: sprzedawca, nabywca, pozycje, podsumowanie VAT, płatność, numery umów i zamówień, załączniki i wszystko inne, co dostawca umieścił na fakturze. Użyj **Drukuj** (`Ctrl+P`), aby zapisać ją jako PDF.
+
+Podgląd służy tylko do odczytania faktury. Oryginałem jest faktura w KSeF. Wydatki dodane ręcznie nie mają pliku KSeF, więc przycisku na nich nie ma.
+
 ### :material-content-duplicate: Ochrona przed duplikatami
 
 Nie można zapisać wydatku, jeśli inny wydatek od tego samego kontrahenta ma ten sam numer dokumentu. Chroni to przed dwukrotnym wprowadzeniem tej samej faktury – na przykład ręcznie i z KSeF.

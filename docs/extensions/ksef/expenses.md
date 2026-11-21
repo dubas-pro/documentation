@@ -45,6 +45,12 @@ You can also enter expenses manually in EspoCRM.
 2. Click on `Download Invoice From KSeF`.
 3. Enter the KSeF number of the invoice.
 
+### :material-eye: Invoice preview
+
+Expenses downloaded from KSeF have a `KSeF Preview` button. It opens the supplier's invoice in a new tab, in a readable form: seller, buyer, items, VAT summary, payment, contract and order numbers, attachments and everything else the supplier put in the invoice. Use **Print** (`Ctrl+P`) to save it as PDF.
+
+The preview only helps you read the invoice. The original is the invoice in KSeF. Expenses created manually have no KSeF file, so the button is not shown.
+
 ### :material-content-duplicate: Duplicate protection
 
 An expense cannot be saved when another expense from the same account has the same document number. This protects you from entering the same invoice twice – for example manually and from KSeF.
