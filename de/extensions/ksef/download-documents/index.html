@@ -2795,7 +2795,7 @@
 <tbody>
 <tr>
 <td><code>Przychodzace</code></td>
-<td><a href="../expenses/">Expenses</a> fetched from KSeF – invoices and corrections from your suppliers.</td>
+<td><a href="../expenses/">Expenses</a> – invoices and corrections fetched from KSeF, and expenses added manually with a file attached.</td>
 </tr>
 <tr>
 <td><code>Wychodzace</code></td>
@@ -2811,9 +2811,10 @@
 <div class="admonition info">
 <p class="admonition-title">Which documents are included</p>
 <ul>
-<li>Only documents that already have a KSeF number. Invoices issued in <a href="../offline/">offline mode</a> appear in the package after they are delivered to KSeF.</li>
+<li>Outgoing documents: only those that already have a KSeF number. Invoices issued in <a href="../offline/">offline mode</a> appear in the package after they are delivered to KSeF.</li>
 <li>Outgoing documents are selected by their issue date, not by the date they were received by KSeF.</li>
 <li>Expenses with the status Draft, Rejected or Canceled are skipped.</li>
+<li>An expense added manually is included when it is assigned to the exported KSeF profile and has a document in the <strong>File</strong> field. Files in <strong>Attachments</strong> are not included.</li>
 </ul>
 </div></div>
 
