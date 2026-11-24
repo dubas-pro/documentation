@@ -59,4 +59,10 @@ Integracja obsługuje wiele profili KSeF, co umożliwia zarządzanie kilkoma fir
 * **Domyślna metoda płatności:** Ustaw domyślną metodę płatności (np. przelew bankowy) dla faktur wystawianych w ramach tego profilu.
 * **Domyślny kanał płatności:** Ustaw domyślne konto bankowe lub kanał. Jeśli skonfigurowano, zostanie to bezpośrednio odwzorowane w oficjalnym schemacie XML KSeF. `Dostępne do wersji 2.0.0`
 * **Domyślne konta bankowe:** Ustaw domyślne konta, które zostaną skopiowane do faktury, jeśli reguła jest poprawnie ustawiona. `Dostępne od wersji 2.0.0`
-* **Dodatkowe informacje:** Wybierz, jakie metadane (e-mail klienta, telefon, numery referencyjne itp.) mają zostać dodane do faktury KSeF.
+* **Dodatkowe informacje:** Wybierz, jakie dodatkowe dane trafiają na faktury wystawiane z tego profilu:
+    * **Numer klienta** – numer klienta nabywcy (`NrKlienta`). Wymaga parametru konfiguracji [`ksefAccountNumberField`](./config-params.md#niestandardowe-pole-numeru-konta).
+    * **Dane reprezentanta** – kontakt rozliczeniowy faktury jest wysyłany jako dodatkowy podmiot z rolą *pracownik*. Opcjonalnie z numerem klienta (`NrKlienta`) pobranym z pola faktury ustawionego w [`ksefContactNumberField`](./config-params.md#niestandardowe-pole-numeru-kontaktu).
+    * **Adres email klienta** / **Numer telefonu klienta** – e-mail i telefon nabywcy z konta.
+    * **Numer powiązanych dokumentów** – numery powiązanej oferty, zlecenia sprzedażowego i szansy sprzedaży (z [`ksefOpportunityNumberField`](./config-params.md#niestandardowe-pole-numeru-szansy-sprzedazy)) w dodatkowym opisie.
+    * **Opis produktu** – opis każdej pozycji, zobacz [Dane pozycji wysyłane do KSeF](./invoices.md#dane-pozycji-wysyane-do-ksef).
+    * **Numer seryjny produktu** – numer seryjny każdej pozycji, zobacz [Dane pozycji wysyłane do KSeF](./invoices.md#dane-pozycji-wysyane-do-ksef).

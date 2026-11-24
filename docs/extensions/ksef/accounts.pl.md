@@ -48,3 +48,22 @@ Jeśli chcesz używać któregokolwiek z poniższych pól, dodaj je do widoku sz
 ## Faktury dla jednostek samorządu terytorialnego
 
 Gdy wystawiasz fakturę na gminę lub powiat, ale dotyczy ona jednej z jej jednostek – na przykład szkoły – jako Konto wskaż gminę, a jednostkę dodaj na fakturze w **Dodatkowych podmiotach** z rolą **Jednostka samorządu terytorialnego - odbiorca**. KSeF udostępni wtedy fakturę również tej jednostce.
+
+Żeby nie dodawać jednostki na każdej fakturze, ustaw ją raz na koncie gminy – zobacz [Domyślne dodatkowe podmioty](#domyslne-dodatkowe-podmioty).
+
+## :material-domain: Domyślny profil KSeF
+
+Jeśli wystawiasz faktury z więcej niż jednej firmy (kilka profili KSeF), a dany klient zawsze jest fakturowany przez tę samą, otwórz konto klienta i wybierz **Domyślny profil KSeF** w panelu bocznym **KSeF**.
+
+* Po wybraniu tego konta na nowej fakturze profil uzupełni się automatycznie – także na fakturach tworzonych ze zlecenia sprzedażowego lub oferty.
+* Profil wybrany już na fakturze nigdy nie jest zastępowany, a uzupełniony profil możesz zmienić przed wystawieniem.
+* Profile nieaktywne oraz bez włączonej opcji **Włącz obsługę faktur sprzedażowych przez KSeF** są pomijane.
+* Profil jest używany także na ręcznych [wydatkach](./expenses.md) od tego kontrahenta, jeśli ma włączone wydatki.
+
+Profil KSeF decyduje o tym, która firma wystawia fakturę, dlatego przed wysłaniem sprawdź sprzedawcę w [podglądzie KSeF](./invoices.md#podglad-przed-wysyka).
+
+## :material-account-multiple-plus: Domyślne dodatkowe podmioty
+
+Niektórzy klienci zawsze potrzebują na fakturach tych samych dodatkowych podmiotów – jednostki odbiorcy, płatnika albo członka grupy VAT. Dodaj je raz w polu **Domyślne dodatkowe podmioty** w panelu bocznym **KSeF** na koncie klienta, razem z rolami.
+
+Po wybraniu tego konta na nowej fakturze podmioty są kopiowane do **Dodatkowych podmiotów** faktury z tymi samymi rolami. Nie są kopiowane, gdy faktura ma już dodatkowe podmioty, a przed wystawieniem możesz je na fakturze zmienić lub usunąć. Faktury korygujące, jak dotąd, przejmują dodatkowe podmioty z faktury korygowanej.

@@ -138,6 +138,26 @@ Przed wysyłką integracja sprawdza również, czy:
 
 Każda korekta jest niezależna i zawsze wskazuje fakturę pierwotną. Możesz wystawić dowolnie wiele korekt w opisanych wyżej granicach.
 
+### :material-table-eye: Pozycje po korektach
+
+![KSeF Items after correction](../../images/ksef/items-after-corrections.png "KSeF Items after correction")
+
+Po kilku korektach trudno się zorientować, ile sztuk każdej pozycji i po jakiej cenie zostało. Otwórz fakturę (albo dowolną jej korektę lub notę obciążeniową) i wybierz **Pozycje po korektach** z menu rozwijanego obok przycisku **Edytuj**.
+
+Okno pokazuje każdą pozycję faktury, a w niej:
+
+* zafakturowaną ilość i ilość po wszystkich korektach,
+* aktualną cenę jednostkową – po obniżce ceny jest to średnia cena za sztukę,
+* netto, VAT i brutto po korektach,
+* pod nazwą pozycji zmiany wprowadzone każdą korektą, np. `FK/2/2026: ilość −1, brutto −123,00` albo `zmiana ceny`.
+
+Pozycje zmienione korektą są wyróżnione, a pozycje dodane notą obciążeniową mają odpowiedni opis. Pod tabelą są sumy faktury pierwotnej i stanu po korektach oraz lista uwzględnionych korekt.
+
+Domyślnie uwzględniane są tylko korekty zarejestrowane w KSeF (lub czekające na dosłanie w trybie offline). Zaznacz **Uwzględnij korekty jeszcze niezarejestrowane w KSeF**, żeby zobaczyć, jak zmieni fakturę korekta w wersji roboczej, zanim ją wyślesz. Anulowane korekty nigdy nie są uwzględniane.
+
+!!! info "Zwrot czy zmiana ceny?"
+    Pozycja korekty z ceną jednostkową, którą pozycja już miała – na fakturze albo po wcześniejszej korekcie – jest traktowana jako zwrot – ilość maleje. Pozycja z inną ceną jednostkową jest traktowana jako zmiana ceny – ilość zostaje, maleje wartość. Tę samą zasadę integracja stosuje przy wysyłce korekty do KSeF.
+
 ## :material-file-edit: Korekty bez zmiany pozycji
 
 Jeśli zmieniają się tylko dane faktury (np. adres nabywcy), odznacz opcję **Pozycje** w polu **Zmiany** i zostaw korektę bez pozycji. Korekta zostanie wysłana z kwotą 0,00.

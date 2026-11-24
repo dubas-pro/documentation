@@ -67,3 +67,18 @@ Jeśli nie zostanie skonfigurowane (lub warunki nie zostaną spełnione), numer 
 
 !!! example "Example Configuration"
     `'ksefOpportunityNumberField' => 'customOpportunityNumber'`
+
+### Niestandardowe pole numeru kontaktu
+
+**Klucz konfiguracji:** `ksefContactNumberField`
+
+**Opis:** Określa, które pole faktury zawiera numer kontaktu rozliczeniowego wysyłany razem z danymi reprezentanta.
+
+**Typ:** String
+
+**Wartość domyślna:** `null` (nieustawiona)
+
+**Zastosowanie:** Używane tylko wtedy, gdy w **Dodatkowych informacjach** profilu KSeF wybrano **Dane reprezentanta**, a faktura ma kontakt rozliczeniowy.
+
+!!! example "Przykładowa konfiguracja"
+    `'ksefContactNumberField' => 'billingContactEmployeeNumber'`

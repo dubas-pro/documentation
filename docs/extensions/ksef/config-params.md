@@ -67,3 +67,18 @@ If not configured (or conditions are not met), the opportunity number is not add
 
 !!! example "Example Configuration"
     `'ksefOpportunityNumberField' => 'customOpportunityNumber'`
+
+### Custom Contact Number Field
+
+**Configuration Key:** `ksefContactNumberField`
+
+**Description:** Defines which Invoice field holds the number of the billing contact sent together with the billing contact details.
+
+**Type:** String
+
+**Default Value:** `null` (not set)
+
+**Usage:** Used only when **Billing contact details** is selected in **Additional Information** of the KSeF profile and the invoice has a billing contact.
+
+!!! example "Example Configuration"
+    `'ksefContactNumberField' => 'billingContactEmployeeNumber'`

@@ -95,6 +95,40 @@ Go to Layout manager and add proper fields into the detail view:
 - Excemption Type - you can set also `Excemption Description`. Required when the invoice has exempt (`zw`) items
 - Relevant Period - if you want to specify different date than issuance, choose `Relevant Date` or `Period`. In such scenario, add also additional fields: `Date of Delivery or Service Completion` or/and `Period Start Date` and `Period End Date`
 
+## :material-format-list-bulleted: Item details sent to KSeF
+
+![KSeF Items after correction](../../images/ksef/items-after-corrections.png "KSeF Items after correction")
+
+Besides the name, quantity and price, each invoice item can carry additional details. Some are sent always when filled in, others only when enabled in the KSeF profile.
+
+| Detail | Where to enter it | Sent to KSeF |
+|---|---|---|
+| Unit of measure | **Unit of Measure** column of the item, or **Unit of Measure** on the Product | Always. When empty, `szt.` is used. |
+| GTU code | **GTU** column of the item, or **GTU** on the Product | Always when filled in. |
+| PKWiU | **PKWiU** column of the item, or **PKWiU** on the Product | Always when filled in. |
+| Item description | **Description** of the item | Only when **Product description** is selected in the profile. |
+| Serial number | **Serial Number** of the item | Only when **Product Serial Number** is selected in the profile. |
+
+Values entered on the item take priority. When the item field is empty, the value is taken from the selected Product, so it is enough to set the unit, GTU and PKWiU once on the product card (KSeF panel on the Product).
+
+### How to send item descriptions and serial numbers
+
+1. Open **Administration → KSeF Settings** and the KSeF profile used for invoicing.
+2. In the **Invoices** section, add **Product description** and/or **Product Serial Number** to **Additional Information**.
+3. Save the profile.
+4. Serial numbers are not visible on the item list by default. Add the **Serial Number** field to the Invoice Item list layout in **Administration → Layout Manager**, and do the same for Credit Note Items if you correct such items.
+
+Descriptions and serial numbers are sent in the additional description section (`DodatkowyOpis`) and linked to the item row number, so the buyer sees which item they belong to. Check the result with the [KSeF Preview](#preview-before-sending) before sending.
+
+!!! note
+    The additional information options apply to all invoices issued with the profile. Items without a description or serial number are simply skipped.
+
+## :material-file-sign: Contract number
+
+If the invoice relates to a contract, fill in **Contract Number** and **Contract Date** on the **KSeF** tab, in the **Transaction Terms** panel. Both fields are optional – you can enter only the number, only the date, or both. They are sent to KSeF in the transaction terms of the invoice and shown in the preview. When nothing is entered, the transaction terms are not sent at all.
+
+A credit note takes over the contract number and date from the corrected invoice unless you enter different ones. After the invoice is registered in KSeF, both fields are locked.
+
 ## :material-currency-usd: How to issue invoices in different currencies?
 
 1. Enable additional [currencies in settings](https://dubas.pro/redirect/#Admin/currency)

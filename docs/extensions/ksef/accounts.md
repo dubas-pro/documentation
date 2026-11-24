@@ -48,3 +48,22 @@ If you want to use any of below fields, please add them to detail view via [Layo
 ## Invoices for local government units
 
 When you invoice a municipality (gmina, powiat) but the invoice concerns one of its units – for example a school – enter the municipality as the Account and add the unit in **Additional Accounts** on the invoice with the role **Local government unit - recipient**. KSeF will then deliver the invoice to the unit as well.
+
+To avoid adding the unit on every invoice, set it once on the municipality's Account – see [Default additional accounts](#default-additional-accounts).
+
+## :material-domain: Default KSeF profile
+
+If you issue invoices from more than one company (several KSeF profiles) and a customer is always invoiced by the same one, open the customer's Account and choose **Default KSeF Profile** in the **KSeF** side panel.
+
+* When you select this Account on a new invoice, the profile is filled in automatically – also on invoices created from a Sales Order or a Quote.
+* A profile already chosen on the invoice is never replaced, and you can still change the filled-in profile before issuing.
+* Inactive profiles and profiles without **Enable Invoices** are skipped.
+* On manual [expenses](./expenses.md) from this Account the profile is used too, if it has **Enable Expenses**.
+
+The KSeF profile decides which company issues the invoice, so check the seller in the [KSeF Preview](./invoices.md#preview-before-sending) before sending.
+
+## :material-account-multiple-plus: Default additional accounts
+
+Some customers always need the same additional parties on their invoices – a recipient unit, a payer or a VAT group member. Add them once in **Default Additional Accounts** in the **KSeF** side panel of the customer's Account, together with their roles.
+
+When the Account is selected on a new invoice, these parties are copied to the invoice's **Additional Accounts** with the same roles. They are not copied when the invoice already has additional accounts, and you can edit or remove them on the invoice before issuing. Credit notes take additional accounts from the corrected invoice, as before.

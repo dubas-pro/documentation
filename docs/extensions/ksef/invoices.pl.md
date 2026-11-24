@@ -95,6 +95,40 @@ Przejdź do menadżera layoutu i dodaj odpowiednie pola do widoku szczegółów:
 - Typ Zwolnienia - możesz również ustawić `Opis Zwolnienia`. Wymagane, gdy faktura zawiera pozycje zwolnione (`zw`)
 - Okres Istotny - jeśli chcesz określić inną datę niż wystawienie, wybierz `Datę Istotną` lub `Okres`. W takim przypadku dodaj również dodatkowe pola: `Data Dostarczenia lub Wykonania Usługi` lub/i `Data Początkowa Okresu` i `Data Końcowa Okresu`
 
+## :material-format-list-bulleted: Dane pozycji wysyłane do KSeF
+
+![KSeF Items after correction](../../images/ksef/items-after-corrections.png "KSeF Items after correction")
+
+Oprócz nazwy, ilości i ceny każda pozycja faktury może zawierać dodatkowe dane. Część z nich jest wysyłana zawsze, gdy jest uzupełniona, a część tylko po włączeniu w profilu KSeF.
+
+| Dane | Gdzie je wpisać | Wysyłane do KSeF |
+|---|---|---|
+| Jednostka miary | Kolumna **Jednostka miary** pozycji albo pole **Jednostka miary** na produkcie | Zawsze. Gdy pole jest puste, wysyłane jest `szt.`. |
+| Kod GTU | Kolumna **GTU** pozycji albo pole **GTU** na produkcie | Zawsze, gdy jest uzupełniony. |
+| PKWiU | Kolumna **PKWiU** pozycji albo pole **PKWiU** na produkcie | Zawsze, gdy jest uzupełnione. |
+| Opis pozycji | **Opis** pozycji | Tylko gdy w profilu wybrano **Opis produktu**. |
+| Numer seryjny | **Numer seryjny** pozycji | Tylko gdy w profilu wybrano **Numer seryjny produktu**. |
+
+Wartość wpisana na pozycji ma pierwszeństwo. Gdy pole pozycji jest puste, wartość jest brana z wybranego produktu, więc jednostkę, GTU i PKWiU wystarczy ustawić raz na karcie produktu (panel KSeF na produkcie).
+
+### Jak wysyłać opisy pozycji i numery seryjne
+
+1. Otwórz **Administracja → Ustawienia KSeF** i profil KSeF używany do fakturowania.
+2. W sekcji **Faktury** dodaj w polu **Dodatkowe informacje na fakturze** opcję **Opis produktu** i/lub **Numer seryjny produktu**.
+3. Zapisz profil.
+4. Numer seryjny domyślnie nie jest widoczny na liście pozycji. Dodaj pole **Numer seryjny** do układu listy pozycji faktury w **Administracja → Menedżer układów**, a jeśli korygujesz takie pozycje, także do pozycji faktury korygującej.
+
+Opisy i numery seryjne trafiają do sekcji dodatkowego opisu (`DodatkowyOpis`) z numerem wiersza pozycji, więc nabywca widzi, której pozycji dotyczą. Sprawdź wynik w [podglądzie KSeF](#podglad-przed-wysyka) przed wysłaniem.
+
+!!! note
+    Opcje dodatkowych informacji dotyczą wszystkich faktur wystawianych z danego profilu. Pozycje bez opisu lub numeru seryjnego są po prostu pomijane.
+
+## :material-file-sign: Numer umowy
+
+Jeśli faktura dotyczy umowy, uzupełnij **Numer umowy** i **Data umowy** na zakładce **KSeF**, w panelu **Warunki transakcji**. Oba pola są opcjonalne – możesz podać sam numer, samą datę albo oba. Trafiają do KSeF w warunkach transakcji faktury i są widoczne w podglądzie. Jeśli nic nie wpiszesz, warunki transakcji nie są w ogóle wysyłane.
+
+Faktura korygująca przejmuje numer i datę umowy z faktury korygowanej, chyba że wpiszesz inne. Po zarejestrowaniu faktury w KSeF oba pola są zablokowane.
+
 ## :material-currency-usd: Jak wystawiać faktury w różnych walutach?
 
 1. Włącz dodatkowe [waluty w ustawieniach](https://dubas.pro/redirect/#Admin/currency)

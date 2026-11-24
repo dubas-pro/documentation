@@ -138,6 +138,26 @@ Before sending, the integration also checks that:
 
 Each correction is independent and always refers to the original invoice. You can issue as many credit notes as needed within the limits described above.
 
+### :material-table-eye: Items after corrections
+
+![KSeF Items after correction](../../images/ksef/items-after-corrections.png "KSeF Items after correction")
+
+After a few corrections it is hard to tell how many units of each item and at what price are left. Open the invoice (or any of its credit notes or debit notes) and choose **Items After Corrections** from the dropdown next to the **Edit** button.
+
+The window shows every item of the invoice with:
+
+* the invoiced quantity and the quantity after all corrections,
+* the current unit price – after a price reduction it is the average price per unit,
+* net, VAT and gross after corrections,
+* under the item name, the changes made by each correction, e.g. `FK/2/2026: quantity −1, gross −123.00` or `price change`.
+
+Items changed by a correction are highlighted. Items added by a debit note are marked as such. Below the table you will find the totals of the original invoice and after corrections, and the list of corrections that were taken into account.
+
+By default only corrections registered in KSeF (or waiting for offline delivery) are included. Tick **Include corrections not yet registered in KSeF** to see how a draft correction will change the invoice before you send it. Canceled corrections are never included.
+
+!!! info "Return or price change?"
+    A credit note item with a unit price the item already had – on the invoice or after an earlier correction – is treated as a return – the quantity goes down. An item with a different unit price is treated as a price change – the quantity stays and the value goes down. This is the same rule the integration uses when it sends the correction to KSeF.
+
 ## :material-file-edit: Corrections without item changes
 
 If only invoice data changes (e.g. the buyer's address), clear the **Items** option in the **Changes** field and leave the credit note without items. The correction is sent with a total of 0.00.

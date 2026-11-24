@@ -59,4 +59,10 @@ The integration supports multiple KSeF Profiles, enabling the management of seve
 * **Default Payment Method:** Set the default method (e.g., Bank Transfer) for invoices issued under this profile.
 * **Default Payment Channel:** Set the default bank account or channel. If configured, this will be mapped directly to the official KSeF XML schema. `Available till version 2.0.0`
 * **Default Bank Accounts:** Set default accounts which will be copied to Invoice is rule is properly set. `Available from version 2.0.0`
-* **Additional Information:** Choose which metadata (Client email, phone, reference numbers, etc.) should be appended to the KSeF invoice.
+* **Additional Information:** Choose which extra data is added to invoices issued with this profile:
+    * **Client number** – the buyer's client number (`NrKlienta`). Requires the [`ksefAccountNumberField`](./config-params.md#custom-account-number-field) config parameter.
+    * **Billing contact details** – the billing contact of the invoice is sent as an additional party with the role *employee*. Optionally with a client number (`NrKlienta`) taken from the invoice field set in [`ksefContactNumberField`](./config-params.md#custom-contact-number-field).
+    * **Client email address** / **Client phone number** – the buyer's email and phone from the Account.
+    * **References to related documents** – numbers of the related Quote, Sales Order and Opportunity (with [`ksefOpportunityNumberField`](./config-params.md#custom-opportunity-number-field)) in the additional description.
+    * **Product description** – the description of each item, see [Item details sent to KSeF](./invoices.md#item-details-sent-to-ksef).
+    * **Product Serial Number** – the serial number of each item, see [Item details sent to KSeF](./invoices.md#item-details-sent-to-ksef).
