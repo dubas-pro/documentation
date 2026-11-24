@@ -1,104 +1,138 @@
----
-title: Dubas KSeF Integration for EspoCRM
-description: Manage KSeF invoices directly inside EspoCRM with our integration.
-authors:
-  - dubas s.c.
----
+# Invoices Management
 
-# Dubas KSeF Integration
+![KSeF Integration](../../images/ksef-issue-invoice.png "KSeF Integration")
 
-![Dubas KSeF Integration](../../images/ksef.png)
+## :material-file-send: How to issue Invoice via KSeF?
 
-## :material-information-outline: General Information
+??? warning "Sales Pack required"
+    Please keep in mind that feature will not work if you don't have Sales Pack extension.
 
-The Dubas KSeF Integration is a custom extension that enables seamless communication between EspoCRM and the Polish National e-Invoicing System (KSeF). With this extension, you can automatically download contractor invoices from KSeF directly into EspoCRM, as well as issue your own invoices and credit notes to KSeF using the Sales Pack functionality. This solution streamlines your financial document management and ensures secure, efficient handling within your CRM.
+??? info "Enable invoices first"
+    This feature will only work if you enable invoices in KSeF profile (details above).
 
-!!! tip "Purchase"
-    Please contact us [via our form](https://dubas.pro/form/contact) if you would like to order this extension.
+!!! danger "Review issued invoice!"
+    Please keep in mind that software may contain bugs and mistakes. Check your specific usecase with [test profile](./test-profile.md) before you start using with production KSeF Profile.
 
-!!! info "What's new in 3.0.0"
-    * [Credit notes](./credit-notes.md) can be issued to KSeF.
-    * [Offline mode](./offline.md): invoices are issued even when KSeF is unavailable and sent to KSeF automatically later.
-    * More checks before sending, so incorrect invoices are stopped in EspoCRM. See [Invoices](./invoices.md).
-    * New tax ID type **Private person** for invoices to consumers. See [Accounts](./accounts.md).
-    * Duplicate protection for [Expenses](./expenses.md).
-    * Automatic Paid / Resolved status after full settlement of invoices and credit notes.
-    * The [document package](./download-documents.md) includes credit notes and KSeF delivery confirmations (UPO).
+1. Go to **Invoices**.
+2. Create new Invoice.
+3. Choose KSef Profile.
+4. Optionally click `KSeF Preview` to check how the invoice will look in KSeF.
+5. Click on `Issue via KSeF`
+6. After everything is fine, invoice will be scheduled for sending to KSeF.
 
-### Key Features
+Unfortunatelly we can't pass invoice to KSeF in few seconds, that's why it's working in background. After invoice will be issued, field KSeF Status will be set to **Completed**.
 
-!!! warning "This product is new!"
-    Please note that both this extension and the KSeF system are relatively new, and ongoing updates or changes to national standards may occur. We are committed to adapting the integration as needed and supporting individual use cases to ensure continued compatibility and reliability.
+### When button `Issue via KSeF` will be visible?
 
-* **Total Data Security:** All your data remains secure within your EspoCRM instance. Communication occurs directly between your CRM and the KSeF system. Our integration does not transmit any financial or client information to third parties.
-* **Automated Invoice Retrieval:** The integration automatically fetches invoices issued by your contractors from KSeF based on your schedule and preferences.
-* **Expenses Management:** Received invoices are stored in the Expenses entity, compatible with Sales Pack and its item list. You can also enter expenses from other sources manually.
-* **Manual Synchronization:** You can manually initiate the retrieval of invoices from KSeF at any time.
-* **Direct Invoice Issuance:** Send invoices and credit notes issued in the EspoCRM Sales Pack directly to the KSeF system.
+Button is visible only when all of the following conditions are met:
 
-### :material-map-marker-distance: Roadmap
+- The record view is **not in edit mode**.
+- Invoice `status` is **not** one of: `Issued`, `Paid`, `Overdue`, `Confirmed`.
+- `ksefStatus` is either:
+    - `null`, or
+    - a string containing `"Error"`.
+- `ksefProfileId` is **not** `null`.
 
-* :material-checkbox-marked-outline: Authorization via certificates (required before 2027).
-* :material-checkbox-marked-outline: Support for Bank Accounts.
-* :material-checkbox-marked-outline: Support for multiple KSeF schemes.
-* :material-checkbox-marked-outline: Support for Credit Notes.
-* :material-checkbox-blank-outline: Incoming invoices as Sales Pack Supplier Bills (next version).
-* :material-checkbox-blank-outline: Support for Debit Notes (corrections increasing the amount).
-* :material-checkbox-blank-outline: Summary corrections for a period.
-* :material-checkbox-marked-outline: Offline24 mode with automatic sending to KSeF (requires an Offline certificate).
-* :material-checkbox-blank-outline: Emergency modes (KSeF failure announced by the Ministry of Finance).
-* :material-checkbox-blank-outline: Batch processing support for invoice issuance.
+If any of these checks fail, the button is hidden.
 
----
+## :material-eye: Preview before sending
 
-## :material-playlist-check: Requirements
+You can prepare an invoice as a draft and check it before you issue it. Click `KSeF Preview` to see the invoice exactly as it would be sent to KSeF right now: seller, buyer, items, VAT summary, annotations and payment details. The preview opens in a new browser tab and nothing is sent to KSeF. If something is wrong, correct the invoice and open the preview again.
 
-* EspoCRM version **9.3.0** or higher.
-* Sales Pack version **4.x** or higher.
-* PHP (for web and cli) in version **8.4** or higher.
+* If something is missing or wrong, the preview shows the same message you would get when sending, so you can fix it first.
+* To save the preview as PDF, use **Print** in your browser (`Ctrl+P`) and choose **Save as PDF**. The printout is marked as a preview.
+* You can preview a draft with any date. The preview reminds you that the issue date must be today when you issue the invoice.
+* After the invoice is issued, the preview shows it exactly as it was issued – with its KSeF number, or with the delivery deadline for [offline mode](./offline.md).
+* The preview uses the same light or dark look as your EspoCRM theme. Printouts are always light.
 
----
+The button is available on invoices, debit notes and credit notes, before and after issuing.
 
-## How to start?
+!!! note
+    The preview is for EspoCRM users only, to check the data. It is not an invoice or an official KSeF visualisation, so do not send it to the buyer.
 
-1. Purchase and install **[Sales Pack extension](https://dubas.pro/link/sp)**
-2. Install KSeF extension
-3. [Configure KSeF Profile](./profiles.md#how-to-configure-a-ksef-profile)
-4. [Configure automatic fetching of incoming invoices](#how-to-configure-the-ksef-cron-job)
-5. [Add optional fields to Invoices](./invoices.md#how-to-set-additional-params-for-invoice)
-6. [Set the tax ID type for your customers](./accounts.md#tax-id-types) – choose **Private person** for consumers
+## :material-shield-check: What is checked before sending
 
-**[Now you can issue your first invoice!](./invoices.md#how-to-issue-invoice-via-ksef)**
+Before an invoice goes to KSeF, the integration checks that it is complete and consistent. If something is wrong, the invoice is not sent, the KSeF Status changes to **Error obtaining fields for submission** and you see the reason. Fix the data and click `Issue via KSeF` again.
 
-## :material-cog-sync-outline: How to Configure the KSeF Cron Job
+| Check | What to do if it fails |
+|---|---|
+| The invoice date is today. | Set the invoice date to today's date. |
+| The buyer has a tax ID type selected. | Choose the type on the Account – for consumers choose **Private person**. See [Accounts](./accounts.md). |
+| The VAT amount of every item matches its KSeF rate. | Check the item's tax code – its rate in EspoCRM must agree with the selected **KSeF Rate**. See [Tax rates](./tax-rates.md). |
+| Items marked as exempt (`zw`) have the legal basis of the exemption. | Fill in **Exemption Type** and **Exemption Description** on the invoice. |
+| Items with `0% WDT` (intra-community supply) have a buyer with an EU VAT number. | Set the buyer's tax ID type to **VAT UE**. |
+| **Reverse Charge** is ticked only when the invoice has reverse-charge items (`oo` or `np II`). | Untick the option or correct the tax codes. |
+| A buyer in a VAT group has the group member added. | Add the member in **Additional Accounts** with the role **VAT group member - recipient**. |
 
-1. Navigate to the **Administration** section.
-2. Click on **Scheduled Jobs**.
-3. Create a new Scheduled Job.
-4. Choose the task `Get Invoices From Ksef`.
-5. Click **Save**.
+!!! tip "Reverse charge is marked automatically"
+    You do not have to tick **Reverse Charge** yourself. When the invoice contains items with the `oo` or `np II` rate, the "odwrotne obciążenie" annotation is added automatically.
 
-By default, this job will automatically download incoming invoices from KSeF every **5 minutes** for all active profiles.
+## :material-lock: After the invoice is in KSeF
 
-!!! note "Daily checking"
-    We recommend to configure another Scheduled Job which is called **Daily Fetch Of Expenses From KSeF**. Proper schedule is `0 0 * * *`, so at 00:00.
+An invoice registered in KSeF cannot be changed – this is required by law. Amounts, items, buyer data and other information sent to KSeF are locked in EspoCRM. If anything needs to change, issue a [credit note](./credit-notes.md).
 
----
+## :material-wifi-off: When KSeF is unavailable
 
-## :material-server-network: KSeF Environments
+If KSeF does not respond while an invoice is being sent, the integration can issue it in **offline mode**. See [Offline mode](./offline.md) for details.
 
-* **Production:** [https://ap.ksef.mf.gov.pl/web/](https://ap.ksef.mf.gov.pl/web/)
-* **Demo:** [https://ap-demo.ksef.mf.gov.pl/web/](https://ap-demo.ksef.mf.gov.pl/web/)
-* **Test:** [https://ap-test.ksef.mf.gov.pl/web/](https://ap-test.ksef.mf.gov.pl/web/)
+## :material-book-information-variant: KSeF fields in invoices
 
----
+- `ksefNumber` - KSeF number assigned to an invoice. Required on issued invoices.
+- `ksefStatus` - status of invoice delivery to KSeF.
+- `ksefPublicUrl` - public url to status page of invoice in KSeF.
+- `ksefProfile` - profile which is used to issue an invoice and pass to KSeF.
+- `upoFile` - XML file which confirm delivery to KSeF.
+- `xmlFile` - XML file which contains invoice details.
 
-## Related Articles
+## :material-bank-plus: How to set additional params for invoice?
 
-* [Invoices management](./invoices.md)
-* [Credit notes in KSeF](./credit-notes.md)
-* [Offline mode](./offline.md)
-* [How to download a package with financial documents](./download-documents.md)
-* [How to configure a profile for the KSeF test environment](./test-profile.md)
-* [How to manage accounts and tax IDs](./accounts.md)
-* [Expenses management](./expenses.md)
+Go to Layout manager and add proper fields into the detail view:
+
+- Additional Accounts - you can add third party accounts to invoice and set their role
+- Cash Method
+- Reverse Charge
+- Split Payment Mechanism
+- Excemption Type - you can set also `Excemption Description`. Required when the invoice has exempt (`zw`) items
+- Relevant Period - if you want to specify different date than issuance, choose `Relevant Date` or `Period`. In such scenario, add also additional fields: `Date of Delivery or Service Completion` or/and `Period Start Date` and `Period End Date`
+
+## :material-file-sign: Contract number
+
+If the invoice relates to a contract, fill in **Contract Number** and **Contract Date** on the **KSeF** tab, in the **Transaction Terms** panel. Both fields are optional – you can enter only the number, only the date, or both. They are sent to KSeF in the transaction terms of the invoice and shown in the preview. When nothing is entered, the transaction terms are not sent at all.
+
+A credit note takes over the contract number and date from the corrected invoice unless you enter different ones. After the invoice is registered in KSeF, both fields are locked.
+
+## :material-currency-usd: How to issue invoices in different currencies?
+
+1. Enable additional [currencies in settings](https://dubas.pro/redirect/#Admin/currency)
+2. Enter proper [currency rates](https://dubas.pro/redirect/#CurrencyRecord/list/fromSettings=true) for each currency - you can also do it automatically (check out below)
+3. While creating new invoice, before adding anything to item list, change currency from PLN to something else
+
+## :material-github: How to automatically update currency rates?
+
+You can download our free extension to keep updated currency rates:
+<a href="https://github.com/dubas-pro/ext-nbp-exchange-rates/releases">NBP Extension</a>
+
+
+## :material-qrcode-scan: How to properly label PDF invoice
+
+!!! warning
+    Please make sure the PDF displays accurate details that match the information sent to KSeF.
+
+If you want to provide your customer with a PDF visualization of an invoice issued via KSeF, make sure the PDF contains values consistent with data sent to KSeF.
+
+Include at least:
+
+- **KSeF number** - `{{ksefNumber}}`
+- **Public link to the KSeF invoice page** - `{{ksefPublicUrl}}`
+- **QR code for the KSeF public invoice page** `{{qrCodeId}}`
+
+For invoices issued in **offline mode**, include an additional (second) QR code required for offline identification/verification. It is stored in the `qrCodeCertificate` field. See [Offline mode](./offline.md).
+
+### How to print QR Code on PDF?
+
+You can use barcode generated by KSeF integration which is stored in invoice (field `qrCodeId`) or you can generate your own QR Code with link to adjust barcode design:
+
+
+```handlebars
+{{barcodeImage ksefPublicUrl_RAW type='QRcode' width=60 height=60 fontsize=14 text=false padding=2}}
+```

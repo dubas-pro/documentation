@@ -1,104 +1,138 @@
----
-title: Integracja Dubas KSeF dla EspoCRM
-description: Zarządzaj fakturami KSeF bezpośrednio w EspoCRM dzięki naszej integracji.
-authors:
-  - dubas s.c.
----
+# Zarządzanie Fakturami
 
-# Integracja Dubas KSeF
+![Integracja KSeF](../../images/ksef-issue-invoice.png "Integracja KSeF")
 
-![Integracja Dubas KSeF](../../images/ksef.png)
+## :material-file-send: Jak wystawić Fakturę za pośrednictwem KSeF?
 
-## :material-information-outline: Informacje ogólne
+??? warning "Wymagany pakiet Sales Pack"
+    Pamiętaj, że ta funkcja nie będzie działać, jeśli nie masz zainstalowanego rozszerzenia Sales Pack.
 
-Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną komunikację między EspoCRM a Krajowym Systemem e-Faktur (KSeF). Dzięki temu rozszerzeniu możesz automatycznie pobierać faktury od kontrahentów z KSeF bezpośrednio do EspoCRM, a także wysyłać własne faktury i faktury korygujące do KSeF z wykorzystaniem funkcji Sales Pack. To rozwiązanie usprawnia zarządzanie dokumentami finansowymi i zapewnia bezpieczną oraz wydajną obsługę w Twoim CRM.
+??? info "Najpierw włącz faktury"
+    Ta funkcja będzie działać tylko, jeśli włączysz faktury w profilu KSeF (szczegóły powyżej).
 
-!!! tip "Zakup"
-    Skontaktuj się z nami [przez formularz](https://dubas.pro/form/contact), jeśli chcesz zamówić to rozszerzenie.
+!!! danger "Przejrzyj wystawioną fakturę!"
+    Pamiętaj, że oprogramowanie może zawierać błędy. Sprawdź swoją konkretną konfigurację przy użyciu [profilu testowego](./test-profile.md) przed użyciem profilu KSeF w produkcji.
 
-!!! info "Co nowego w 3.0.0"
-    * [Faktury korygujące](./credit-notes.md) można wysyłać do KSeF.
-    * [Tryb offline](./offline.md): faktury są wystawiane także wtedy, gdy KSeF jest niedostępny, i automatycznie dosyłane później.
-    * Więcej sprawdzeń przed wysyłką – błędne faktury zatrzymują się w EspoCRM. Zobacz [Zarządzanie fakturami](./invoices.md).
-    * Nowy typ identyfikatora podatkowego **Osoba prywatna** dla faktur dla konsumentów. Zobacz [Konta](./accounts.md).
-    * Ochrona przed duplikatami w [Wydatkach](./expenses.md).
-    * Automatyczny status Opłacona / Rozliczona po pełnym rozliczeniu faktur i faktur korygujących.
-    * [Pakiet dokumentów](./download-documents.md) zawiera faktury korygujące i Urzędowe Poświadczenia Odbioru (UPO).
+1. Przejdź do **Faktur**.
+2. Utwórz nową Fakturę.
+3. Wybierz Profil KSeF.
+4. Opcjonalnie kliknij `Podgląd KSeF`, aby sprawdzić, jak faktura będzie wyglądać w KSeF.
+5. Kliknij na `Wystaw przez KSeF`
+6. Jeśli wszystko jest w porządku, faktura zostanie zaplanowana do wysłania do KSeF.
 
-### Najważniejsze funkcje
+Niestety nie możemy przesłać faktury do KSeF w ciągu kilku sekund, dlatego proces działa w tle. Po wystawieniu faktury pole Status KSeF zostanie ustawione na **Zakończona**.
 
-!!! warning "Ten produkt jest nowy!"
-    Zarówno to rozszerzenie, jak i system KSeF są stosunkowo nowe, dlatego mogą pojawiać się aktualizacje oraz zmiany krajowych standardów. Zobowiązujemy się dostosowywać integrację do tych zmian i wspierać indywidualne przypadki użycia, aby zapewnić ciągłą kompatybilność oraz niezawodność.
+### Kiedy przycisk `Wystaw przez KSeF` będzie widoczny?
 
-* **Pełne bezpieczeństwo danych:** Wszystkie Twoje dane pozostają bezpieczne w instancji EspoCRM. Komunikacja odbywa się bezpośrednio między Twoim CRM a systemem KSeF. Nasza integracja nie przekazuje danych finansowych ani danych klientów do podmiotów trzecich.
-* **Automatyczne pobieranie faktur:** Integracja automatycznie pobiera z KSeF faktury wystawione przez Twoich kontrahentów zgodnie z ustawionym harmonogramem i preferencjami.
-* **Zarządzanie wydatkami:** Pobrane faktury są zapisywane w encji Wydatki, zgodnej z Sales Pack i jego listą pozycji. Wydatki z innych źródeł możesz też wprowadzać ręcznie.
-* **Ręczna synchronizacja:** W każdej chwili możesz ręcznie uruchomić pobieranie faktur z KSeF.
-* **Bezpośrednie wystawianie faktur:** Wysyłaj faktury i faktury korygujące wystawione w Sales Pack EspoCRM bezpośrednio do systemu KSeF.
+Przycisk jest widoczny tylko wtedy, gdy spełnione są wszystkie następujące warunki:
 
-### :material-map-marker-distance: Plan rozwoju
+- Widok rekordu **nie jest w trybie edycji**.
+- Status faktury `status` **nie jest** jednym z: `Issued`, `Paid`, `Overdue`, `Confirmed`.
+- `ksefStatus` to albo:
+    - `null`, albo
+    - string zawierający `"Error"`.
+- `ksefProfileId` **nie jest** `null`.
 
-* :material-checkbox-marked-outline: Autoryzacja certyfikatami (wymagana przed 2027 r.).
-* :material-checkbox-marked-outline: Obsługa rachunków bankowych.
-* :material-checkbox-marked-outline: Obsługa wielu schematów KSeF.
-* :material-checkbox-marked-outline: Obsługa faktur korygujących.
-* :material-checkbox-blank-outline: Faktury przychodzące jako faktury zakupowe Sales Pack (następna wersja).
-* :material-checkbox-blank-outline: Obsługa korekt zwiększających (Debit Notes).
-* :material-checkbox-blank-outline: Korekty zbiorcze za okres.
-* :material-checkbox-marked-outline: Tryb offline24 z automatycznym dosyłaniem do KSeF (wymaga certyfikatu Offline).
-* :material-checkbox-blank-outline: Tryby awaryjne (awaria KSeF ogłoszona przez Ministerstwo Finansów).
-* :material-checkbox-blank-outline: Obsługa wsadowego przetwarzania wystawiania faktur.
+Jeśli którekolwiek z tych warunków nie zostaną spełnione, przycisk będzie ukryty.
 
----
+## :material-eye: Podgląd przed wysyłką
 
-## :material-playlist-check: Wymagania
+Fakturę możesz przygotować wstępnie i sprawdzić przed wystawieniem. Kliknij `Podgląd KSeF`, aby zobaczyć fakturę dokładnie w takiej postaci, w jakiej trafiłaby teraz do KSeF: sprzedawcę, nabywcę, pozycje, podsumowanie VAT, adnotacje i dane płatności. Podgląd otwiera się w nowej karcie przeglądarki i nic nie jest wysyłane do KSeF. Jeśli coś się nie zgadza, popraw fakturę i otwórz podgląd ponownie.
 
-* EspoCRM w wersji **9.3.0** lub nowszej.
-* Sales Pack w wersji **4.x** lub nowszej.
-* PHP (dla web i cli) w wersji **8.4** lub nowszej.
+* Jeśli czegoś brakuje lub coś się nie zgadza, podgląd pokaże ten sam komunikat, który pojawiłby się przy wysyłce – możesz to poprawić wcześniej.
+* Aby zapisać podgląd jako PDF, użyj **Drukuj** w przeglądarce (`Ctrl+P`) i wybierz **Zapisz jako PDF**. Wydruk jest oznaczony jako podgląd.
+* Podgląd działa dla wersji roboczej z dowolną datą. Przypomina tylko, że w chwili wystawienia data wystawienia musi być dzisiejsza.
+* Po wystawieniu podgląd pokazuje dokument dokładnie w takiej postaci, w jakiej został wystawiony – z numerem KSeF albo z terminem przesłania dla [trybu offline](./offline.md).
+* Podgląd ma jasny lub ciemny wygląd, tak jak Twój motyw EspoCRM. Wydruk jest zawsze jasny.
 
----
+Przycisk jest dostępny na fakturach, notach obciążeniowych (Debit Note) i korektach, przed wystawieniem i po nim.
 
-## Jak zacząć?
+!!! note
+    Podgląd jest przeznaczony tylko dla użytkowników EspoCRM do sprawdzenia danych. Nie jest fakturą ani oficjalną wizualizacją KSeF – nie przekazuj go nabywcy.
 
-1. Kup i zainstaluj **[rozszerzenie Sales Pack](https://dubas.pro/link/sp)**
-2. Zainstaluj rozszerzenie KSeF
-3. [Skonfiguruj profil KSeF](./profiles.md#how-to-configure-a-ksef-profile)
-4. [Skonfiguruj automatyczne pobieranie faktur przychodzących](#jak-skonfigurować-zadanie-cron-ksef)
-5. [Dodaj opcjonalne pola do faktur](./invoices.md#how-to-set-additional-params-for-invoice)
-6. [Ustaw typ identyfikatora podatkowego swoich klientów](./accounts.md) – dla konsumentów wybierz **Osoba prywatna**
+## :material-shield-check: Co jest sprawdzane przed wysyłką
 
-**[Teraz możesz wystawić swoją pierwszą fakturę!](./invoices.md#how-to-issue-invoice-via-ksef)**
+Zanim faktura trafi do KSeF, integracja sprawdza, czy jest kompletna i spójna. Jeśli coś się nie zgadza, faktura nie zostanie wysłana, Status KSeF zmieni się na **Błąd podczas pobierania pól do wysyłki**, a Ty zobaczysz przyczynę. Popraw dane i ponownie kliknij `Wystaw przez KSeF`.
 
-## :material-cog-sync-outline: Jak skonfigurować zadanie cron KSeF
+| Co jest sprawdzane | Co zrobić, gdy sprawdzenie nie przejdzie |
+|---|---|
+| Data wystawienia faktury to dzisiejsza data. | Ustaw dzisiejszą datę wystawienia. |
+| Nabywca ma wybrany typ identyfikatora podatkowego. | Wybierz typ na Koncie – dla konsumentów **Osoba prywatna**. Zobacz [Konta](./accounts.md). |
+| Kwota VAT każdej pozycji zgadza się z jej stawką KSeF. | Sprawdź kod podatkowy pozycji – stawka w EspoCRM musi odpowiadać wybranej **Stawce KSeF**. Zobacz [Stawki podatkowe](./tax-rates.md). |
+| Pozycje zwolnione (`zw`) mają podaną podstawę prawną zwolnienia. | Uzupełnij na fakturze **Typ zwolnienia** i **Opis zwolnienia**. |
+| Pozycje `0% WDT` (wewnątrzwspólnotowa dostawa towarów) mają nabywcę z numerem VAT UE. | Ustaw typ identyfikatora nabywcy na **VAT UE**. |
+| **Odwrotne obciążenie** jest zaznaczone tylko wtedy, gdy faktura ma pozycje z odwrotnym obciążeniem (`oo` lub `np II`). | Odznacz opcję albo popraw kody podatkowe. |
+| Nabywca będący grupą VAT ma dodanego członka grupy. | Dodaj członka w **Dodatkowych podmiotach** z rolą **Członek grupy VAT - odbiorca**. |
 
-1. Przejdź do sekcji **Administracja**.
-2. Kliknij **Zaplanowane zadania**.
-3. Utwórz nowe zaplanowane zadanie.
-4. Wybierz zadanie `Get Invoices From Ksef`.
-5. Kliknij **Zapisz**.
+!!! tip "Odwrotne obciążenie oznaczane automatycznie"
+    Nie musisz samodzielnie zaznaczać **Odwrotnego obciążenia**. Gdy faktura zawiera pozycje ze stawką `oo` lub `np II`, adnotacja „odwrotne obciążenie” jest dodawana automatycznie.
 
-Domyślnie to zadanie automatycznie pobiera faktury przychodzące z KSeF co **5 minut** dla wszystkich aktywnych profili.
+## :material-lock: Po wysłaniu faktury do KSeF
 
-!!! note "Codzienne sprawdzanie"
-    Zalecamy skonfigurowanie dodatkowego zaplanowanego zadania o nazwie **Daily Fetch Of Expenses From KSeF**. Prawidłowy harmonogram to `0 0 * * *`, czyli o 00:00.
+Faktury zarejestrowanej w KSeF nie można zmienić – tak stanowią przepisy. Kwoty, pozycje, dane nabywcy i pozostałe informacje wysłane do KSeF są w EspoCRM zablokowane. Jeśli cokolwiek wymaga zmiany, wystaw [fakturę korygującą](./credit-notes.md).
 
----
+## :material-wifi-off: Gdy KSeF jest niedostępny
 
-## :material-server-network: Środowiska KSeF
+Jeśli KSeF nie odpowiada podczas wysyłki faktury, integracja może wystawić ją w **trybie offline**. Szczegóły znajdziesz w artykule [Tryb offline](./offline.md).
 
-* **Production:** [https://ap.ksef.mf.gov.pl/web/](https://ap.ksef.mf.gov.pl/web/)
-* **Demo:** [https://ap-demo.ksef.mf.gov.pl/web/](https://ap-demo.ksef.mf.gov.pl/web/)
-* **Test:** [https://ap-test.ksef.mf.gov.pl/web/](https://ap-test.ksef.mf.gov.pl/web/)
+## :material-book-information-variant: Pola KSeF na fakturach
 
----
+- `ksefNumber` - numer KSeF przypisany do faktury. Wymagane na wystawionych fakturach.
+- `ksefStatus` - status dostarczenia faktury do KSeF.
+- `ksefPublicUrl` - publiczny adres URL strony statusu faktury w KSeF.
+- `ksefProfile` - profil używany do wystawienia faktury i przesłania do KSeF.
+- `upoFile` - plik XML potwierdzający dostarczenie do KSeF.
+- `xmlFile` - plik XML zawierający szczegóły faktury.
 
-## Powiązane artykuły
+## :material-bank-plus: Jak ustawić dodatkowe parametry faktury?
 
-* [Zarządzanie fakturami](./invoices.md)
-* [Faktury korygujące w KSeF](./credit-notes.md)
-* [Tryb offline](./offline.md)
-* [Jak pobrać paczkę z dokumentami finansowymi](./download-documents.md)
-* [Jak skonfigurować profil dla środowiska testowego KSeF](./test-profile.md)
-* [Jak zarządzać rachunkami i numerami NIP](./accounts.md)
-* [Zarządzanie wydatkami](./expenses.md)
+Przejdź do menadżera layoutu i dodaj odpowiednie pola do widoku szczegółów:
+
+- Dodatkowe Konta - możesz dodać konta stron trzecich do faktury i ustawić ich rolę
+- Metoda Kasowa
+- Odwrotne Obciążenie
+- Mechanizm Podzielonej Płatności
+- Typ Zwolnienia - możesz również ustawić `Opis Zwolnienia`. Wymagane, gdy faktura zawiera pozycje zwolnione (`zw`)
+- Okres Istotny - jeśli chcesz określić inną datę niż wystawienie, wybierz `Datę Istotną` lub `Okres`. W takim przypadku dodaj również dodatkowe pola: `Data Dostarczenia lub Wykonania Usługi` lub/i `Data Początkowa Okresu` i `Data Końcowa Okresu`
+
+## :material-file-sign: Numer umowy
+
+Jeśli faktura dotyczy umowy, uzupełnij **Numer umowy** i **Data umowy** na zakładce **KSeF**, w panelu **Warunki transakcji**. Oba pola są opcjonalne – możesz podać sam numer, samą datę albo oba. Trafiają do KSeF w warunkach transakcji faktury i są widoczne w podglądzie. Jeśli nic nie wpiszesz, warunki transakcji nie są w ogóle wysyłane.
+
+Faktura korygująca przejmuje numer i datę umowy z faktury korygowanej, chyba że wpiszesz inne. Po zarejestrowaniu faktury w KSeF oba pola są zablokowane.
+
+## :material-currency-usd: Jak wystawiać faktury w różnych walutach?
+
+1. Włącz dodatkowe [waluty w ustawieniach](https://dubas.pro/redirect/#Admin/currency)
+2. Wprowadź odpowiednie [kursy walut](https://dubas.pro/redirect/#CurrencyRecord/list/fromSettings=true) dla każdej waluty - możesz to również robić automatycznie (sprawdź poniżej)
+3. Podczas tworzenia nowej faktury, przed dodaniem czegokolwiek do listy pozycji, zmień walutę z PLN na inną
+
+## :material-github: Jak automatycznie aktualizować kursy walut?
+
+Możesz pobrać nasze darmowe rozszerzenie, aby utrzymywać aktualne kursy walut:
+<a href="https://github.com/dubas-pro/ext-nbp-exchange-rates/releases">Rozszerzenie NBP</a>
+
+
+## :material-qrcode-scan: Jak prawidłowo opisać fakturę PDF
+
+!!! warning
+    Upewnij się, że PDF wyświetla dokładne szczegóły, które są zgodne z informacjami wysłanymi do KSeF.
+
+Jeśli chcesz dostarczyć klientowi wizualizację PDF faktury wystawionej za pośrednictwem KSeF, upewnij się, że PDF zawiera wartości zgodne z danymi wysłanymi do KSeF.
+
+Uwzględnij co najmniej:
+
+- **Numer KSeF** - `{{ksefNumber}}`
+- **Link publiczny do strony faktury KSeF** - `{{ksefPublicUrl}}`
+- **Kod QR dla publicznej strony faktury KSeF** `{{qrCodeId}}`
+
+Dla faktur wystawionych w **trybie offline**, uwzględnij dodatkowy (drugi) kod QR wymagany do identyfikacji/weryfikacji offline. Jest zapisany w polu `qrCodeCertificate`. Zobacz [Tryb offline](./offline.md).
+
+### Jak wydrukować kod QR na PDF?
+
+Możesz użyć kodu kreskowego wygenerowanego przez integrację KSeF, który jest przechowywany na fakturze (pole `qrCodeId`), lub możesz wygenerować własny kod QR ze łączem do dostosowania projektu kodu kreskowego:
+
+
+```handlebars
+{{barcodeImage ksefPublicUrl_RAW type='QRcode' width=60 height=60 fontsize=14 text=false padding=2}}
+```
