@@ -1291,6 +1291,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#domyslny-profil-ksef" class="md-nav__link">
+    <span class="md-ellipsis">
+       Domyślny profil KSeF
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#domyslne-dodatkowe-podmioty" class="md-nav__link">
+    <span class="md-ellipsis">
+       Domyślne dodatkowe podmioty
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2808,6 +2826,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#domyslny-profil-ksef" class="md-nav__link">
+    <span class="md-ellipsis">
+       Domyślny profil KSeF
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#domyslne-dodatkowe-podmioty" class="md-nav__link">
+    <span class="md-ellipsis">
+       Domyślne dodatkowe podmioty
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2891,7 +2927,20 @@
 <li><code>Podmiot jest członkiem grupy VAT</code> - Określa, czy podmiot należy do grupy VAT. Ustaw tę wartość na <code>true</code>, gdy podmiot jest zarejestrowany jako część grupy VAT na potrzeby raportowania podatkowego. Domyślnie <code>false</code>. Gdy pole jest zaznaczone, dodaj członka grupy na fakturze w <strong>Dodatkowych podmiotach</strong> z rolą <strong>Członek grupy VAT - odbiorca</strong> – inaczej faktura nie zostanie wysłana.</li>
 </ul>
 <h2 id="faktury-dla-jednostek-samorzadu-terytorialnego">Faktury dla jednostek samorządu terytorialnego<a class="headerlink" href="#faktury-dla-jednostek-samorzadu-terytorialnego" title="Permanent link">¶</a></h2>
-<p>Gdy wystawiasz fakturę na gminę lub powiat, ale dotyczy ona jednej z jej jednostek – na przykład szkoły – jako Konto wskaż gminę, a jednostkę dodaj na fakturze w <strong>Dodatkowych podmiotach</strong> z rolą <strong>Jednostka samorządu terytorialnego - odbiorca</strong>. KSeF udostępni wtedy fakturę również tej jednostce.</p></div>
+<p>Gdy wystawiasz fakturę na gminę lub powiat, ale dotyczy ona jednej z jej jednostek – na przykład szkoły – jako Konto wskaż gminę, a jednostkę dodaj na fakturze w <strong>Dodatkowych podmiotach</strong> z rolą <strong>Jednostka samorządu terytorialnego - odbiorca</strong>. KSeF udostępni wtedy fakturę również tej jednostce.</p>
+<p>Żeby nie dodawać jednostki na każdej fakturze, ustaw ją raz na koncie gminy – zobacz <a href="#domyslne-dodatkowe-podmioty">Domyślne dodatkowe podmioty</a>.</p>
+<h2 id="domyslny-profil-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7H12Z"></path></svg></span> Domyślny profil KSeF<a class="headerlink" href="#domyslny-profil-ksef" title="Permanent link">¶</a></h2>
+<p>Jeśli wystawiasz faktury z więcej niż jednej firmy (kilka profili KSeF), a dany klient zawsze jest fakturowany przez tę samą, otwórz konto klienta i wybierz <strong>Domyślny profil KSeF</strong> w panelu bocznym <strong>KSeF</strong>.</p>
+<ul>
+<li>Po wybraniu tego konta na nowej fakturze profil uzupełni się automatycznie – także na fakturach tworzonych ze zlecenia sprzedażowego lub oferty.</li>
+<li>Profil wybrany już na fakturze nigdy nie jest zastępowany, a uzupełniony profil możesz zmienić przed wystawieniem.</li>
+<li>Profile nieaktywne oraz bez włączonej opcji <strong>Włącz obsługę faktur sprzedażowych przez KSeF</strong> są pomijane.</li>
+<li>Profil jest używany także na ręcznych <a href="../expenses/">wydatkach</a> od tego kontrahenta, jeśli ma włączone wydatki.</li>
+</ul>
+<p>Profil KSeF decyduje o tym, która firma wystawia fakturę, dlatego przed wysłaniem sprawdź sprzedawcę w <a href="../invoices/#podglad-przed-wysyka">podglądzie KSeF</a>.</p>
+<h2 id="domyslne-dodatkowe-podmioty"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 17v2H7v-2s0-4 6-4 6 4 6 4m-3-9a3 3 0 1 0-3 3 3 3 0 0 0 3-3m3.2 5.06A5.6 5.6 0 0 1 21 17v2h3v-2s0-3.45-4.8-3.94M18 5a2.91 2.91 0 0 0-.89.14 5 5 0 0 1 0 5.72A2.91 2.91 0 0 0 18 11a3 3 0 0 0 0-6M8 10H5V7H3v3H0v2h3v3h2v-3h3Z"></path></svg></span> Domyślne dodatkowe podmioty<a class="headerlink" href="#domyslne-dodatkowe-podmioty" title="Permanent link">¶</a></h2>
+<p>Niektórzy klienci zawsze potrzebują na fakturach tych samych dodatkowych podmiotów – jednostki odbiorcy, płatnika albo członka grupy VAT. Dodaj je raz w polu <strong>Domyślne dodatkowe podmioty</strong> w panelu bocznym <strong>KSeF</strong> na koncie klienta, razem z rolami.</p>
+<p>Po wybraniu tego konta na nowej fakturze podmioty są kopiowane do <strong>Dodatkowych podmiotów</strong> faktury z tymi samymi rolami. Nie są kopiowane, gdy faktura ma już dodatkowe podmioty, a przed wystawieniem możesz je na fakturze zmienić lub usunąć. Faktury korygujące, jak dotąd, przejmują dodatkowe podmioty z faktury korygowanej.</p></div>
 
 
 
@@ -2914,7 +2963,7 @@
     <span class="md-icon" title="Ostatnia aktualizacja">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="19 listopada 2026 15:02:22 UTC">19 listopada 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="24 listopada 2026 12:11:08 UTC">24 listopada 2026</span>
   </span>
 
     

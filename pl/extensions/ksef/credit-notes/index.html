@@ -1100,6 +1100,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Kilka korekt do jednej faktury">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pozycje-po-korektach" class="md-nav__link">
+    <span class="md-ellipsis">
+       Pozycje po korektach
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -2917,6 +2932,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Kilka korekt do jednej faktury">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pozycje-po-korektach" class="md-nav__link">
+    <span class="md-ellipsis">
+       Pozycje po korektach
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -3211,6 +3241,22 @@
 </ul>
 <h2 id="kilka-korekt-do-jednej-faktury"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M15 7h5.5L15 1.5V7M8 0h8l6 6v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2M4 4v18h16v2H4a2 2 0 0 1-2-2V4h2Z"></path></svg></span> Kilka korekt do jednej faktury<a class="headerlink" href="#kilka-korekt-do-jednej-faktury" title="Permanent link">¶</a></h2>
 <p>Każda korekta jest niezależna i zawsze wskazuje fakturę pierwotną. Możesz wystawić dowolnie wiele korekt w opisanych wyżej granicach.</p>
+<h3 id="pozycje-po-korektach"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M17 16.88c.56 0 1 .44 1 1s-.44 1-1 1-1-.45-1-1 .44-1 1-1m0-3c2.73 0 5.06 1.66 6 4-.94 2.34-3.27 4-6 4s-5.06-1.66-6-4c.94-2.34 3.27-4 6-4m0 1.5a2.5 2.5 0 0 0 0 5 2.5 2.5 0 0 0 0-5M18 3H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5.42c-.16-.32-.3-.66-.42-1 .12-.34.26-.68.42-1H4v-4h6v2.97c.55-.86 1.23-1.6 2-2.21V13h1.15c1.16-.64 2.47-1 3.85-1 1.06 0 2.07.21 3 .59V5c0-1.1-.9-2-2-2m-8 8H4V7h6v4m8 0h-6V7h6v4Z"></path></svg></span> Pozycje po korektach<a class="headerlink" href="#pozycje-po-korektach" title="Permanent link">¶</a></h3>
+<p><img alt="KSeF Items after correction" src="../../../../images/ksef/items-after-corrections.png" title="KSeF Items after correction"></p>
+<p>Po kilku korektach trudno się zorientować, ile sztuk każdej pozycji i po jakiej cenie zostało. Otwórz fakturę (albo dowolną jej korektę lub notę obciążeniową) i wybierz <strong>Pozycje po korektach</strong> z menu rozwijanego obok przycisku <strong>Edytuj</strong>.</p>
+<p>Okno pokazuje każdą pozycję faktury, a w niej:</p>
+<ul>
+<li>zafakturowaną ilość i ilość po wszystkich korektach,</li>
+<li>aktualną cenę jednostkową – po obniżce ceny jest to średnia cena za sztukę,</li>
+<li>netto, VAT i brutto po korektach,</li>
+<li>pod nazwą pozycji zmiany wprowadzone każdą korektą, np. <code>FK/2/2026: ilość −1, brutto −123,00</code> albo <code>zmiana ceny</code>.</li>
+</ul>
+<p>Pozycje zmienione korektą są wyróżnione, a pozycje dodane notą obciążeniową mają odpowiedni opis. Pod tabelą są sumy faktury pierwotnej i stanu po korektach oraz lista uwzględnionych korekt.</p>
+<p>Domyślnie uwzględniane są tylko korekty zarejestrowane w KSeF (lub czekające na dosłanie w trybie offline). Zaznacz <strong>Uwzględnij korekty jeszcze niezarejestrowane w KSeF</strong>, żeby zobaczyć, jak zmieni fakturę korekta w wersji roboczej, zanim ją wyślesz. Anulowane korekty nigdy nie są uwzględniane.</p>
+<div class="admonition info">
+<p class="admonition-title">Zwrot czy zmiana ceny?</p>
+<p>Pozycja korekty z ceną jednostkową, którą pozycja już miała – na fakturze albo po wcześniejszej korekcie – jest traktowana jako zwrot – ilość maleje. Pozycja z inną ceną jednostkową jest traktowana jako zmiana ceny – ilość zostaje, maleje wartość. Tę samą zasadę integracja stosuje przy wysyłce korekty do KSeF.</p>
+</div>
 <h2 id="korekty-bez-zmiany-pozycji"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-1.9l10-10V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.1 9.5c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-2 1.8L12 20.9V23h2.1l6.1-6.1-2.1-2.1Z"></path></svg></span> Korekty bez zmiany pozycji<a class="headerlink" href="#korekty-bez-zmiany-pozycji" title="Permanent link">¶</a></h2>
 <p>Jeśli zmieniają się tylko dane faktury (np. adres nabywcy), odznacz opcję <strong>Pozycje</strong> w polu <strong>Zmiany</strong> i zostaw korektę bez pozycji. Korekta zostanie wysłana z kwotą 0,00.</p>
 <div class="admonition warning">
@@ -3252,7 +3298,7 @@
     <span class="md-icon" title="Ostatnia aktualizacja">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="21 listopada 2026 17:56:10 UTC">21 listopada 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="24 listopada 2026 12:11:08 UTC">24 listopada 2026</span>
   </span>
 
     

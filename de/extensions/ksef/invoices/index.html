@@ -1052,6 +1052,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#item-details-sent-to-ksef" class="md-nav__link">
+    <span class="md-ellipsis">
+       Item details sent to KSeF
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Item details sent to KSeF">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-send-item-descriptions-and-serial-numbers" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to send item descriptions and serial numbers
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contract-number" class="md-nav__link">
+    <span class="md-ellipsis">
+       Contract number
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-issue-invoices-in-different-currencies" class="md-nav__link">
     <span class="md-ellipsis">
        How to issue invoices in different currencies?
@@ -2917,6 +2950,39 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#item-details-sent-to-ksef" class="md-nav__link">
+    <span class="md-ellipsis">
+       Item details sent to KSeF
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Item details sent to KSeF">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-send-item-descriptions-and-serial-numbers" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to send item descriptions and serial numbers
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contract-number" class="md-nav__link">
+    <span class="md-ellipsis">
+       Contract number
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-issue-invoices-in-different-currencies" class="md-nav__link">
     <span class="md-ellipsis">
        How to issue invoices in different currencies?
@@ -3092,6 +3158,61 @@
 <li>Excemption Type - you can set also <code>Excemption Description</code>. Required when the invoice has exempt (<code>zw</code>) items</li>
 <li>Relevant Period - if you want to specify different date than issuance, choose <code>Relevant Date</code> or <code>Period</code>. In such scenario, add also additional fields: <code>Date of Delivery or Service Completion</code> or/and <code>Period Start Date</code> and <code>Period End Date</code></li>
 </ul>
+<h2 id="item-details-sent-to-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M7 5h14v2H7V5m0 8v-2h14v2H7M4 4.5A1.5 1.5 0 0 1 5.5 6 1.5 1.5 0 0 1 4 7.5 1.5 1.5 0 0 1 2.5 6 1.5 1.5 0 0 1 4 4.5m0 6A1.5 1.5 0 0 1 5.5 12 1.5 1.5 0 0 1 4 13.5 1.5 1.5 0 0 1 2.5 12 1.5 1.5 0 0 1 4 10.5M7 19v-2h14v2H7m-3-2.5A1.5 1.5 0 0 1 5.5 18 1.5 1.5 0 0 1 4 19.5 1.5 1.5 0 0 1 2.5 18 1.5 1.5 0 0 1 4 16.5Z"></path></svg></span> Item details sent to KSeF<a class="headerlink" href="#item-details-sent-to-ksef" title="Permanent link">¶</a></h2>
+<p><img alt="KSeF Items after correction" src="../../../../images/ksef/items-after-corrections.png" title="KSeF Items after correction"></p>
+<p>Besides the name, quantity and price, each invoice item can carry additional details. Some are sent always when filled in, others only when enabled in the KSeF profile.</p>
+<table>
+<thead>
+<tr>
+<th>Detail</th>
+<th>Where to enter it</th>
+<th>Sent to KSeF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unit of measure</td>
+<td><strong>Unit of Measure</strong> column of the item, or <strong>Unit of Measure</strong> on the Product</td>
+<td>Always. When empty, <code>szt.</code> is used.</td>
+</tr>
+<tr>
+<td>GTU code</td>
+<td><strong>GTU</strong> column of the item, or <strong>GTU</strong> on the Product</td>
+<td>Always when filled in.</td>
+</tr>
+<tr>
+<td>PKWiU</td>
+<td><strong>PKWiU</strong> column of the item, or <strong>PKWiU</strong> on the Product</td>
+<td>Always when filled in.</td>
+</tr>
+<tr>
+<td>Item description</td>
+<td><strong>Description</strong> of the item</td>
+<td>Only when <strong>Product description</strong> is selected in the profile.</td>
+</tr>
+<tr>
+<td>Serial number</td>
+<td><strong>Serial Number</strong> of the item</td>
+<td>Only when <strong>Product Serial Number</strong> is selected in the profile.</td>
+</tr>
+</tbody>
+</table>
+<p>Values entered on the item take priority. When the item field is empty, the value is taken from the selected Product, so it is enough to set the unit, GTU and PKWiU once on the product card (KSeF panel on the Product).</p>
+<h3 id="how-to-send-item-descriptions-and-serial-numbers">How to send item descriptions and serial numbers<a class="headerlink" href="#how-to-send-item-descriptions-and-serial-numbers" title="Permanent link">¶</a></h3>
+<ol>
+<li>Open <strong>Administration → KSeF Settings</strong> and the KSeF profile used for invoicing.</li>
+<li>In the <strong>Invoices</strong> section, add <strong>Product description</strong> and/or <strong>Product Serial Number</strong> to <strong>Additional Information</strong>.</li>
+<li>Save the profile.</li>
+<li>Serial numbers are not visible on the item list by default. Add the <strong>Serial Number</strong> field to the Invoice Item list layout in <strong>Administration → Layout Manager</strong>, and do the same for Credit Note Items if you correct such items.</li>
+</ol>
+<p>Descriptions and serial numbers are sent in the additional description section (<code>DodatkowyOpis</code>) and linked to the item row number, so the buyer sees which item they belong to. Check the result with the <a href="#preview-before-sending">KSeF Preview</a> before sending.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The additional information options apply to all invoices issued with the profile. Items without a description or serial number are simply skipped.</p>
+</div>
+<h2 id="contract-number"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19.7 12.9 14 18.6h-2.3v-2.3l5.7-5.7 2.3 2.3m3.4-.8c0 .3-.3.6-.6.9L20 15.5l-.9-.9 2.6-2.6-.6-.6-.7.7-2.3-2.3 2.2-2.1c.2-.2.6-.2.9 0l1.4 1.4c.2.2.2.6 0 .9-.2.2-.4.4-.4.6 0 .2.2.4.4.6.3.3.6.6.5.9M3 20V4h7v5h5v1.5l2-2V8l-6-6H3c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2H3m8-2.9c-.2 0-.4.1-.5.1L10 15H8.5l-2.1 1.7L7 14H5.5l-1 5H6l2.9-2.6.6 2.3h1l.5-.1v-1.5Z"></path></svg></span> Contract number<a class="headerlink" href="#contract-number" title="Permanent link">¶</a></h2>
+<p>If the invoice relates to a contract, fill in <strong>Contract Number</strong> and <strong>Contract Date</strong> on the <strong>KSeF</strong> tab, in the <strong>Transaction Terms</strong> panel. Both fields are optional – you can enter only the number, only the date, or both. They are sent to KSeF in the transaction terms of the invoice and shown in the preview. When nothing is entered, the transaction terms are not sent at all.</p>
+<p>A credit note takes over the contract number and date from the corrected invoice unless you enter different ones. After the invoice is registered in KSeF, both fields are locked.</p>
 <h2 id="how-to-issue-invoices-in-different-currencies"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M7 15h2c0 1.08 1.37 2 3 2s3-.92 3-2c0-1.1-1.04-1.5-3.24-2.03C9.64 12.44 7 11.78 7 9c0-1.79 1.47-3.31 3.5-3.82V3h3v2.18C15.53 5.69 17 7.21 17 9h-2c0-1.08-1.37-2-3-2s-3 .92-3 2c0 1.1 1.04 1.5 3.24 2.03C14.36 11.56 17 12.22 17 15c0 1.79-1.47 3.31-3.5 3.82V21h-3v-2.18C8.47 18.31 7 16.79 7 15Z"></path></svg></span> How to issue invoices in different currencies?<a class="headerlink" href="#how-to-issue-invoices-in-different-currencies" title="Permanent link">¶</a></h2>
 <ol>
 <li>Enable additional <a href="https://dubas.pro/redirect/#Admin/currency">currencies in settings</a></li>
@@ -3140,7 +3261,7 @@
     <span class="md-icon" title="Letztes Update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 21, 2026 17:07:56 UTC">November 21, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 24, 2026 12:11:08 UTC">November 24, 2026</span>
   </span>
 
     

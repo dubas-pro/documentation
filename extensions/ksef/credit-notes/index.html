@@ -1100,6 +1100,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Several corrections to one invoice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#items-after-corrections" class="md-nav__link">
+    <span class="md-ellipsis">
+       Items after corrections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -2917,6 +2932,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Several corrections to one invoice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#items-after-corrections" class="md-nav__link">
+    <span class="md-ellipsis">
+       Items after corrections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -3211,6 +3241,22 @@
 </ul>
 <h2 id="several-corrections-to-one-invoice"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M15 7h5.5L15 1.5V7M8 0h8l6 6v12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2M4 4v18h16v2H4a2 2 0 0 1-2-2V4h2Z"></path></svg></span> Several corrections to one invoice<a class="headerlink" href="#several-corrections-to-one-invoice" title="Permanent link">¶</a></h2>
 <p>Each correction is independent and always refers to the original invoice. You can issue as many credit notes as needed within the limits described above.</p>
+<h3 id="items-after-corrections"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M17 16.88c.56 0 1 .44 1 1s-.44 1-1 1-1-.45-1-1 .44-1 1-1m0-3c2.73 0 5.06 1.66 6 4-.94 2.34-3.27 4-6 4s-5.06-1.66-6-4c.94-2.34 3.27-4 6-4m0 1.5a2.5 2.5 0 0 0 0 5 2.5 2.5 0 0 0 0-5M18 3H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5.42c-.16-.32-.3-.66-.42-1 .12-.34.26-.68.42-1H4v-4h6v2.97c.55-.86 1.23-1.6 2-2.21V13h1.15c1.16-.64 2.47-1 3.85-1 1.06 0 2.07.21 3 .59V5c0-1.1-.9-2-2-2m-8 8H4V7h6v4m8 0h-6V7h6v4Z"></path></svg></span> Items after corrections<a class="headerlink" href="#items-after-corrections" title="Permanent link">¶</a></h3>
+<p><img alt="KSeF Items after correction" src="../../../images/ksef/items-after-corrections.png" title="KSeF Items after correction"></p>
+<p>After a few corrections it is hard to tell how many units of each item and at what price are left. Open the invoice (or any of its credit notes or debit notes) and choose <strong>Items After Corrections</strong> from the dropdown next to the <strong>Edit</strong> button.</p>
+<p>The window shows every item of the invoice with:</p>
+<ul>
+<li>the invoiced quantity and the quantity after all corrections,</li>
+<li>the current unit price – after a price reduction it is the average price per unit,</li>
+<li>net, VAT and gross after corrections,</li>
+<li>under the item name, the changes made by each correction, e.g. <code>FK/2/2026: quantity −1, gross −123.00</code> or <code>price change</code>.</li>
+</ul>
+<p>Items changed by a correction are highlighted. Items added by a debit note are marked as such. Below the table you will find the totals of the original invoice and after corrections, and the list of corrections that were taken into account.</p>
+<p>By default only corrections registered in KSeF (or waiting for offline delivery) are included. Tick <strong>Include corrections not yet registered in KSeF</strong> to see how a draft correction will change the invoice before you send it. Canceled corrections are never included.</p>
+<div class="admonition info">
+<p class="admonition-title">Return or price change?</p>
+<p>A credit note item with a unit price the item already had – on the invoice or after an earlier correction – is treated as a return – the quantity goes down. An item with a different unit price is treated as a price change – the quantity stays and the value goes down. This is the same rule the integration uses when it sends the correction to KSeF.</p>
+</div>
 <h2 id="corrections-without-item-changes"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-1.9l10-10V8l-6-6H6m7 1.5L18.5 9H13V3.5m7.1 9.5c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-2 1.8L12 20.9V23h2.1l6.1-6.1-2.1-2.1Z"></path></svg></span> Corrections without item changes<a class="headerlink" href="#corrections-without-item-changes" title="Permanent link">¶</a></h2>
 <p>If only invoice data changes (e.g. the buyer's address), clear the <strong>Items</strong> option in the <strong>Changes</strong> field and leave the credit note without items. The correction is sent with a total of 0.00.</p>
 <div class="admonition warning">
@@ -3252,7 +3298,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 21, 2026 17:56:10 UTC">November 21, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 24, 2026 12:11:08 UTC">November 24, 2026</span>
   </span>
 
     

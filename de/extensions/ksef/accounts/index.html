@@ -1291,6 +1291,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#default-ksef-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+       Default KSeF profile
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#default-additional-accounts" class="md-nav__link">
+    <span class="md-ellipsis">
+       Default additional accounts
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2808,6 +2826,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#default-ksef-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+       Default KSeF profile
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#default-additional-accounts" class="md-nav__link">
+    <span class="md-ellipsis">
+       Default additional accounts
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2891,7 +2927,20 @@
 <li><code>Entity is a member of VAT group</code> - Indicates whether the entity belongs to a VAT group. Set this value to <code>true</code> when the entity is registered as part of a VAT group for tax reporting purposes. Default <code>false</code>. When it is set, add the group member to the invoice in <strong>Additional Accounts</strong> with the role <strong>VAT group member - recipient</strong> – otherwise the invoice will not be sent.</li>
 </ul>
 <h2 id="invoices-for-local-government-units">Invoices for local government units<a class="headerlink" href="#invoices-for-local-government-units" title="Permanent link">¶</a></h2>
-<p>When you invoice a municipality (gmina, powiat) but the invoice concerns one of its units – for example a school – enter the municipality as the Account and add the unit in <strong>Additional Accounts</strong> on the invoice with the role <strong>Local government unit - recipient</strong>. KSeF will then deliver the invoice to the unit as well.</p></div>
+<p>When you invoice a municipality (gmina, powiat) but the invoice concerns one of its units – for example a school – enter the municipality as the Account and add the unit in <strong>Additional Accounts</strong> on the invoice with the role <strong>Local government unit - recipient</strong>. KSeF will then deliver the invoice to the unit as well.</p>
+<p>To avoid adding the unit on every invoice, set it once on the municipality's Account – see <a href="#default-additional-accounts">Default additional accounts</a>.</p>
+<h2 id="default-ksef-profile"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7H12Z"></path></svg></span> Default KSeF profile<a class="headerlink" href="#default-ksef-profile" title="Permanent link">¶</a></h2>
+<p>If you issue invoices from more than one company (several KSeF profiles) and a customer is always invoiced by the same one, open the customer's Account and choose <strong>Default KSeF Profile</strong> in the <strong>KSeF</strong> side panel.</p>
+<ul>
+<li>When you select this Account on a new invoice, the profile is filled in automatically – also on invoices created from a Sales Order or a Quote.</li>
+<li>A profile already chosen on the invoice is never replaced, and you can still change the filled-in profile before issuing.</li>
+<li>Inactive profiles and profiles without <strong>Enable Invoices</strong> are skipped.</li>
+<li>On manual <a href="../expenses/">expenses</a> from this Account the profile is used too, if it has <strong>Enable Expenses</strong>.</li>
+</ul>
+<p>The KSeF profile decides which company issues the invoice, so check the seller in the <a href="../invoices/#preview-before-sending">KSeF Preview</a> before sending.</p>
+<h2 id="default-additional-accounts"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 17v2H7v-2s0-4 6-4 6 4 6 4m-3-9a3 3 0 1 0-3 3 3 3 0 0 0 3-3m3.2 5.06A5.6 5.6 0 0 1 21 17v2h3v-2s0-3.45-4.8-3.94M18 5a2.91 2.91 0 0 0-.89.14 5 5 0 0 1 0 5.72A2.91 2.91 0 0 0 18 11a3 3 0 0 0 0-6M8 10H5V7H3v3H0v2h3v3h2v-3h3Z"></path></svg></span> Default additional accounts<a class="headerlink" href="#default-additional-accounts" title="Permanent link">¶</a></h2>
+<p>Some customers always need the same additional parties on their invoices – a recipient unit, a payer or a VAT group member. Add them once in <strong>Default Additional Accounts</strong> in the <strong>KSeF</strong> side panel of the customer's Account, together with their roles.</p>
+<p>When the Account is selected on a new invoice, these parties are copied to the invoice's <strong>Additional Accounts</strong> with the same roles. They are not copied when the invoice already has additional accounts, and you can edit or remove them on the invoice before issuing. Credit notes take additional accounts from the corrected invoice, as before.</p></div>
 
 
 
@@ -2914,7 +2963,7 @@
     <span class="md-icon" title="Letztes Update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 19, 2026 15:02:22 UTC">November 19, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 24, 2026 12:11:08 UTC">November 24, 2026</span>
   </span>
 
     

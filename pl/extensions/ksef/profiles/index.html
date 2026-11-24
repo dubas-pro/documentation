@@ -2921,7 +2921,13 @@
 <li><strong>Domyślna metoda płatności:</strong> Ustaw domyślną metodę płatności (np. przelew bankowy) dla faktur wystawianych w ramach tego profilu.</li>
 <li><strong>Domyślny kanał płatności:</strong> Ustaw domyślne konto bankowe lub kanał. Jeśli skonfigurowano, zostanie to bezpośrednio odwzorowane w oficjalnym schemacie XML KSeF. <code>Dostępne do wersji 2.0.0</code></li>
 <li><strong>Domyślne konta bankowe:</strong> Ustaw domyślne konta, które zostaną skopiowane do faktury, jeśli reguła jest poprawnie ustawiona. <code>Dostępne od wersji 2.0.0</code></li>
-<li><strong>Dodatkowe informacje:</strong> Wybierz, jakie metadane (e-mail klienta, telefon, numery referencyjne itp.) mają zostać dodane do faktury KSeF.</li>
+<li><strong>Dodatkowe informacje:</strong> Wybierz, jakie dodatkowe dane trafiają na faktury wystawiane z tego profilu:
+    * <strong>Numer klienta</strong> – numer klienta nabywcy (<code>NrKlienta</code>). Wymaga parametru konfiguracji <a href="../config-params/#niestandardowe-pole-numeru-konta"><code>ksefAccountNumberField</code></a>.
+    * <strong>Dane reprezentanta</strong> – kontakt rozliczeniowy faktury jest wysyłany jako dodatkowy podmiot z rolą <em>pracownik</em>. Opcjonalnie z numerem klienta (<code>NrKlienta</code>) pobranym z pola faktury ustawionego w <a href="../config-params/#niestandardowe-pole-numeru-kontaktu"><code>ksefContactNumberField</code></a>.
+    * <strong>Adres email klienta</strong> / <strong>Numer telefonu klienta</strong> – e-mail i telefon nabywcy z konta.
+    * <strong>Numer powiązanych dokumentów</strong> – numery powiązanej oferty, zlecenia sprzedażowego i szansy sprzedaży (z <a href="../config-params/#niestandardowe-pole-numeru-szansy-sprzedazy"><code>ksefOpportunityNumberField</code></a>) w dodatkowym opisie.
+    * <strong>Opis produktu</strong> – opis każdej pozycji, zobacz <a href="../invoices/#dane-pozycji-wysyane-do-ksef">Dane pozycji wysyłane do KSeF</a>.
+    * <strong>Numer seryjny produktu</strong> – numer seryjny każdej pozycji, zobacz <a href="../invoices/#dane-pozycji-wysyane-do-ksef">Dane pozycji wysyłane do KSeF</a>.</li>
 </ul></div>
 
 
@@ -2945,7 +2951,7 @@
     <span class="md-icon" title="Ostatnia aktualizacja">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="20 listopada 2026 07:34:34 UTC">20 listopada 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="24 listopada 2026 12:11:08 UTC">24 listopada 2026</span>
   </span>
 
     
