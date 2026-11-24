@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Manage KSeF invoices directly inside EspoCRM with our integration.">
+        <meta name="description" content="Check out how to use the plugins for EspoCRM. Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.">
       
       
         <meta name="author" content="dubas s.c.">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Dubas KSeF Integration for EspoCRM - Documentation</title>
+        <title>Overview - Documentation</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dubas-ksef-integration" class="md-skip">
+        <a href="#invoices-management" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dubas KSeF Integration for EspoCRM
+              Overview
             
           </span>
         </div>
@@ -953,28 +953,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#general-information" class="md-nav__link">
+  <a href="#how-to-issue-invoice-via-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       General Information
+       How to issue Invoice via KSeF?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="General Information">
+    <nav class="md-nav" aria-label="How to issue Invoice via KSeF?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#key-features" class="md-nav__link">
+  <a href="#when-button-issue-via-ksef-will-be-visible" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Features
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#roadmap" class="md-nav__link">
-    <span class="md-ellipsis">
-       Roadmap
+      When button Issue via KSeF will be visible?
     </span>
   </a>
   
@@ -986,47 +977,107 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#preview-before-sending" class="md-nav__link">
     <span class="md-ellipsis">
-       Requirements
+       Preview before sending
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-start" class="md-nav__link">
+  <a href="#what-is-checked-before-sending" class="md-nav__link">
     <span class="md-ellipsis">
-      How to start?
+       What is checked before sending
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-configure-the-ksef-cron-job" class="md-nav__link">
+  <a href="#after-the-invoice-is-in-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       How to Configure the KSeF Cron Job
+       After the invoice is in KSeF
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ksef-environments" class="md-nav__link">
+  <a href="#when-ksef-is-unavailable" class="md-nav__link">
     <span class="md-ellipsis">
-       KSeF Environments
+       When KSeF is unavailable
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#related-articles" class="md-nav__link">
+  <a href="#ksef-fields-in-invoices" class="md-nav__link">
     <span class="md-ellipsis">
-      Related Articles
+       KSeF fields in invoices
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-set-additional-params-for-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to set additional params for invoice?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contract-number" class="md-nav__link">
+    <span class="md-ellipsis">
+       Contract number
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-issue-invoices-in-different-currencies" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to issue invoices in different currencies?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-automatically-update-currency-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to automatically update currency rates?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-properly-label-pdf-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to properly label PDF invoice
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to properly label PDF invoice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-print-qr-code-on-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to print QR Code on PDF?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2797,28 +2848,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#general-information" class="md-nav__link">
+  <a href="#how-to-issue-invoice-via-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       General Information
+       How to issue Invoice via KSeF?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="General Information">
+    <nav class="md-nav" aria-label="How to issue Invoice via KSeF?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#key-features" class="md-nav__link">
+  <a href="#when-button-issue-via-ksef-will-be-visible" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Features
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#roadmap" class="md-nav__link">
-    <span class="md-ellipsis">
-       Roadmap
+      When button Issue via KSeF will be visible?
     </span>
   </a>
   
@@ -2830,47 +2872,107 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#requirements" class="md-nav__link">
+  <a href="#preview-before-sending" class="md-nav__link">
     <span class="md-ellipsis">
-       Requirements
+       Preview before sending
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-start" class="md-nav__link">
+  <a href="#what-is-checked-before-sending" class="md-nav__link">
     <span class="md-ellipsis">
-      How to start?
+       What is checked before sending
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-configure-the-ksef-cron-job" class="md-nav__link">
+  <a href="#after-the-invoice-is-in-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       How to Configure the KSeF Cron Job
+       After the invoice is in KSeF
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ksef-environments" class="md-nav__link">
+  <a href="#when-ksef-is-unavailable" class="md-nav__link">
     <span class="md-ellipsis">
-       KSeF Environments
+       When KSeF is unavailable
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#related-articles" class="md-nav__link">
+  <a href="#ksef-fields-in-invoices" class="md-nav__link">
     <span class="md-ellipsis">
-      Related Articles
+       KSeF fields in invoices
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-set-additional-params-for-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to set additional params for invoice?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contract-number" class="md-nav__link">
+    <span class="md-ellipsis">
+       Contract number
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-issue-invoices-in-different-currencies" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to issue invoices in different currencies?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-automatically-update-currency-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to automatically update currency rates?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-properly-label-pdf-invoice" class="md-nav__link">
+    <span class="md-ellipsis">
+       How to properly label PDF invoice
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to properly label PDF invoice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-print-qr-code-on-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to print QR Code on PDF?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2892,100 +2994,151 @@
   
 
 
-<div><h1 id="dubas-ksef-integration">Dubas KSeF Integration<a class="headerlink" href="#dubas-ksef-integration" title="Permanent link">¶</a></h1>
-<p><img alt="Dubas KSeF Integration" src="../../images/ksef.png"></p>
-<h2 id="general-information"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2v6Z"></path></svg></span> General Information<a class="headerlink" href="#general-information" title="Permanent link">¶</a></h2>
-<p>The Dubas KSeF Integration is a custom extension that enables seamless communication between EspoCRM and the Polish National e-Invoicing System (KSeF). With this extension, you can automatically download contractor invoices from KSeF directly into EspoCRM, as well as issue your own invoices and credit notes to KSeF using the Sales Pack functionality. This solution streamlines your financial document management and ensures secure, efficient handling within your CRM.</p>
-<div class="admonition tip">
-<p class="admonition-title">Purchase</p>
-<p>Please contact us <a href="https://dubas.pro/form/contact">via our form</a> if you would like to order this extension.</p>
+<div><h1 id="invoices-management">Invoices Management<a class="headerlink" href="#invoices-management" title="Permanent link">¶</a></h1>
+<p><img alt="KSeF Integration" src="../../images/ksef-issue-invoice.png" title="KSeF Integration"></p>
+<h2 id="how-to-issue-invoice-via-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m-1.46 17.37v-2h-4v-1.99h4v-2l3 3-3 2.99M13 9V3.5L18.5 9H13Z"></path></svg></span> How to issue Invoice via KSeF?<a class="headerlink" href="#how-to-issue-invoice-via-ksef" title="Permanent link">¶</a></h2>
+<details class="warning">
+<summary>Sales Pack required</summary>
+<p>Please keep in mind that feature will not work if you don't have Sales Pack extension.</p>
+</details>
+<details class="info">
+<summary>Enable invoices first</summary>
+<p>This feature will only work if you enable invoices in KSeF profile (details above).</p>
+</details>
+<div class="admonition danger">
+<p class="admonition-title">Review issued invoice!</p>
+<p>Please keep in mind that software may contain bugs and mistakes. Check your specific usecase with <a href="test-profile/">test profile</a> before you start using with production KSeF Profile.</p>
 </div>
-<div class="admonition info">
-<p class="admonition-title">What's new in 3.0.0</p>
-<ul>
-<li><a href="credit-notes/">Credit notes</a> can be issued to KSeF.</li>
-<li><a href="offline/">Offline mode</a>: invoices are issued even when KSeF is unavailable and sent to KSeF automatically later.</li>
-<li>More checks before sending, so incorrect invoices are stopped in EspoCRM. See <a href="invoices/">Invoices</a>.</li>
-<li>New tax ID type <strong>Private person</strong> for invoices to consumers. See <a href="accounts/">Accounts</a>.</li>
-<li>Duplicate protection for <a href="expenses/">Expenses</a>.</li>
-<li>Automatic Paid / Resolved status after full settlement of invoices and credit notes.</li>
-<li>The <a href="download-documents/">document package</a> includes credit notes and KSeF delivery confirmations (UPO).</li>
-</ul>
-</div>
-<h3 id="key-features">Key Features<a class="headerlink" href="#key-features" title="Permanent link">¶</a></h3>
-<div class="admonition warning">
-<p class="admonition-title">This product is new!</p>
-<p>Please note that both this extension and the KSeF system are relatively new, and ongoing updates or changes to national standards may occur. We are committed to adapting the integration as needed and supporting individual use cases to ensure continued compatibility and reliability.</p>
-</div>
-<ul>
-<li><strong>Total Data Security:</strong> All your data remains secure within your EspoCRM instance. Communication occurs directly between your CRM and the KSeF system. Our integration does not transmit any financial or client information to third parties.</li>
-<li><strong>Automated Invoice Retrieval:</strong> The integration automatically fetches invoices issued by your contractors from KSeF based on your schedule and preferences.</li>
-<li><strong>Expenses Management:</strong> Received invoices are stored in the Expenses entity, compatible with Sales Pack and its item list. You can also enter expenses from other sources manually.</li>
-<li><strong>Manual Synchronization:</strong> You can manually initiate the retrieval of invoices from KSeF at any time.</li>
-<li><strong>Direct Invoice Issuance:</strong> Send invoices and credit notes issued in the EspoCRM Sales Pack directly to the KSeF system.</li>
-</ul>
-<h3 id="roadmap"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M6.5 8.11c-.89 0-1.61-.72-1.61-1.61A1.61 1.61 0 0 1 6.5 4.89c.89 0 1.61.72 1.61 1.61A1.61 1.61 0 0 1 6.5 8.11M6.5 2C4 2 2 4 2 6.5c0 3.37 4.5 8.36 4.5 8.36S11 9.87 11 6.5C11 4 9 2 6.5 2m11 6.11a1.61 1.61 0 0 1-1.61-1.61 1.609 1.609 0 1 1 3.22 0 1.61 1.61 0 0 1-1.61 1.61m0-6.11C15 2 13 4 13 6.5c0 3.37 4.5 8.36 4.5 8.36S22 9.87 22 6.5C22 4 20 2 17.5 2m0 14c-1.27 0-2.4.8-2.82 2H9.32a3 3 0 0 0-3.82-1.83A3.003 3.003 0 0 0 3.66 20a3.017 3.017 0 0 0 3.84 1.83c.85-.3 1.5-.98 1.82-1.83h5.37c.55 1.56 2.27 2.38 3.81 1.83A3 3 0 0 0 20.35 18c-.43-1.2-1.57-2-2.85-2m0 4.5A1.5 1.5 0 0 1 16 19a1.5 1.5 0 0 1 1.5-1.5A1.5 1.5 0 0 1 19 19a1.5 1.5 0 0 1-1.5 1.5Z"></path></svg></span> Roadmap<a class="headerlink" href="#roadmap" title="Permanent link">¶</a></h3>
-<ul>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Authorization via certificates (required before 2027).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Support for Bank Accounts.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Support for multiple KSeF schemes.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Support for Credit Notes.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Incoming invoices as Sales Pack Supplier Bills (next version).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Support for Debit Notes (corrections increasing the amount).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Summary corrections for a period.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Offline24 mode with automatic sending to KSeF (requires an Offline certificate).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Emergency modes (KSeF failure announced by the Ministry of Finance).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Batch processing support for invoice issuance.</li>
-</ul>
-<hr>
-<h2 id="requirements"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 10H3v2h11v-2m0-4H3v2h11V6M3 16h7v-2H3v2m18.5-4.5L23 13l-7 7-4.5-4.5L13 14l3 3 5.5-5.5Z"></path></svg></span> Requirements<a class="headerlink" href="#requirements" title="Permanent link">¶</a></h2>
-<ul>
-<li>EspoCRM version <strong>9.3.0</strong> or higher.</li>
-<li>Sales Pack version <strong>4.x</strong> or higher.</li>
-<li>PHP (for web and cli) in version <strong>8.4</strong> or higher.</li>
-</ul>
-<hr>
-<h2 id="how-to-start">How to start?<a class="headerlink" href="#how-to-start" title="Permanent link">¶</a></h2>
 <ol>
-<li>Purchase and install <strong><a href="https://dubas.pro/link/sp">Sales Pack extension</a></strong></li>
-<li>Install KSeF extension</li>
-<li><a href="profiles/#how-to-configure-a-ksef-profile">Configure KSeF Profile</a></li>
-<li><a href="#how-to-configure-the-ksef-cron-job">Configure automatic fetching of incoming invoices</a></li>
-<li><a href="invoices/#how-to-set-additional-params-for-invoice">Add optional fields to Invoices</a></li>
-<li><a href="accounts/#tax-id-types">Set the tax ID type for your customers</a> – choose <strong>Private person</strong> for consumers</li>
+<li>Go to <strong>Invoices</strong>.</li>
+<li>Create new Invoice.</li>
+<li>Choose KSef Profile.</li>
+<li>Optionally click <code>KSeF Preview</code> to check how the invoice will look in KSeF.</li>
+<li>Click on <code>Issue via KSeF</code></li>
+<li>After everything is fine, invoice will be scheduled for sending to KSeF.</li>
 </ol>
-<p><strong><a href="invoices/#how-to-issue-invoice-via-ksef">Now you can issue your first invoice!</a></strong></p>
-<h2 id="how-to-configure-the-ksef-cron-job"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M11.7 20h-.4l-.4-2.6c-1.2-.2-2.2-.9-3-1.8l-2.4 1-.8-1.3 2.1-1.6c-.4-1.2-.4-2.4 0-3.6L4.7 8.7l.8-1.3 2.4 1c.8-.9 1.8-1.5 3-1.8l.3-2.6h1.5l.4 2.6c1.2.2 2.3.9 3 1.8l2.4-1 .8 1.3-2.1 1.5c.2.6.3 1.2.3 1.8h.5c.5 0 1 .1 1.5.2V12l-.1-1 2.1-1.6c.2-.2.2-.4.1-.6l-2-3.5c-.1-.3-.3-.3-.6-.3l-2.5 1c-.5-.4-1.1-.7-1.7-1l-.4-2.7c.1-.1-.2-.3-.4-.3h-4c-.2 0-.5.2-.5.4l-.4 2.7c-.6.2-1.1.6-1.7.9L5 5c-.3 0-.5 0-.7.3l-2 3.5c-.1.2 0 .4.2.6L4.6 11l-.1 1 .1 1-2.1 1.7c-.2.2-.2.4-.1.6l2 3.5c.1.2.3.2.6.2l2.5-1c.5.4 1.1.7 1.7 1l.4 2.7c0 .2.2.4.5.4h2.5c-.5-.7-.7-1.4-.9-2.1m4.3-7.7V12c0-2.2-1.8-4-4-4s-4 1.8-4 4 1.8 4 4 4c.7-1.7 2.2-3.1 4-3.7m-6-.3c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2m8 2.5V13l-2.2 2.2 2.2 2.2V16c1.4 0 2.5 1.1 2.5 2.5 0 .4-.1.8-.3 1.1l1.1 1.1c1.2-1.8.7-4.3-1.1-5.5-.6-.5-1.4-.7-2.2-.7m0 6.5c-1.4 0-2.5-1.1-2.5-2.5 0-.4.1-.8.3-1.1l-1.1-1.1c-1.2 1.8-.7 4.3 1.1 5.5.7.4 1.4.7 2.2.7V24l2.2-2.2-2.2-2.3V21Z"></path></svg></span> How to Configure the KSeF Cron Job<a class="headerlink" href="#how-to-configure-the-ksef-cron-job" title="Permanent link">¶</a></h2>
-<ol>
-<li>Navigate to the <strong>Administration</strong> section.</li>
-<li>Click on <strong>Scheduled Jobs</strong>.</li>
-<li>Create a new Scheduled Job.</li>
-<li>Choose the task <code>Get Invoices From Ksef</code>.</li>
-<li>Click <strong>Save</strong>.</li>
-</ol>
-<p>By default, this job will automatically download incoming invoices from KSeF every <strong>5 minutes</strong> for all active profiles.</p>
+<p>Unfortunatelly we can't pass invoice to KSeF in few seconds, that's why it's working in background. After invoice will be issued, field KSeF Status will be set to <strong>Completed</strong>.</p>
+<h3 id="when-button-issue-via-ksef-will-be-visible">When button <code>Issue via KSeF</code> will be visible?<a class="headerlink" href="#when-button-issue-via-ksef-will-be-visible" title="Permanent link">¶</a></h3>
+<p>Button is visible only when all of the following conditions are met:</p>
+<ul>
+<li>The record view is <strong>not in edit mode</strong>.</li>
+<li>Invoice <code>status</code> is <strong>not</strong> one of: <code>Issued</code>, <code>Paid</code>, <code>Overdue</code>, <code>Confirmed</code>.</li>
+<li><code>ksefStatus</code> is either:
+    - <code>null</code>, or
+    - a string containing <code>"Error"</code>.</li>
+<li><code>ksefProfileId</code> is <strong>not</strong> <code>null</code>.</li>
+</ul>
+<p>If any of these checks fail, the button is hidden.</p>
+<h2 id="preview-before-sending"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"></path></svg></span> Preview before sending<a class="headerlink" href="#preview-before-sending" title="Permanent link">¶</a></h2>
+<p>You can prepare an invoice as a draft and check it before you issue it. Click <code>KSeF Preview</code> to see the invoice exactly as it would be sent to KSeF right now: seller, buyer, items, VAT summary, annotations and payment details. The preview opens in a new browser tab and nothing is sent to KSeF. If something is wrong, correct the invoice and open the preview again.</p>
+<ul>
+<li>If something is missing or wrong, the preview shows the same message you would get when sending, so you can fix it first.</li>
+<li>To save the preview as PDF, use <strong>Print</strong> in your browser (<code>Ctrl+P</code>) and choose <strong>Save as PDF</strong>. The printout is marked as a preview.</li>
+<li>You can preview a draft with any date. The preview reminds you that the issue date must be today when you issue the invoice.</li>
+<li>After the invoice is issued, the preview shows it exactly as it was issued – with its KSeF number, or with the delivery deadline for <a href="offline/">offline mode</a>.</li>
+<li>The preview uses the same light or dark look as your EspoCRM theme. Printouts are always light.</li>
+</ul>
+<p>The button is available on invoices, debit notes and credit notes, before and after issuing.</p>
 <div class="admonition note">
-<p class="admonition-title">Daily checking</p>
-<p>We recommend to configure another Scheduled Job which is called <strong>Daily Fetch Of Expenses From KSeF</strong>. Proper schedule is <code>0 0 * * *</code>, so at 00:00.</p>
+<p class="admonition-title">Note</p>
+<p>The preview is for EspoCRM users only, to check the data. It is not an invoice or an official KSeF visualisation, so do not send it to the buyer.</p>
 </div>
-<hr>
-<h2 id="ksef-environments"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M13 19h1a1 1 0 0 1 1 1h7v2h-7a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1H2v-2h7a1 1 0 0 1 1-1h1v-2H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-7v2M4 3h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1m5 4h1V5H9v2m0 8h1v-2H9v2M5 5v2h2V5H5m0 8v2h2v-2H5Z"></path></svg></span> KSeF Environments<a class="headerlink" href="#ksef-environments" title="Permanent link">¶</a></h2>
+<h2 id="what-is-checked-before-sending"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"></path></svg></span> What is checked before sending<a class="headerlink" href="#what-is-checked-before-sending" title="Permanent link">¶</a></h2>
+<p>Before an invoice goes to KSeF, the integration checks that it is complete and consistent. If something is wrong, the invoice is not sent, the KSeF Status changes to <strong>Error obtaining fields for submission</strong> and you see the reason. Fix the data and click <code>Issue via KSeF</code> again.</p>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>What to do if it fails</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The invoice date is today.</td>
+<td>Set the invoice date to today's date.</td>
+</tr>
+<tr>
+<td>The buyer has a tax ID type selected.</td>
+<td>Choose the type on the Account – for consumers choose <strong>Private person</strong>. See <a href="accounts/">Accounts</a>.</td>
+</tr>
+<tr>
+<td>The VAT amount of every item matches its KSeF rate.</td>
+<td>Check the item's tax code – its rate in EspoCRM must agree with the selected <strong>KSeF Rate</strong>. See <a href="tax-rates/">Tax rates</a>.</td>
+</tr>
+<tr>
+<td>Items marked as exempt (<code>zw</code>) have the legal basis of the exemption.</td>
+<td>Fill in <strong>Exemption Type</strong> and <strong>Exemption Description</strong> on the invoice.</td>
+</tr>
+<tr>
+<td>Items with <code>0% WDT</code> (intra-community supply) have a buyer with an EU VAT number.</td>
+<td>Set the buyer's tax ID type to <strong>VAT UE</strong>.</td>
+</tr>
+<tr>
+<td><strong>Reverse Charge</strong> is ticked only when the invoice has reverse-charge items (<code>oo</code> or <code>np II</code>).</td>
+<td>Untick the option or correct the tax codes.</td>
+</tr>
+<tr>
+<td>A buyer in a VAT group has the group member added.</td>
+<td>Add the member in <strong>Additional Accounts</strong> with the role <strong>VAT group member - recipient</strong>.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Reverse charge is marked automatically</p>
+<p>You do not have to tick <strong>Reverse Charge</strong> yourself. When the invoice contains items with the <code>oo</code> or <code>np II</code> rate, the "odwrotne obciążenie" annotation is added automatically.</p>
+</div>
+<h2 id="after-the-invoice-is-in-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 17a2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-2 2 2 2 0 0 0 2 2m6-9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5 5 5 0 0 1 5 5v2h1m-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3Z"></path></svg></span> After the invoice is in KSeF<a class="headerlink" href="#after-the-invoice-is-in-ksef" title="Permanent link">¶</a></h2>
+<p>An invoice registered in KSeF cannot be changed – this is required by law. Amounts, items, buyer data and other information sent to KSeF are locked in EspoCRM. If anything needs to change, issue a <a href="credit-notes/">credit note</a>.</p>
+<h2 id="when-ksef-is-unavailable"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M2.28 3 1 4.27l1.47 1.47c-.43.26-.86.55-1.27.86L3 9c.53-.4 1.08-.75 1.66-1.07l2.23 2.23c-.74.34-1.45.75-2.09 1.24l1.8 2.4c.78-.58 1.66-1.03 2.6-1.33L11.75 15c-1.25.07-2.41.5-3.35 1.2L12 21l2.46-3.27L17.74 21 19 19.72M12 3c-2.15 0-4.2.38-6.1 1.07l2.39 2.4C9.5 6.16 10.72 6 12 6c3.38 0 6.5 1.11 9 3l1.8-2.4C19.79 4.34 16.06 3 12 3m0 6c-.38 0-.75 0-1.12.05l3.19 3.2c1.22.28 2.36.82 3.33 1.55l1.8-2.4C17.2 9.89 14.7 9 12 9Z"></path></svg></span> When KSeF is unavailable<a class="headerlink" href="#when-ksef-is-unavailable" title="Permanent link">¶</a></h2>
+<p>If KSeF does not respond while an invoice is being sent, the integration can issue it in <strong>offline mode</strong>. See <a href="offline/">Offline mode</a> for details.</p>
+<h2 id="ksef-fields-in-invoices"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M18 2h-6v7L9.5 7.5 7 9V2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4a2 2 0 0 0-2-2m-.32 16.41c-.11.09-1.21.84-1.63 1.09-.42.29-2.05 1.22-1.79-.58.63-3.64 1.85-5.8.39-4.86-.38.23-.6.37-.74.44-.13.11-.12.1-.23-.09s-.15-.18-.01-.28c0 0 2.23-1.79 3.05-1.85.78-.07.59.89.52 1.33-.46 1.85-1.3 4.54-1.17 4.93.11.39.93-.23 1.37-.54 0 0 .06-.07.17.05.11.17.22.25.07.36m-.71-7.35c-.57 0-1.03-.46-1.03-1.03 0-.57.46-1.03 1.03-1.03.57 0 1.03.46 1.03 1.03 0 .57-.46 1.03-1.03 1.03Z"></path></svg></span> KSeF fields in invoices<a class="headerlink" href="#ksef-fields-in-invoices" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Production:</strong> <a href="https://ap.ksef.mf.gov.pl/web/">https://ap.ksef.mf.gov.pl/web/</a></li>
-<li><strong>Demo:</strong> <a href="https://ap-demo.ksef.mf.gov.pl/web/">https://ap-demo.ksef.mf.gov.pl/web/</a></li>
-<li><strong>Test:</strong> <a href="https://ap-test.ksef.mf.gov.pl/web/">https://ap-test.ksef.mf.gov.pl/web/</a></li>
+<li><code>ksefNumber</code> - KSeF number assigned to an invoice. Required on issued invoices.</li>
+<li><code>ksefStatus</code> - status of invoice delivery to KSeF.</li>
+<li><code>ksefPublicUrl</code> - public url to status page of invoice in KSeF.</li>
+<li><code>ksefProfile</code> - profile which is used to issue an invoice and pass to KSeF.</li>
+<li><code>upoFile</code> - XML file which confirm delivery to KSeF.</li>
+<li><code>xmlFile</code> - XML file which contains invoice details.</li>
 </ul>
-<hr>
-<h2 id="related-articles">Related Articles<a class="headerlink" href="#related-articles" title="Permanent link">¶</a></h2>
+<h2 id="how-to-set-additional-params-for-invoice"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M17 14h2v3h3v2h-3v3h-2v-3h-3v-2h3v-3M11.5 1 21 6v2H2V6l9.5-5m4.5 9h3v2.08L18 12c-.7 0-1.37.12-2 .34V10M2 22v-3h10.08c.19 1.14.71 2.17 1.45 3H2m8-12h3v4.68c-.46.69-.78 1.47-.92 2.32H10v-7m-6 0h3v7H4v-7Z"></path></svg></span> How to set additional params for invoice?<a class="headerlink" href="#how-to-set-additional-params-for-invoice" title="Permanent link">¶</a></h2>
+<p>Go to Layout manager and add proper fields into the detail view:</p>
 <ul>
-<li><a href="invoices/">Invoices management</a></li>
-<li><a href="credit-notes/">Credit notes in KSeF</a></li>
-<li><a href="offline/">Offline mode</a></li>
-<li><a href="download-documents/">How to download a package with financial documents</a></li>
-<li><a href="test-profile/">How to configure a profile for the KSeF test environment</a></li>
-<li><a href="accounts/">How to manage accounts and tax IDs</a></li>
-<li><a href="expenses/">Expenses management</a></li>
-</ul></div>
+<li>Additional Accounts - you can add third party accounts to invoice and set their role</li>
+<li>Cash Method</li>
+<li>Reverse Charge</li>
+<li>Split Payment Mechanism</li>
+<li>Excemption Type - you can set also <code>Excemption Description</code>. Required when the invoice has exempt (<code>zw</code>) items</li>
+<li>Relevant Period - if you want to specify different date than issuance, choose <code>Relevant Date</code> or <code>Period</code>. In such scenario, add also additional fields: <code>Date of Delivery or Service Completion</code> or/and <code>Period Start Date</code> and <code>Period End Date</code></li>
+</ul>
+<h2 id="contract-number"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19.7 12.9 14 18.6h-2.3v-2.3l5.7-5.7 2.3 2.3m3.4-.8c0 .3-.3.6-.6.9L20 15.5l-.9-.9 2.6-2.6-.6-.6-.7.7-2.3-2.3 2.2-2.1c.2-.2.6-.2.9 0l1.4 1.4c.2.2.2.6 0 .9-.2.2-.4.4-.4.6 0 .2.2.4.4.6.3.3.6.6.5.9M3 20V4h7v5h5v1.5l2-2V8l-6-6H3c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2H3m8-2.9c-.2 0-.4.1-.5.1L10 15H8.5l-2.1 1.7L7 14H5.5l-1 5H6l2.9-2.6.6 2.3h1l.5-.1v-1.5Z"></path></svg></span> Contract number<a class="headerlink" href="#contract-number" title="Permanent link">¶</a></h2>
+<p>If the invoice relates to a contract, fill in <strong>Contract Number</strong> and <strong>Contract Date</strong> on the <strong>KSeF</strong> tab, in the <strong>Transaction Terms</strong> panel. Both fields are optional – you can enter only the number, only the date, or both. They are sent to KSeF in the transaction terms of the invoice and shown in the preview. When nothing is entered, the transaction terms are not sent at all.</p>
+<p>A credit note takes over the contract number and date from the corrected invoice unless you enter different ones. After the invoice is registered in KSeF, both fields are locked.</p>
+<h2 id="how-to-issue-invoices-in-different-currencies"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M7 15h2c0 1.08 1.37 2 3 2s3-.92 3-2c0-1.1-1.04-1.5-3.24-2.03C9.64 12.44 7 11.78 7 9c0-1.79 1.47-3.31 3.5-3.82V3h3v2.18C15.53 5.69 17 7.21 17 9h-2c0-1.08-1.37-2-3-2s-3 .92-3 2c0 1.1 1.04 1.5 3.24 2.03C14.36 11.56 17 12.22 17 15c0 1.79-1.47 3.31-3.5 3.82V21h-3v-2.18C8.47 18.31 7 16.79 7 15Z"></path></svg></span> How to issue invoices in different currencies?<a class="headerlink" href="#how-to-issue-invoices-in-different-currencies" title="Permanent link">¶</a></h2>
+<ol>
+<li>Enable additional <a href="https://dubas.pro/redirect/#Admin/currency">currencies in settings</a></li>
+<li>Enter proper <a href="https://dubas.pro/redirect/#CurrencyRecord/list/fromSettings=true">currency rates</a> for each currency - you can also do it automatically (check out below)</li>
+<li>While creating new invoice, before adding anything to item list, change currency from PLN to something else</li>
+</ol>
+<h2 id="how-to-automatically-update-currency-rates"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"></path></svg></span> How to automatically update currency rates?<a class="headerlink" href="#how-to-automatically-update-currency-rates" title="Permanent link">¶</a></h2>
+<p>You can download our free extension to keep updated currency rates:
+<a href="https://github.com/dubas-pro/ext-nbp-exchange-rates/releases">NBP Extension</a></p>
+<h2 id="how-to-properly-label-pdf-invoice"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M4 4h6v6H4V4m16 0v6h-6V4h6m-6 11h2v-2h-2v-2h2v2h2v-2h2v2h-2v2h2v3h-2v2h-2v-2h-3v2h-2v-4h3v-1m2 0v3h2v-3h-2M4 20v-6h6v6H4M6 6v2h2V6H6m10 0v2h2V6h-2M6 16v2h2v-2H6m-2-5h2v2H4v-2m5 0h4v4h-2v-2H9v-2m2-5h2v4h-2V6M2 2v4H0V2a2 2 0 0 1 2-2h4v2H2m20-2a2 2 0 0 1 2 2v4h-2V2h-4V0h4M2 18v4h4v2H2a2 2 0 0 1-2-2v-4h2m20 4v-4h2v4a2 2 0 0 1-2 2h-4v-2h4Z"></path></svg></span> How to properly label PDF invoice<a class="headerlink" href="#how-to-properly-label-pdf-invoice" title="Permanent link">¶</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please make sure the PDF displays accurate details that match the information sent to KSeF.</p>
+</div>
+<p>If you want to provide your customer with a PDF visualization of an invoice issued via KSeF, make sure the PDF contains values consistent with data sent to KSeF.</p>
+<p>Include at least:</p>
+<ul>
+<li><strong>KSeF number</strong> - <code>{{ksefNumber}}</code></li>
+<li><strong>Public link to the KSeF invoice page</strong> - <code>{{ksefPublicUrl}}</code></li>
+<li><strong>QR code for the KSeF public invoice page</strong> <code>{{qrCodeId}}</code></li>
+</ul>
+<p>For invoices issued in <strong>offline mode</strong>, include an additional (second) QR code required for offline identification/verification. It is stored in the <code>qrCodeCertificate</code> field. See <a href="offline/">Offline mode</a>.</p>
+<h3 id="how-to-print-qr-code-on-pdf">How to print QR Code on PDF?<a class="headerlink" href="#how-to-print-qr-code-on-pdf" title="Permanent link">¶</a></h3>
+<p>You can use barcode generated by KSeF integration which is stored in invoice (field <code>qrCodeId</code>) or you can generate your own QR Code with link to adjust barcode design:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">{{</span><span class="nv">barcodeImage</span> <span class="nv">ksefPublicUrl_RAW</span> <span class="na">type</span><span class="o">=</span><span class="s1">'QRcode'</span> <span class="na">width</span><span class="o">=</span><span class="m">60</span> <span class="na">height</span><span class="o">=</span><span class="m">60</span> <span class="na">fontsize</span><span class="o">=</span><span class="m">14</span> <span class="na">text</span><span class="o">=</span><span class="nv">false</span> <span class="na">padding</span><span class="o">=</span><span class="m">2</span><span class="cp">}}</span>
+</code></pre></div></div>
 
 
 
@@ -3008,7 +3161,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 20, 2026 07:34:34 UTC">November 20, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 24, 2026 09:16:04 UTC">November 24, 2026</span>
   </span>
 
     

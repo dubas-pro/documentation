@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Zarządzaj fakturami KSeF bezpośrednio w EspoCRM dzięki naszej integracji.">
+        <meta name="description" content="Check out how to use the plugins for EspoCRM. Documentation contains detailed description of plugins prepared by dubas s.c. for EspoCRM.">
       
       
         <meta name="author" content="dubas s.c.">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Integracja Dubas KSeF dla EspoCRM - Documentation</title>
+        <title>Ogólne - Documentation</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#integracja-dubas-ksef" class="md-skip">
+        <a href="#zarzadzanie-fakturami" class="md-skip">
           Przejdź do treści
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Integracja Dubas KSeF dla EspoCRM
+              Ogólne
             
           </span>
         </div>
@@ -953,28 +953,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#informacje-ogolne" class="md-nav__link">
+  <a href="#jak-wystawic-fakture-za-posrednictwem-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       Informacje ogólne
+       Jak wystawić Fakturę za pośrednictwem KSeF?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Informacje ogólne">
+    <nav class="md-nav" aria-label="Jak wystawić Fakturę za pośrednictwem KSeF?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#najwazniejsze-funkcje" class="md-nav__link">
+  <a href="#kiedy-przycisk-wystaw-przez-ksef-bedzie-widoczny" class="md-nav__link">
     <span class="md-ellipsis">
-      Najważniejsze funkcje
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#plan-rozwoju" class="md-nav__link">
-    <span class="md-ellipsis">
-       Plan rozwoju
+      Kiedy przycisk Wystaw przez KSeF będzie widoczny?
     </span>
   </a>
   
@@ -986,47 +977,107 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#wymagania" class="md-nav__link">
+  <a href="#podglad-przed-wysyka" class="md-nav__link">
     <span class="md-ellipsis">
-       Wymagania
+       Podgląd przed wysyłką
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#jak-zaczac" class="md-nav__link">
+  <a href="#co-jest-sprawdzane-przed-wysyka" class="md-nav__link">
     <span class="md-ellipsis">
-      Jak zacząć?
+       Co jest sprawdzane przed wysyłką
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#jak-skonfigurowac-zadanie-cron-ksef" class="md-nav__link">
+  <a href="#po-wysaniu-faktury-do-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       Jak skonfigurować zadanie cron KSeF
+       Po wysłaniu faktury do KSeF
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#srodowiska-ksef" class="md-nav__link">
+  <a href="#gdy-ksef-jest-niedostepny" class="md-nav__link">
     <span class="md-ellipsis">
-       Środowiska KSeF
+       Gdy KSeF jest niedostępny
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#powiazane-artykuy" class="md-nav__link">
+  <a href="#pola-ksef-na-fakturach" class="md-nav__link">
     <span class="md-ellipsis">
-      Powiązane artykuły
+       Pola KSeF na fakturach
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jak-ustawic-dodatkowe-parametry-faktury" class="md-nav__link">
+    <span class="md-ellipsis">
+       Jak ustawić dodatkowe parametry faktury?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#numer-umowy" class="md-nav__link">
+    <span class="md-ellipsis">
+       Numer umowy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jak-wystawiac-faktury-w-roznych-walutach" class="md-nav__link">
+    <span class="md-ellipsis">
+       Jak wystawiać faktury w różnych walutach?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jak-automatycznie-aktualizowac-kursy-walut" class="md-nav__link">
+    <span class="md-ellipsis">
+       Jak automatycznie aktualizować kursy walut?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jak-prawidowo-opisac-fakture-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+       Jak prawidłowo opisać fakturę PDF
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Jak prawidłowo opisać fakturę PDF">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jak-wydrukowac-kod-qr-na-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jak wydrukować kod QR na PDF?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2797,28 +2848,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#informacje-ogolne" class="md-nav__link">
+  <a href="#jak-wystawic-fakture-za-posrednictwem-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       Informacje ogólne
+       Jak wystawić Fakturę za pośrednictwem KSeF?
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Informacje ogólne">
+    <nav class="md-nav" aria-label="Jak wystawić Fakturę za pośrednictwem KSeF?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#najwazniejsze-funkcje" class="md-nav__link">
+  <a href="#kiedy-przycisk-wystaw-przez-ksef-bedzie-widoczny" class="md-nav__link">
     <span class="md-ellipsis">
-      Najważniejsze funkcje
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#plan-rozwoju" class="md-nav__link">
-    <span class="md-ellipsis">
-       Plan rozwoju
+      Kiedy przycisk Wystaw przez KSeF będzie widoczny?
     </span>
   </a>
   
@@ -2830,47 +2872,107 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#wymagania" class="md-nav__link">
+  <a href="#podglad-przed-wysyka" class="md-nav__link">
     <span class="md-ellipsis">
-       Wymagania
+       Podgląd przed wysyłką
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#jak-zaczac" class="md-nav__link">
+  <a href="#co-jest-sprawdzane-przed-wysyka" class="md-nav__link">
     <span class="md-ellipsis">
-      Jak zacząć?
+       Co jest sprawdzane przed wysyłką
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#jak-skonfigurowac-zadanie-cron-ksef" class="md-nav__link">
+  <a href="#po-wysaniu-faktury-do-ksef" class="md-nav__link">
     <span class="md-ellipsis">
-       Jak skonfigurować zadanie cron KSeF
+       Po wysłaniu faktury do KSeF
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#srodowiska-ksef" class="md-nav__link">
+  <a href="#gdy-ksef-jest-niedostepny" class="md-nav__link">
     <span class="md-ellipsis">
-       Środowiska KSeF
+       Gdy KSeF jest niedostępny
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#powiazane-artykuy" class="md-nav__link">
+  <a href="#pola-ksef-na-fakturach" class="md-nav__link">
     <span class="md-ellipsis">
-      Powiązane artykuły
+       Pola KSeF na fakturach
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jak-ustawic-dodatkowe-parametry-faktury" class="md-nav__link">
+    <span class="md-ellipsis">
+       Jak ustawić dodatkowe parametry faktury?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#numer-umowy" class="md-nav__link">
+    <span class="md-ellipsis">
+       Numer umowy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jak-wystawiac-faktury-w-roznych-walutach" class="md-nav__link">
+    <span class="md-ellipsis">
+       Jak wystawiać faktury w różnych walutach?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jak-automatycznie-aktualizowac-kursy-walut" class="md-nav__link">
+    <span class="md-ellipsis">
+       Jak automatycznie aktualizować kursy walut?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jak-prawidowo-opisac-fakture-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+       Jak prawidłowo opisać fakturę PDF
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Jak prawidłowo opisać fakturę PDF">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jak-wydrukowac-kod-qr-na-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jak wydrukować kod QR na PDF?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2892,100 +2994,151 @@
   
 
 
-<div><h1 id="integracja-dubas-ksef">Integracja Dubas KSeF<a class="headerlink" href="#integracja-dubas-ksef" title="Permanent link">¶</a></h1>
-<p><img alt="Integracja Dubas KSeF" src="../../../images/ksef.png"></p>
-<h2 id="informacje-ogolne"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2v6Z"></path></svg></span> Informacje ogólne<a class="headerlink" href="#informacje-ogolne" title="Permanent link">¶</a></h2>
-<p>Integracja Dubas KSeF to dedykowane rozszerzenie, które umożliwia płynną komunikację między EspoCRM a Krajowym Systemem e-Faktur (KSeF). Dzięki temu rozszerzeniu możesz automatycznie pobierać faktury od kontrahentów z KSeF bezpośrednio do EspoCRM, a także wysyłać własne faktury i faktury korygujące do KSeF z wykorzystaniem funkcji Sales Pack. To rozwiązanie usprawnia zarządzanie dokumentami finansowymi i zapewnia bezpieczną oraz wydajną obsługę w Twoim CRM.</p>
-<div class="admonition tip">
-<p class="admonition-title">Zakup</p>
-<p>Skontaktuj się z nami <a href="https://dubas.pro/form/contact">przez formularz</a>, jeśli chcesz zamówić to rozszerzenie.</p>
+<div><h1 id="zarzadzanie-fakturami">Zarządzanie Fakturami<a class="headerlink" href="#zarzadzanie-fakturami" title="Permanent link">¶</a></h1>
+<p><img alt="Integracja KSeF" src="../../../images/ksef-issue-invoice.png" title="Integracja KSeF"></p>
+<h2 id="jak-wystawic-fakture-za-posrednictwem-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 2H6c-1.11 0-2 .89-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m-1.46 17.37v-2h-4v-1.99h4v-2l3 3-3 2.99M13 9V3.5L18.5 9H13Z"></path></svg></span> Jak wystawić Fakturę za pośrednictwem KSeF?<a class="headerlink" href="#jak-wystawic-fakture-za-posrednictwem-ksef" title="Permanent link">¶</a></h2>
+<details class="warning">
+<summary>Wymagany pakiet Sales Pack</summary>
+<p>Pamiętaj, że ta funkcja nie będzie działać, jeśli nie masz zainstalowanego rozszerzenia Sales Pack.</p>
+</details>
+<details class="info">
+<summary>Najpierw włącz faktury</summary>
+<p>Ta funkcja będzie działać tylko, jeśli włączysz faktury w profilu KSeF (szczegóły powyżej).</p>
+</details>
+<div class="admonition danger">
+<p class="admonition-title">Przejrzyj wystawioną fakturę!</p>
+<p>Pamiętaj, że oprogramowanie może zawierać błędy. Sprawdź swoją konkretną konfigurację przy użyciu <a href="test-profile/">profilu testowego</a> przed użyciem profilu KSeF w produkcji.</p>
 </div>
-<div class="admonition info">
-<p class="admonition-title">Co nowego w 3.0.0</p>
-<ul>
-<li><a href="credit-notes/">Faktury korygujące</a> można wysyłać do KSeF.</li>
-<li><a href="offline/">Tryb offline</a>: faktury są wystawiane także wtedy, gdy KSeF jest niedostępny, i automatycznie dosyłane później.</li>
-<li>Więcej sprawdzeń przed wysyłką – błędne faktury zatrzymują się w EspoCRM. Zobacz <a href="invoices/">Zarządzanie fakturami</a>.</li>
-<li>Nowy typ identyfikatora podatkowego <strong>Osoba prywatna</strong> dla faktur dla konsumentów. Zobacz <a href="accounts/">Konta</a>.</li>
-<li>Ochrona przed duplikatami w <a href="expenses/">Wydatkach</a>.</li>
-<li>Automatyczny status Opłacona / Rozliczona po pełnym rozliczeniu faktur i faktur korygujących.</li>
-<li><a href="download-documents/">Pakiet dokumentów</a> zawiera faktury korygujące i Urzędowe Poświadczenia Odbioru (UPO).</li>
-</ul>
-</div>
-<h3 id="najwazniejsze-funkcje">Najważniejsze funkcje<a class="headerlink" href="#najwazniejsze-funkcje" title="Permanent link">¶</a></h3>
-<div class="admonition warning">
-<p class="admonition-title">Ten produkt jest nowy!</p>
-<p>Zarówno to rozszerzenie, jak i system KSeF są stosunkowo nowe, dlatego mogą pojawiać się aktualizacje oraz zmiany krajowych standardów. Zobowiązujemy się dostosowywać integrację do tych zmian i wspierać indywidualne przypadki użycia, aby zapewnić ciągłą kompatybilność oraz niezawodność.</p>
-</div>
-<ul>
-<li><strong>Pełne bezpieczeństwo danych:</strong> Wszystkie Twoje dane pozostają bezpieczne w instancji EspoCRM. Komunikacja odbywa się bezpośrednio między Twoim CRM a systemem KSeF. Nasza integracja nie przekazuje danych finansowych ani danych klientów do podmiotów trzecich.</li>
-<li><strong>Automatyczne pobieranie faktur:</strong> Integracja automatycznie pobiera z KSeF faktury wystawione przez Twoich kontrahentów zgodnie z ustawionym harmonogramem i preferencjami.</li>
-<li><strong>Zarządzanie wydatkami:</strong> Pobrane faktury są zapisywane w encji Wydatki, zgodnej z Sales Pack i jego listą pozycji. Wydatki z innych źródeł możesz też wprowadzać ręcznie.</li>
-<li><strong>Ręczna synchronizacja:</strong> W każdej chwili możesz ręcznie uruchomić pobieranie faktur z KSeF.</li>
-<li><strong>Bezpośrednie wystawianie faktur:</strong> Wysyłaj faktury i faktury korygujące wystawione w Sales Pack EspoCRM bezpośrednio do systemu KSeF.</li>
-</ul>
-<h3 id="plan-rozwoju"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M6.5 8.11c-.89 0-1.61-.72-1.61-1.61A1.61 1.61 0 0 1 6.5 4.89c.89 0 1.61.72 1.61 1.61A1.61 1.61 0 0 1 6.5 8.11M6.5 2C4 2 2 4 2 6.5c0 3.37 4.5 8.36 4.5 8.36S11 9.87 11 6.5C11 4 9 2 6.5 2m11 6.11a1.61 1.61 0 0 1-1.61-1.61 1.609 1.609 0 1 1 3.22 0 1.61 1.61 0 0 1-1.61 1.61m0-6.11C15 2 13 4 13 6.5c0 3.37 4.5 8.36 4.5 8.36S22 9.87 22 6.5C22 4 20 2 17.5 2m0 14c-1.27 0-2.4.8-2.82 2H9.32a3 3 0 0 0-3.82-1.83A3.003 3.003 0 0 0 3.66 20a3.017 3.017 0 0 0 3.84 1.83c.85-.3 1.5-.98 1.82-1.83h5.37c.55 1.56 2.27 2.38 3.81 1.83A3 3 0 0 0 20.35 18c-.43-1.2-1.57-2-2.85-2m0 4.5A1.5 1.5 0 0 1 16 19a1.5 1.5 0 0 1 1.5-1.5A1.5 1.5 0 0 1 19 19a1.5 1.5 0 0 1-1.5 1.5Z"></path></svg></span> Plan rozwoju<a class="headerlink" href="#plan-rozwoju" title="Permanent link">¶</a></h3>
-<ul>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Autoryzacja certyfikatami (wymagana przed 2027 r.).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Obsługa rachunków bankowych.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Obsługa wielu schematów KSeF.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Obsługa faktur korygujących.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Faktury przychodzące jako faktury zakupowe Sales Pack (następna wersja).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Obsługa korekt zwiększających (Debit Notes).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Korekty zbiorcze za okres.</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 19H5V5h10V3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8h-2m-11.09-.92L6.5 11.5 11 16 21 6l-1.41-1.42L11 13.17l-3.09-3.09Z"></path></svg></span> Tryb offline24 z automatycznym dosyłaniem do KSeF (wymaga certyfikatu Offline).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Tryby awaryjne (awaria KSeF ogłoszona przez Ministerstwo Finansów).</li>
-<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19 3H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m0 2v14H5V5h14Z"></path></svg></span> Obsługa wsadowego przetwarzania wystawiania faktur.</li>
-</ul>
-<hr>
-<h2 id="wymagania"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 10H3v2h11v-2m0-4H3v2h11V6M3 16h7v-2H3v2m18.5-4.5L23 13l-7 7-4.5-4.5L13 14l3 3 5.5-5.5Z"></path></svg></span> Wymagania<a class="headerlink" href="#wymagania" title="Permanent link">¶</a></h2>
-<ul>
-<li>EspoCRM w wersji <strong>9.3.0</strong> lub nowszej.</li>
-<li>Sales Pack w wersji <strong>4.x</strong> lub nowszej.</li>
-<li>PHP (dla web i cli) w wersji <strong>8.4</strong> lub nowszej.</li>
-</ul>
-<hr>
-<h2 id="jak-zaczac">Jak zacząć?<a class="headerlink" href="#jak-zaczac" title="Permanent link">¶</a></h2>
 <ol>
-<li>Kup i zainstaluj <strong><a href="https://dubas.pro/link/sp">rozszerzenie Sales Pack</a></strong></li>
-<li>Zainstaluj rozszerzenie KSeF</li>
-<li><a href="profiles/#how-to-configure-a-ksef-profile">Skonfiguruj profil KSeF</a></li>
-<li><a href="#jak-skonfigurowa%C4%87-zadanie-cron-ksef">Skonfiguruj automatyczne pobieranie faktur przychodzących</a></li>
-<li><a href="invoices/#how-to-set-additional-params-for-invoice">Dodaj opcjonalne pola do faktur</a></li>
-<li><a href="accounts/">Ustaw typ identyfikatora podatkowego swoich klientów</a> – dla konsumentów wybierz <strong>Osoba prywatna</strong></li>
+<li>Przejdź do <strong>Faktur</strong>.</li>
+<li>Utwórz nową Fakturę.</li>
+<li>Wybierz Profil KSeF.</li>
+<li>Opcjonalnie kliknij <code>Podgląd KSeF</code>, aby sprawdzić, jak faktura będzie wyglądać w KSeF.</li>
+<li>Kliknij na <code>Wystaw przez KSeF</code></li>
+<li>Jeśli wszystko jest w porządku, faktura zostanie zaplanowana do wysłania do KSeF.</li>
 </ol>
-<p><strong><a href="invoices/#how-to-issue-invoice-via-ksef">Teraz możesz wystawić swoją pierwszą fakturę!</a></strong></p>
-<h2 id="jak-skonfigurowac-zadanie-cron-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M11.7 20h-.4l-.4-2.6c-1.2-.2-2.2-.9-3-1.8l-2.4 1-.8-1.3 2.1-1.6c-.4-1.2-.4-2.4 0-3.6L4.7 8.7l.8-1.3 2.4 1c.8-.9 1.8-1.5 3-1.8l.3-2.6h1.5l.4 2.6c1.2.2 2.3.9 3 1.8l2.4-1 .8 1.3-2.1 1.5c.2.6.3 1.2.3 1.8h.5c.5 0 1 .1 1.5.2V12l-.1-1 2.1-1.6c.2-.2.2-.4.1-.6l-2-3.5c-.1-.3-.3-.3-.6-.3l-2.5 1c-.5-.4-1.1-.7-1.7-1l-.4-2.7c.1-.1-.2-.3-.4-.3h-4c-.2 0-.5.2-.5.4l-.4 2.7c-.6.2-1.1.6-1.7.9L5 5c-.3 0-.5 0-.7.3l-2 3.5c-.1.2 0 .4.2.6L4.6 11l-.1 1 .1 1-2.1 1.7c-.2.2-.2.4-.1.6l2 3.5c.1.2.3.2.6.2l2.5-1c.5.4 1.1.7 1.7 1l.4 2.7c0 .2.2.4.5.4h2.5c-.5-.7-.7-1.4-.9-2.1m4.3-7.7V12c0-2.2-1.8-4-4-4s-4 1.8-4 4 1.8 4 4 4c.7-1.7 2.2-3.1 4-3.7m-6-.3c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2m8 2.5V13l-2.2 2.2 2.2 2.2V16c1.4 0 2.5 1.1 2.5 2.5 0 .4-.1.8-.3 1.1l1.1 1.1c1.2-1.8.7-4.3-1.1-5.5-.6-.5-1.4-.7-2.2-.7m0 6.5c-1.4 0-2.5-1.1-2.5-2.5 0-.4.1-.8.3-1.1l-1.1-1.1c-1.2 1.8-.7 4.3 1.1 5.5.7.4 1.4.7 2.2.7V24l2.2-2.2-2.2-2.3V21Z"></path></svg></span> Jak skonfigurować zadanie cron KSeF<a class="headerlink" href="#jak-skonfigurowac-zadanie-cron-ksef" title="Permanent link">¶</a></h2>
-<ol>
-<li>Przejdź do sekcji <strong>Administracja</strong>.</li>
-<li>Kliknij <strong>Zaplanowane zadania</strong>.</li>
-<li>Utwórz nowe zaplanowane zadanie.</li>
-<li>Wybierz zadanie <code>Get Invoices From Ksef</code>.</li>
-<li>Kliknij <strong>Zapisz</strong>.</li>
-</ol>
-<p>Domyślnie to zadanie automatycznie pobiera faktury przychodzące z KSeF co <strong>5 minut</strong> dla wszystkich aktywnych profili.</p>
+<p>Niestety nie możemy przesłać faktury do KSeF w ciągu kilku sekund, dlatego proces działa w tle. Po wystawieniu faktury pole Status KSeF zostanie ustawione na <strong>Zakończona</strong>.</p>
+<h3 id="kiedy-przycisk-wystaw-przez-ksef-bedzie-widoczny">Kiedy przycisk <code>Wystaw przez KSeF</code> będzie widoczny?<a class="headerlink" href="#kiedy-przycisk-wystaw-przez-ksef-bedzie-widoczny" title="Permanent link">¶</a></h3>
+<p>Przycisk jest widoczny tylko wtedy, gdy spełnione są wszystkie następujące warunki:</p>
+<ul>
+<li>Widok rekordu <strong>nie jest w trybie edycji</strong>.</li>
+<li>Status faktury <code>status</code> <strong>nie jest</strong> jednym z: <code>Issued</code>, <code>Paid</code>, <code>Overdue</code>, <code>Confirmed</code>.</li>
+<li><code>ksefStatus</code> to albo:
+    - <code>null</code>, albo
+    - string zawierający <code>"Error"</code>.</li>
+<li><code>ksefProfileId</code> <strong>nie jest</strong> <code>null</code>.</li>
+</ul>
+<p>Jeśli którekolwiek z tych warunków nie zostaną spełnione, przycisk będzie ukryty.</p>
+<h2 id="podglad-przed-wysyka"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"></path></svg></span> Podgląd przed wysyłką<a class="headerlink" href="#podglad-przed-wysyka" title="Permanent link">¶</a></h2>
+<p>Fakturę możesz przygotować wstępnie i sprawdzić przed wystawieniem. Kliknij <code>Podgląd KSeF</code>, aby zobaczyć fakturę dokładnie w takiej postaci, w jakiej trafiłaby teraz do KSeF: sprzedawcę, nabywcę, pozycje, podsumowanie VAT, adnotacje i dane płatności. Podgląd otwiera się w nowej karcie przeglądarki i nic nie jest wysyłane do KSeF. Jeśli coś się nie zgadza, popraw fakturę i otwórz podgląd ponownie.</p>
+<ul>
+<li>Jeśli czegoś brakuje lub coś się nie zgadza, podgląd pokaże ten sam komunikat, który pojawiłby się przy wysyłce – możesz to poprawić wcześniej.</li>
+<li>Aby zapisać podgląd jako PDF, użyj <strong>Drukuj</strong> w przeglądarce (<code>Ctrl+P</code>) i wybierz <strong>Zapisz jako PDF</strong>. Wydruk jest oznaczony jako podgląd.</li>
+<li>Podgląd działa dla wersji roboczej z dowolną datą. Przypomina tylko, że w chwili wystawienia data wystawienia musi być dzisiejsza.</li>
+<li>Po wystawieniu podgląd pokazuje dokument dokładnie w takiej postaci, w jakiej został wystawiony – z numerem KSeF albo z terminem przesłania dla <a href="offline/">trybu offline</a>.</li>
+<li>Podgląd ma jasny lub ciemny wygląd, tak jak Twój motyw EspoCRM. Wydruk jest zawsze jasny.</li>
+</ul>
+<p>Przycisk jest dostępny na fakturach, notach obciążeniowych (Debit Note) i korektach, przed wystawieniem i po nim.</p>
 <div class="admonition note">
-<p class="admonition-title">Codzienne sprawdzanie</p>
-<p>Zalecamy skonfigurowanie dodatkowego zaplanowanego zadania o nazwie <strong>Daily Fetch Of Expenses From KSeF</strong>. Prawidłowy harmonogram to <code>0 0 * * *</code>, czyli o 00:00.</p>
+<p class="admonition-title">Note</p>
+<p>Podgląd jest przeznaczony tylko dla użytkowników EspoCRM do sprawdzenia danych. Nie jest fakturą ani oficjalną wizualizacją KSeF – nie przekazuj go nabywcy.</p>
 </div>
-<hr>
-<h2 id="srodowiska-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M13 19h1a1 1 0 0 1 1 1h7v2h-7a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1H2v-2h7a1 1 0 0 1 1-1h1v-2H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-7v2M4 3h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1m5 4h1V5H9v2m0 8h1v-2H9v2M5 5v2h2V5H5m0 8v2h2v-2H5Z"></path></svg></span> Środowiska KSeF<a class="headerlink" href="#srodowiska-ksef" title="Permanent link">¶</a></h2>
+<h2 id="co-jest-sprawdzane-przed-wysyka"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-8L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4Z"></path></svg></span> Co jest sprawdzane przed wysyłką<a class="headerlink" href="#co-jest-sprawdzane-przed-wysyka" title="Permanent link">¶</a></h2>
+<p>Zanim faktura trafi do KSeF, integracja sprawdza, czy jest kompletna i spójna. Jeśli coś się nie zgadza, faktura nie zostanie wysłana, Status KSeF zmieni się na <strong>Błąd podczas pobierania pól do wysyłki</strong>, a Ty zobaczysz przyczynę. Popraw dane i ponownie kliknij <code>Wystaw przez KSeF</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Co jest sprawdzane</th>
+<th>Co zrobić, gdy sprawdzenie nie przejdzie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data wystawienia faktury to dzisiejsza data.</td>
+<td>Ustaw dzisiejszą datę wystawienia.</td>
+</tr>
+<tr>
+<td>Nabywca ma wybrany typ identyfikatora podatkowego.</td>
+<td>Wybierz typ na Koncie – dla konsumentów <strong>Osoba prywatna</strong>. Zobacz <a href="accounts/">Konta</a>.</td>
+</tr>
+<tr>
+<td>Kwota VAT każdej pozycji zgadza się z jej stawką KSeF.</td>
+<td>Sprawdź kod podatkowy pozycji – stawka w EspoCRM musi odpowiadać wybranej <strong>Stawce KSeF</strong>. Zobacz <a href="tax-rates/">Stawki podatkowe</a>.</td>
+</tr>
+<tr>
+<td>Pozycje zwolnione (<code>zw</code>) mają podaną podstawę prawną zwolnienia.</td>
+<td>Uzupełnij na fakturze <strong>Typ zwolnienia</strong> i <strong>Opis zwolnienia</strong>.</td>
+</tr>
+<tr>
+<td>Pozycje <code>0% WDT</code> (wewnątrzwspólnotowa dostawa towarów) mają nabywcę z numerem VAT UE.</td>
+<td>Ustaw typ identyfikatora nabywcy na <strong>VAT UE</strong>.</td>
+</tr>
+<tr>
+<td><strong>Odwrotne obciążenie</strong> jest zaznaczone tylko wtedy, gdy faktura ma pozycje z odwrotnym obciążeniem (<code>oo</code> lub <code>np II</code>).</td>
+<td>Odznacz opcję albo popraw kody podatkowe.</td>
+</tr>
+<tr>
+<td>Nabywca będący grupą VAT ma dodanego członka grupy.</td>
+<td>Dodaj członka w <strong>Dodatkowych podmiotach</strong> z rolą <strong>Członek grupy VAT - odbiorca</strong>.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Odwrotne obciążenie oznaczane automatycznie</p>
+<p>Nie musisz samodzielnie zaznaczać <strong>Odwrotnego obciążenia</strong>. Gdy faktura zawiera pozycje ze stawką <code>oo</code> lub <code>np II</code>, adnotacja „odwrotne obciążenie” jest dodawana automatycznie.</p>
+</div>
+<h2 id="po-wysaniu-faktury-do-ksef"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 17a2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-2 2 2 2 0 0 0 2 2m6-9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5 5 5 0 0 1 5 5v2h1m-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3Z"></path></svg></span> Po wysłaniu faktury do KSeF<a class="headerlink" href="#po-wysaniu-faktury-do-ksef" title="Permanent link">¶</a></h2>
+<p>Faktury zarejestrowanej w KSeF nie można zmienić – tak stanowią przepisy. Kwoty, pozycje, dane nabywcy i pozostałe informacje wysłane do KSeF są w EspoCRM zablokowane. Jeśli cokolwiek wymaga zmiany, wystaw <a href="credit-notes/">fakturę korygującą</a>.</p>
+<h2 id="gdy-ksef-jest-niedostepny"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M2.28 3 1 4.27l1.47 1.47c-.43.26-.86.55-1.27.86L3 9c.53-.4 1.08-.75 1.66-1.07l2.23 2.23c-.74.34-1.45.75-2.09 1.24l1.8 2.4c.78-.58 1.66-1.03 2.6-1.33L11.75 15c-1.25.07-2.41.5-3.35 1.2L12 21l2.46-3.27L17.74 21 19 19.72M12 3c-2.15 0-4.2.38-6.1 1.07l2.39 2.4C9.5 6.16 10.72 6 12 6c3.38 0 6.5 1.11 9 3l1.8-2.4C19.79 4.34 16.06 3 12 3m0 6c-.38 0-.75 0-1.12.05l3.19 3.2c1.22.28 2.36.82 3.33 1.55l1.8-2.4C17.2 9.89 14.7 9 12 9Z"></path></svg></span> Gdy KSeF jest niedostępny<a class="headerlink" href="#gdy-ksef-jest-niedostepny" title="Permanent link">¶</a></h2>
+<p>Jeśli KSeF nie odpowiada podczas wysyłki faktury, integracja może wystawić ją w <strong>trybie offline</strong>. Szczegóły znajdziesz w artykule <a href="offline/">Tryb offline</a>.</p>
+<h2 id="pola-ksef-na-fakturach"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M18 2h-6v7L9.5 7.5 7 9V2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4a2 2 0 0 0-2-2m-.32 16.41c-.11.09-1.21.84-1.63 1.09-.42.29-2.05 1.22-1.79-.58.63-3.64 1.85-5.8.39-4.86-.38.23-.6.37-.74.44-.13.11-.12.1-.23-.09s-.15-.18-.01-.28c0 0 2.23-1.79 3.05-1.85.78-.07.59.89.52 1.33-.46 1.85-1.3 4.54-1.17 4.93.11.39.93-.23 1.37-.54 0 0 .06-.07.17.05.11.17.22.25.07.36m-.71-7.35c-.57 0-1.03-.46-1.03-1.03 0-.57.46-1.03 1.03-1.03.57 0 1.03.46 1.03 1.03 0 .57-.46 1.03-1.03 1.03Z"></path></svg></span> Pola KSeF na fakturach<a class="headerlink" href="#pola-ksef-na-fakturach" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Production:</strong> <a href="https://ap.ksef.mf.gov.pl/web/">https://ap.ksef.mf.gov.pl/web/</a></li>
-<li><strong>Demo:</strong> <a href="https://ap-demo.ksef.mf.gov.pl/web/">https://ap-demo.ksef.mf.gov.pl/web/</a></li>
-<li><strong>Test:</strong> <a href="https://ap-test.ksef.mf.gov.pl/web/">https://ap-test.ksef.mf.gov.pl/web/</a></li>
+<li><code>ksefNumber</code> - numer KSeF przypisany do faktury. Wymagane na wystawionych fakturach.</li>
+<li><code>ksefStatus</code> - status dostarczenia faktury do KSeF.</li>
+<li><code>ksefPublicUrl</code> - publiczny adres URL strony statusu faktury w KSeF.</li>
+<li><code>ksefProfile</code> - profil używany do wystawienia faktury i przesłania do KSeF.</li>
+<li><code>upoFile</code> - plik XML potwierdzający dostarczenie do KSeF.</li>
+<li><code>xmlFile</code> - plik XML zawierający szczegóły faktury.</li>
 </ul>
-<hr>
-<h2 id="powiazane-artykuy">Powiązane artykuły<a class="headerlink" href="#powiazane-artykuy" title="Permanent link">¶</a></h2>
+<h2 id="jak-ustawic-dodatkowe-parametry-faktury"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M17 14h2v3h3v2h-3v3h-2v-3h-3v-2h3v-3M11.5 1 21 6v2H2V6l9.5-5m4.5 9h3v2.08L18 12c-.7 0-1.37.12-2 .34V10M2 22v-3h10.08c.19 1.14.71 2.17 1.45 3H2m8-12h3v4.68c-.46.69-.78 1.47-.92 2.32H10v-7m-6 0h3v7H4v-7Z"></path></svg></span> Jak ustawić dodatkowe parametry faktury?<a class="headerlink" href="#jak-ustawic-dodatkowe-parametry-faktury" title="Permanent link">¶</a></h2>
+<p>Przejdź do menadżera layoutu i dodaj odpowiednie pola do widoku szczegółów:</p>
 <ul>
-<li><a href="invoices/">Zarządzanie fakturami</a></li>
-<li><a href="credit-notes/">Faktury korygujące w KSeF</a></li>
-<li><a href="offline/">Tryb offline</a></li>
-<li><a href="download-documents/">Jak pobrać paczkę z dokumentami finansowymi</a></li>
-<li><a href="test-profile/">Jak skonfigurować profil dla środowiska testowego KSeF</a></li>
-<li><a href="accounts/">Jak zarządzać rachunkami i numerami NIP</a></li>
-<li><a href="expenses/">Zarządzanie wydatkami</a></li>
-</ul></div>
+<li>Dodatkowe Konta - możesz dodać konta stron trzecich do faktury i ustawić ich rolę</li>
+<li>Metoda Kasowa</li>
+<li>Odwrotne Obciążenie</li>
+<li>Mechanizm Podzielonej Płatności</li>
+<li>Typ Zwolnienia - możesz również ustawić <code>Opis Zwolnienia</code>. Wymagane, gdy faktura zawiera pozycje zwolnione (<code>zw</code>)</li>
+<li>Okres Istotny - jeśli chcesz określić inną datę niż wystawienie, wybierz <code>Datę Istotną</code> lub <code>Okres</code>. W takim przypadku dodaj również dodatkowe pola: <code>Data Dostarczenia lub Wykonania Usługi</code> lub/i <code>Data Początkowa Okresu</code> i <code>Data Końcowa Okresu</code></li>
+</ul>
+<h2 id="numer-umowy"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M19.7 12.9 14 18.6h-2.3v-2.3l5.7-5.7 2.3 2.3m3.4-.8c0 .3-.3.6-.6.9L20 15.5l-.9-.9 2.6-2.6-.6-.6-.7.7-2.3-2.3 2.2-2.1c.2-.2.6-.2.9 0l1.4 1.4c.2.2.2.6 0 .9-.2.2-.4.4-.4.6 0 .2.2.4.4.6.3.3.6.6.5.9M3 20V4h7v5h5v1.5l2-2V8l-6-6H3c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2H3m8-2.9c-.2 0-.4.1-.5.1L10 15H8.5l-2.1 1.7L7 14H5.5l-1 5H6l2.9-2.6.6 2.3h1l.5-.1v-1.5Z"></path></svg></span> Numer umowy<a class="headerlink" href="#numer-umowy" title="Permanent link">¶</a></h2>
+<p>Jeśli faktura dotyczy umowy, uzupełnij <strong>Numer umowy</strong> i <strong>Data umowy</strong> na zakładce <strong>KSeF</strong>, w panelu <strong>Warunki transakcji</strong>. Oba pola są opcjonalne – możesz podać sam numer, samą datę albo oba. Trafiają do KSeF w warunkach transakcji faktury i są widoczne w podglądzie. Jeśli nic nie wpiszesz, warunki transakcji nie są w ogóle wysyłane.</p>
+<p>Faktura korygująca przejmuje numer i datę umowy z faktury korygowanej, chyba że wpiszesz inne. Po zarejestrowaniu faktury w KSeF oba pola są zablokowane.</p>
+<h2 id="jak-wystawiac-faktury-w-roznych-walutach"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M7 15h2c0 1.08 1.37 2 3 2s3-.92 3-2c0-1.1-1.04-1.5-3.24-2.03C9.64 12.44 7 11.78 7 9c0-1.79 1.47-3.31 3.5-3.82V3h3v2.18C15.53 5.69 17 7.21 17 9h-2c0-1.08-1.37-2-3-2s-3 .92-3 2c0 1.1 1.04 1.5 3.24 2.03C14.36 11.56 17 12.22 17 15c0 1.79-1.47 3.31-3.5 3.82V21h-3v-2.18C8.47 18.31 7 16.79 7 15Z"></path></svg></span> Jak wystawiać faktury w różnych walutach?<a class="headerlink" href="#jak-wystawiac-faktury-w-roznych-walutach" title="Permanent link">¶</a></h2>
+<ol>
+<li>Włącz dodatkowe <a href="https://dubas.pro/redirect/#Admin/currency">waluty w ustawieniach</a></li>
+<li>Wprowadź odpowiednie <a href="https://dubas.pro/redirect/#CurrencyRecord/list/fromSettings=true">kursy walut</a> dla każdej waluty - możesz to również robić automatycznie (sprawdź poniżej)</li>
+<li>Podczas tworzenia nowej faktury, przed dodaniem czegokolwiek do listy pozycji, zmień walutę z PLN na inną</li>
+</ol>
+<h2 id="jak-automatycznie-aktualizowac-kursy-walut"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"></path></svg></span> Jak automatycznie aktualizować kursy walut?<a class="headerlink" href="#jak-automatycznie-aktualizowac-kursy-walut" title="Permanent link">¶</a></h2>
+<p>Możesz pobrać nasze darmowe rozszerzenie, aby utrzymywać aktualne kursy walut:
+<a href="https://github.com/dubas-pro/ext-nbp-exchange-rates/releases">Rozszerzenie NBP</a></p>
+<h2 id="jak-prawidowo-opisac-fakture-pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M4 4h6v6H4V4m16 0v6h-6V4h6m-6 11h2v-2h-2v-2h2v2h2v-2h2v2h-2v2h2v3h-2v2h-2v-2h-3v2h-2v-4h3v-1m2 0v3h2v-3h-2M4 20v-6h6v6H4M6 6v2h2V6H6m10 0v2h2V6h-2M6 16v2h2v-2H6m-2-5h2v2H4v-2m5 0h4v4h-2v-2H9v-2m2-5h2v4h-2V6M2 2v4H0V2a2 2 0 0 1 2-2h4v2H2m20-2a2 2 0 0 1 2 2v4h-2V2h-4V0h4M2 18v4h4v2H2a2 2 0 0 1-2-2v-4h2m20 4v-4h2v4a2 2 0 0 1-2 2h-4v-2h4Z"></path></svg></span> Jak prawidłowo opisać fakturę PDF<a class="headerlink" href="#jak-prawidowo-opisac-fakture-pdf" title="Permanent link">¶</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Upewnij się, że PDF wyświetla dokładne szczegóły, które są zgodne z informacjami wysłanymi do KSeF.</p>
+</div>
+<p>Jeśli chcesz dostarczyć klientowi wizualizację PDF faktury wystawionej za pośrednictwem KSeF, upewnij się, że PDF zawiera wartości zgodne z danymi wysłanymi do KSeF.</p>
+<p>Uwzględnij co najmniej:</p>
+<ul>
+<li><strong>Numer KSeF</strong> - <code>{{ksefNumber}}</code></li>
+<li><strong>Link publiczny do strony faktury KSeF</strong> - <code>{{ksefPublicUrl}}</code></li>
+<li><strong>Kod QR dla publicznej strony faktury KSeF</strong> <code>{{qrCodeId}}</code></li>
+</ul>
+<p>Dla faktur wystawionych w <strong>trybie offline</strong>, uwzględnij dodatkowy (drugi) kod QR wymagany do identyfikacji/weryfikacji offline. Jest zapisany w polu <code>qrCodeCertificate</code>. Zobacz <a href="offline/">Tryb offline</a>.</p>
+<h3 id="jak-wydrukowac-kod-qr-na-pdf">Jak wydrukować kod QR na PDF?<a class="headerlink" href="#jak-wydrukowac-kod-qr-na-pdf" title="Permanent link">¶</a></h3>
+<p>Możesz użyć kodu kreskowego wygenerowanego przez integrację KSeF, który jest przechowywany na fakturze (pole <code>qrCodeId</code>), lub możesz wygenerować własny kod QR ze łączem do dostosowania projektu kodu kreskowego:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">{{</span><span class="nv">barcodeImage</span> <span class="nv">ksefPublicUrl_RAW</span> <span class="na">type</span><span class="o">=</span><span class="s1">'QRcode'</span> <span class="na">width</span><span class="o">=</span><span class="m">60</span> <span class="na">height</span><span class="o">=</span><span class="m">60</span> <span class="na">fontsize</span><span class="o">=</span><span class="m">14</span> <span class="na">text</span><span class="o">=</span><span class="nv">false</span> <span class="na">padding</span><span class="o">=</span><span class="m">2</span><span class="cp">}}</span>
+</code></pre></div></div>
 
 
 
@@ -3008,7 +3161,7 @@
     <span class="md-icon" title="Ostatnia aktualizacja">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="20 listopada 2026 07:34:34 UTC">20 listopada 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="24 listopada 2026 09:16:04 UTC">24 listopada 2026</span>
   </span>
 
     
