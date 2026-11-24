@@ -62,3 +62,27 @@ W profilu KSeF możesz wybrać użytkownika i zespół, do których nowe wydatki
 ### :material-calendar-today: Jak upewnić się, że masz wszystkie expenses?
 
 Czasami może wystąpić problem z EspoCRM lub połączeniem internetowym. W takiej sytuacji pobieranie wydatków z KSeF może się nie powieść, a standardowe zadanie cron pobiera tylko faktury z ostatnich 10 minut. W tym celu utworzyliśmy dodatkowe zadanie o nazwie **Daily Fetch Of Expenses From KSeF**. Możesz je skonfigurować w [Scheduled Jobs](https://dubas.pro/redirect/#ScheduledJob/create).
+
+## :material-content-duplicate: Wykrywanie duplikatów
+
+Przy ręcznym dodawaniu wydatku EspoCRM sprawdza, czy w bazie nie ma już wydatku o tym samym **numerze** od tego samego dostawcy – na przykład pobranego wcześniej z KSeF. Dostawca jest porównywany po koncie, a także po jego NIP, więc rozpoznany zostanie również dostawca wprowadzony dwukrotnie jako dwa konta z tym samym NIP.
+
+Jeśli zostanie znaleziony pasujący wydatek, standardowe okno duplikatów pokaże istniejące wpisy. Możesz otworzyć jeden z nich albo mimo to zapisać nowy wydatek. Ta sama kontrola działa przy zmianie numeru lub dostawcy istniejącego wydatku oraz przy imporcie wydatków z pliku z opcją pomijania duplikatów.
+
+Dodatkowe pola do sprawdzania można wybrać w ustawieniach sprawdzania duplikatów encji Expense w **Administracja → Menedżer encji**.
+
+## :material-domain: Wydatki dodane ręcznie
+
+Każdy wydatek należy do profilu KSeF – firmy, na którą wystawiono fakturę. Wydatki pobrane z KSeF dostają profil automatycznie i nie można go zmienić. Przy wydatku dodanym ręcznie wybierz profil w polu **Profil KSeF**. Jeśli tylko jeden aktywny profil ma włączone wydatki, zostanie ustawiony automatycznie. Aby przypisać profil wielu istniejącym wydatkom naraz, użyj **Masowej aktualizacji** w widoku listy.
+
+Od profilu zależy, do którego [pakietu dokumentów](./download-documents.md) trafi wydatek. Skan lub PDF faktury dołącz w polu **Załącznik** – pliki z pola **Załączniki** nie trafiają do pakietu.
+
+### Gdy ta sama faktura przyjdzie później z KSeF
+
+Jeśli wydatek o tym samym numerze od tego samego dostawcy (porównywanego po NIP) został dodany ręcznie, a później faktura zostanie pobrana z KSeF, drugi wydatek nie powstanie. Dane z KSeF zostaną dopisane do istniejącego:
+
+* uzupełniany jest numer KSeF, plik XML, link publiczny i profil,
+* kwoty, daty i pozycje są zastępowane danymi z KSeF, które są wersją wiążącą,
+* nazwa, status, przypisany użytkownik, zespoły, opis i dołączone pliki pozostają bez zmian.
+
+Wydatki ze statusem Odrzucony lub Anulowany nie są uzupełniane – dla faktury z KSeF powstaje osobny wydatek.

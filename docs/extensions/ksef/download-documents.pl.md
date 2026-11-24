@@ -18,13 +18,14 @@ Pakiet to plik ZIP z maksymalnie trzema folderami:
 
 | Folder | Zawartość |
 |---|---|
-| `Przychodzace` | [Wydatki](./expenses.md) pobrane z KSeF – faktury i korekty od Twoich dostawców. |
+| `Przychodzace` | [Wydatki](./expenses.md) – faktury i korekty pobrane z KSeF oraz wydatki dodane ręcznie z załączonym plikiem. |
 | `Wychodzace` | Dokumenty wystawione przez Ciebie w KSeF – faktury i faktury korygujące, w formacie XML. |
 | `UPO` | Urzędowe Poświadczenia Odbioru (UPO) z KSeF dla dokumentów z folderu `Wychodzace`. |
 
 To, które foldery znajdą się w pakiecie, zależy od opcji wybranej w kroku 4.
 
 !!! info "Jakie dokumenty trafiają do pakietu"
-    * Tylko dokumenty, które mają już numer KSeF. Faktury wystawione w [trybie offline](./offline.md) pojawią się w pakiecie po dosłaniu ich do KSeF.
+    * Dokumenty wychodzące: tylko te, które mają już numer KSeF. Faktury wystawione w [trybie offline](./offline.md) pojawią się w pakiecie po dosłaniu ich do KSeF.
     * Dokumenty wychodzące są wybierane według daty wystawienia, a nie daty przyjęcia w KSeF.
     * Wydatki ze statusem Wersja robocza, Odrzucony lub Anulowany są pomijane.
+    * Wydatek dodany ręcznie trafia do pakietu, gdy jest przypisany do eksportowanego profilu KSeF i ma dokument w polu **Załącznik**. Pliki z pola **Załączniki** nie są dołączane.
