@@ -67,3 +67,9 @@ Profil KSeF decyduje o tym, która firma wystawia fakturę, dlatego przed wysła
 Niektórzy klienci zawsze potrzebują na fakturach tych samych dodatkowych podmiotów – jednostki odbiorcy, płatnika albo członka grupy VAT. Dodaj je raz w polu **Domyślne dodatkowe podmioty** w panelu bocznym **KSeF** na koncie klienta, razem z rolami.
 
 Po wybraniu tego konta na nowej fakturze podmioty są kopiowane do **Dodatkowych podmiotów** faktury z tymi samymi rolami. Nie są kopiowane, gdy faktura ma już dodatkowe podmioty, a przed wystawieniem możesz je na fakturze zmienić lub usunąć. Faktury korygujące, jak dotąd, przejmują dodatkowe podmioty z faktury korygowanej.
+
+## :material-account-plus: Nowi kontrahenci tworzeni z wydatków
+
+Gdy tworzysz nowe konto przyciskiem **+** przy polu **Konto** na wydatku, konto dostaje użytkownika i zespół ustawione w profilu KSeF wydatku (**Przypisz faktury do** i **Domyślny zespół**) – albo w jedynym aktywnym profilu z włączonymi wydatkami, jeśli wydatek nie ma jeszcze profilu. Przed zapisem możesz je zmienić. Użytkownicy bez uprawnienia do przypisywania rekordów innym dostaną tylko te wartości, które wolno im ustawić.
+
+Konta zakładane automatycznie przy pobieraniu wydatków z KSeF dostają tego samego użytkownika i zespół.

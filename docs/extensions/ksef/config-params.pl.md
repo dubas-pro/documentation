@@ -58,12 +58,13 @@ Jeśli nie zostanie skonfigurowane (lub warunki nie zostaną spełnione), numer 
 
 **Wartość domyślna:** `null` (nie ustawiono)
 
-**Zastosowanie:** Ustaw ten parametr na nazwę niestandardowego pola Szansy sprzedaży, które przechowuje numer szansy. Wartość jest używana tylko wtedy, gdy:
+**Zastosowanie:** Numer szansy sprzedaży jest dodawany do faktury, gdy w profilu KSeF wybrano **Numer powiązanych dokumentów**. Szanse sprzedaży w EspoCRM domyślnie nie mają pola numeru, dlatego integracja szuka numeru w tej kolejności i używa pierwszego pola, które istnieje i jest wypełnione:
 
-- skonfigurowane pole istnieje w powiązanym rekordzie Szansy sprzedaży,
-- oraz pole zawiera wartość typu string.
+1. pole ustawione w tym parametrze,
+2. `number`,
+3. `dubasNumber`.
 
-Jeśli nie zostanie skonfigurowane (lub warunki nie zostaną spełnione), numer szansy nie zostanie dodany do payloadu faktury.
+Parametr ustaw tylko wtedy, gdy numer jest w polu o innej nazwie. Jeśli żadne z pól nie jest wypełnione, numer szansy jest pomijany.
 
 !!! example "Example Configuration"
     `'ksefOpportunityNumberField' => 'customOpportunityNumber'`

@@ -58,12 +58,13 @@ If not configured (or conditions are not met), the client number is not added to
 
 **Default Value:** `null` (not set)
 
-**Usage:** Set this parameter to the name of a custom Opportunity field that stores the opportunity number. The value is used only when:
+**Usage:** The opportunity number is added to the invoice when **References to related documents** is selected in the KSeF profile. EspoCRM opportunities have no number field by default, so the integration looks for the number in this order and uses the first field that exists and is filled in:
 
-- the configured field exists on the related Opportunity record,
-- and the field contains a string value.
+1. the field set in this parameter,
+2. `number`,
+3. `dubasNumber`.
 
-If not configured (or conditions are not met), the opportunity number is not added to the invoice payload.
+Set this parameter only if the number is kept in a field with a different name. If none of the fields is filled in, the opportunity number is skipped.
 
 !!! example "Example Configuration"
     `'ksefOpportunityNumberField' => 'customOpportunityNumber'`

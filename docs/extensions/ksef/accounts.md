@@ -67,3 +67,9 @@ The KSeF profile decides which company issues the invoice, so check the seller i
 Some customers always need the same additional parties on their invoices – a recipient unit, a payer or a VAT group member. Add them once in **Default Additional Accounts** in the **KSeF** side panel of the customer's Account, together with their roles.
 
 When the Account is selected on a new invoice, these parties are copied to the invoice's **Additional Accounts** with the same roles. They are not copied when the invoice already has additional accounts, and you can edit or remove them on the invoice before issuing. Credit notes take additional accounts from the corrected invoice, as before.
+
+## :material-account-plus: New accounts created from expenses
+
+When you create a new Account with the **+** button in the **Account** field of an expense, the Account gets the user and team set in the expense's KSeF profile (**Assign expenses to** and **Default Team**) – or of the only active profile with expenses enabled, if the expense has no profile yet. You can still change them before saving. Users without permission to assign records to others get only the values they are allowed to set.
+
+Accounts created automatically when expenses are fetched from KSeF get the same user and team.
